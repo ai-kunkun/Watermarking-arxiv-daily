@@ -1,0 +1,47 @@
+title: "Watermarking arXiv Daily"
+description: "Automatically updated arXiv papers about digital watermarking, generative AI provenance, LLM watermarking, and model ownership."
+repository: "ai-kunkun/Watermarking-arxiv-daily"
+
+# Normal runs inspect the newest N matching papers per topic. On the first run,
+# bootstrap_max_results_per_topic is used to seed a larger history.
+max_results_per_topic: 100
+image_fetch_timeout_seconds: 15
+image_fetch_delay_seconds: 0.75
+bootstrap_max_results_per_topic: 100
+
+data_path: "data/papers.json"
+readme_path: "README.md"
+timezone: "Asia/Shanghai"
+
+topics:
+  "Image and Video Watermarking":
+    terms:
+      - "image watermarking"
+      - "video watermarking"
+      - "digital image watermark"
+      - "multimedia watermarking"
+      - "invisible watermark"
+
+  "Generative AI Watermarking":
+    terms:
+      - "generative AI watermarking"
+      - "AI-generated content watermarking"
+      - "diffusion model watermarking"
+      - "diffusion watermark"
+      - "latent watermarking"
+
+  "Text and LLM Watermarking":
+    terms:
+      - "large language model watermarking"
+      - "language model watermarking"
+      - "LLM watermarking"
+      - "text watermarking"
+      - "watermarked text"
+
+  "Model Ownership and Fingerprinting":
+    terms:
+      - "neural network watermarking"
+      - "model watermarking"
+      - "model fingerprinting"
+      - "neural network fingerprinting"
+      - "model ownership verification"
