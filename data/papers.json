@@ -19,6 +19,7 @@
           "Ali Emami"
         ],
         "comment": "33 pages (Single column), 10 figures, 5 tables, one appendix",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/1810.07248",
@@ -36,7 +37,8 @@
           "Wenchao Li"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2306.13215/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2306.13215",
         "primary_category": "cs.CR",
@@ -62,7 +64,8 @@
           "Furong Huang"
         ],
         "comment": "Accepted by ICML 2024",
-        "introduction_image": "https://arxiv.org/html/extracted/5650428/figures/waves_small.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2401.08573/extracted/5650428/figures/waves_small.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2401.08573",
         "primary_category": "cs.CV",
@@ -82,7 +85,8 @@
           "Shruti Agarwal"
         ],
         "comment": "Accepted to CVPR 2024",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2403.09914/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2403.09914",
         "primary_category": "cs.CV",
@@ -100,6 +104,7 @@
           "Jing Dong"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2404.00230",
@@ -121,7 +126,8 @@
           "Nenghai Yu"
         ],
         "comment": "17 pages, 11 figures, accepted by CVPR 2024",
-        "introduction_image": "https://arxiv.org/html/extracted/2404.04956v3/sec/figure/nowatermark.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2404.04956/extracted/2404.04956v3/sec/figure/nowatermark.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2404.04956",
         "primary_category": "cs.CV",
@@ -140,7 +146,8 @@
           "Mike Zheng Shou"
         ],
         "comment": "27 pages, 9 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2404.14055/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2404.14055",
         "primary_category": "cs.CV",
@@ -160,7 +167,8 @@
           "Mike Zheng Shou"
         ],
         "comment": "20 pages, 13 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2406.08337/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2406.08337",
         "primary_category": "cs.CV",
@@ -180,7 +188,8 @@
           "Romain Serizel"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.02915/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.02915",
         "primary_category": "cs.SD",
@@ -201,6 +210,7 @@
           "Xiaohua Xie"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2409.04878v5/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.04878",
@@ -221,6 +231,7 @@
           "Sam Gunn"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.05947",
@@ -243,6 +254,7 @@
           "Sangpil Kim"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2412.09122v4/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.09122",
@@ -263,7 +275,8 @@
           "Ajmal Mian"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6197882/intro.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.10465/extracted/6197882/intro.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.10465",
         "primary_category": "eess.IV",
@@ -286,7 +299,8 @@
           "Nenghai Yu"
         ],
         "comment": "18 pages, 8 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.15026/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.15026",
         "primary_category": "cs.CV",
@@ -310,7 +324,8 @@
           "Julian Togelius"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.20111/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.20111",
         "primary_category": "cs.CV",
@@ -331,7 +346,8 @@
           "Guoshun Nan"
         ],
         "comment": "Accepted by ICML2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.23873/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.23873",
         "primary_category": "cs.CR",
@@ -349,7 +365,8 @@
           "Chun-Shien Lu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.21195/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.21195",
         "primary_category": "cs.CR",
@@ -370,7 +387,8 @@
           "Mike Zheng Shou"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2508.21727/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.21727",
         "primary_category": "cs.CR",
@@ -389,7 +407,8 @@
           "David Lie"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/4-Evaluation/figures/orig_img_01505.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.00094/4-Evaluation/figures/orig_img_01505.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.00094",
         "primary_category": "cs.CR",
@@ -407,6 +426,7 @@
           "Karthik Nandakumar"
         ],
         "comment": "CVPR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.12090v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.12090",
@@ -425,7 +445,8 @@
           "Gal Chechik"
         ],
         "comment": "Submitted to ACL Rolling Review (ARR). 7 pages, 4 figures",
-        "introduction_image": "https://arxiv.org/html/costplot_fixed.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.12376/costplot_fixed.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.12376",
         "primary_category": "cs.CL",
@@ -449,7 +470,8 @@
           "Alexandre Mourachko"
         ],
         "comment": "Code and models are available at https://github.com/facebookresearch/distseal",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.16140/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.16140",
         "primary_category": "cs.CV",
@@ -470,6 +492,7 @@
           "Nenghai Yu"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.20310",
@@ -489,7 +512,8 @@
           "Qi Wu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.06101/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.06101",
         "primary_category": "eess.IV",
@@ -509,7 +533,8 @@
           "Shiguang Shan"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.09494/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.09494",
         "primary_category": "cs.CV",
@@ -526,6 +551,7 @@
           "Nicholas Wei"
         ],
         "comment": "10 pages, 4 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.10323",
@@ -549,6 +575,7 @@
           "Chip Hong Chang"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.23940v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.23940",
@@ -567,6 +594,7 @@
           "Liang-Jie Zhang"
         ],
         "comment": "Accepted by CVPR 2026 Findings",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.26167v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.26167",
@@ -590,6 +618,7 @@
           "Zhihua Xia"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.19090v1/teaser.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.19090",
@@ -612,6 +641,7 @@
           "Hui Jin"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.01479v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.01479",
@@ -629,6 +659,7 @@
           "Giuseppe Ateniese"
         ],
         "comment": "17 pages, 12 pages main text plus 5 pages appendix, includes figures and tables; under submission",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.09203v1/figures/pipeline-overview.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.09203",
@@ -648,6 +679,7 @@
           "Heng Huang"
         ],
         "comment": "Accepted to ICML 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.25967v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.25967",
@@ -671,6 +703,7 @@
           "Kui Ren"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.29569v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.29569",
@@ -691,6 +724,7 @@
           "Dacheng Tao"
         ],
         "comment": "This paper has been accepted to the International Conference on Machine Learning (ICML) 2026. 26 pages",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.29809v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.29809",
@@ -707,6 +741,7 @@
           "Aryan Pandit"
         ],
         "comment": "ECCV 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.02643v1/figures/bislw_watermarking_pipeline_diagram.jpg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.02643",
@@ -724,6 +759,7 @@
           "Xuan Bi"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.10554",
@@ -744,7 +780,8 @@
           "Qing Qu"
         ],
         "comment": "NeurIPS 2025 Spotlight",
-        "introduction_image": "https://arxiv.org/html/arxiv_deepthink/Deepthink_landscape_do_not_delete_compressed.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.21088/arxiv_deepthink/Deepthink_landscape_do_not_delete_compressed.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.21088",
         "primary_category": "cs.LG",
@@ -765,7 +802,8 @@
           "Renjie Wan"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.23718/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.23718",
         "primary_category": "cs.CV",
@@ -783,7 +821,8 @@
           "Qian Wang"
         ],
         "comment": "Accept to NeurIPS 2024",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2411.03862/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.03862",
         "primary_category": "cs.CV",
@@ -803,6 +842,7 @@
           "Sam Gunn"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.05947",
@@ -823,7 +863,8 @@
           "Matthijs Douze"
         ],
         "comment": "ICLR 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2411.07231/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.07231",
         "primary_category": "cs.CV",
@@ -846,7 +887,8 @@
           "Jian Zhang"
         ],
         "comment": "Accepted by CVPR 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.01615/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.01615",
         "primary_category": "cs.CV",
@@ -863,7 +905,8 @@
           "Varun Chandrasekaran"
         ],
         "comment": "We find that the success of existing transfer-based attacks in evading image watermarking in the no-box setting depends on unrealistic assumptions and find a much more inexpensive optimization-free alternative",
-        "introduction_image": "https://arxiv.org/html/extracted/6042631/figures/image_samples/unwatermarked.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.02576/extracted/6042631/figures/image_samples/unwatermarked.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.02576",
         "primary_category": "cs.CR",
@@ -883,7 +926,8 @@
           "Niv Cohen"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6393021/images/graphic_comparison.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.04653/extracted/6393021/images/graphic_comparison.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.04653",
         "primary_category": "cs.CV",
@@ -905,6 +949,7 @@
           "Sangpil Kim"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2412.09122v4/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.09122",
@@ -924,7 +969,8 @@
           "Alexandre Mourachko"
         ],
         "comment": "Code available at https://github.com/facebookresearch/videoseal",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.09492/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.09492",
         "primary_category": "cs.MM",
@@ -946,7 +992,8 @@
           "Tianwei Zhang"
         ],
         "comment": "robust image watermarking",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.10049/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.10049",
         "primary_category": "cs.CV",
@@ -966,7 +1013,8 @@
           "Sunghwan Baek"
         ],
         "comment": "YouTube link for the presentation: https://www.youtube.com/watch?v=0vwFG1HSrUE",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.12511/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.12511",
         "primary_category": "cs.CV",
@@ -984,6 +1032,7 @@
           "Raghav Mantri"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.19834",
@@ -1001,7 +1050,8 @@
           "Liang Zeng"
         ],
         "comment": "21 pages, 7 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2501.00463/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2501.00463",
         "primary_category": "cs.LG",
@@ -1021,7 +1071,8 @@
           "John Collomosse"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2501.17356/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2501.17356",
         "primary_category": "cs.CV",
@@ -1040,7 +1091,8 @@
           "Othmane Safsafi"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.04182/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.04182",
         "primary_category": "cs.DS",
@@ -1060,7 +1112,8 @@
           "Ajmal Mian"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6197882/intro.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.10465/extracted/6197882/intro.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.10465",
         "primary_category": "eess.IV",
@@ -1078,7 +1131,8 @@
           "Ju Sun"
         ],
         "comment": "Pulished in Transaction of Machine Learning Research (TMLR): https://openreview.net/forum?id=g85Vxlrq0O",
-        "introduction_image": "https://arxiv.org/html/extracted/6589049/source-figures/watermark-vis/clean.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.13998/extracted/6589049/source-figures/watermark-vis/clean.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.13998",
         "primary_category": "eess.IV",
@@ -1096,7 +1150,8 @@
           "Sk. Subidh Ali"
         ],
         "comment": "IEEE Transactions on Artificial Intelligence. 2024 Oct 24",
-        "introduction_image": "https://arxiv.org/html/extracted/6222248/figures/nn2.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.18501/extracted/6222248/figures/nn2.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.18501",
         "primary_category": "cs.CR",
@@ -1117,7 +1172,8 @@
           "Renjie Wan"
         ],
         "comment": "16 pages, accepted by TPAMI",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.19125/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.19125",
         "primary_category": "cs.CV",
@@ -1137,6 +1193,7 @@
           "Parisa Hassanizadeh"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.11195",
@@ -1160,7 +1217,8 @@
           "Fei Richard Yu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.11324/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.11324",
         "primary_category": "cs.MM",
@@ -1181,7 +1239,8 @@
           "Vishnu Suresh Lokhande"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6282091/sec/figures/method_final.jpeg",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.11945/extracted/6282091/sec/figures/method_final.jpeg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.11945",
         "primary_category": "cs.CV",
@@ -1200,6 +1259,7 @@
           "Niv Cohen"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2503.12172v4/Figures/fig1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.12172",
@@ -1217,7 +1277,8 @@
           "Xin Zhong"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6288531/images/Method.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.13805/extracted/6288531/images/Method.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.13805",
         "primary_category": "cs.CV",
@@ -1236,7 +1297,8 @@
           "Yan Lu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.18718/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.18718",
         "primary_category": "cs.CV",
@@ -1258,7 +1320,8 @@
           "Shu-Tao Xia"
         ],
         "comment": "Accepted by CVPR 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.21824/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.21824",
         "primary_category": "cs.CV",
@@ -1280,7 +1343,8 @@
           "Kui Ren"
         ],
         "comment": "Accepted by NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/fig/framework.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.22330/fig/framework.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.22330",
         "primary_category": "cs.CR",
@@ -1301,7 +1365,8 @@
           "Yiming Xue"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.00035/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.00035",
         "primary_category": "cs.CR",
@@ -1319,7 +1384,8 @@
           "Ping Chen"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.02640/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.02640",
         "primary_category": "cs.MM",
@@ -1342,7 +1408,8 @@
           "Kui Ren"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.10853/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.10853",
         "primary_category": "cs.CR",
@@ -1365,7 +1432,8 @@
           "Tianwei Zhang"
         ],
         "comment": "Neural Information Processing Systems (NeurIPS) 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.12739/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.12739",
         "primary_category": "cs.CV",
@@ -1383,6 +1451,7 @@
           "Simon S. Woo"
         ],
         "comment": "Accepted at The Web Conference 2025",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.12809",
@@ -1406,7 +1475,8 @@
           "Nenghai Yu"
         ],
         "comment": "18 pages, 8 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.15026/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.15026",
         "primary_category": "cs.CV",
@@ -1429,7 +1499,8 @@
           "Aiwei Liu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.16359/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.16359",
         "primary_category": "cs.CR",
@@ -1451,7 +1522,8 @@
           "Xinpeng Zhang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.19567/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.19567",
         "primary_category": "cs.CR",
@@ -1469,7 +1541,8 @@
           "Kim-Hui Yap"
         ],
         "comment": "Under Review in JVCI",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.05088/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.05088",
         "primary_category": "cs.MM",
@@ -1489,7 +1562,8 @@
           "Michael W. Mahoney"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.08234/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.08234",
         "primary_category": "cs.CV",
@@ -1508,7 +1582,8 @@
           "Kaiyang Zhou"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.14673/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.14673",
         "primary_category": "cs.CV",
@@ -1531,6 +1606,7 @@
           "Neil Zhenqiang Gong"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.21620",
@@ -1552,7 +1628,8 @@
           "Jinjun Wang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.01011/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.01011",
         "primary_category": "cs.CR",
@@ -1569,7 +1646,8 @@
           "Marc Dandin"
         ],
         "comment": "5 pages, 7 figures, accepted at MWSCAS 2025 Conference",
-        "introduction_image": "https://arxiv.org/html/extracted/6541951/figures/water_fig1_v1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.17134/extracted/6541951/figures/water_fig1_v1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.17134",
         "primary_category": "cs.CV",
@@ -1589,7 +1667,8 @@
           "Adam Dziedzic"
         ],
         "comment": "Accepted as a Conference Paper at NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.21209/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.21209",
         "primary_category": "cs.CV",
@@ -1611,7 +1690,8 @@
           "Amitava Das"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.22960/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.22960",
         "primary_category": "cs.CV",
@@ -1631,7 +1711,8 @@
           "Nenghai Yu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/figures/framework.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.23484/figures/framework.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.23484",
         "primary_category": "cs.MM",
@@ -1649,7 +1730,8 @@
           "Chun-Shien Lu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.21195/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.21195",
         "primary_category": "cs.CR",
@@ -1669,7 +1751,8 @@
           "Jingkuan Song"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2508.08667/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.08667",
         "primary_category": "cs.CV",
@@ -1689,7 +1772,8 @@
           "Sijia Liu"
         ],
         "comment": "Accepted by ICCV 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2508.10065/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.10065",
         "primary_category": "cs.CR",
@@ -1710,7 +1794,8 @@
           "Nils Lukas"
         ],
         "comment": "Winning solution to the NeurIPS 2024 Erasing the Invisible challenge",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2508.21072/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.21072",
         "primary_category": "cs.CV",
@@ -1734,7 +1819,8 @@
           "Yuke Wang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.02447/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.02447",
         "primary_category": "cs.DC",
@@ -1754,7 +1840,8 @@
           "Songhan He"
         ],
         "comment": "Accepted by IEEE Transaction on Multimedia (2025)",
-        "introduction_image": "https://arxiv.org/html/inn_and_tradition.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.17416/inn_and_tradition.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.17416",
         "primary_category": "cs.CR",
@@ -1773,6 +1860,7 @@
           "Weiming Zhang"
         ],
         "comment": "Accepted by ECCV 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.17773v3/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.17773",
@@ -1791,7 +1879,8 @@
           "Mauro Barni"
         ],
         "comment": "5 pages, 2 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24823/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.24823",
         "primary_category": "cs.CR",
@@ -1809,7 +1898,8 @@
           "Ewa Kijak"
         ],
         "comment": "Preprint",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.00799/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.00799",
         "primary_category": "cs.CR",
@@ -1829,6 +1919,7 @@
           "Rongxing Lu"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2510.02384v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.02384",
@@ -1849,6 +1940,7 @@
           "Bo Zhang"
         ],
         "comment": "Preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.05978",
@@ -1868,7 +1960,8 @@
           "Simon S. Woo"
         ],
         "comment": "ICCV 2025 Accepted Paper",
-        "introduction_image": "https://arxiv.org/html/sec/Figs/Visual-04.jpg",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.07302/sec/Figs/Visual-04.jpg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.07302",
         "primary_category": "cs.CV",
@@ -1909,7 +2002,8 @@
           "Pushmeet Kohli"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.09263/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.09263",
         "primary_category": "cs.CR",
@@ -1928,7 +2022,8 @@
           "Hady Elsahar"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.12812/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.12812",
         "primary_category": "cs.CR",
@@ -1951,7 +2046,8 @@
           "Alexandre Mourachko"
         ],
         "comment": "NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.20468/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.20468",
         "primary_category": "cs.LG",
@@ -1971,7 +2067,8 @@
           "Kejiang Chen"
         ],
         "comment": "Accepted by NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.22366/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.22366",
         "primary_category": "cs.CV",
@@ -1991,6 +2088,7 @@
           "Bo Zhang"
         ],
         "comment": "Preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.05598",
@@ -2007,7 +2105,8 @@
           "Rizal Khoirul Anam"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/lena.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.10245/lena.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.10245",
         "primary_category": "cs.MM",
@@ -2027,6 +2126,7 @@
           "Finn Carter"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.10933",
@@ -2048,7 +2148,8 @@
           "Xinpeng Zhang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/figures/END.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.11295/figures/END.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.11295",
         "primary_category": "cs.CV",
@@ -2066,6 +2167,7 @@
           "Karthik Nandakumar"
         ],
         "comment": "CVPR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.12090v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.12090",
@@ -2082,7 +2184,8 @@
           "Malte Hellmeier"
         ],
         "comment": "Accepted for publication at the ICISSP 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.13325/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.13325",
         "primary_category": "cs.CR",
@@ -2100,7 +2203,8 @@
           "Benjamin I. P. Rubinstein"
         ],
         "comment": "20 pages, 14 figures. Camera-ready for WACV 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.14994/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.14994",
         "primary_category": "cs.CV",
@@ -2123,7 +2227,8 @@
           "Alexandre Mourachko"
         ],
         "comment": "Code and model available at https://github.com/facebookresearch/videoseal",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.16874/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.16874",
         "primary_category": "cs.CV",
@@ -2146,7 +2251,8 @@
           "Sangpil Kim"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.19048/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.19048",
         "primary_category": "cs.CV",
@@ -2168,7 +2274,8 @@
           "Hu Guan"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.19438/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.19438",
         "primary_category": "cs.CV",
@@ -2186,7 +2293,8 @@
           "Karthik Nandakumar"
         ],
         "comment": "13 pages",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.08832/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.08832",
         "primary_category": "cs.CV",
@@ -2207,7 +2315,8 @@
           "Guiling Wang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.11978/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.11978",
         "primary_category": "eess.IV",
@@ -2227,7 +2336,8 @@
           "Jingling Xue"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/ComMark/images/SC/mbrs_distributions.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.16473/ComMark/images/SC/mbrs_distributions.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.16473",
         "primary_category": "cs.CR",
@@ -2249,7 +2359,8 @@
           "Nenghai Yu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.21610/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.21610",
         "primary_category": "cs.CV",
@@ -2268,7 +2379,8 @@
           "Jianbing Ni"
         ],
         "comment": "Accepted for publication in the Proceedings of ICASSP 2026 (2026 IEEE International Conference on Acoustics, Speech and Signal Processing)",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.15364/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.15364",
         "primary_category": "cs.CR",
@@ -2289,7 +2401,8 @@
           "Lifeng Sun"
         ],
         "comment": "CVPR 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.20053/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.20053",
         "primary_category": "cs.CV",
@@ -2309,6 +2422,7 @@
           "Finn Carter"
         ],
         "comment": "Preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.20680",
@@ -2327,6 +2441,7 @@
           "Liqiang Wang"
         ],
         "comment": "Accepted to ICCV 2025. Code available at: https://github.com/zzzucf/Neural-Plagiarism",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.00150v1/images/teaser_with_notes.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.00150",
@@ -2347,6 +2462,7 @@
           "Weiming Zhang"
         ],
         "comment": "11 pages, 6 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.00194v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.00194",
@@ -2372,6 +2488,7 @@
           "Wanlei Zhou"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.01067v1/figures/hs_overview.drawio.jpg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.01067",
@@ -2391,6 +2508,7 @@
           "Erman Ayday"
         ],
         "comment": "Accepted at CVPR 2026 Workshop Authenticity & Provenance in the Age of AI (APAI)",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.02378v2/imgs/comparison.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.02378",
@@ -2414,6 +2532,7 @@
           "Weifeng Zhang"
         ],
         "comment": "Accepted to ICLR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.02882v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.02882",
@@ -2434,6 +2553,7 @@
           "Finn Carter"
         ],
         "comment": "Preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.04696",
@@ -2454,6 +2574,7 @@
           "Siyang Lu"
         ],
         "comment": "15 pages, 7 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.06723v3/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.06723",
@@ -2474,6 +2595,7 @@
           "Meineng Zhu"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.09454v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.09454",
@@ -2491,6 +2613,7 @@
           "Nicholas Wei"
         ],
         "comment": "10 pages, 4 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.10323",
@@ -2510,6 +2633,7 @@
           "Jie Gui"
         ],
         "comment": "To appear in CVPR 2026, Code is at https://github.com/hongsong-wang/LIDA",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.10583v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.10583",
@@ -2532,6 +2656,7 @@
           "Jiaojiao Jiang"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.12749v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.12749",
@@ -2552,6 +2677,7 @@
           "Finn Carter"
         ],
         "comment": "Preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.12949",
@@ -2572,6 +2698,7 @@
           "Soumya Dutta"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.23178v1/Image/E_network.jpg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.23178",
@@ -2589,6 +2716,7 @@
           "Min Wu"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.27513v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.27513",
@@ -2609,6 +2737,7 @@
           "Ee-Chien Chang"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.03693v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.03693",
@@ -2626,6 +2755,7 @@
           "Jie Ding"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.11491v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.11491",
@@ -2646,6 +2776,7 @@
           "Amir Rahman"
         ],
         "comment": "work in progress",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.11843v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.11843",
@@ -2668,6 +2799,7 @@
           "Qi Li"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.22220v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.22220",
@@ -2690,6 +2822,7 @@
           "Hui Jin"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.01479v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.01479",
@@ -2711,6 +2844,7 @@
           "Kui Ren"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.09646v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.09646",
@@ -2729,6 +2863,7 @@
           "John Collomosse"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.05261v1/teaser_new_ver_2.jpg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.05261",
@@ -2746,6 +2881,7 @@
           "Giovanni Spitale"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.13082",
@@ -2768,7 +2904,8 @@
           "Haizhou Li"
         ],
         "comment": "Accepted by ACM MM 2024",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2407.10471/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2407.10471",
         "primary_category": "cs.CR",
@@ -2793,7 +2930,8 @@
           "Fei-Yue Wang"
         ],
         "comment": "59 pages, 7 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2407.11100/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2407.11100",
         "primary_category": "cs.CR",
@@ -2814,6 +2952,7 @@
           "Athanasios V. Vasilakos"
         ],
         "comment": "9 pages, 5 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2407.14570",
@@ -2834,7 +2973,8 @@
           "Hongzhi Yin"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2407.21034/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2407.21034",
         "primary_category": "cs.IR",
@@ -2853,7 +2993,8 @@
           "Isao Echizen"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6129193/Draft4/Draft4-Pic1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.01541/extracted/6129193/Draft4/Draft4-Pic1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.01541",
         "primary_category": "cs.CV",
@@ -2874,7 +3015,8 @@
           "Enzo Tartaglione"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.03902/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.03902",
         "primary_category": "cs.LG",
@@ -2895,6 +3037,7 @@
           "Xiaohua Xie"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2409.04878v5/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.04878",
@@ -2914,7 +3057,8 @@
           "Adrian Weller"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/5809723/figure/adi_neuron_act3.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.06130/extracted/5809723/figure/adi_neuron_act3.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.06130",
         "primary_category": "cs.CR",
@@ -2936,7 +3080,8 @@
           "Meng Han"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/figures/pipeline.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.08846/figures/pipeline.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.08846",
         "primary_category": "cs.CR",
@@ -2956,7 +3101,8 @@
           "Zhaoxia Yin"
         ],
         "comment": "9 pages",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.10570/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.10570",
         "primary_category": "cs.LG",
@@ -2975,7 +3121,8 @@
           "Taylor T. Johnson"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2409.19442/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2409.19442",
         "primary_category": "cs.CR",
@@ -2994,6 +3141,7 @@
           "Martin Vechev"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.02693",
@@ -3014,7 +3162,8 @@
           "Jian Weng"
         ],
         "comment": "Accepted by USENIX Security 2025 (Major Revision -> Accept)",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.04397/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.04397",
         "primary_category": "cs.CR",
@@ -3038,7 +3187,8 @@
           "Hanghang Tong"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.06467/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.06467",
         "primary_category": "cs.CR",
@@ -3057,7 +3207,8 @@
           "Yong Jae Lee"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6236065/figs/fake_inv_teaser.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.11835/extracted/6236065/figs/fake_inv_teaser.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.11835",
         "primary_category": "cs.CV",
@@ -3078,7 +3229,8 @@
           "Mauro Barni"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.20202/x1.png",
         "journal_reference": "Expert Systems with Applications. 331 (2026) 133172",
         "pdf_url": "https://arxiv.org/pdf/2410.20202",
         "primary_category": "cs.CV",
@@ -3095,7 +3247,8 @@
           "Ka-Ho Chow"
         ],
         "comment": "Accepted to EuroSP 2025",
-        "introduction_image": "https://arxiv.org/html/extracted/6369992/Kaijing_figs/other_figs/imp_intro_0111_a.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2410.21179/extracted/6369992/Kaijing_figs/other_figs/imp_intro_0111_a.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2410.21179",
         "primary_category": "cs.CR",
@@ -3113,7 +3266,8 @@
           "Xiang-Yang Li"
         ],
         "comment": "9 pages",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2411.00380/x1.png",
         "journal_reference": "ECML-PKDD 2025",
         "pdf_url": "https://arxiv.org/pdf/2411.00380",
         "primary_category": "cs.CR",
@@ -3129,6 +3283,7 @@
           "Peihao Li"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.03847",
@@ -3156,7 +3311,8 @@
           "Pramod Viswanath"
         ],
         "comment": "53 pages; Under review; We look forward to any suggestions/discussion around OML",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2411.03887/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.03887",
         "primary_category": "cs.AI",
@@ -3176,7 +3332,8 @@
           "Qi Wu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2411.11688/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.11688",
         "primary_category": "cs.CR",
@@ -3193,7 +3350,8 @@
           "Ikuya Morikawa"
         ],
         "comment": "Accepted at ECML-PKDD2025. Please refer to the conference proceedings for the final version. Source codes: https://zenodo.org/records/15641464",
-        "introduction_image": "https://arxiv.org/html/extracted/6569952/figures/keyvisual.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2411.13047/extracted/6569952/figures/keyvisual.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2411.13047",
         "primary_category": "cs.CR",
@@ -3212,7 +3370,8 @@
           "Anupam Chattopadhyay"
         ],
         "comment": "Accepted as a Work-in-Progress paper at SPACE 2024: Fourteenth International Conference on Security, Privacy and Applied Cryptographic Engineering",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.12194/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.12194",
         "primary_category": "cs.CR",
@@ -3232,7 +3391,8 @@
           "Yong Zhang"
         ],
         "comment": "Accepted to AAAI2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.12563/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.12563",
         "primary_category": "cs.CL",
@@ -3252,7 +3412,8 @@
           "Gilles Trédan"
         ],
         "comment": "Accepted to AAAI2025 Main Technical Track",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.13021/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.13021",
         "primary_category": "cs.LG",
@@ -3271,7 +3432,8 @@
           "Ran He"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2412.20768/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2412.20768",
         "primary_category": "cs.CV",
@@ -3288,7 +3450,8 @@
           "Hanzhou Wu"
         ],
         "comment": "https://scholar.google.com/citations?user=IdiF7M0AAAAJ&hl=en",
-        "introduction_image": "https://arxiv.org/html/extracted/6107046/F1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2501.01194/extracted/6107046/F1.png",
         "journal_reference": "IEEE International Symposium on Digital Forensics and Security 2025",
         "pdf_url": "https://arxiv.org/pdf/2501.01194",
         "primary_category": "cs.CR",
@@ -3306,7 +3469,8 @@
           "Alison Haire"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6121913/fingerprinting.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2501.05374/extracted/6121913/fingerprinting.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2501.05374",
         "primary_category": "cs.ET",
@@ -3327,6 +3491,7 @@
           "Zhan Qin"
         ],
         "comment": "This paper has been accepted by IEEE Transactions on Information Forensics and Security",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2501.15509v5/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2501.15509",
@@ -3349,7 +3514,8 @@
           "Sewoong Oh"
         ],
         "comment": "Spotlight at NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.07760/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.07760",
         "primary_category": "cs.CR",
@@ -3368,7 +3534,8 @@
           "Ajmal Mian"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/watermark_embedding_flowchart.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.08927/watermark_embedding_flowchart.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.08927",
         "primary_category": "cs.CV",
@@ -3388,7 +3555,8 @@
           "Ajmal Mian"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6197882/intro.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.10465/extracted/6197882/intro.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.10465",
         "primary_category": "eess.IV",
@@ -3436,7 +3604,8 @@
           "Qiang Yang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.12176/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.12176",
         "primary_category": "cs.LG",
@@ -3457,7 +3626,8 @@
           "Yuguang Fang"
         ],
         "comment": "Accepted by CVPR 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.20924/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.20924",
         "primary_category": "cs.CV",
@@ -3475,7 +3645,8 @@
           "Sakuma Jun"
         ],
         "comment": "Accepted by ICCV 2025",
-        "introduction_image": "https://arxiv.org/html/extracted/6580624/figs/story_illustration.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.07661/extracted/6580624/figs/story_illustration.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.07661",
         "primary_category": "cs.LG",
@@ -3495,7 +3666,8 @@
           "Juan Wen"
         ],
         "comment": "13 pages, 6 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.21805/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.21805",
         "primary_category": "cs.CL",
@@ -3518,7 +3690,8 @@
           "Nenghai Yu"
         ],
         "comment": "18 pages, 8 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.15026/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.15026",
         "primary_category": "cs.CV",
@@ -3539,7 +3712,8 @@
           "Liang He"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.17480/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.17480",
         "primary_category": "cs.CL",
@@ -3558,7 +3732,8 @@
           "Quanshi Zhang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.01007/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.01007",
         "primary_category": "cs.LG",
@@ -3577,6 +3752,7 @@
           "Yain-Whar Si"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2505.02344v3/img/model_overview.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.02344",
@@ -3597,6 +3773,7 @@
           "Laurens van der Maaten"
         ],
         "comment": "16 pages",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2505.12682v2/figs/rofl-v3.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.12682",
@@ -3619,7 +3796,8 @@
           "Philip S. Yu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.24267/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.24267",
         "primary_category": "cs.CR",
@@ -3637,7 +3815,8 @@
           "Chip-Hong Chang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6497020/figs/passport_layer/conv_norm.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.24536/extracted/6497020/figs/passport_layer/conv_norm.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.24536",
         "primary_category": "cs.CR",
@@ -3655,7 +3834,8 @@
           "Haoyu Wang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.01631/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.01631",
         "primary_category": "cs.LG",
@@ -3675,7 +3855,8 @@
           "Pierre Fernandez"
         ],
         "comment": "NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.16349/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.16349",
         "primary_category": "cs.LG",
@@ -3692,6 +3873,7 @@
           "Laurent Itti"
         ],
         "comment": "ICCV 2025 Highlight paper",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.22802",
@@ -3711,7 +3893,8 @@
           "Adam Dziedzic"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.23731/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.23731",
         "primary_category": "cs.LG",
@@ -3728,7 +3911,8 @@
           "James Joshi"
         ],
         "comment": "Accepted to be published on the 7th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications, Nov. 11-14, 2025, Pittsburgh, PA, USA. https://www.sis.pitt.edu/lersais/conference/tps/2025/",
-        "introduction_image": "https://arxiv.org/html/imgs/orcid.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.00230/imgs/orcid.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.00230",
         "primary_category": "cs.LG",
@@ -3750,7 +3934,8 @@
           "Zhi Wang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.00724/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.00724",
         "primary_category": "cs.CV",
@@ -3769,7 +3954,8 @@
           "Shiqing Ma"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.05512/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.05512",
         "primary_category": "cs.CR",
@@ -3787,7 +3973,8 @@
           "Jian Jin"
         ],
         "comment": "Accepted by AAAI 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.11137/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.11137",
         "primary_category": "cs.CR",
@@ -3809,7 +3996,8 @@
           "Yuguang Fang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.18034/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.18034",
         "primary_category": "cs.CR",
@@ -3836,6 +4024,7 @@
           "Meng Han"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2508.11548v2/figures/text_watermark.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.11548",
@@ -3857,6 +4046,7 @@
           "Linlin Wang"
         ],
         "comment": "preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.03122v4/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.03122",
@@ -3878,7 +4068,8 @@
           "Meng Han"
         ],
         "comment": "Accepted by EMNLP2025 MainConference",
-        "introduction_image": "https://arxiv.org/html/latex/figures/teaser.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.09703/latex/figures/teaser.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.09703",
         "primary_category": "cs.CL",
@@ -3896,6 +4087,7 @@
           "Gabriele Lenzini"
         ],
         "comment": "Accepted to Proceedings on Privacy Enhancing Technologies (PoPETs), 2026. 27 pages",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.11974v2/images/Targeted_Overfitting_Diagram.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.11974",
@@ -3917,6 +4109,7 @@
           "Longxiang Gao"
         ],
         "comment": "5 page, accepted for presentation at IEEE ICASSP 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.15406v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.15406",
@@ -3936,7 +4129,8 @@
           "Ajith Abraham"
         ],
         "comment": "Published in Foundations and Trends in Signal Processing (#1 in Signal Processing, #3 in Computer Science)",
-        "introduction_image": "https://arxiv.org/html/Figures/DeepfakeGeneration+Detection.jpg",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.18461/Figures/DeepfakeGeneration+Detection.jpg",
         "journal_reference": "Foundations and Trends in Signal Processing (2025)",
         "pdf_url": "https://arxiv.org/pdf/2509.18461",
         "primary_category": "cs.GR",
@@ -3955,7 +4149,8 @@
           "Heng Huang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24043/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.24043",
         "primary_category": "cs.CR",
@@ -3974,7 +4169,8 @@
           "Heng Huang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/figures/main_plot_MC.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24048/figures/main_plot_MC.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.24048",
         "primary_category": "cs.CR",
@@ -3993,7 +4189,8 @@
           "Jin-Song Dong"
         ],
         "comment": "8 pages, 4 figures, under peer-review",
-        "introduction_image": "https://arxiv.org/html/Figures/PostMark.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24624/Figures/PostMark.png",
         "journal_reference": "ICC 2026",
         "pdf_url": "https://arxiv.org/pdf/2509.24624",
         "primary_category": "cs.CR",
@@ -4013,7 +4210,8 @@
           "Sewoong Oh"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.26598/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.26598",
         "primary_category": "cs.CR",
@@ -4033,7 +4231,8 @@
           "Tamás Bisztray"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.10493/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.10493",
         "primary_category": "cs.CR",
@@ -4051,6 +4250,7 @@
           "Swabha Swayamdipta"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2510.14086v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.14086",
@@ -4071,7 +4271,8 @@
           "Asad Malik"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/orig_example.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.14218/orig_example.png",
         "journal_reference": "IEEE International Symposium on Digital Forensics and Security (2026)",
         "pdf_url": "https://arxiv.org/pdf/2510.14218",
         "primary_category": "cs.CR",
@@ -4091,6 +4292,7 @@
           "Yuheng Bu"
         ],
         "comment": "ACL2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2510.18333v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.18333",
@@ -4113,7 +4315,8 @@
           "Haibo Hu"
         ],
         "comment": "Accepted by AAAI'26",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.07947/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.07947",
         "primary_category": "cs.CR",
@@ -4134,7 +4337,8 @@
           "He Li"
         ],
         "comment": "Extended version of the paper accepted by AAAI 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.08985/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.08985",
         "primary_category": "cs.CR",
@@ -4153,7 +4357,8 @@
           "Shuai Wang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.11356/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.11356",
         "primary_category": "cs.CR",
@@ -4170,7 +4375,8 @@
           "Marc Juarez"
         ],
         "comment": "This work has been accepted for publication in the 4th IEEE Conference on Secure and Trustworthy Machine Learning (IEEE SaTML 2026). The final version will be available on IEEE Xplore",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.11771/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.11771",
         "primary_category": "cs.CV",
@@ -4188,6 +4394,7 @@
           "Karthik Nandakumar"
         ],
         "comment": "CVPR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.12090v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.12090",
@@ -4209,6 +4416,7 @@
           "Juan Cao"
         ],
         "comment": "Extended version of the paper accepted by ICMR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.15641v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.15641",
@@ -4231,6 +4439,7 @@
           "Li Guo"
         ],
         "comment": "Accepted to ACL 2026 Findings",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.16182v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.16182",
@@ -4249,7 +4458,8 @@
           "Kartik Goyal"
         ],
         "comment": "18 pages, 4 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.11629/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.11629",
         "primary_category": "cs.CR",
@@ -4272,7 +4482,8 @@
           "Yuguang Fang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.11952/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.11952",
         "primary_category": "cs.CV",
@@ -4295,7 +4506,8 @@
           "Meng Han"
         ],
         "comment": "Accepted by ICASSP2026",
-        "introduction_image": "https://arxiv.org/html/figure_icassp/overview.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.12986/figure_icassp/overview.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.12986",
         "primary_category": "cs.CR",
@@ -4313,7 +4525,8 @@
           "Bodo Kraft"
         ],
         "comment": "Presented at 2nd International Conference on Explainable AI for Neural and Symbolic Systems",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.13050/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.13050",
         "primary_category": "cs.CL",
@@ -4337,7 +4550,8 @@
           "Alexandre Mourachko"
         ],
         "comment": "Code and models are available at https://github.com/facebookresearch/distseal",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.16140/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.16140",
         "primary_category": "cs.CV",
@@ -4356,7 +4570,8 @@
           "Xiangyang Luo"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.21252/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.21252",
         "primary_category": "cs.CR",
@@ -4376,7 +4591,8 @@
           "Marc-Oliver Pahl"
         ],
         "comment": "Accepted at ACM TheWebConf '26 Companion",
-        "introduction_image": "https://arxiv.org/html/Images/Dashboard.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.03423/Images/Dashboard.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.03423",
         "primary_category": "cs.CR",
@@ -4394,6 +4610,7 @@
           "Nils Lukas"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.10765",
@@ -4415,6 +4632,7 @@
           "Lijie Hu"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.18793v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.18793",
@@ -4434,6 +4652,7 @@
           "Changqing Luo"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.24982v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.24982",
@@ -4453,6 +4672,7 @@
           "Changqing Luo"
         ],
         "comment": "To appear in CVPR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.24996v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.24996",
@@ -4471,6 +4691,7 @@
           "Liang-Jie Zhang"
         ],
         "comment": "Accepted by CVPR 2026 Findings",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.26167v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.26167",
@@ -4491,6 +4712,7 @@
           "John Wieting"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.03136",
@@ -4509,6 +4731,7 @@
           "Shahram Rahimi"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.10473",
@@ -4526,6 +4749,7 @@
           "Adrian de Valois-Franklin"
         ],
         "comment": "25 pages, 6 figures, 6 tables, 37 references. Code and data: https://github.com/Evolutionairy-AI/Ranking-Inference",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.25634v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.25634",
@@ -4548,6 +4772,7 @@
           "Hui Jin"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.01479v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.01479",
@@ -4567,6 +4792,7 @@
           "Md. Ekramul Hamid"
         ],
         "comment": "13 pages, 5 figures, 3 tables",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.05503v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.05503",
@@ -4601,6 +4827,7 @@
           "Aman Chadha"
         ],
         "comment": "Defactify4 @AAAI 2025",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.20787v3/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.20787",
@@ -4621,6 +4848,7 @@
           "Dacheng Tao"
         ],
         "comment": "This paper has been accepted to the International Conference on Machine Learning (ICML) 2026. 26 pages",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.29809v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.29809",
@@ -4643,6 +4871,7 @@
           "Ngai-Man Cheung"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.03499v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2606.03499",
@@ -4663,6 +4892,7 @@
           "Jie Xiao"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.11698v1/figure/SSM.png",
         "journal_reference": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2026, pp. 13967-13971",
         "pdf_url": "https://arxiv.org/pdf/2606.11698",
@@ -4685,6 +4915,7 @@
           "Benedetta Tondi"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.12977v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2606.12977",
@@ -4702,6 +4933,7 @@
           "Stefano Martiniani"
         ],
         "comment": "22 pages, 7 main figures; supplementary material included. Supplementary movies available at the project webpage",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.24000v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2606.24000",
@@ -4719,6 +4951,7 @@
           "Saeed Valizadeh"
         ],
         "comment": "Invited survey paper. 10 pages, 5 figures, 2 tables",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.06963v1/figure1.png",
         "journal_reference": "IEEE 6th Silicon Valley Cybersecurity Conference (SVCC), San Francisco, CA, USA, 2025, pp. 1-10",
         "pdf_url": "https://arxiv.org/pdf/2607.06963",
@@ -4736,6 +4969,7 @@
           "Saad Aamir"
         ],
         "comment": "Code: https://github.com/AwaisAdilKhokhar/modelDNA . Data: https://huggingface.co/datasets/AwaisAdilKhokhar/modeldna-atlas . Live scanner: https://huggingface.co/spaces/AwaisAdilKhokhar/modelDNA . DOI: 10.5281/zenodo.21305586",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.10617",
@@ -4752,6 +4986,7 @@
           "Zachary P. Bradshaw"
         ],
         "comment": "22 pages, 10 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.13046v1/fig1_gradient_vs_brute.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.13046",
@@ -4770,6 +5005,7 @@
           "Pawel Morawiecki"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.16648",
@@ -4793,7 +5029,8 @@
           "Qian Lou"
         ],
         "comment": "Accepted by EMNLP 2025 Finding",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.16699/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.16699",
         "primary_category": "cs.CL",
@@ -4813,7 +5050,8 @@
           "Chuan Guo"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.17259/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.17259",
         "primary_category": "cs.CR",
@@ -4836,7 +5074,8 @@
           "Manuela Veloso"
         ],
         "comment": "22 pages, 5 figures, 4 tables, earlier version presented at AAAI'25 Workshop on Preventing and Detecting LLM Generated Misinformation",
-        "introduction_image": "https://arxiv.org/html/extracted/6537009/figures/fig_overview_1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2502.18608/extracted/6537009/figures/fig_overview_1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2502.18608",
         "primary_category": "cs.CR",
@@ -4858,7 +5097,8 @@
           "Pingli Gu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2503.20802/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2503.20802",
         "primary_category": "cs.CR",
@@ -4879,7 +5119,8 @@
           "Yiming Xue"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.00035/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.00035",
         "primary_category": "cs.CR",
@@ -4897,7 +5138,8 @@
           "Ping Chen"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.02640/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.02640",
         "primary_category": "cs.MM",
@@ -4918,7 +5160,8 @@
           "Jiantao Zhou"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6335148/figure/watermark_process_general.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.03128/extracted/6335148/figure/watermark_process_general.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.03128",
         "primary_category": "cs.CV",
@@ -4937,6 +5180,7 @@
           "Linna Zhou"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2504.05871v3/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.05871",
@@ -4956,7 +5200,8 @@
           "Jonas Geiping"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6345764/img/afte.jpeg",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.06446/extracted/6345764/img/afte.jpeg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.06446",
         "primary_category": "cs.LG",
@@ -4977,7 +5222,8 @@
           "Shiyu Chang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.06575/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.06575",
         "primary_category": "cs.CR",
@@ -4996,7 +5242,8 @@
           "Sumanth Dathathri"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.12229/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.12229",
         "primary_category": "cs.LG",
@@ -5017,7 +5264,8 @@
           "Liang He"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2504.17480/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2504.17480",
         "primary_category": "cs.CL",
@@ -5034,6 +5282,7 @@
           "Roman Vershynin"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.01484",
@@ -5053,6 +5302,7 @@
           "Yain-Whar Si"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2505.02344v3/img/model_overview.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.02344",
@@ -5078,7 +5328,8 @@
           "Bryan Kian Hsiang Low"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.05064/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.05064",
         "primary_category": "cs.LG",
@@ -5097,7 +5348,8 @@
           "Leonid Sigal"
         ],
         "comment": "ICML 2025 Accpeted",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.05190/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.05190",
         "primary_category": "cs.LG",
@@ -5115,6 +5367,7 @@
           "Josef Pieprzyk"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.05712",
@@ -5136,7 +5389,8 @@
           "Flavio P. Calmon"
         ],
         "comment": "Accepted at ISIT25",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.08878/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.08878",
         "primary_category": "cs.CR",
@@ -5158,7 +5412,8 @@
           "Xiuying Chen"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/extracted/6457515/figs/hf-logo.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2505.14112/extracted/6457515/figs/hf-logo.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2505.14112",
         "primary_category": "cs.CL",
@@ -5178,7 +5433,8 @@
           "Kai Zeng"
         ],
         "comment": "camera-ready version",
-        "introduction_image": "https://arxiv.org/html/extracted/6517012/figs/overview.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.05502/extracted/6517012/figs/overview.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.05502",
         "primary_category": "cs.CR",
@@ -5201,6 +5457,7 @@
           "Flavio P. Calmon"
         ],
         "comment": "Presented at NeurIPS2025",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.06409",
@@ -5221,7 +5478,8 @@
           "Yuval Elovici"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.14474/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.14474",
         "primary_category": "cs.CL",
@@ -5238,7 +5496,8 @@
           "Chris Russell"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.15975/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.15975",
         "primary_category": "cs.CR",
@@ -5258,7 +5517,8 @@
           "Pierre Fernandez"
         ],
         "comment": "NeurIPS 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.16349/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.16349",
         "primary_category": "cs.LG",
@@ -5278,7 +5538,8 @@
           "Shirui Pan"
         ],
         "comment": "This paper is accepted by International Conference on Machine Learning (ICML) 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.21602/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.21602",
         "primary_category": "cs.CL",
@@ -5299,7 +5560,8 @@
           "Weijie J. Su"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.22343/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.22343",
         "primary_category": "stat.ML",
@@ -5320,7 +5582,8 @@
           "Tianwei Zhang"
         ],
         "comment": "10 pages, 16 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2506.23066/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2506.23066",
         "primary_category": "cs.CV",
@@ -5338,7 +5601,8 @@
           "Xiaojun Wan"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/figures/toutu.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.06274/figures/toutu.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.06274",
         "primary_category": "cs.CR",
@@ -5364,7 +5628,8 @@
           "Xuming Hu"
         ],
         "comment": "Accepted by the main conference, EMNLP 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2507.14067/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2507.14067",
         "primary_category": "cs.CV",
@@ -5386,7 +5651,8 @@
           "Wei Ye"
         ],
         "comment": "24 pages, 12 figures, NeurIPS 2025, code available: https://zhuohaoyu.github.io/SAEMark",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2508.08211/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.08211",
         "primary_category": "cs.CL",
@@ -5413,6 +5679,7 @@
           "Meng Han"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2508.11548v2/figures/text_watermark.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.11548",
@@ -5432,7 +5699,8 @@
           "Mohammad Zulkernine"
         ],
         "comment": "Accepted by TrustCom2025",
-        "introduction_image": "https://arxiv.org/html/Synonym_Substitution_attack_for_SynthID-Text.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2508.20228/Synonym_Substitution_attack_for_SynthID-Text.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2508.20228",
         "primary_category": "cs.CR",
@@ -5452,7 +5720,8 @@
           "Qian Lou"
         ],
         "comment": "Accepted at EMNLP 2025 Findings. Camera Ready",
-        "introduction_image": "https://arxiv.org/html/images/Watermarking-benchmark.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.07755/images/Watermarking-benchmark.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.07755",
         "primary_category": "cs.CL",
@@ -5475,6 +5744,7 @@
           "Leo Yu Zhang"
         ],
         "comment": "accepted by Network and Distributed System Security (NDSS) Symposium 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": "Network and Distributed System Security (NDSS) Symposium 2026",
         "pdf_url": "https://arxiv.org/pdf/2509.09112",
@@ -5498,6 +5768,7 @@
           "Shiyu Liang"
         ],
         "comment": "Accepted by ICML2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.20924v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.20924",
@@ -5516,6 +5787,7 @@
           "Sayar Karmakar"
         ],
         "comment": "68 pages",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.21160",
@@ -5534,6 +5806,7 @@
           "Jungseul Ok"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.23019v5/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.23019",
@@ -5553,7 +5826,8 @@
           "Heng Huang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24043/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.24043",
         "primary_category": "cs.CR",
@@ -5572,7 +5846,8 @@
           "Heng Huang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/figures/main_plot_MC.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24048/figures/main_plot_MC.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2509.24048",
         "primary_category": "cs.CR",
@@ -5591,7 +5866,8 @@
           "Jin-Song Dong"
         ],
         "comment": "8 pages, 4 figures, under peer-review",
-        "introduction_image": "https://arxiv.org/html/Figures/PostMark.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2509.24624/Figures/PostMark.png",
         "journal_reference": "ICC 2026",
         "pdf_url": "https://arxiv.org/pdf/2509.24624",
         "primary_category": "cs.CR",
@@ -5612,7 +5888,8 @@
           "Qi Long"
         ],
         "comment": "Accepted at NeurIPS 2025 as a spotlight",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.03944/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.03944",
         "primary_category": "cs.LG",
@@ -5631,7 +5908,8 @@
           "Yo-Sub Han"
         ],
         "comment": "Accepted to EACL 2026 (Oral)",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.10987/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.10987",
         "primary_category": "cs.CR",
@@ -5650,6 +5928,7 @@
           "Yo-Sub Han"
         ],
         "comment": "ACL 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2510.13829v4/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.13829",
@@ -5673,7 +5952,8 @@
           "Nenghai Yu"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.16367/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.16367",
         "primary_category": "cs.CR",
@@ -5691,7 +5971,8 @@
           "Teodora Baluta"
         ],
         "comment": "9 pages, 4 figures (not including citation and appendix) submitted to ICLR 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.17033/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.17033",
         "primary_category": "cs.CR",
@@ -5708,6 +5989,7 @@
           "Martin Gubri"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.18019",
@@ -5728,6 +6010,7 @@
           "Yuheng Bu"
         ],
         "comment": "ACL2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2510.18333v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.18333",
@@ -5749,7 +6032,8 @@
           "Shiyu Chang"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.21053/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.21053",
         "primary_category": "cs.CR",
@@ -5769,7 +6053,8 @@
           "Garrett G. Wen"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.22007/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.22007",
         "primary_category": "math.ST",
@@ -5791,7 +6076,8 @@
           "Mengxin Zheng"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.23891/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.23891",
         "primary_category": "cs.CR",
@@ -5809,7 +6095,8 @@
           "Xin Zhang"
         ],
         "comment": "This work has been submitted to the IEEE for possible publication",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2510.26274/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2510.26274",
         "primary_category": "cs.CR",
@@ -5825,7 +6112,8 @@
           "Thomas Souverain"
         ],
         "comment": "17 pages, 2 Tables and 2 Pictures",
-        "introduction_image": "https://arxiv.org/html/schema_watermarking_during_inference_10_28.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.03641/schema_watermarking_during_inference_10_28.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.03641",
         "primary_category": "cs.CR",
@@ -5843,7 +6131,8 @@
           "Guanxun Li"
         ],
         "comment": "13 pages, 3 figures, accepted for publication in STAT, October 28, 2025",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.06645/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.06645",
         "primary_category": "stat.ML",
@@ -5862,7 +6151,8 @@
           "Yo-Sub Han"
         ],
         "comment": "AAAI 2026 (Oral). This is the extended preprint of the copyrighted version at AAAI",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2511.07863/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2511.07863",
         "primary_category": "cs.AI",
@@ -5885,6 +6175,7 @@
           "Qingcai Chen"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.00837v3/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.00837",
@@ -5903,7 +6194,8 @@
           "Adam Block"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.04044/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.04044",
         "primary_category": "cs.LG",
@@ -5923,6 +6215,7 @@
           "Daniel Wichs"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.08918",
@@ -5939,7 +6232,8 @@
           "Malte Hellmeier"
         ],
         "comment": "Accepted for publication at the ICISSP 2026",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.13325/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.13325",
         "primary_category": "cs.CR",
@@ -5961,6 +6255,7 @@
           "Li Guo"
         ],
         "comment": "Accepted to ACL 2026 Findings",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.16182v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.16182",
@@ -5985,7 +6280,8 @@
           "Alexandre Mourachko"
         ],
         "comment": "Code at https://github.com/facebookresearch/textseal",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2512.16904/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.16904",
         "primary_category": "cs.CR",
@@ -6006,7 +6302,8 @@
           "Md Kamrul Hasan"
         ],
         "comment": "Under review, 12 pages, 7 figures, 5 tables",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.04534/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.04534",
         "primary_category": "cs.CL",
@@ -6024,7 +6321,8 @@
           "Kartik Goyal"
         ],
         "comment": "18 pages, 4 figures",
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2601.11629/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.11629",
         "primary_category": "cs.CR",
@@ -6043,6 +6341,7 @@
           "Kai Zeng"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2601.22246v3/figs/CABS.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2601.22246",
@@ -6062,6 +6361,7 @@
           "Li Guo"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2602.01752v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.01752",
@@ -6081,7 +6381,8 @@
           "Martin Vechev"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.06754/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.06754",
         "primary_category": "cs.CR",
@@ -6102,6 +6403,7 @@
           "Flavio P. Calmon"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2602.07235v2/nfig/llama3_300_tokens_message_accuracy_vs_bytes.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.07235",
@@ -6124,7 +6426,8 @@
           "Juergen Rahmel"
         ],
         "comment": null,
-        "introduction_image": "https://arxiv.org/html/x1.png",
+        "first_seen": "2026-07-22",
+        "introduction_image": "https://arxiv.org/html/2602.08401/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.08401",
         "primary_category": "cs.AI",
@@ -6151,6 +6454,7 @@
           "Eva Zangerle"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.09147",
@@ -6169,6 +6473,7 @@
           "Zinan Zhao"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2602.14286v4/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2602.14286",
@@ -6187,6 +6492,7 @@
           "Binghui Wang"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.03410v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.03410",
@@ -6208,6 +6514,7 @@
           "Li Guo"
         ],
         "comment": "Accepted to ACL 2026 Findings",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.14968v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2603.14968",
@@ -6227,6 +6534,7 @@
           "Zikai Zhang"
         ],
         "comment": "Accepted by ACL 2026 as a main conference paper",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.05242v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.05242",
@@ -6247,6 +6555,7 @@
           "Jiabao Ma"
         ],
         "comment": "18 pages,6 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.10893v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.10893",
@@ -6267,6 +6576,7 @@
           "Shiyu Liang"
         ],
         "comment": "28 pages",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.11546v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.11546",
@@ -6285,6 +6595,7 @@
           "Mengxin Zheng"
         ],
         "comment": "Accepted at CVPR 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.17041v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.17041",
@@ -6303,6 +6614,7 @@
           "John Grundy"
         ],
         "comment": "ACL 2026 Main Conference",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.22438v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.22438",
@@ -6323,6 +6635,7 @@
           "Meng Sun"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2604.27666v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2604.27666",
@@ -6342,6 +6655,7 @@
           "Young-Sik Kim"
         ],
         "comment": "Accepted at ICML 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.00348v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.00348",
@@ -6367,6 +6681,7 @@
           "Ninareh Mehrabi"
         ],
         "comment": "Accepted to ACL 2026 Main",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.04305v1/figures/amr_example.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.04305",
@@ -6384,6 +6699,7 @@
           "Amit Sahai"
         ],
         "comment": "Under review",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.05443v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.05443",
@@ -6403,6 +6719,7 @@
           "Md. Ekramul Hamid"
         ],
         "comment": "13 pages, 5 figures, 3 tables",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.05503v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.05503",
@@ -6421,6 +6738,7 @@
           "Anupam Chattopadhyay"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.07481v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.07481",
@@ -6440,6 +6758,7 @@
           "Yo-Sub Han"
         ],
         "comment": "17 pages, 3 figures, preprint",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.11036v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.11036",
@@ -6459,6 +6778,7 @@
           "Martin Vechev"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.11653v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.11653",
@@ -6487,6 +6807,7 @@
           "Pierre Fernandez"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.12456v2/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.12456",
@@ -6506,6 +6827,7 @@
           "Matthieu R. Bloch"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.16709v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.16709",
@@ -6526,6 +6848,7 @@
           "Ruoming Jin"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.23175",
@@ -6549,6 +6872,7 @@
           "Mingxun Zhou"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.25796v3/figures/samark_fig1_v3.jpg",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.25796",
@@ -6568,6 +6892,7 @@
           "Xuxing Lu"
         ],
         "comment": "Preprint prepared for submission to IEEE TIFS. 12 pages, 8 figures",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.28632v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.28632",
@@ -6591,6 +6916,7 @@
           "Jiaheng Zhang"
         ],
         "comment": "Accepted by ICML 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.29434v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2605.29434",
@@ -6610,6 +6936,7 @@
           "Yo-Sub Han"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.00613v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2606.00613",
@@ -6628,6 +6955,7 @@
           "Young-Sik Kim"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.24163v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2606.24163",
@@ -6646,6 +6974,7 @@
           "Gerhard Wunder"
         ],
         "comment": "Preprint. 22 pages, 9 tables, 1 figure",
+        "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2606.31602",
@@ -6665,6 +6994,7 @@
           "Runze Li"
         ],
         "comment": "Accepted ICML 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.05694v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.05694",
@@ -6687,6 +7017,7 @@
           "Phung Lai"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.10103v1/figurellm.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.10103",
@@ -6705,6 +7036,7 @@
           "Songze Li"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.10210v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.10210",
@@ -6724,6 +7056,7 @@
           "L Xiang"
         ],
         "comment": "21 page",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.13099v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.13099",
@@ -6741,6 +7074,7 @@
           "Amir Labib Khan"
         ],
         "comment": "9 pages, 4 figures. A version of this paper was submitted to the AAAI/ACM Conference on AI, Ethics, and Society (AIES) 2026",
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.16010v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.16010",
@@ -6759,6 +7093,7 @@
           "Chun-Shien Lu"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.17592v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.17592",
@@ -6776,6 +7111,7 @@
           "Kyuhee Kim"
         ],
         "comment": null,
+        "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2607.18445v1/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2607.18445",

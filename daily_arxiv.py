@@ -91,7 +91,45 @@ def extract_first_figure_image(html: str, base_url: str) -> str | None:
     parser.feed(html)
     if not parser.image_src:
         return None
-    return urljoin(base_url, parser.image_src)
+    return urljoin(base_url.rstrip("/") + "/", parser.image_src)
+
+
+def repair_cached_image_url(paper: dict[str, Any]) -> str | None:
+    """Repair image URLs created before relative arXiv paths had a trailing base slash."""
+    image_url = paper.get("introduction_image")
+    if not image_url:
+        return None
+
+    marker = "https://arxiv.org/html/"
+    paper_id = str(paper.get("arxiv_id") or "")
+    expected_prefix = f"{marker}{paper_id}"
+    if paper_id and image_url.startswith(marker) and not image_url.startswith(expected_prefix):
+        suffix = image_url[len(marker) :].lstrip("/")
+        return f"{expected_prefix}/{suffix}"
+    return str(image_url)
+
+
+def migrate_catalog(catalog: dict[str, Any], timezone_name: str) -> int:
+    """Backfill first-seen dates and repair cached image URLs."""
+    last_updated = catalog.get("meta", {}).get("last_updated")
+    if last_updated:
+        first_seen = datetime.fromisoformat(last_updated).astimezone(
+            ZoneInfo(timezone_name)
+        ).date().isoformat()
+    else:
+        first_seen = datetime.now(ZoneInfo(timezone_name)).date().isoformat()
+
+    changes = 0
+    for papers in catalog.get("topics", {}).values():
+        for paper in papers.values():
+            if not paper.get("first_seen"):
+                paper["first_seen"] = first_seen
+                changes += 1
+            repaired = repair_cached_image_url(paper)
+            if repaired != paper.get("introduction_image"):
+                paper["introduction_image"] = repaired
+                changes += 1
+    return changes
 
 
 def fetch_first_figure_image(arxiv_id: str, timeout: float = 15.0) -> str | None:
@@ -272,6 +310,8 @@ def venue_and_year(paper: dict[str, Any]) -> str:
 
 def render_readme(config: dict[str, Any], catalog: dict[str, Any]) -> str:
     topic_data = catalog.get("topics", {})
+    timezone_name = config.get("timezone", "UTC")
+    today = datetime.now(ZoneInfo(timezone_name)).date().isoformat()
     unique_paper_ids = {
         paper_id
         for papers in topic_data.values()
@@ -290,7 +330,7 @@ def render_readme(config: dict[str, Any], catalog: dict[str, Any]) -> str:
     last_updated = catalog.get("meta", {}).get("last_updated")
     if last_updated:
         timestamp = datetime.fromisoformat(last_updated).astimezone(
-            ZoneInfo(config.get("timezone", "UTC"))
+            ZoneInfo(timezone_name)
         )
         lines.extend(
             [
@@ -300,17 +340,63 @@ def render_readme(config: dict[str, Any], catalog: dict[str, Any]) -> str:
             ]
         )
 
+    lines.extend(["## Categories", ""])
+    for topic_name in config["topics"]:
+        count = len(topic_data.get(topic_name, {}))
+        lines.append(f"- [{topic_name}](#{topic_anchor(topic_name)}) · {count} papers")
+
+    lines.extend(
+        [
+            "",
+            f"## Today's additions · {today}",
+            "",
+            "Papers first indexed during today's update, grouped by category.",
+            "",
+        ]
+    )
+    for topic_name in config["topics"]:
+        new_papers = [
+            paper
+            for paper in topic_data.get(topic_name, {}).values()
+            if paper.get("first_seen") == today
+        ]
+        new_papers.sort(
+            key=lambda paper: (paper.get("published", ""), paper.get("arxiv_id", "")),
+            reverse=True,
+        )
+        lines.extend(
+            [
+                "<details>",
+                f'<summary><b><a href="#{topic_anchor(topic_name)}">{topic_name}</a></b> '
+                f"· {len(new_papers)} new papers</summary>",
+                "",
+            ]
+        )
+        if new_papers:
+            for paper in new_papers:
+                lines.append(
+                    f"- [{escape_markdown(paper['title'])}]({paper['abs_url']}) "
+                    f"— {escape_markdown(paper.get('published', '—'))}"
+                )
+        else:
+            lines.append("- No new papers today.")
+        lines.extend(["", "</details>", ""])
+
     lines.extend(["<details>", '<summary><b>Search scope and keywords</b></summary>', ""])
     for topic_name, topic_config in config["topics"].items():
         terms = ", ".join(f"`{escape_markdown(term)}`" for term in topic_config["terms"])
-        lines.append(f"- **{topic_name}:** {terms}")
+        lines.append(
+            f"- **[{topic_name}](#{topic_anchor(topic_name)}):** {terms}"
+        )
     lines.extend(["", "</details>", ""])
 
     for topic_name, topic_config in config["topics"].items():
         papers = topic_data.get(topic_name, {})
         lines.extend(
             [
-                f"## {topic_name} · {len(papers)} papers",
+                f"## {topic_name}",
+                "",
+                f"**{len(papers)} papers · newest first**",
                 "",
                 "| **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |",
                 "|:---|:---:|:---|:---:|",
@@ -318,7 +404,7 @@ def render_readme(config: dict[str, Any], catalog: dict[str, Any]) -> str:
         )
         ordered = sorted(
             papers.values(),
-            key=lambda paper: (paper.get("updated", ""), paper.get("published", ""), paper.get("arxiv_id", "")),
+            key=lambda paper: (paper.get("published", ""), paper.get("arxiv_id", "")),
             reverse=True,
         )
         if not ordered:
@@ -373,6 +459,7 @@ def run(config_path: Path, render_only: bool = False) -> int:
     data_path = root / config["data_path"]
     readme_path = root / config["readme_path"]
     catalog = load_catalog(data_path)
+    migrate_catalog(catalog, config.get("timezone", "UTC"))
     catalog_topics = catalog.setdefault("topics", {})
     image_cache: dict[str, str | None] = {
         paper_id: paper.get("introduction_image")
@@ -394,6 +481,10 @@ def run(config_path: Path, render_only: bool = False) -> int:
             except Exception:
                 LOGGER.exception("Failed to update topic: %s", topic_name)
                 continue
+            today = datetime.now(ZoneInfo(config.get("timezone", "UTC"))).date().isoformat()
+            for paper in papers:
+                previous = existing.get(paper["arxiv_id"], {})
+                paper["first_seen"] = previous.get("first_seen", today)
             enrich_papers_with_images(
                 papers,
                 image_cache,
