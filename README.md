@@ -4,376 +4,45 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-07-22 14:21 CST &nbsp; · &nbsp; **Indexed:** 306 unique papers
+**Last updated:** 2026-07-24 16:41 CST &nbsp; · &nbsp; **Indexed:** 308 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 100 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 36 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 100 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 102 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 100 papers
 
-## Today's additions · 2026-07-22
+## Today's additions · 2026-07-24
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 100 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Beyond AI-Generated Labels: Watermarking, Co-Creation, and Conflation of AI-Generation with Disinformation](https://arxiv.org/abs/2607.13082) — 2026-07-13
-- [FlowMark: Mask-Guided Video Watermarking](https://arxiv.org/abs/2607.05261) — 2026-07-06
-- ["Training robust watermarking model may hurt authentication!'' Exploring and Mitigating the Identity Leakage in Robust Watermarking](https://arxiv.org/abs/2605.09646) — 2026-05-10
-- [CSGuard: Toward Forgery-Resistant Watermarking in Diffusion Models via Compressed Sensing Constraint](https://arxiv.org/abs/2605.01479) — 2026-05-02
-- [Breaking Watermarks in the Frequency Domain: A Modulated Diffusion Attack Framework](https://arxiv.org/abs/2604.22220) — 2026-04-24
-- [ADD for Multi-Bit Image Watermarking](https://arxiv.org/abs/2604.11491) — 2026-04-13
-- [UniMark: Unified Adaptive Multi-bit Watermarking for Autoregressive Image Generators](https://arxiv.org/abs/2604.11843) — 2026-04-12
-- [ResGuard: Enhancing Robustness Against Known Original Attacks in Deep Watermarking](https://arxiv.org/abs/2604.03693) — 2026-04-04
-- [Understanding Semantic Perturbations on In-Processing Generative Image Watermarks](https://arxiv.org/abs/2603.27513) — 2026-03-29
-- [SAiW: Source-Attributable Invisible Watermarking for Proactive Deepfake Defense](https://arxiv.org/abs/2603.23178) — 2026-03-24
-- [Editing Away the Evidence: Diffusion-Based Image Manipulation and the Failure Modes of Robust Watermarking](https://arxiv.org/abs/2603.12949) — 2026-03-13
-- [SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](https://arxiv.org/abs/2603.12749) — 2026-03-13
-- [Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution](https://arxiv.org/abs/2603.10583) — 2026-03-11
-- [The Orthogonal Vulnerabilities of Generative AI Watermarks: A Comparative Empirical Benchmark of Spatial and Latent Provenance](https://arxiv.org/abs/2603.10323) — 2026-03-11
-- [ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models](https://arxiv.org/abs/2603.09454) — 2026-03-10
-- [AWPD: Frequency Shield Network for Agnostic Watermark Presence Detection](https://arxiv.org/abs/2603.06723) — 2026-03-06
-- [When Denoising Becomes Unsigning: Theoretical and Empirical Analysis of Watermark Fragility Under Diffusion-Based Image Editing](https://arxiv.org/abs/2603.04696) — 2026-03-05
-- [SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion](https://arxiv.org/abs/2603.02882) — 2026-03-03
-- [Authenticated Contradictions from Desynchronized Provenance and Watermarking](https://arxiv.org/abs/2603.02378) — 2026-03-02
-- [Hide&Seek: Remove Image Watermarks with Negligible Cost via Pixel-wise Reconstruction](https://arxiv.org/abs/2603.01067) — 2026-03-01
-- [SKeDA: A Generative Watermarking Framework for Text-to-video Diffusion Models](https://arxiv.org/abs/2603.00194) — 2026-02-27
-- [Attention to Neural Plagiarism: Diffusion Models Can Plagiarize Your Copyrighted Images!](https://arxiv.org/abs/2603.00150) — 2026-02-25
-- [Vanishing Watermarks: Diffusion-Based Image Editing Undermines Robust Invisible Watermarking](https://arxiv.org/abs/2602.20680) — 2026-02-24
-- [Decoupling Defense Strategies for Robust Image Watermarking](https://arxiv.org/abs/2602.20053) — 2026-02-23
-- [MarkSweep: A No-box Removal Attack on AI-Generated Image Watermarking via Noise Intensification and Frequency-aware Denoising](https://arxiv.org/abs/2602.15364) — 2026-02-17
-- [WMVLM: Evaluating Diffusion Model Image Watermarking via Vision-Language Models](https://arxiv.org/abs/2601.21610) — 2026-01-29
-- [DeMark: A Query-Free Black-Box Attack on Deepfake Watermarking Defenses](https://arxiv.org/abs/2601.16473) — 2026-01-23
-- [NiMark: A Non-intrusive Watermarking Framework against Screen-shooting Attacks](https://arxiv.org/abs/2601.11978) — 2026-01-17
-- [RAVEN: Erasing Invisible Watermarks via Novel View Synthesis](https://arxiv.org/abs/2601.08832) — 2026-01-13
-- [MT-Mark: Rethinking Image Watermarking via Mutual-Teacher Collaboration with Adaptive Feature Modulation](https://arxiv.org/abs/2512.19438) — 2025-12-22
-- [WaTeRFlow: Watermark Temporal Robustness via Flow Consistency](https://arxiv.org/abs/2512.19048) — 2025-12-22
-- [Pixel Seal: Adversarial-only training for invisible image and video watermarking](https://arxiv.org/abs/2512.16874) — 2025-12-18
-- [Where is the Watermark? Interpretable Watermark Detection at the Block Level](https://arxiv.org/abs/2512.14994) — 2025-12-17
-- [Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models](https://arxiv.org/abs/2512.13325) — 2025-12-15
-- [SPDMark: Selective Parameter Displacement for Robust Video Watermarking](https://arxiv.org/abs/2512.12090) — 2025-12-12
-- [SimuFreeMark: A Noise-Simulation-Free Robust Watermarking Against Image Editing](https://arxiv.org/abs/2511.11295) — 2025-11-14
-- [On the Information-Theoretic Fragility of Robust Watermarking under Diffusion Editing](https://arxiv.org/abs/2511.10933) — 2025-11-14
-- [Robustness and Imperceptibility Analysis of Hybrid Spatial-Frequency Domain Image Watermarking](https://arxiv.org/abs/2511.10245) — 2025-11-13
-- [Diffusion-Based Image Editing: An Unforeseen Adversary to Robust Invisible Watermarks](https://arxiv.org/abs/2511.05598) — 2025-11-05
-- [T2SMark: Balancing Robustness and Diversity in Noise-as-Watermark for Diffusion Models](https://arxiv.org/abs/2510.22366) — 2025-10-25
-- [Transferable Black-Box One-Shot Forging of Watermarks via Image Preference Models](https://arxiv.org/abs/2510.20468) — 2025-10-23
-- [SynthID-Image: Image watermarking at internet scale](https://arxiv.org/abs/2510.09263) — 2025-10-10
-- [SpecGuard: Spectral Projection-based Advanced Invisible Watermarking](https://arxiv.org/abs/2510.07302) — 2025-10-08
-- [We Can Hide More Bits: The Unused Watermarking Capacity in Theory and in Practice](https://arxiv.org/abs/2510.12812) — 2025-10-07
-- [Diffusion-Based Image Editing for Breaking Robust Watermarks](https://arxiv.org/abs/2510.05978) — 2025-10-07
-- [Fast, Secure, and High-Capacity Image Watermarking with Autoencoded Text Vectors](https://arxiv.org/abs/2510.00799) — 2025-10-01
-- [Secure and Robust Watermarking for AI-generated Images: A Comprehensive Survey](https://arxiv.org/abs/2510.02384) — 2025-09-30
-- [Of-SemWat: High-payload text embedding for semantic watermarking of AI-generated images with arbitrary size](https://arxiv.org/abs/2509.24823) — 2025-09-29
-- [LoT-Pass: Long-term-robust Image Watermarking for Image to Video Generation](https://arxiv.org/abs/2509.17773) — 2025-09-22
-- [DINVMark: A Deep Invertible Network for Video Watermarking](https://arxiv.org/abs/2509.17416) — 2025-09-22
-- [An Efficient and Adaptive Watermark Detection System with Tile-based Error Correction](https://arxiv.org/abs/2509.02447) — 2025-09-02
-- [First-Place Solution to NeurIPS 2024 Invisible Watermark Removal Challenge](https://arxiv.org/abs/2508.21072) — 2025-08-28
-- [Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design](https://arxiv.org/abs/2508.10065) — 2025-08-13
-- [Learning Generalizable and Efficient Image Watermarking via Hierarchical Two-Stage Optimization](https://arxiv.org/abs/2508.08667) — 2025-08-12
-- [MaXsive: High-Capacity and Robust Training-Free Generative Image Watermarking in Diffusion Models](https://arxiv.org/abs/2507.21195) — 2025-07-28
-- [TAG-WM: Tamper-Aware Generative Image Watermarking via Diffusion Inversion Sensitivity](https://arxiv.org/abs/2506.23484) — 2025-06-30
-- [Peccavi: Visual Paraphrase Attack Safe and Distortion Free Image Watermarking Technique for AI-Generated Images](https://arxiv.org/abs/2506.22960) — 2025-06-28
-- [BitMark: Watermarking Bitwise Autoregressive Image Generative Models](https://arxiv.org/abs/2506.21209) — 2025-06-26
-- [Dynamic Watermark Generation for Digital Images using Perimeter Gated SPAD Imager PUFs](https://arxiv.org/abs/2506.17134) — 2025-06-20
-- [Autoregressive Images Watermarking through Lexical Biasing: An Approach Resistant to Regeneration Attack](https://arxiv.org/abs/2506.01011) — 2025-06-01
-- [VideoMarkBench: Benchmarking Robustness of Video Watermarking](https://arxiv.org/abs/2505.21620) — 2025-05-27
-- [Training-Free Watermarking for Autoregressive Image Generation](https://arxiv.org/abs/2505.14673) — 2025-05-20
-- [Removing Watermarks with Partial Regeneration using Semantic Information](https://arxiv.org/abs/2505.08234) — 2025-05-13
-- [SSH-Net: A Self-Supervised and Hybrid Network for Noisy Image Watermark Removal](https://arxiv.org/abs/2505.05088) — 2025-05-08
-- [GenPTW: Latent Image Watermarking for Provenance Tracing and Tamper Localization](https://arxiv.org/abs/2504.19567) — 2025-04-28
-- [VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models](https://arxiv.org/abs/2504.16359) — 2025-04-23
-- [Gaussian Shading++: Rethinking the Realistic Deployment Challenge of Performance-Lossless Image Watermark for Diffusion Models](https://arxiv.org/abs/2504.15026) — 2025-04-21
-- [Saliency-Aware Diffusion Reconstruction for Effective Invisible Watermark Removal](https://arxiv.org/abs/2504.12809) — 2025-04-17
-- [Mask Image Watermarking](https://arxiv.org/abs/2504.12739) — 2025-04-17
-- [PT-Mark: Invisible Watermarking for Text-to-image Diffusion Models via Semantic-aware Pivotal Tuning](https://arxiv.org/abs/2504.10853) — 2025-04-15
-- [RoSMM: A Robust and Secure Multi-Modal Watermarking Framework for Diffusion Models](https://arxiv.org/abs/2504.02640) — 2025-04-03
-- [Is Your Writing Being Mimicked by AI? Unveiling Imitation with Invisible Watermarks in Creative Writing](https://arxiv.org/abs/2504.00035) — 2025-03-30
-- [WMCopier: Forging Invisible Image Watermarks on Arbitrary Images](https://arxiv.org/abs/2503.22330) — 2025-03-28
-- [Protecting Your Video Content: Disrupting Automated Video-based LLM Annotations](https://arxiv.org/abs/2503.21824) — 2025-03-26
-- [GS-Marker: Generalizable and Robust Watermarking for 3D Gaussian Splatting](https://arxiv.org/abs/2503.18718) — 2025-03-24
-- [Text-Guided Image Invariant Feature Learning for Robust Image Watermarking](https://arxiv.org/abs/2503.13805) — 2025-03-18
-- [SEAL: Semantic Aware Image Watermarking](https://arxiv.org/abs/2503.12172) — 2025-03-15
-- [Your Text Encoder Can Be An Object-Level Watermarking Controller](https://arxiv.org/abs/2503.11945) — 2025-03-15
-- [Safe-VAR: Safe Visual Autoregressive Model for Text-to-Image Generative Watermarking](https://arxiv.org/abs/2503.11324) — 2025-03-14
-- [Provenance Detection for AI-Generated Images: Combining Perceptual Hashing, Homomorphic Encryption, and AI Detection Models](https://arxiv.org/abs/2503.11195) — 2025-03-14
-- [The NeRF Signature: Codebook-Aided Watermarking for Neural Radiance Fields](https://arxiv.org/abs/2502.19125) — 2025-02-26
-- [Deep Learning-based Dual Watermarking for Image Copyright Protection and Authentication](https://arxiv.org/abs/2502.18501) — 2025-02-21
-- [A Baseline Method for Removing Invisible Image Watermarks using Deep Image Prior](https://arxiv.org/abs/2502.13998) — 2025-02-19
-- [Image Watermarking of Generative Diffusion Models](https://arxiv.org/abs/2502.10465) — 2025-02-12
-- [Fast In-Spectrum Graph Watermarks](https://arxiv.org/abs/2502.04182) — 2025-02-06
-- [On the Coexistence and Ensembling of Watermarks](https://arxiv.org/abs/2501.17356) — 2025-01-29
-- [SAT-LDM: Provably Generalizable Image Watermarking for Latent Diffusion Models with Self-Augmented Training](https://arxiv.org/abs/2501.00463) — 2024-12-31
-- [RoboSignature: Robust Signature and Watermarking on Network Attacks](https://arxiv.org/abs/2412.19834) — 2024-12-22
-- [Invisible Watermarks: Attacks and Robustness](https://arxiv.org/abs/2412.12511) — 2024-12-17
-- [SuperMark: Robust and Training-free Image Watermarking via Diffusion-based Super-Resolution](https://arxiv.org/abs/2412.10049) — 2024-12-13
-- [Video Seal: Open and Efficient Video Watermarking](https://arxiv.org/abs/2412.09492) — 2024-12-12
-- [LVMark: Robust Watermark for Latent Video Diffusion Models](https://arxiv.org/abs/2412.09122) — 2024-12-12
-- [Hidden in the Noise: Two-Stage Robust Watermarking for Images](https://arxiv.org/abs/2412.04653) — 2024-12-05
-- [The Efficacy of Transfer-based No-box Attacks on Image Watermarking: A Pragmatic Analysis](https://arxiv.org/abs/2412.02576) — 2024-12-03
-- [OmniGuard: Hybrid Manipulation Localization via Augmented Versatile Deep Image Watermarking](https://arxiv.org/abs/2412.01615) — 2024-12-02
-- [Watermark Anything with Localized Messages](https://arxiv.org/abs/2411.07231) — 2024-11-11
-- [Ideal Pseudorandom Codes](https://arxiv.org/abs/2411.05947) — 2024-11-08
-- [ROBIN: Robust and Invisible Watermarks for Diffusion Models with Adversarial Optimization](https://arxiv.org/abs/2411.03862) — 2024-11-06
-- [GaussianMarker: Uncertainty-Aware Copyright Protection of 3D Gaussian Splatting](https://arxiv.org/abs/2410.23718) — 2024-10-31
-- [Shallow Diffuse: Robust and Invisible Watermarking through Low-Dimensional Subspaces in Diffusion Models](https://arxiv.org/abs/2410.21088) — 2024-10-28
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 36 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [Observation-Level Watermarking and Detection for Tabular Data](https://arxiv.org/abs/2607.10554) — 2026-07-12
-- [BiSLW: Bi-Spectral Latent Watermarking for Generative Diffusion Models](https://arxiv.org/abs/2607.02643) — 2026-07-02
-- [Cert-LAS: Toward Certified Model Ownership Verification for Text-to-Image Diffusion Models via Layer-Adaptive Smoothing](https://arxiv.org/abs/2605.29809) — 2026-05-28
-- [LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models](https://arxiv.org/abs/2605.29569) — 2026-05-28
-- [Hidden in Plain Tokens: Simply Robust, Gradient-Free Watermark for Synthetic Audio](https://arxiv.org/abs/2605.25967) — 2026-05-25
-- [Removing the Watermark Is Not Enough: Forensic Stealth in Generative-AI Watermark Removal](https://arxiv.org/abs/2605.09203) — 2026-05-09
-- [CSGuard: Toward Forgery-Resistant Watermarking in Diffusion Models via Compressed Sensing Constraint](https://arxiv.org/abs/2605.01479) — 2026-05-02
-- [Dual-Guard: Dual-Channel Latent Watermarking for Provenance and Tamper Localization in Diffusion Images](https://arxiv.org/abs/2604.19090) — 2026-04-21
-- [Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication](https://arxiv.org/abs/2603.26167) — 2026-03-27
-- [High-Fidelity Face Content Recovery via Tamper-Resilient Versatile Watermarking](https://arxiv.org/abs/2603.23940) — 2026-03-25
-- [The Orthogonal Vulnerabilities of Generative AI Watermarks: A Comparative Empirical Benchmark of Spatial and Latent Provenance](https://arxiv.org/abs/2603.10323) — 2026-03-11
-- [OSI: One-step Inversion Excels in Extracting Diffusion Watermarks](https://arxiv.org/abs/2602.09494) — 2026-02-10
-- [ALIEN: Analytic Latent Watermarking for Controllable Generation](https://arxiv.org/abs/2602.06101) — 2026-02-05
-- [SemBind: Binding Diffusion Watermarks to Semantics Against Black-Box Forgery Attacks](https://arxiv.org/abs/2601.20310) — 2026-01-28
-- [Learning to Watermark in the Latent Space of Generative Models](https://arxiv.org/abs/2601.16140) — 2026-01-22
-- [LR-DWM: Efficient Watermarking for Diffusion Language Models](https://arxiv.org/abs/2601.12376) — 2026-01-18
-- [SPDMark: Selective Parameter Displacement for Robust Video Watermarking](https://arxiv.org/abs/2512.12090) — 2025-12-12
-- [HMARK: Radioactive Multi-Bit Semantic-Latent Watermarking for Diffusion Models](https://arxiv.org/abs/2512.00094) — 2025-11-26
-- [OptMark: Robust Multi-bit Diffusion Watermarking via Inference Time Optimization](https://arxiv.org/abs/2508.21727) — 2025-08-29
-- [MaXsive: High-Capacity and Robust Training-Free Generative Image Watermarking in Diffusion Models](https://arxiv.org/abs/2507.21195) — 2025-07-28
-- [KGMark: A Diffusion Watermark for Knowledge Graphs](https://arxiv.org/abs/2505.23873) — 2025-05-29
-- [Forging and Removing Latent-Noise Diffusion Watermarks Using a Single Image](https://arxiv.org/abs/2504.20111) — 2025-04-27
-- [Gaussian Shading++: Rethinking the Realistic Deployment Challenge of Performance-Lossless Image Watermark for Diffusion Models](https://arxiv.org/abs/2504.15026) — 2025-04-21
-- [Image Watermarking of Generative Diffusion Models](https://arxiv.org/abs/2502.10465) — 2025-02-12
-- [LVMark: Robust Watermark for Latent Video Diffusion Models](https://arxiv.org/abs/2412.09122) — 2024-12-12
-- [Ideal Pseudorandom Codes](https://arxiv.org/abs/2411.05947) — 2024-11-08
-- [Plug-and-Hide: Provable and Adjustable Diffusion Generative Steganography](https://arxiv.org/abs/2409.04878) — 2024-09-07
-- [Latent Watermarking of Audio Generative Models](https://arxiv.org/abs/2409.02915) — 2024-09-04
-- [WMAdapter: Adding WaterMark Control to Latent Diffusion Models](https://arxiv.org/abs/2406.08337) — 2024-06-12
-- [RingID: Rethinking Tree-Ring Watermarking for Enhanced Multi-Key Identification](https://arxiv.org/abs/2404.14055) — 2024-04-22
-- [Gaussian Shading: Provable Performance-Lossless Image Watermarking for Diffusion Models](https://arxiv.org/abs/2404.04956) — 2024-04-07
-- [Latent Watermark: Inject and Detect Watermarks in Latent Diffusion Space](https://arxiv.org/abs/2404.00230) — 2024-03-30
-- [ProMark: Proactive Diffusion Watermarking for Causal Attribution](https://arxiv.org/abs/2403.09914) — 2024-03-14
-- [WAVES: Benchmarking the Robustness of Image Watermarks](https://arxiv.org/abs/2401.08573) — 2024-01-16
-- [OVLA: Neural Network Ownership Verification using Latent Watermarks](https://arxiv.org/abs/2306.13215) — 2023-06-15
-- [ReDMark: Framework for Residual Diffusion Watermarking on Deep Networks](https://arxiv.org/abs/1810.07248) — 2018-10-16
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 100 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- [ChainMark: Model-Free LLM Watermarking with Closed-Form Calibration](https://arxiv.org/abs/2607.18445) — 2026-07-20
-- [SSTMark: Robust Training-Free Semantic-Level Speech Watermarking](https://arxiv.org/abs/2607.17592) — 2026-07-20
-- [AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation](https://arxiv.org/abs/2607.16010) — 2026-07-17
-- [WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency](https://arxiv.org/abs/2607.13099) — 2026-07-14
-- [Toward Stronger Code Watermarking: A Grammar-Driven Approach to Optimizing the Trade-off Between Quality and Detectability](https://arxiv.org/abs/2607.10210) — 2026-07-11
-- [A Survey on LLM Watermarking: Theory and Deployment](https://arxiv.org/abs/2607.10103) — 2026-07-11
-- [Beyond Heuristic Tuning: Power-Calibrated LLM Watermarking](https://arxiv.org/abs/2607.05694) — 2026-07-06
-- [Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings](https://arxiv.org/abs/2606.31602) — 2026-06-30
-- [CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking](https://arxiv.org/abs/2606.24163) — 2026-06-23
-- [Linguistics-Aware Non-Distortionary LLM Watermarking](https://arxiv.org/abs/2606.00613) — 2026-05-30
-- [AliMark: Enhancing Robustness of Sentence-Level Watermarking Against Text Paraphrasing](https://arxiv.org/abs/2605.29434) — 2026-05-28
-- [Blind PRNG Hijacking: An Undetectable Integrity-Preserving Attack Against LLM Watermarking](https://arxiv.org/abs/2605.28632) — 2026-05-27
-- [SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness](https://arxiv.org/abs/2605.25796) — 2026-05-25
-- [Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection](https://arxiv.org/abs/2605.23175) — 2026-05-22
-- [Covert Multi-bit LLM Watermarking: An Information Theory and Coding Approach](https://arxiv.org/abs/2605.16709) — 2026-05-15
-- [TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection](https://arxiv.org/abs/2605.12456) — 2026-05-12
-- [Every Bit, Everywhere, All at Once: A Binomial Multibit LLM Watermark](https://arxiv.org/abs/2605.11653) — 2026-05-12
-- [Sequential Behavioral Watermarking for LLM Agents](https://arxiv.org/abs/2605.11036) — 2026-05-11
-- [Vaporizer: Breaking Watermarking Schemes for Large Language Model Outputs](https://arxiv.org/abs/2605.07481) — 2026-05-08
-- [Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks](https://arxiv.org/abs/2605.05503) — 2026-05-06
-- [SLAM: Structural Linguistic Activation Marking for Language Models](https://arxiv.org/abs/2605.05443) — 2026-05-06
-- [SWAN: Semantic Watermarking with Abstract Meaning Representation](https://arxiv.org/abs/2605.04305) — 2026-05-05
-- [Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking](https://arxiv.org/abs/2605.00348) — 2026-05-01
-- [VOW: Verifiable and Oblivious Watermark Detection for Large Language Models](https://arxiv.org/abs/2604.27666) — 2026-04-30
-- [SSG: Logit-Balanced Vocabulary Partitioning for LLM Watermarking](https://arxiv.org/abs/2604.22438) — 2026-04-24
-- [SIF: Semantically In-Distribution Fingerprints for Large Vision-Language Models](https://arxiv.org/abs/2604.17041) — 2026-04-18
-- [RLSpoofer: A Lightweight Evaluator for LLM Watermark Spoofing Resilience](https://arxiv.org/abs/2604.11546) — 2026-04-13
-- [Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models](https://arxiv.org/abs/2604.10893) — 2026-04-13
-- [XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts](https://arxiv.org/abs/2604.05242) — 2026-04-06
-- [Rethinking LLM Watermark Detection in Black-Box Settings: A Non-Intrusive Third-Party Framework](https://arxiv.org/abs/2603.14968) — 2026-03-16
-- [On Google's SynthID-Text LLM Watermarking System: Theoretical Analysis and Empirical Validation](https://arxiv.org/abs/2603.03410) — 2026-03-03
-- [Online LLM watermark detection via e-processes](https://arxiv.org/abs/2602.14286) — 2026-02-15
-- [Overview of PAN 2026: Voight-Kampff Generative AI Detection, Text Watermarking, Multi-Author Writing Style Analysis, Generative Plagiarism Detection, and Reasoning Trajectory Detection](https://arxiv.org/abs/2602.09147) — 2026-02-09
-- [On Protecting Agentic Systems' Intellectual Property via Watermarking](https://arxiv.org/abs/2602.08401) — 2026-02-09
-- [ArcMark: Distortion-Free Multi-Byte LLM Watermark via Optimal Transport](https://arxiv.org/abs/2602.07235) — 2026-02-06
-- [A Unified Framework for LLM Watermarks](https://arxiv.org/abs/2602.06754) — 2026-02-06
-- [WorldCup Sampling for Multi-bit LLM Watermarking](https://arxiv.org/abs/2602.01752) — 2026-02-02
-- [MirrorMark: Generalizable Mirrored Sampling for Multi-bit LLM Watermarking](https://arxiv.org/abs/2601.22246) — 2026-01-29
-- [Semantic Differentiation for Tackling Challenges in Watermarking Low-Entropy Constrained Generation Outputs](https://arxiv.org/abs/2601.11629) — 2026-01-14
-- [BanglaLorica: Design and Evaluation of a Robust Watermarking Algorithm for Large Language Models in Bangla Text Generation](https://arxiv.org/abs/2601.04534) — 2026-01-08
-- [How Good is Post-Hoc Watermarking With Language Model Rephrasing?](https://arxiv.org/abs/2512.16904) — 2025-12-18
-- [DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack](https://arxiv.org/abs/2512.16182) — 2025-12-18
-- [Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models](https://arxiv.org/abs/2512.13325) — 2025-12-15
-- [Improved Pseudorandom Codes from Permuted Puzzles](https://arxiv.org/abs/2512.08918) — 2025-12-09
-- [MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking](https://arxiv.org/abs/2512.04044) — 2025-12-03
-- [WaterSearch: Exploring Seed Pooling for Improving the Quality-Detectability Trade-off in LLM Watermarking](https://arxiv.org/abs/2512.00837) — 2025-11-30
-- [WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking](https://arxiv.org/abs/2511.07863) — 2025-11-11
-- [Adaptive Testing for Segmenting Watermarked Texts From Language Models](https://arxiv.org/abs/2511.06645) — 2025-11-10
-- [Watermarking Large Language Models in Europe: Interpreting the AI Act in Light of Technology](https://arxiv.org/abs/2511.03641) — 2025-11-05
-- [PVMark: Enabling Public Verifiability for LLM Watermarking Schemes](https://arxiv.org/abs/2510.26274) — 2025-10-30
-- [PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs](https://arxiv.org/abs/2510.23891) — 2025-10-27
-- [Optimal Detection for Language Watermarks with Pseudorandom Collision](https://arxiv.org/abs/2510.22007) — 2025-10-24
-- [A Reinforcement Learning Framework for Robust and Secure LLM Watermarking](https://arxiv.org/abs/2510.21053) — 2025-10-23
-- [Position: LLM Watermarking Should Align Stakeholders' Incentives for Practical Adoption](https://arxiv.org/abs/2510.18333) — 2025-10-21
-- [Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation](https://arxiv.org/abs/2510.18019) — 2025-10-20
-- [Watermark Robustness and Radioactivity May Be at Odds in Federated Learning](https://arxiv.org/abs/2510.17033) — 2025-10-19
-- [EditMark: Watermarking Large Language Models based on Model Editing](https://arxiv.org/abs/2510.16367) — 2025-10-18
-- [DITTO: A Spoofing Attack Framework on Watermarked LLMs via Knowledge Distillation](https://arxiv.org/abs/2510.10987) — 2025-10-13
-- [A Linguistics-Aware LLM Watermarking via Syntactic Predictability](https://arxiv.org/abs/2510.13829) — 2025-10-10
-- [On the Empirical Power of Goodness-of-Fit Tests in Watermark Detection](https://arxiv.org/abs/2510.03944) — 2025-10-04
-- [PRIVMARK: Private Large Language Models Watermarking with MPC](https://arxiv.org/abs/2509.24624) — 2025-09-29
-- [Analyzing and Evaluating Unbiased Language Model Watermark](https://arxiv.org/abs/2509.24048) — 2025-09-28
-- [An Ensemble Framework for Unbiased Language Model Watermarking](https://arxiv.org/abs/2509.24043) — 2025-09-28
-- [LLM Watermark Evasion via Bias Inversion](https://arxiv.org/abs/2509.23019) — 2025-09-27
-- [Fast segmentation of watermarked texts from large language models through an epidemic change-point framework](https://arxiv.org/abs/2509.21160) — 2025-09-25
-- [RLCracker: Evaluating the Worst-Case Vulnerability of LLM Watermarks with Adaptive RL Attacks](https://arxiv.org/abs/2509.20924) — 2025-09-25
-- [Character-Level Perturbations Disrupt LLM Watermarks](https://arxiv.org/abs/2509.09112) — 2025-09-11
-- [Factuality Beyond Coherence: Evaluating LLM Watermarking Methods for Medical Texts](https://arxiv.org/abs/2509.07755) — 2025-09-09
-- [Robustness Assessment and Enhancement of Text Watermarking for Google's SynthID](https://arxiv.org/abs/2508.20228) — 2025-08-27
-- [Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends](https://arxiv.org/abs/2508.11548) — 2025-08-15
-- [SAEMark: Steering Personalized Multilingual LLM Watermarks with Sparse Autoencoders](https://arxiv.org/abs/2508.08211) — 2025-08-11
-- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067) — 2025-07-18
-- [Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks](https://arxiv.org/abs/2507.06274) — 2025-07-08
-- [CoreMark: Toward Robust and Universal Text Watermarking Technique](https://arxiv.org/abs/2506.23066) — 2025-06-29
-- [Optimal Estimation of Watermark Proportions in Hybrid AI-Human Texts](https://arxiv.org/abs/2506.22343) — 2025-06-27
-- [BiMark: Unbiased Multilayer Watermarking for Large Language Models](https://arxiv.org/abs/2506.21602) — 2025-06-19
-- [Watermarking Autoregressive Image Generation](https://arxiv.org/abs/2506.16349) — 2025-06-19
-- [Multi-use LLM Watermarking and the False Detection Problem](https://arxiv.org/abs/2506.15975) — 2025-06-19
-- [LexiMark: Robust Watermarking via Lexical Substitutions to Enhance Membership Verification of an LLM's Textual Training Data](https://arxiv.org/abs/2506.14474) — 2025-06-17
-- [HeavyWater and SimplexWater: Distortion-Free LLM Watermarks for Low-Entropy Next-Token Predictions](https://arxiv.org/abs/2506.06409) — 2025-06-06
-- [StealthInk: A Multi-bit and Stealthy Watermark for Large Language Models](https://arxiv.org/abs/2506.05502) — 2025-06-05
-- [Invisible Entropy: Towards Safe and Efficient Low-Entropy LLM Watermarking](https://arxiv.org/abs/2505.14112) — 2025-05-20
-- [Optimized Couplings for Watermarking Large Language Models](https://arxiv.org/abs/2505.08878) — 2025-05-13
-- [LLM-Text Watermarking based on Lagrange Interpolation](https://arxiv.org/abs/2505.05712) — 2025-05-09
-- [Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks](https://arxiv.org/abs/2505.05190) — 2025-05-08
-- [WaterDrum: Watermarking for Data-centric Unlearning Metric](https://arxiv.org/abs/2505.05064) — 2025-05-08
-- [An End-to-End Model for Logits-Based Large Language Models Watermarking](https://arxiv.org/abs/2505.02344) — 2025-05-05
-- [LLM Watermarking Using Mixtures and Statistical-to-Computational Gaps](https://arxiv.org/abs/2505.01484) — 2025-05-02
-- [Unified attacks to large language model watermarks: spoofing and scrubbing in unauthorized knowledge distillation](https://arxiv.org/abs/2504.17480) — 2025-04-24
-- [Watermarking Needs Input Repetition Masking](https://arxiv.org/abs/2504.12229) — 2025-04-16
-- [Defending LLM Watermarking Against Spoofing Attacks with Contrastive Representation Learning](https://arxiv.org/abs/2504.06575) — 2025-04-09
-- [Can you Finetune your Binoculars? Embedding Text Watermarks into the Weights of Large Language Models](https://arxiv.org/abs/2504.06446) — 2025-04-08
-- [Agent Guide: A Simple Agent Behavioral Watermarking Framework](https://arxiv.org/abs/2504.05871) — 2025-04-08
-- [FontGuard: A Robust Font Watermarking Approach Leveraging Deep Font Knowledge](https://arxiv.org/abs/2504.03128) — 2025-04-04
-- [RoSMM: A Robust and Secure Multi-Modal Watermarking Framework for Diffusion Models](https://arxiv.org/abs/2504.02640) — 2025-04-03
-- [Is Your Writing Being Mimicked by AI? Unveiling Imitation with Invisible Watermarks in Creative Writing](https://arxiv.org/abs/2504.00035) — 2025-03-30
-- [CEFW: A Comprehensive Evaluation Framework for Watermark in Large Language Models](https://arxiv.org/abs/2503.20802) — 2025-03-24
-- [Breaking Distortion-free Watermarks in Large Language Models](https://arxiv.org/abs/2502.18608) — 2025-02-25
-- [Detecting Benchmark Contamination Through Watermarking](https://arxiv.org/abs/2502.17259) — 2025-02-24
-- [Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations](https://arxiv.org/abs/2502.16699) — 2025-02-23
+- [Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts](https://arxiv.org/abs/2607.20462) — 2026-05-16
+- [Making Open-Source Text LLM Watermarks Durable Against Merging](https://arxiv.org/abs/2607.20435) — 2026-05-11
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 100 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Synchronization-Free Algebraic Fingerprints for Large Language Models: From Autoregressive to Diffusion Models](https://arxiv.org/abs/2607.16648) — 2026-07-18
-- [modelDNA: Calibrated Lineage Verification and Merge Decomposition from Sampled Weight Fingerprints](https://arxiv.org/abs/2607.10617) — 2026-07-12
-- [Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies](https://arxiv.org/abs/2607.06963) — 2026-07-08
-- [Cyclic Denoising Reveals Ultrastable Memories in Diffusion Models](https://arxiv.org/abs/2606.24000) — 2026-06-22
-- [What Your Model Threw Away and Why You'll Want It Back: Masking, Fingerprinting, and Privacy from Discarded Geometry](https://arxiv.org/abs/2607.13046) — 2026-06-17
-- [Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models](https://arxiv.org/abs/2606.12977) — 2026-06-11
-- [T2S: A Rehearsal-Based Approach for Extraction-Resistant Model Watermarking](https://arxiv.org/abs/2606.11698) — 2026-06-10
-- [Characterizing Detectability in 3DGS Poisoning: A Stage-wise Benchmark](https://arxiv.org/abs/2606.03499) — 2026-06-02
-- [Cert-LAS: Toward Certified Model Ownership Verification for Text-to-Image Diffusion Models via Layer-Adaptive Smoothing](https://arxiv.org/abs/2605.29809) — 2026-05-28
-- [Findings of the Counter Turing Test: AI-Generated Image Detection](https://arxiv.org/abs/2605.20787) — 2026-05-20
-- [Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks](https://arxiv.org/abs/2605.05503) — 2026-05-06
-- [CSGuard: Toward Forgery-Resistant Watermarking in Diffusion Models via Compressed Sensing Constraint](https://arxiv.org/abs/2605.01479) — 2026-05-02
-- [The Surprising Universality of LLM Outputs: A Real-Time Verification Primitive](https://arxiv.org/abs/2604.25634) — 2026-04-28
-- [AI Identification: An Integrated Framework for Sustainable Governance in Digital Enterprises](https://arxiv.org/abs/2604.10473) — 2026-04-12
-- [StoryScope: Investigating idiosyncrasies in AI fiction](https://arxiv.org/abs/2604.03136) — 2026-04-03
-- [Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication](https://arxiv.org/abs/2603.26167) — 2026-03-27
-- [IrisFP: Adversarial-Example-based Model Fingerprinting with Enhanced Uniqueness and Robustness](https://arxiv.org/abs/2603.24996) — 2026-03-26
-- [LiteGuard: Efficient Task-Agnostic Model Fingerprinting with Enhanced Generalization](https://arxiv.org/abs/2603.24982) — 2026-03-26
-- [Functional Subspace Watermarking for Large Language Models](https://arxiv.org/abs/2603.18793) — 2026-03-19
-- [Collaborative Threshold Watermarking](https://arxiv.org/abs/2602.10765) — 2026-02-11
-- [Origin Lens: A Privacy-First Mobile Framework for Cryptographic Image Provenance and AI Detection](https://arxiv.org/abs/2602.03423) — 2026-02-03
-- [Lossless Copyright Protection via Intrinsic Model Fingerprinting](https://arxiv.org/abs/2601.21252) — 2026-01-29
-- [Learning to Watermark in the Latent Space of Generative Models](https://arxiv.org/abs/2601.16140) — 2026-01-22
-- [Profiling German Text Simplification with Interpretable Model-Fingerprints](https://arxiv.org/abs/2601.13050) — 2026-01-19
-- [KinGuard: Hierarchical Kinship-Aware Fingerprinting to Defend Against Large Language Model Stealing](https://arxiv.org/abs/2601.12986) — 2026-01-19
-- [Decoder Gradient Shields: A Family of Provable and High-Fidelity Methods Against Gradient-Based Box-Free Watermark Removal](https://arxiv.org/abs/2601.11952) — 2026-01-17
-- [Semantic Differentiation for Tackling Challenges in Watermarking Low-Entropy Constrained Generation Outputs](https://arxiv.org/abs/2601.11629) — 2026-01-14
-- [DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack](https://arxiv.org/abs/2512.16182) — 2025-12-18
-- [ComMark: Covert and Robust Black-Box Model Watermarking with Compressed Samples](https://arxiv.org/abs/2512.15641) — 2025-12-16
-- [SPDMark: Selective Parameter Displacement for Robust Video Watermarking](https://arxiv.org/abs/2512.12090) — 2025-12-12
-- [Smudged Fingerprints: A Systematic Evaluation of the Robustness of AI Image Fingerprints](https://arxiv.org/abs/2512.11771) — 2025-12-12
-- [SEAL: Subspace-Anchored Watermarks for LLM Ownership](https://arxiv.org/abs/2511.11356) — 2025-11-14
-- [DeepTracer: Tracing Stolen Model via Deep Coupled Watermarks](https://arxiv.org/abs/2511.08985) — 2025-11-12
-- [Class-feature Watermark: A Resilient Black-box Watermark Against Model Extraction Attacks](https://arxiv.org/abs/2511.07947) — 2025-11-11
-- [Position: LLM Watermarking Should Align Stakeholders' Incentives for Practical Adoption](https://arxiv.org/abs/2510.18333) — 2025-10-21
-- [An Information Asymmetry Game for Trigger-based DNN Model Watermarking](https://arxiv.org/abs/2510.14218) — 2025-10-16
-- [Every Language Model Has a Forgery-Resistant Signature](https://arxiv.org/abs/2510.14086) — 2025-10-15
-- [The Hidden DNA of LLM-Generated JavaScript: Structural Patterns Enable High-Accuracy Authorship Attribution](https://arxiv.org/abs/2510.10493) — 2025-10-12
-- [Are Robust LLM Fingerprints Adversarially Robust?](https://arxiv.org/abs/2509.26598) — 2025-09-30
-- [PRIVMARK: Private Large Language Models Watermarking with MPC](https://arxiv.org/abs/2509.24624) — 2025-09-29
-- [Analyzing and Evaluating Unbiased Language Model Watermark](https://arxiv.org/abs/2509.24048) — 2025-09-28
-- [An Ensemble Framework for Unbiased Language Model Watermarking](https://arxiv.org/abs/2509.24043) — 2025-09-28
-- [Zero-Shot Visual Deepfake Detection: Can AI Predict and Prevent Fake Content Before It's Created?](https://arxiv.org/abs/2509.18461) — 2025-09-22
-- [Causal Fingerprints of AI Generative Models](https://arxiv.org/abs/2509.15406) — 2025-09-18
-- [Poison to Detect: Detection of Targeted Overfitting in Federated Learning](https://arxiv.org/abs/2509.11974) — 2025-09-15
-- [CTCC: A Robust and Stealthy Fingerprinting Framework for Large Language Models via Cross-Turn Contextual Correlation Backdoor](https://arxiv.org/abs/2509.09703) — 2025-09-05
-- [From Construction to Injection: Edit-Based Fingerprints for Large Language Models](https://arxiv.org/abs/2509.03122) — 2025-09-03
-- [Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends](https://arxiv.org/abs/2508.11548) — 2025-08-15
-- [Removing Box-Free Watermarks for Image-to-Image Models via Query-Based Reverse Engineering](https://arxiv.org/abs/2507.18034) — 2025-07-24
-- [Hashed Watermark as a Filter: Defeating Forging and Overwriting Attacks in Weight-based Neural Network Watermarking](https://arxiv.org/abs/2507.11137) — 2025-07-15
-- [Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice](https://arxiv.org/abs/2507.05512) — 2025-07-07
-- [PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense Spatial Networks for Encrypted Lossy Image Reconstruction](https://arxiv.org/abs/2507.00230) — 2025-06-30
-- [Radioactive Watermarks in Diffusion and Autoregressive Image Generative Models](https://arxiv.org/abs/2506.23731) — 2025-06-30
-- [Riemannian-Geometric Fingerprints of Generative Models](https://arxiv.org/abs/2506.22802) — 2025-06-28
-- [Holmes: Towards Effective and Harmless Model Ownership Verification to Personalized Large Vision Models via Decoupling Common Features](https://arxiv.org/abs/2507.00724) — 2025-06-24
-- [Watermarking Autoregressive Image Generation](https://arxiv.org/abs/2506.16349) — 2025-06-19
-- [Gradient-Based Model Fingerprinting for LLM Similarity Detection and Family Classification](https://arxiv.org/abs/2506.01631) — 2025-06-02
-- [CHIP: Chameleon Hash-based Irreversible Passport for Robust Deep Model Ownership Verification and Active Usage Control](https://arxiv.org/abs/2505.24536) — 2025-05-30
-- [MUSE: Model-Agnostic Tabular Watermarking via Multi-Sample Selection](https://arxiv.org/abs/2505.24267) — 2025-05-30
-- [RAFP: Identifying LLM Lineages via Rare-Region Fingerprints](https://arxiv.org/abs/2505.12682) — 2025-05-19
-- [An End-to-End Model for Logits-Based Large Language Models Watermarking](https://arxiv.org/abs/2505.02344) — 2025-05-05
-- [Towards the Resistance of Neural Network Watermarking to Fine-tuning](https://arxiv.org/abs/2505.01007) — 2025-05-02
-- [Unified attacks to large language model watermarks: spoofing and scrubbing in unauthorized knowledge distillation](https://arxiv.org/abs/2504.17480) — 2025-04-24
-- [Gaussian Shading++: Rethinking the Realistic Deployment Challenge of Performance-Lossless Image Watermark for Diffusion Models](https://arxiv.org/abs/2504.15026) — 2025-04-21
-- [ImF: Implicit Fingerprint for Large Language Models](https://arxiv.org/abs/2503.21805) — 2025-03-25
-- [Disrupting Model Merging: A Parameter-Level Defense Without Sacrificing Accuracy](https://arxiv.org/abs/2503.07661) — 2025-03-08
-- [Decoder Gradient Shield: Provable and High-Fidelity Prevention of Gradient-Based Box-Free Watermark Removal](https://arxiv.org/abs/2502.20924) — 2025-02-28
-- [Ten Challenging Problems in Federated Foundation Models](https://arxiv.org/abs/2502.12176) — 2025-02-14
-- [Dynamic watermarks in images generated by diffusion models](https://arxiv.org/abs/2502.08927) — 2025-02-13
-- [Image Watermarking of Generative Diffusion Models](https://arxiv.org/abs/2502.10465) — 2025-02-12
-- [Scalable Fingerprinting of Large Language Models](https://arxiv.org/abs/2502.07760) — 2025-02-11
-- [FIT-Print: Towards False-claim-resistant Model Ownership Verification via Targeted Fingerprint](https://arxiv.org/abs/2501.15509) — 2025-01-26
-- [Validation of GPU Computation in Decentralized, Trustless Networks](https://arxiv.org/abs/2501.05374) — 2025-01-09
-- [A Game Between the Defender and the Attacker for Trigger-based Black-box Model Watermarking](https://arxiv.org/abs/2501.01194) — 2025-01-02
-- [Sample Correlation for Fingerprinting Deep Face Recognition](https://arxiv.org/abs/2412.20768) — 2024-12-30
-- [Queries, Representation & Detection: The Next 100 Model Fingerprinting Schemes](https://arxiv.org/abs/2412.13021) — 2024-12-17
-- [Task-Agnostic Language Model Watermarking via High Entropy Passthrough Layers](https://arxiv.org/abs/2412.12563) — 2024-12-17
-- [BlockDoor: Blocking Backdoor Based Watermarks in Deep Neural Networks](https://arxiv.org/abs/2412.12194) — 2024-12-14
-- [Bounding-box Watermarking: Defense against Model Extraction Attacks on Object Detectors](https://arxiv.org/abs/2411.13047) — 2024-11-20
-- [Watermarking Visual Concepts for Diffusion Models](https://arxiv.org/abs/2411.11688) — 2024-11-18
-- [A Novel Access Control and Privacy-Enhancing Approach for Models in Edge Computing](https://arxiv.org/abs/2411.03847) — 2024-11-06
-- [OML: A Primitive for Reconciling Open Access with Owner Control in AI Model Distribution](https://arxiv.org/abs/2411.03887) — 2024-11-01
-- [DeepCore: Simple Fingerprint Construction for Differentiating Homologous and Piracy Models](https://arxiv.org/abs/2411.00380) — 2024-11-01
-- [Harmless Backdoor-based Client-side Watermarking in Federated Learning](https://arxiv.org/abs/2410.21179) — 2024-10-28
-- [An Efficient Watermarking Method for Latent Diffusion Models via Low-Rank Adaptation and Dynamic Loss Weighting](https://arxiv.org/abs/2410.20202) — 2024-10-26
-- [Aligned Datasets Improve Detection of Latent Diffusion-Generated Images](https://arxiv.org/abs/2410.11835) — 2024-10-15
-- [WAPITI: A Watermark for Finetuned Open-Source LLMs](https://arxiv.org/abs/2410.06467) — 2024-10-09
-- [Towards Understanding and Enhancing Security of Proof-of-Training for DNN Model Ownership Verification](https://arxiv.org/abs/2410.04397) — 2024-10-06
-- [Discovering Spoofing Attempts on Language Model Watermarks](https://arxiv.org/abs/2410.02693) — 2024-10-03
-- [Trigger-Based Fragile Model Watermarking for Image Transformation Networks](https://arxiv.org/abs/2409.19442) — 2024-09-28
-- [Protecting Copyright of Medical Pre-trained Language Models: Training-Free Backdoor Model Watermarking](https://arxiv.org/abs/2409.10570) — 2024-09-14
-- [Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition](https://arxiv.org/abs/2409.08846) — 2024-09-13
-- [On the Weaknesses of Backdoor-based Model Watermarking: An Information-theoretic Perspective](https://arxiv.org/abs/2409.06130) — 2024-09-10
-- [Plug-and-Hide: Provable and Adjustable Diffusion Generative Steganography](https://arxiv.org/abs/2409.04878) — 2024-09-07
-- [WaterMAS: Sharpness-Aware Maximization for Neural Network Watermarking](https://arxiv.org/abs/2409.03902) — 2024-09-05
-- [Agentic Copyright Watermarking against Adversarial Evidence Forgery with Purification-Agnostic Curriculum Proxy Learning](https://arxiv.org/abs/2409.01541) — 2024-09-03
-- [Are handcrafted filters helpful for attributing AI-generated images?](https://arxiv.org/abs/2407.14570) — 2024-07-19
-- [Watermarking Recommender Systems](https://arxiv.org/abs/2407.21034) — 2024-07-17
-- [Building Intelligence Identification System via Large Language Model Watermarking: A Survey and Beyond](https://arxiv.org/abs/2407.11100) — 2024-07-15
-- [GROOT: Generating Robust Watermark for Diffusion-Model-Based Audio Synthesis](https://arxiv.org/abs/2407.10471) — 2024-07-15
+- No new papers today.
 
 </details>
 
@@ -539,7 +208,7 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**100 papers · newest first**
+**102 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
@@ -557,9 +226,11 @@ Papers first indexed during today's update, grouped by category.
 | **Blind PRNG Hijacking: An Undetectable Integrity-Preserving Attack Against LLM Watermarking**<br><sub>Ziyang You, Huilong He, Xiaoke Yang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Blind PRNG Hijacking: An Undetectable Integrity-Preserving Attack Against LLM Watermarking" src="https://arxiv.org/html/2605.28632v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.28632)<br>[PDF](https://arxiv.org/pdf/2605.28632)<br>`2605.28632` |
 | **SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness**<br><sub>Jiahao Huo, Wenjie Qu, Yibo Yan et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness" src="https://arxiv.org/html/2605.25796v3/figures/samark_fig1_v3.jpg"> | [Paper](https://arxiv.org/abs/2605.25796)<br>[PDF](https://arxiv.org/pdf/2605.25796)<br>`2605.25796` |
 | **Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection**<br><sub>Kieu Dang, Phung Lai, NhatHai Phan et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2605.23175)<br>[PDF](https://arxiv.org/pdf/2605.23175)<br>`2605.23175` |
+| **Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts**<br><sub>Melanie Rieff, Robin Staab, Thibaud Gloaguen et al.</sub> | arXiv · cs.AI<br>**2026** | <img width="400" alt="Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts" src="https://arxiv.org/html/2607.20462/2607.20462v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.20462)<br>[PDF](https://arxiv.org/pdf/2607.20462)<br>`2607.20462` |
 | **Covert Multi-bit LLM Watermarking: An Information Theory and Coding Approach**<br><sub>Sidong Guo, Tyler Kann, Teodora Baluta et al.</sub> | arXiv · cs.IT<br>**2026** | <img width="400" alt="Covert Multi-bit LLM Watermarking: An Information Theory and Coding Approach" src="https://arxiv.org/html/2605.16709v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.16709)<br>[PDF](https://arxiv.org/pdf/2605.16709)<br>`2605.16709` |
 | **TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection**<br><sub>Tom Sander, Hongyan Chang, Tomáš Souček et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="TextSeal: A Localized LLM Watermark for Provenance &amp; Distillation Protection" src="https://arxiv.org/html/2605.12456v2/x1.png"> | [Paper](https://arxiv.org/abs/2605.12456)<br>[PDF](https://arxiv.org/pdf/2605.12456)<br>`2605.12456` |
 | **Every Bit, Everywhere, All at Once: A Binomial Multibit LLM Watermark**<br><sub>Thibaud Gloaguen, Robin Staab, Mark Vero et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Every Bit, Everywhere, All at Once: A Binomial Multibit LLM Watermark" src="https://arxiv.org/html/2605.11653v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.11653)<br>[PDF](https://arxiv.org/pdf/2605.11653)<br>`2605.11653` |
+| **Making Open-Source Text LLM Watermarks Durable Against Merging**<br><sub>Luisa Scharff, Thibaud Gloaguen, Robin Staab et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Making Open-Source Text LLM Watermarks Durable Against Merging" src="https://arxiv.org/html/2607.20435/2607.20435v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.20435)<br>[PDF](https://arxiv.org/pdf/2607.20435)<br>`2607.20435` |
 | **Sequential Behavioral Watermarking for LLM Agents**<br><sub>Hyeseon An, Shinwoo Park, Dongsu Kim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Sequential Behavioral Watermarking for LLM Agents" src="https://arxiv.org/html/2605.11036v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.11036)<br>[PDF](https://arxiv.org/pdf/2605.11036)<br>`2605.11036` |
 | **Vaporizer: Breaking Watermarking Schemes for Large Language Model Outputs**<br><sub>Jonathan Hong Jin Ng, Anh Tu Ngo, Anupam Chattopadhyay</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Vaporizer: Breaking Watermarking Schemes for Large Language Model Outputs" src="https://arxiv.org/html/2605.07481v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.07481)<br>[PDF](https://arxiv.org/pdf/2605.07481)<br>`2605.07481` |
 | **Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks**<br><sub>Mohd Ruhul Ameen, Akif Islam, Nadim Mahmud et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks" src="https://arxiv.org/html/2605.05503v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.05503)<br>[PDF](https://arxiv.org/pdf/2605.05503)<br>`2605.05503` |
