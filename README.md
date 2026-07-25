@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 102 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 100 papers
 
-## Today's additions · 2026-07-24
+## Today's additions · 2026-07-25
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,10 +32,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts](https://arxiv.org/abs/2607.20462) — 2026-05-16
-- [Making Open-Source Text LLM Watermarks Durable Against Merging](https://arxiv.org/abs/2607.20435) — 2026-05-11
+- No new papers today.
 
 </details>
 
