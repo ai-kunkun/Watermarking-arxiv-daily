@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 102 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 100 papers
 
-## Today's additions · 2026-07-25
+## Today's additions · 2026-07-26
 
 Papers first indexed during today's update, grouped by category.
 
