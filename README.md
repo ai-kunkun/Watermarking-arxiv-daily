@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-07-24 16:41 CST &nbsp; · &nbsp; **Indexed:** 308 unique papers
+**Last updated:** 2026-07-28 13:59 CST &nbsp; · &nbsp; **Indexed:** 310 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 100 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 36 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 102 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 100 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-07-26
+## Today's additions · 2026-07-28
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes](https://arxiv.org/abs/2607.21958) — 2026-07-24
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [NWaaS: A Non-Intrusive and Privacy-Preserving Watermarking-as-a-Service System with Adaptive Resource Scheduling](https://arxiv.org/abs/2507.18036) — 2025-07-24
 
 </details>
 
@@ -207,10 +207,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**102 papers · newest first**
+**103 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes**<br><sub>Lu Luo, Dandan Mo, Chengdong Xu et al.</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes" src="https://arxiv.org/html/2607.21958/2607.21958v1/flow_chart.png"> | [Paper](https://arxiv.org/abs/2607.21958)<br>[PDF](https://arxiv.org/pdf/2607.21958)<br>`2607.21958` |
 | **ChainMark: Model-Free LLM Watermarking with Closed-Form Calibration**<br><sub>Chengheng Li-Chen, Kyuhee Kim</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="ChainMark: Model-Free LLM Watermarking with Closed-Form Calibration" src="https://arxiv.org/html/2607.18445v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.18445)<br>[PDF](https://arxiv.org/pdf/2607.18445)<br>`2607.18445` |
 | **SSTMark: Robust Training-Free Semantic-Level Speech Watermarking**<br><sub>Kuan-Lin Chu, Jun-Cheng Chen, Chun-Shien Lu</sub> | arXiv · cs.SD<br>**2026** | <img width="400" alt="SSTMark: Robust Training-Free Semantic-Level Speech Watermarking" src="https://arxiv.org/html/2607.17592v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.17592)<br>[PDF](https://arxiv.org/pdf/2607.17592)<br>`2607.17592` |
 | **AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation**<br><sub>Saifur Rahman Tamim, Amir Labib Khan</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation" src="https://arxiv.org/html/2607.16010v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.16010)<br>[PDF](https://arxiv.org/pdf/2607.16010)<br>`2607.16010` |
@@ -316,7 +317,7 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**100 papers · newest first**
+**101 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
@@ -364,10 +365,11 @@ Papers first indexed during today's update, grouped by category.
 | **An Ensemble Framework for Unbiased Language Model Watermarking**<br><sub>Yihan Wu, Ruibo Chen, Georgios Milis et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="An Ensemble Framework for Unbiased Language Model Watermarking" src="https://arxiv.org/html/2509.24043/x1.png"> | [Paper](https://arxiv.org/abs/2509.24043)<br>[PDF](https://arxiv.org/pdf/2509.24043)<br>`2509.24043` |
 | **Zero-Shot Visual Deepfake Detection: Can AI Predict and Prevent Fake Content Before It's Created?**<br><sub>Ayan Sar, Sampurna Roy, Tanupriya Choudhury et al.</sub> | Foundations and Trends in Signal Processing (2025)<br>**2025** | <img width="400" alt="Zero-Shot Visual Deepfake Detection: Can AI Predict and Prevent Fake Content Before It&#x27;s Created?" src="https://arxiv.org/html/2509.18461/Figures/DeepfakeGeneration+Detection.jpg"> | [Paper](https://arxiv.org/abs/2509.18461)<br>[PDF](https://arxiv.org/pdf/2509.18461)<br>`2509.18461` |
 | **Causal Fingerprints of AI Generative Models**<br><sub>Hui Xu, Chi Liu, Congcong Zhu et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Causal Fingerprints of AI Generative Models" src="https://arxiv.org/html/2509.15406v2/x1.png"> | [Paper](https://arxiv.org/abs/2509.15406)<br>[PDF](https://arxiv.org/pdf/2509.15406)<br>`2509.15406` |
-| **Poison to Detect: Detection of Targeted Overfitting in Federated Learning**<br><sub>Soumia Zohra El Mestari, Maciej Krzysztof Zuziak, Gabriele Lenzini</sub> | Proceedings on Privacy Enhancing Technologies (PoPETs), 2026<br>**2026** | <img width="400" alt="Poison to Detect: Detection of Targeted Overfitting in Federated Learning" src="https://arxiv.org/html/2509.11974v2/images/Targeted_Overfitting_Diagram.png"> | [Paper](https://arxiv.org/abs/2509.11974)<br>[PDF](https://arxiv.org/pdf/2509.11974)<br>`2509.11974` |
+| **Poison to Detect: Detection of Targeted Overfitting in Federated Learning**<br><sub>Soumia Zohra El Mestari, Maciej Krzysztof Zuziak, Gabriele Lenzini</sub> | Proceedings on Privacy Enhancing Technologies 2026(4), 480-506<br>**2026** | <img width="400" alt="Poison to Detect: Detection of Targeted Overfitting in Federated Learning" src="https://arxiv.org/html/2509.11974v2/images/Targeted_Overfitting_Diagram.png"> | [Paper](https://arxiv.org/abs/2509.11974)<br>[PDF](https://arxiv.org/pdf/2509.11974)<br>`2509.11974` |
 | **CTCC: A Robust and Stealthy Fingerprinting Framework for Large Language Models via Cross-Turn Contextual Correlation Backdoor**<br><sub>Zhenhua Xu, Xixiang Zhao, Xubin Yue et al.</sub> | arXiv · cs.CL<br>**2025** | <img width="400" alt="CTCC: A Robust and Stealthy Fingerprinting Framework for Large Language Models via Cross-Turn Contextual Correlation Backdoor" src="https://arxiv.org/html/2509.09703/latex/figures/teaser.png"> | [Paper](https://arxiv.org/abs/2509.09703)<br>[PDF](https://arxiv.org/pdf/2509.09703)<br>`2509.09703` |
 | **From Construction to Injection: Edit-Based Fingerprints for Large Language Models**<br><sub>Yue Li, Xin Yi, Dongsheng Shi et al.</sub> | arXiv · cs.CL<br>**2025** | <img width="400" alt="From Construction to Injection: Edit-Based Fingerprints for Large Language Models" src="https://arxiv.org/html/2509.03122v4/x1.png"> | [Paper](https://arxiv.org/abs/2509.03122)<br>[PDF](https://arxiv.org/pdf/2509.03122)<br>`2509.03122` |
 | **Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends**<br><sub>Zhenhua Xu, Xubin Yue, Zhebo Wang et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends" src="https://arxiv.org/html/2508.11548v2/figures/text_watermark.png"> | [Paper](https://arxiv.org/abs/2508.11548)<br>[PDF](https://arxiv.org/pdf/2508.11548)<br>`2508.11548` |
+| **NWaaS: A Non-Intrusive and Privacy-Preserving Watermarking-as-a-Service System with Adaptive Resource Scheduling**<br><sub>Haonan An, Qianyao Ren, Guang Hua et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="NWaaS: A Non-Intrusive and Privacy-Preserving Watermarking-as-a-Service System with Adaptive Resource Scheduling" src="https://arxiv.org/html/2507.18036/2507.18036v2/x1.png"> | [Paper](https://arxiv.org/abs/2507.18036)<br>[PDF](https://arxiv.org/pdf/2507.18036)<br>`2507.18036` |
 | **Removing Box-Free Watermarks for Image-to-Image Models via Query-Based Reverse Engineering**<br><sub>Haonan An, Guang Hua, Hangcheng Cao et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Removing Box-Free Watermarks for Image-to-Image Models via Query-Based Reverse Engineering" src="https://arxiv.org/html/2507.18034/x1.png"> | [Paper](https://arxiv.org/abs/2507.18034)<br>[PDF](https://arxiv.org/pdf/2507.18034)<br>`2507.18034` |
 | **Hashed Watermark as a Filter: Defeating Forging and Overwriting Attacks in Weight-based Neural Network Watermarking**<br><sub>Yuan Yao, Jin Song, Jian Jin</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Hashed Watermark as a Filter: Defeating Forging and Overwriting Attacks in Weight-based Neural Network Watermarking" src="https://arxiv.org/html/2507.11137/x1.png"> | [Paper](https://arxiv.org/abs/2507.11137)<br>[PDF](https://arxiv.org/pdf/2507.11137)<br>`2507.11137` |
 | **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**<br><sub>Gehao Zhang, Eugene Bagdasarian, Juan Zhai et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice" src="https://arxiv.org/html/2507.05512/x1.png"> | [Paper](https://arxiv.org/abs/2507.05512)<br>[PDF](https://arxiv.org/pdf/2507.05512)<br>`2507.05512` |

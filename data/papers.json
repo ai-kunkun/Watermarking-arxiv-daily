@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-24T08:41:44.847253+00:00",
+    "last_updated": "2026-07-28T05:59:45.289948+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -4005,6 +4005,30 @@
         "title": "Removing Box-Free Watermarks for Image-to-Image Models via Query-Based Reverse Engineering",
         "updated": "2025-07-24"
       },
+      "2507.18036": {
+        "abs_url": "https://arxiv.org/abs/2507.18036",
+        "abstract": "Securing intellectual property (IP) in Machine Learning as a Service is critical yet challenging. While deep neural network watermarking serves as a standard defense against model extraction, existing Watermarking-as-a-Service paradigms face a triple challenge of intrusiveness, privacy risks, and inefficiency. To address these challenges, we propose Non-intrusive Watermarking as a Service (NWaaS), a holistic framework enabling trustworthy and efficient IP protection. We first introduce $\\mathtt{ShadowMark}$, a novel watermarking algorithm that establishes a side-channel for ownership verification without modifying the model. It ensures zero performance degradation and eliminates the need for parameter-heavy fine-tuning as well as access to original training data, thereby addressing the intrusiveness and inefficiency inherent in existing approaches. Leveraging this non-intrusive property, we design a collaborative partitioning mechanism that allows model owners to offload self-defined partial layers, enabling a flexible trade-off between IP privacy and service cost. Furthermore, to mitigate latency from collaborative computing under high concurrency and enhance system resource utilization, we propose proportion disparity joint scheduling, a payload-balancing resource scheduling algorithm tailored to the heterogeneous constraints of edge-cloud environments. Extensive experiments demonstrate that NWaaS provides robust ownership verification across diverse continuous X-to-Image modalities, while ensuring secure owner privacy protection and superior system performance.",
+        "arxiv_id": "2507.18036",
+        "authors": [
+          "Haonan An",
+          "Qianyao Ren",
+          "Guang Hua",
+          "Tao Li",
+          "Yu Guo",
+          "Yanan Ma",
+          "Hangcheng Cao",
+          "Yuguang Fang"
+        ],
+        "comment": null,
+        "first_seen": "2026-07-28",
+        "introduction_image": "https://arxiv.org/html/2507.18036/2507.18036v2/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2507.18036",
+        "primary_category": "cs.CR",
+        "published": "2025-07-24",
+        "title": "NWaaS: A Non-Intrusive and Privacy-Preserving Watermarking-as-a-Service System with Adaptive Resource Scheduling",
+        "updated": "2026-07-24"
+      },
       "2508.11548": {
         "abs_url": "https://arxiv.org/abs/2508.11548",
         "abstract": "Copyright protection for large language models is of critical importance, given their substantial development costs, proprietary value, and potential for misuse. Existing surveys have predominantly focused on techniques for tracing LLM-generated content-namely, text watermarking-while a systematic exploration of methods for protecting the models themselves (i.e., model watermarking and model fingerprinting) remains absent. Moreover, the relationships and distinctions among text watermarking, model watermarking, and model fingerprinting have not been comprehensively clarified. This work presents a comprehensive survey of the current state of LLM copyright protection technologies, with a focus on model fingerprinting, covering the following aspects: (1) clarifying the conceptual connection from text watermarking to model watermarking and fingerprinting, and adopting a unified terminology that incorporates model watermarking into the broader fingerprinting framework; (2) providing an overview and comparison of diverse text watermarking techniques, highlighting cases where such methods can function as model fingerprinting; (3) systematically categorizing and comparing existing model fingerprinting approaches for LLM copyright protection; (4) presenting, for the first time, techniques for fingerprint transfer and fingerprint removal; (5) summarizing evaluation metrics for model fingerprints, including effectiveness, harmlessness, robustness, stealthiness, and reliability; and (6) discussing open challenges and future research directions. This survey aims to offer researchers a thorough understanding of both text watermarking and model fingerprinting technologies in the era of LLMs, thereby fostering further advances in protecting their intellectual property.",
@@ -4086,15 +4110,15 @@
           "Maciej Krzysztof Zuziak",
           "Gabriele Lenzini"
         ],
-        "comment": "Accepted to Proceedings on Privacy Enhancing Technologies (PoPETs), 2026. 27 pages",
+        "comment": "Published in Proceedings on Privacy Enhancing Technologies (PoPETs), 2026. 27 pages, 20 figures. First co-authors: Soumia Zohra El Mestari, Maciej Krzysztof Zuziak. Corresponding authors: Soumia Zohra El Mestari, Maciej Krzysztof Zuziak",
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.11974v2/images/Targeted_Overfitting_Diagram.png",
-        "journal_reference": null,
+        "journal_reference": "Proceedings on Privacy Enhancing Technologies 2026(4), 480-506",
         "pdf_url": "https://arxiv.org/pdf/2509.11974",
         "primary_category": "cs.CR",
         "published": "2025-09-15",
         "title": "Poison to Detect: Detection of Targeted Overfitting in Federated Learning",
-        "updated": "2026-07-17"
+        "updated": "2026-07-27"
       },
       "2509.15406": {
         "abs_url": "https://arxiv.org/abs/2509.15406",
@@ -7160,6 +7184,29 @@
         "published": "2026-05-16",
         "title": "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
         "updated": "2026-05-16"
+      },
+      "2607.21958": {
+        "abs_url": "https://arxiv.org/abs/2607.21958",
+        "abstract": "As large language models (LLMs) are increasingly deployed, reliable and efficient mechanisms for distinguishing AI-generated text from human-written content have become essential. Statistical watermarking has emerged as a promising solution, yet most existing methods are typically fixed-horizon procedures, precluding valid early stopping in streaming generation. In this paper, we develop an efficient online watermark detection framework with anytime-valid inference based on Rao-Blackwellized e-processes, enabling recursive token-level evidence updates without storing the full history. In particular, we instantiate the framework for the Gumbel-max watermark and reduce the original token-level dependence testing problem to a pivot-induced sequential testing problem with an explicit null distribution. Theoretically, we prove anytime-valid Type I error control under arbitrary optional stopping and establish positive asymptotic log-growth under watermarking, implying consistency of the proposed stopping rules. Simulations and experiments on real LLM-generated text demonstrate efficient online detection with rigorous anytime-valid guarantees.",
+        "arxiv_id": "2607.21958",
+        "authors": [
+          "Lu Luo",
+          "Dandan Mo",
+          "Chengdong Xu",
+          "Ting Li",
+          "Jinhan Xie",
+          "Huiqiong Li",
+          "Niansheng Tang"
+        ],
+        "comment": "25 pages, 3 figures",
+        "first_seen": "2026-07-28",
+        "introduction_image": "https://arxiv.org/html/2607.21958/2607.21958v1/flow_chart.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2607.21958",
+        "primary_category": "stat.ML",
+        "published": "2026-07-24",
+        "title": "Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes",
+        "updated": "2026-07-24"
       }
     }
   }
