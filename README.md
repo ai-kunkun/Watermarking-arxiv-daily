@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-07-28
+## Today's additions · 2026-07-29
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes](https://arxiv.org/abs/2607.21958) — 2026-07-24
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [NWaaS: A Non-Intrusive and Privacy-Preserving Watermarking-as-a-Service System with Adaptive Resource Scheduling](https://arxiv.org/abs/2507.18036) — 2025-07-24
+- No new papers today.
 
 </details>
 
