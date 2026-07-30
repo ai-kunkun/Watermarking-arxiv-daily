@@ -4,11 +4,11 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-07-28 13:59 CST &nbsp; · &nbsp; **Indexed:** 310 unique papers
+**Last updated:** 2026-07-30 12:55 CST &nbsp; · &nbsp; **Indexed:** 311 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 100 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 101 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 36 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
@@ -18,9 +18,9 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [CASIAL: Geometric Distortion Robust Image Watermarking](https://arxiv.org/abs/2607.26729) — 2026-07-29
 
 </details>
 
@@ -57,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**100 papers · newest first**
+**101 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **CASIAL: Geometric Distortion Robust Image Watermarking**<br><sub>Yupeng Qiu, Han Fang, Ee-Chien Chang</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="CASIAL: Geometric Distortion Robust Image Watermarking" src="https://arxiv.org/html/2607.26729/2607.26729v1/Fig/rador3.png"> | [Paper](https://arxiv.org/abs/2607.26729)<br>[PDF](https://arxiv.org/pdf/2607.26729)<br>`2607.26729` |
 | **Beyond AI-Generated Labels: Watermarking, Co-Creation, and Conflation of AI-Generation with Disinformation**<br><sub>Federico Germani, Giovanni Spitale</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.13082)<br>[PDF](https://arxiv.org/pdf/2607.13082)<br>`2607.13082` |
 | **FlowMark: Mask-Guided Video Watermarking**<br><sub>Vishal Asnani, Shruti Agarwal, John Collomosse</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FlowMark: Mask-Guided Video Watermarking" src="https://arxiv.org/html/2607.05261v1/teaser_new_ver_2.jpg"> | [Paper](https://arxiv.org/abs/2607.05261)<br>[PDF](https://arxiv.org/pdf/2607.05261)<br>`2607.05261` |
 | **"Training robust watermarking model may hurt authentication!'' Exploring and Mitigating the Identity Leakage in Robust Watermarking**<br><sub>Xinyu Zhang, Ziping Dong, Qingyu Liu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="&quot;Training robust watermarking model may hurt authentication!&#x27;&#x27; Exploring and Mitigating the Identity Leakage in Robust Watermarking" src="https://arxiv.org/html/2605.09646v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.09646)<br>[PDF](https://arxiv.org/pdf/2605.09646)<br>`2605.09646` |
@@ -373,7 +374,7 @@ Papers first indexed during today's update, grouped by category.
 | **Removing Box-Free Watermarks for Image-to-Image Models via Query-Based Reverse Engineering**<br><sub>Haonan An, Guang Hua, Hangcheng Cao et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Removing Box-Free Watermarks for Image-to-Image Models via Query-Based Reverse Engineering" src="https://arxiv.org/html/2507.18034/x1.png"> | [Paper](https://arxiv.org/abs/2507.18034)<br>[PDF](https://arxiv.org/pdf/2507.18034)<br>`2507.18034` |
 | **Hashed Watermark as a Filter: Defeating Forging and Overwriting Attacks in Weight-based Neural Network Watermarking**<br><sub>Yuan Yao, Jin Song, Jian Jin</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Hashed Watermark as a Filter: Defeating Forging and Overwriting Attacks in Weight-based Neural Network Watermarking" src="https://arxiv.org/html/2507.11137/x1.png"> | [Paper](https://arxiv.org/abs/2507.11137)<br>[PDF](https://arxiv.org/pdf/2507.11137)<br>`2507.11137` |
 | **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**<br><sub>Gehao Zhang, Eugene Bagdasarian, Juan Zhai et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice" src="https://arxiv.org/html/2507.05512/x1.png"> | [Paper](https://arxiv.org/abs/2507.05512)<br>[PDF](https://arxiv.org/pdf/2507.05512)<br>`2507.05512` |
-| **PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense Spatial Networks for Encrypted Lossy Image Reconstruction**<br><sub>Peilin He, James Joshi</sub> | be published on the 7th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications, Nov<br>**2025** | <img width="400" alt="PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense Spatial Networks for Encrypted Lossy Image Reconstruction" src="https://arxiv.org/html/2507.00230/imgs/orcid.png"> | [Paper](https://arxiv.org/abs/2507.00230)<br>[PDF](https://arxiv.org/pdf/2507.00230)<br>`2507.00230` |
+| **PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense Spatial Networks for Encrypted Lossy Image Reconstruction**<br><sub>Peilin He, James Joshi</sub> | 2025 IEEE 7th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA), pp. 21-31, 2025<br>**2025** | <img width="400" alt="PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense Spatial Networks for Encrypted Lossy Image Reconstruction" src="https://arxiv.org/html/2507.00230/imgs/orcid.png"> | [Paper](https://arxiv.org/abs/2507.00230)<br>[PDF](https://arxiv.org/pdf/2507.00230)<br>`2507.00230` |
 | **Radioactive Watermarks in Diffusion and Autoregressive Image Generative Models**<br><sub>Michel Meintz, Jan Dubiński, Franziska Boenisch et al.</sub> | arXiv · cs.LG<br>**2025** | <img width="400" alt="Radioactive Watermarks in Diffusion and Autoregressive Image Generative Models" src="https://arxiv.org/html/2506.23731/x1.png"> | [Paper](https://arxiv.org/abs/2506.23731)<br>[PDF](https://arxiv.org/pdf/2506.23731)<br>`2506.23731` |
 | **Riemannian-Geometric Fingerprints of Generative Models**<br><sub>Hae Jin Song, Laurent Itti</sub> | arXiv · cs.LG<br>**2025** | — | [Paper](https://arxiv.org/abs/2506.22802)<br>[PDF](https://arxiv.org/pdf/2506.22802)<br>`2506.22802` |
 | **Holmes: Towards Effective and Harmless Model Ownership Verification to Personalized Large Vision Models via Decoupling Common Features**<br><sub>Linghui Zhu, Yiming Li, Haiqin Weng et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Holmes: Towards Effective and Harmless Model Ownership Verification to Personalized Large Vision Models via Decoupling Common Features" src="https://arxiv.org/html/2507.00724/x1.png"> | [Paper](https://arxiv.org/abs/2507.00724)<br>[PDF](https://arxiv.org/pdf/2507.00724)<br>`2507.00724` |

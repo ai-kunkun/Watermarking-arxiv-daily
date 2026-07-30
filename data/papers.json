@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-28T05:59:45.289948+00:00",
+    "last_updated": "2026-07-30T04:55:01.046636+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -2889,6 +2889,25 @@
         "published": "2026-07-13",
         "title": "Beyond AI-Generated Labels: Watermarking, Co-Creation, and Conflation of AI-Generation with Disinformation",
         "updated": "2026-07-13"
+      },
+      "2607.26729": {
+        "abs_url": "https://arxiv.org/abs/2607.26729",
+        "abstract": "Deep learning-based watermarking has shown strong robustness against non-geometric distortions, yet its performance under geometric transformations remains limited. Such transformations induce two fundamental failure modes: region removal, such as cropping or masking, which eliminates the information carried by removed pixels, and desynchronization, such as scaling or rotation, which misaligns pixel positions and disrupts decoding. We argue that achieving geometric robustness requires two essential properties: (1) global spread of the watermark message, ensuring resilience even when large regions are removed, and (2) geometry-invariant representations, enabling decoding to remain synchronized despite spatial transformations. Building on these insights, we propose CASIAL, a geometric distortion-robust watermarking framework with cover image-aware message spreading (CAS) strategy and invariance alignment learning (IAL) module. CAS tightly couples watermark bits with cover image features and distributes them adaptively across the entire image, enhancing per-pixel information capacity and robustness to region removal. IAL leverages spatial attention to capture cross-pixel dependencies and align perturbed features into a shared geometry-invariant representation space, mitigating failures due to desynchronization. Across six challenging geometric transformations, CASIAL achieves substantially stronger robustness than eleven prior baselines while preserving high visual quality. It also maintains competitive performance under six signal distortions and four photometric transformations. Notably, although trained only with white-box distortions, CASIAL also exhibits strong transfer robustness to unseen black-box distortions. Comprehensive experiments demonstrate the broad robustness and superior visual quality of our method.",
+        "arxiv_id": "2607.26729",
+        "authors": [
+          "Yupeng Qiu",
+          "Han Fang",
+          "Ee-Chien Chang"
+        ],
+        "comment": "14 pages, 9 figures, 6 tables. Supplementary material included",
+        "first_seen": "2026-07-30",
+        "introduction_image": "https://arxiv.org/html/2607.26729/2607.26729v1/Fig/rador3.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2607.26729",
+        "primary_category": "cs.CV",
+        "published": "2026-07-29",
+        "title": "CASIAL: Geometric Distortion Robust Image Watermarking",
+        "updated": "2026-07-29"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -3913,7 +3932,7 @@
         "comment": "Accepted to be published on the 7th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications, Nov. 11-14, 2025, Pittsburgh, PA, USA. https://www.sis.pitt.edu/lersais/conference/tps/2025/",
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2507.00230/imgs/orcid.png",
-        "journal_reference": null,
+        "journal_reference": "2025 IEEE 7th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA), pp. 21-31, 2025",
         "pdf_url": "https://arxiv.org/pdf/2507.00230",
         "primary_category": "cs.LG",
         "published": "2025-06-30",
