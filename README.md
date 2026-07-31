@@ -4,30 +4,31 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-07-30 12:55 CST &nbsp; · &nbsp; **Indexed:** 311 unique papers
+**Last updated:** 2026-07-31 11:09 CST &nbsp; · &nbsp; **Indexed:** 313 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 101 papers
-- [Generative AI Watermarking](#generative-ai-watermarking) · 36 papers
+- [Generative AI Watermarking](#generative-ai-watermarking) · 38 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-07-30
+## Today's additions · 2026-07-31
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [CASIAL: Geometric Distortion Robust Image Watermarking](https://arxiv.org/abs/2607.26729) — 2026-07-29
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack](https://arxiv.org/abs/2607.27800) — 2026-07-30
+- [AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony](https://arxiv.org/abs/2607.27551) — 2026-07-30
 
 </details>
 
@@ -165,10 +166,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Generative AI Watermarking
 
-**36 papers · newest first**
+**38 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack**<br><sub>Chunpeng Wang, Yuxin Li, Xiaoyu Wang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack" src="https://arxiv.org/html/2607.27800/2607.27800v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.27800)<br>[PDF](https://arxiv.org/pdf/2607.27800)<br>`2607.27800` |
+| **AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony**<br><sub>Yuqi Qian, Yun Cao, Haocheng Fu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony" src="https://arxiv.org/html/2607.27551/2607.27551v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.27551)<br>[PDF](https://arxiv.org/pdf/2607.27551)<br>`2607.27551` |
 | **Observation-Level Watermarking and Detection for Tabular Data**<br><sub>Dongyu Cui, Xuan Bi</sub> | arXiv · stat.ME<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.10554)<br>[PDF](https://arxiv.org/pdf/2607.10554)<br>`2607.10554` |
 | **BiSLW: Bi-Spectral Latent Watermarking for Generative Diffusion Models**<br><sub>Aryan Pandit</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="BiSLW: Bi-Spectral Latent Watermarking for Generative Diffusion Models" src="https://arxiv.org/html/2607.02643v1/figures/bislw_watermarking_pipeline_diagram.jpg"> | [Paper](https://arxiv.org/abs/2607.02643)<br>[PDF](https://arxiv.org/pdf/2607.02643)<br>`2607.02643` |
 | **Cert-LAS: Toward Certified Model Ownership Verification for Text-to-Image Diffusion Models via Layer-Adaptive Smoothing**<br><sub>Leyi Qi, Yiming Li, Siyuan Liang et al.</sub> | the International Conference on Machine Learning (ICML) 2026<br>**2026** | <img width="400" alt="Cert-LAS: Toward Certified Model Ownership Verification for Text-to-Image Diffusion Models via Layer-Adaptive Smoothing" src="https://arxiv.org/html/2605.29809v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.29809)<br>[PDF](https://arxiv.org/pdf/2605.29809)<br>`2605.29809` |

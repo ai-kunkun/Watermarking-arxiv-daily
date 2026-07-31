@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-30T04:55:01.046636+00:00",
+    "last_updated": "2026-07-31T03:09:28.202366+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -767,6 +767,50 @@
         "published": "2026-07-12",
         "title": "Observation-Level Watermarking and Detection for Tabular Data",
         "updated": "2026-07-12"
+      },
+      "2607.27551": {
+        "abs_url": "https://arxiv.org/abs/2607.27551",
+        "abstract": "Inversion-based watermarking embeds watermark payloads directly into the generative process, avoiding a separate post-hoc image-domain embedding stage while preserving the native visual fidelity of synthesized images. However, existing methods remain vulnerable to compound lossy post-processing, particularly when rotation is involved, as it disrupts the spatial correspondence required for latent-space decoding. To overcome this limitation, we introduce AnchorMark, a training-free, robust inversion-based watermarking. We uncover a latent-space property termed Rotation Synchrony: image-domain rotations and their counterparts in the recovered initial latent share the same angle. Building on this property, AnchorMark embeds a synchronization anchor in the central region of the initial latent, enabling accurate estimation and correction of the rotation angle during extraction. Experiments show that AnchorMark substantially improves bit accuracy under rotation and combined attacks, with limited impact on image quality.",
+        "arxiv_id": "2607.27551",
+        "authors": [
+          "Yuqi Qian",
+          "Yun Cao",
+          "Haocheng Fu",
+          "Haochen Zhao",
+          "Hong Zhang",
+          "Meineng Zhu"
+        ],
+        "comment": null,
+        "first_seen": "2026-07-31",
+        "introduction_image": "https://arxiv.org/html/2607.27551/2607.27551v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2607.27551",
+        "primary_category": "cs.CR",
+        "published": "2026-07-30",
+        "title": "AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony",
+        "updated": "2026-07-30"
+      },
+      "2607.27800": {
+        "abs_url": "https://arxiv.org/abs/2607.27800",
+        "abstract": "Existing invisible watermark removal methods often struggle to accurately capture the watermark-bearing features, leading to an unfavorable trade-off between watermark suppression and perceptual fidelity. In this paper, we propose the Frequency-Decoupled Diffusion Watermark Attack Network (FDDWAN), a coarse-to-fine framework that performs watermark removal through wavelet-domain decomposition and residual diffusion refinement. In the initial stage, the Wavelet-based Frequency-domain Preliminary Attack Module (WFPAM) decomposes the watermarked image into low- and high-frequency subbands and applies frequency-specific attack strategies tailored to their respective contributions to watermark robustness and perceptual quality. In the next stage, the Frequency-domain Residual Diffusion Attack Module (FRDAM) separately models the residual distributions between the preliminarily attacked outputs and the corresponding watermark-free references during training. Rather than reconstructing the entire image, FRDAM selectively refines frequency-domain residuals, directing the diffusion process toward the remaining watermark related discrepancies while minimizing modifications to image content. Extensive experiments on CelebA and ImageNet across four representative watermarking schemes demonstrate that FDDWAN achieves a more favorable trade-off between watermark removal effectiveness and visual fidelity than conventional and learning-based attack methods.",
+        "arxiv_id": "2607.27800",
+        "authors": [
+          "Chunpeng Wang",
+          "Yuxin Li",
+          "Xiaoyu Wang",
+          "Jidong Yang",
+          "Suo Gao",
+          "Qi Li"
+        ],
+        "comment": null,
+        "first_seen": "2026-07-31",
+        "introduction_image": "https://arxiv.org/html/2607.27800/2607.27800v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2607.27800",
+        "primary_category": "cs.CV",
+        "published": "2026-07-30",
+        "title": "FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack",
+        "updated": "2026-07-30"
       }
     },
     "Image and Video Watermarking": {
