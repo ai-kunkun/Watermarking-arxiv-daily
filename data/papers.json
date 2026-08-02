@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-31T03:09:28.202366+00:00",
+    "last_updated": "2026-08-02T01:51:06.930560+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -2641,7 +2641,7 @@
         "comment": null,
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2603.09454v1/x1.png",
-        "journal_reference": null,
+        "journal_reference": "In Proceedings of the 34th ACM International Conference on Multimedia (MM 2026)",
         "pdf_url": "https://arxiv.org/pdf/2603.09454",
         "primary_category": "cs.CR",
         "published": "2026-03-10",
@@ -2952,6 +2952,50 @@
         "published": "2026-07-29",
         "title": "CASIAL: Geometric Distortion Robust Image Watermarking",
         "updated": "2026-07-29"
+      },
+      "2607.27800": {
+        "abs_url": "https://arxiv.org/abs/2607.27800",
+        "abstract": "Existing invisible watermark removal methods often struggle to accurately capture the watermark-bearing features, leading to an unfavorable trade-off between watermark suppression and perceptual fidelity. In this paper, we propose the Frequency-Decoupled Diffusion Watermark Attack Network (FDDWAN), a coarse-to-fine framework that performs watermark removal through wavelet-domain decomposition and residual diffusion refinement. In the initial stage, the Wavelet-based Frequency-domain Preliminary Attack Module (WFPAM) decomposes the watermarked image into low- and high-frequency subbands and applies frequency-specific attack strategies tailored to their respective contributions to watermark robustness and perceptual quality. In the next stage, the Frequency-domain Residual Diffusion Attack Module (FRDAM) separately models the residual distributions between the preliminarily attacked outputs and the corresponding watermark-free references during training. Rather than reconstructing the entire image, FRDAM selectively refines frequency-domain residuals, directing the diffusion process toward the remaining watermark related discrepancies while minimizing modifications to image content. Extensive experiments on CelebA and ImageNet across four representative watermarking schemes demonstrate that FDDWAN achieves a more favorable trade-off between watermark removal effectiveness and visual fidelity than conventional and learning-based attack methods.",
+        "arxiv_id": "2607.27800",
+        "authors": [
+          "Chunpeng Wang",
+          "Yuxin Li",
+          "Xiaoyu Wang",
+          "Jidong Yang",
+          "Suo Gao",
+          "Qi Li"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-02",
+        "introduction_image": "https://arxiv.org/html/2607.27800/2607.27800v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2607.27800",
+        "primary_category": "cs.CV",
+        "published": "2026-07-30",
+        "title": "FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack",
+        "updated": "2026-07-30"
+      },
+      "2607.27811": {
+        "abs_url": "https://arxiv.org/abs/2607.27811",
+        "abstract": "Existing watermark attacks typically rely on predefined signal-processing operations or locally constrained restoration networks, making it difficult to capture the long-range dependencies of globally distributed watermark signals and resulting in an unfavorable trade-off between removal effectiveness and visual fidelity. In this paper, we propose SPFM-Net, a semantic-prior-guided and frequency-constrained Mamba framework for invisible watermark attack. SPFM-Net first employs high-ratio masking to disrupt the spatial coherence of invisible watermark signals, and then utilizes a partially fine-tuned pretrained Masked Autoencoder to reconstruct semantically consistent image from sparse observations while suppressing watermark-related information. A Multi-scale Residual Frequency Feature Interaction module subsequently aggregates watermark-related residual features across multiple receptive fields, while adaptively suppressing responses from watermark-irrelevant regions. To further capture the long-range dependencies of globally distributed watermark signals, a lightweight Mamba-based Global State-space Feature Modeling (GSFM) unit is introduced to separate watermark-related features from natural image content and suppress the remaining watermark traces. In addition, SPFM-Net is optimized using a multi-level objective that jointly imposes spatial-, frequency-, and edge-domain constraints, enabling effective watermark suppression while preserving perceptual quality. Extensive experiments on representative spatial-domain, transform-domain, orthogonal moment-based, and deep learning-based watermarking schemes demonstrate that SPFM-Net achieves a favorable trade-off between watermark attack effectiveness and perceptual fidelity.",
+        "arxiv_id": "2607.27811",
+        "authors": [
+          "Chunpeng Wang",
+          "Yanan Shi",
+          "Zhiqiu Xia",
+          "Jidong Yang",
+          "Suo Gao",
+          "Qi Li"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-02",
+        "introduction_image": "https://arxiv.org/html/2607.27811/2607.27811v1/Figures/figure1.jpg",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2607.27811",
+        "primary_category": "cs.CV",
+        "published": "2026-07-30",
+        "title": "SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack",
+        "updated": "2026-07-30"
       }
     },
     "Model Ownership and Fingerprinting": {

@@ -4,31 +4,31 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-07-31 11:09 CST &nbsp; · &nbsp; **Indexed:** 313 unique papers
+**Last updated:** 2026-08-02 09:51 CST &nbsp; · &nbsp; **Indexed:** 314 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 101 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 103 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 38 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-07-31
+## Today's additions · 2026-08-02
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack](https://arxiv.org/abs/2607.27811) — 2026-07-30
+- [FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack](https://arxiv.org/abs/2607.27800) — 2026-07-30
 
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack](https://arxiv.org/abs/2607.27800) — 2026-07-30
-- [AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony](https://arxiv.org/abs/2607.27551) — 2026-07-30
+- No new papers today.
 
 </details>
 
@@ -58,10 +58,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**101 papers · newest first**
+**103 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack**<br><sub>Chunpeng Wang, Yanan Shi, Zhiqiu Xia et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack" src="https://arxiv.org/html/2607.27811/2607.27811v1/Figures/figure1.jpg"> | [Paper](https://arxiv.org/abs/2607.27811)<br>[PDF](https://arxiv.org/pdf/2607.27811)<br>`2607.27811` |
+| **FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack**<br><sub>Chunpeng Wang, Yuxin Li, Xiaoyu Wang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack" src="https://arxiv.org/html/2607.27800/2607.27800v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.27800)<br>[PDF](https://arxiv.org/pdf/2607.27800)<br>`2607.27800` |
 | **CASIAL: Geometric Distortion Robust Image Watermarking**<br><sub>Yupeng Qiu, Han Fang, Ee-Chien Chang</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="CASIAL: Geometric Distortion Robust Image Watermarking" src="https://arxiv.org/html/2607.26729/2607.26729v1/Fig/rador3.png"> | [Paper](https://arxiv.org/abs/2607.26729)<br>[PDF](https://arxiv.org/pdf/2607.26729)<br>`2607.26729` |
 | **Beyond AI-Generated Labels: Watermarking, Co-Creation, and Conflation of AI-Generation with Disinformation**<br><sub>Federico Germani, Giovanni Spitale</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.13082)<br>[PDF](https://arxiv.org/pdf/2607.13082)<br>`2607.13082` |
 | **FlowMark: Mask-Guided Video Watermarking**<br><sub>Vishal Asnani, Shruti Agarwal, John Collomosse</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FlowMark: Mask-Guided Video Watermarking" src="https://arxiv.org/html/2607.05261v1/teaser_new_ver_2.jpg"> | [Paper](https://arxiv.org/abs/2607.05261)<br>[PDF](https://arxiv.org/pdf/2607.05261)<br>`2607.05261` |
@@ -77,7 +79,7 @@ Papers first indexed during today's update, grouped by category.
 | **SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking**<br><sub>Zheng Gao, Yifan Yang, Xiaoyu Li et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking" src="https://arxiv.org/html/2603.12749v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.12749)<br>[PDF](https://arxiv.org/pdf/2603.12749)<br>`2603.12749` |
 | **Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution**<br><sub>Hongsong Wang, Renxi Cheng, Chaolei Han et al.</sub> | CVPR 2026<br>**2026** | <img width="400" alt="Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution" src="https://arxiv.org/html/2603.10583v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.10583)<br>[PDF](https://arxiv.org/pdf/2603.10583)<br>`2603.10583` |
 | **The Orthogonal Vulnerabilities of Generative AI Watermarks: A Comparative Empirical Benchmark of Spatial and Latent Provenance**<br><sub>Jesse Yu, Nicholas Wei</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2603.10323)<br>[PDF](https://arxiv.org/pdf/2603.10323)<br>`2603.10323` |
-| **ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models**<br><sub>Yuqi Qian, Yun Cao, Haocheng Fu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models" src="https://arxiv.org/html/2603.09454v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.09454)<br>[PDF](https://arxiv.org/pdf/2603.09454)<br>`2603.09454` |
+| **ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models**<br><sub>Yuqi Qian, Yun Cao, Haocheng Fu et al.</sub> | In Proceedings of the 34th ACM International Conference on Multimedia (MM 2026)<br>**2026** | <img width="400" alt="ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models" src="https://arxiv.org/html/2603.09454v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.09454)<br>[PDF](https://arxiv.org/pdf/2603.09454)<br>`2603.09454` |
 | **AWPD: Frequency Shield Network for Agnostic Watermark Presence Detection**<br><sub>Xiang Ao, Yilin Du, Zidan Wang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="AWPD: Frequency Shield Network for Agnostic Watermark Presence Detection" src="https://arxiv.org/html/2603.06723v3/x1.png"> | [Paper](https://arxiv.org/abs/2603.06723)<br>[PDF](https://arxiv.org/pdf/2603.06723)<br>`2603.06723` |
 | **When Denoising Becomes Unsigning: Theoretical and Empirical Analysis of Watermark Fragility Under Diffusion-Based Image Editing**<br><sub>Fai Gu, Qiyu Tang, Te Wen et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2603.04696)<br>[PDF](https://arxiv.org/pdf/2603.04696)<br>`2603.04696` |
 | **SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion**<br><sub>Xinjie Zhu, Zijing Zhao, Hui Jin et al.</sub> | ICLR 2026<br>**2026** | <img width="400" alt="SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion" src="https://arxiv.org/html/2603.02882v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.02882)<br>[PDF](https://arxiv.org/pdf/2603.02882)<br>`2603.02882` |
