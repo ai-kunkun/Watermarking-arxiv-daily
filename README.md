@@ -13,15 +13,14 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-08-02
+## Today's additions · 2026-08-03
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack](https://arxiv.org/abs/2607.27811) — 2026-07-30
-- [FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack](https://arxiv.org/abs/2607.27800) — 2026-07-30
+- No new papers today.
 
 </details>
 
