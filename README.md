@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-02 09:51 CST &nbsp; · &nbsp; **Indexed:** 314 unique papers
+**Last updated:** 2026-08-04 15:11 CST &nbsp; · &nbsp; **Indexed:** 315 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 103 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 38 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 103 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 104 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-08-03
+## Today's additions · 2026-08-04
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,9 +32,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [LLM Output Detectability and Task Performance Can be Jointly Optimized](https://arxiv.org/abs/2605.01350) — 2026-05-02
 
 </details>
 
@@ -212,7 +212,7 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**103 papers · newest first**
+**104 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
@@ -241,6 +241,7 @@ Papers first indexed during today's update, grouped by category.
 | **Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks**<br><sub>Mohd Ruhul Ameen, Akif Islam, Nadim Mahmud et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Chainwash: Multi-Step Rewriting Attacks on Diffusion Language Model Watermarks" src="https://arxiv.org/html/2605.05503v1/x1.png"> | [Paper](https://arxiv.org/abs/2605.05503)<br>[PDF](https://arxiv.org/pdf/2605.05503)<br>`2605.05503` |
 | **SLAM: Structural Linguistic Activation Marking for Language Models**<br><sub>Fabrice Harel-Canada, Amit Sahai</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="SLAM: Structural Linguistic Activation Marking for Language Models" src="https://arxiv.org/html/2605.05443v2/x1.png"> | [Paper](https://arxiv.org/abs/2605.05443)<br>[PDF](https://arxiv.org/pdf/2605.05443)<br>`2605.05443` |
 | **SWAN: Semantic Watermarking with Abstract Meaning Representation**<br><sub>Ziping Ye, Gourab Dey, Christos Christodoulopoulos et al.</sub> | ACL 2026 Main<br>**2026** | <img width="400" alt="SWAN: Semantic Watermarking with Abstract Meaning Representation" src="https://arxiv.org/html/2605.04305v1/figures/amr_example.png"> | [Paper](https://arxiv.org/abs/2605.04305)<br>[PDF](https://arxiv.org/pdf/2605.04305)<br>`2605.04305` |
+| **LLM Output Detectability and Task Performance Can be Jointly Optimized**<br><sub>Koshiro Saito, Ryuto Koike, Masahiro Kaneko et al.</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2605.01350)<br>[PDF](https://arxiv.org/pdf/2605.01350)<br>`2605.01350` |
 | **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**<br><sub>Joeun Kim, HoEun Kim, Dongsup Jin et al.</sub> | ICML 2026<br>**2026** | <img width="400" alt="Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking" src="https://arxiv.org/html/2605.00348v2/x1.png"> | [Paper](https://arxiv.org/abs/2605.00348)<br>[PDF](https://arxiv.org/pdf/2605.00348)<br>`2605.00348` |
 | **VOW: Verifiable and Oblivious Watermark Detection for Large Language Models**<br><sub>Xiaokun Luan, Yihao Zhang, Pengcheng Su et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="VOW: Verifiable and Oblivious Watermark Detection for Large Language Models" src="https://arxiv.org/html/2604.27666v1/x1.png"> | [Paper](https://arxiv.org/abs/2604.27666)<br>[PDF](https://arxiv.org/pdf/2604.27666)<br>`2604.27666` |
 | **SSG: Logit-Balanced Vocabulary Partitioning for LLM Watermarking**<br><sub>Chenxi Gu, Xiaoning Du, John Grundy</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SSG: Logit-Balanced Vocabulary Partitioning for LLM Watermarking" src="https://arxiv.org/html/2604.22438v1/x1.png"> | [Paper](https://arxiv.org/abs/2604.22438)<br>[PDF](https://arxiv.org/pdf/2604.22438)<br>`2604.22438` |

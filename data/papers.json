@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-02T01:51:06.930560+00:00",
+    "last_updated": "2026-08-04T07:11:44.853159+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -4850,7 +4850,7 @@
         "primary_category": "cs.CL",
         "published": "2026-04-03",
         "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
-        "updated": "2026-04-13"
+        "updated": "2026-08-03"
       },
       "2604.10473": {
         "abs_url": "https://arxiv.org/abs/2604.10473",
@@ -6794,6 +6794,26 @@
         "published": "2026-05-01",
         "title": "Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking",
         "updated": "2026-06-23"
+      },
+      "2605.01350": {
+        "abs_url": "https://arxiv.org/abs/2605.01350",
+        "abstract": "Detecting machine-generated text is essential for transparency and accountability when deploying LLMs. Watermarking enables statistically reliable detection by biasing token distributions to embed detectable signals into LLM outputs. However, it has been reported that watermarked LLMs often perform worse on downstream tasks. We propose PUPPET, a framework that fine-tunes an LLM via DPO to generate text that is both more detectable by a target detector and better performing on downstream tasks. We use two rewards: a detector that outputs a machine-class likelihood and an evaluator that measures a task-specific metric. Just as a watermark is verified with its secret key, this detector-specific design lets an LLM provider track how its published model is used. Experiments on long-form QA, summarization, and essay writing show that LLMs trained with PUPPET achieve detectability competitive with watermarking methods---even at strict low FPRs---while outperforming them on downstream tasks. Moreover, this optimization requires only a few thousand samples and 1--2 GPU hours, and its gains hold across out-of-domain tasks, six detectors of diverse architectures, and different LLM families and sizes, and are even robust to paraphrasing attacks.",
+        "arxiv_id": "2605.01350",
+        "authors": [
+          "Koshiro Saito",
+          "Ryuto Koike",
+          "Masahiro Kaneko",
+          "Naoaki Okazaki"
+        ],
+        "comment": "15 pages, 9 figures, 20 tables. Code: https://github.com/pakapaka333/PUPPET",
+        "first_seen": "2026-08-04",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2605.01350",
+        "primary_category": "cs.CL",
+        "published": "2026-05-02",
+        "title": "LLM Output Detectability and Task Performance Can be Jointly Optimized",
+        "updated": "2026-08-02"
       },
       "2605.04305": {
         "abs_url": "https://arxiv.org/abs/2605.04305",
