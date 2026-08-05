@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-04T07:11:44.853159+00:00",
+    "last_updated": "2026-08-05T05:36:37.967333+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -811,6 +811,29 @@
         "published": "2026-07-30",
         "title": "FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack",
         "updated": "2026-07-30"
+      },
+      "2608.03539": {
+        "abs_url": "https://arxiv.org/abs/2608.03539",
+        "abstract": "Most in-generation diffusion watermarks embed patterns independent of the image that carries them, and attackers transplant the marks onto images the generator did not produce, resulting in forgery. Binding the mark to visual semantics prevents such transplantation, yet existing bindings anchor to a proxy image rather than the image they mark. Realizing visual-semantic binding inside generation faces two challenges. The mark derives from the image itself yet enters the sampling trajectory before that image exists, and may itself shift the semantics it binds. The binding also meets opposite sensitivity demands, breaking under semantic change while holding through common processing. We present IRIS, a training-free watermarking scheme that embeds an Intrinsic Ring Identifier from Semantics. IRIS reads a content code from the non-watermarked generated image, derives a one-time ring from the code and a secret key, returns to the final low-noise steps of the same trajectory and blends the ring in, after the semantics it binds are settled. To meet the opposite sensitivity demands, the code is read through a canonicalization shared between embedding and detection, holding through common distortions and mild regeneration while flipping under semantic change. Detection recomputes the ring from the query image and the key alone, and the mark therefore fails on a foreign or spliced image, with acceptance tracking semantic displacement. On three prompt datasets IRIS detects reliably and stays close to its same-seed non-watermarked counterpart, a fidelity prior in-generation marks do not reach. While forgeries transfer fixed-pattern marks and regeneration strips post-hoc marks, IRIS alone among the compared marks withstands both.",
+        "arxiv_id": "2608.03539",
+        "authors": [
+          "Xiaoyan Feng",
+          "Zheng Gao",
+          "Tong Guan",
+          "Rui Bao",
+          "Bokang Zeng",
+          "Xiaoyu Li",
+          "Jiaojiao Jiang"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-05",
+        "introduction_image": "https://arxiv.org/html/2608.03539/2608.03539v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.03539",
+        "primary_category": "cs.CV",
+        "published": "2026-08-04",
+        "title": "IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images",
+        "updated": "2026-08-04"
       }
     },
     "Image and Video Watermarking": {
@@ -2996,6 +3019,29 @@
         "published": "2026-07-30",
         "title": "SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack",
         "updated": "2026-07-30"
+      },
+      "2608.03165": {
+        "abs_url": "https://arxiv.org/abs/2608.03165",
+        "abstract": "Invisible image watermarks are increasingly used for deepfake detection and provenance tracking, where they must survive not only incidental distortions but also deliberate removal. We revisit spread-spectrum embedding, a classical watermarking principle, inside a modern neural post-hoc watermarking architecture. Our starting point is a measurement: in existing encoder-decoder schemes each message bit occupies only a small fraction of the image, a shared contributing factor to their fragility, since removal then need only disturb the region a bit occupies. SpreadMark instead spreads each bit as a dense pseudo-random codeword over the whole image and recovers it by matched-filtering a learned cover-suppressed chip representation, with a parallel convolutional decoding path and sparsification-aware training. A conditional chip-space analysis shows that, under a codeword-independent perturbation model, dense spreading increases the budget required to disrupt matched-filter recovery. Evaluated on COCO and DIV2K against nine schemes, SpreadMark is the only evaluated method retaining high detection under both the regeneration and the latent-space sparsification settings we test, with competitive JPEG and additive-noise robustness. It keeps the embedded watermark imperceptible, maintaining high perceptual quality on both COCO and DIV2K.",
+        "arxiv_id": "2608.03165",
+        "authors": [
+          "Wei Song",
+          "Yuxin Cao",
+          "Zhenchang Xing",
+          "Liming Zhu",
+          "Jin Song Dong",
+          "Yulei Sui",
+          "Jingling Xue"
+        ],
+        "comment": "12 pages, 6 figures",
+        "first_seen": "2026-08-05",
+        "introduction_image": "https://arxiv.org/html/2608.03165/2608.03165v1/figures/spreadmark_overview.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.03165",
+        "primary_category": "cs.CR",
+        "published": "2026-08-04",
+        "title": "SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding",
+        "updated": "2026-08-04"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -7334,6 +7380,26 @@
         "published": "2026-07-24",
         "title": "Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes",
         "updated": "2026-07-24"
+      },
+      "2608.03093": {
+        "abs_url": "https://arxiv.org/abs/2608.03093",
+        "abstract": "Large language model (LLM) watermarking provides an important mechanism for tracing the provenance of generated text. Existing statistical watermarks are often effective and robust, but most of them rely on private detection keys, which centralizes verification and complicates public auditing. Recent public or publicly verifiable watermarking schemes improve key management, yet many of them rely on exact recovery of embedded cryptographic strings, making them fragile under token edits, truncation, copy-paste, and low-entropy generation. This paper introduces DHMark, a public-key watermarking framework for LLM-generated text. The key idea is to separate payload authorization from noisy textual evidence. An issuer signs a short registry payload bound to a public context, and the payload is expanded into many one-bit equations. During generation, a Diffie-Hellman-guided token-labeling interface assigns each candidate token a public equation vote, and the sampler softly or selectively promotes candidates whose votes agree with the authorized payload. During verification, third-party verifiers use public information to extract token votes, aggregate them into equation-level evidence, and score only signed registry records. This design avoids exact recovery of a long embedded signature and instead treats watermark detection as registry-aided statistical evidence aggregation. We formalize the public-verification setting, analyze label pseudorandomness, registry-backed soundness, and sampling distortion, and evaluate a prototype under truncation, substitution, copy-paste, wrong-context, and plain-generation attacks. In the default 32-bit configuration, DHMark maintains at least a 0.967 valid rate across eight edit conditions while yielding a 0.000 acceptance rate on three negative controls.",
+        "arxiv_id": "2608.03093",
+        "authors": [
+          "Haocheng Fu",
+          "Yuqi Qian",
+          "Luyao Wang",
+          "Yun Cao"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-05",
+        "introduction_image": "https://arxiv.org/html/2608.03093/2608.03093v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.03093",
+        "primary_category": "cs.CR",
+        "published": "2026-08-04",
+        "title": "DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling",
+        "updated": "2026-08-04"
       }
     }
   }
