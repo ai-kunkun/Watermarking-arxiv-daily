@@ -13,28 +13,28 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 105 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-08-05
+## Today's additions · 2026-08-06
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding](https://arxiv.org/abs/2608.03165) — 2026-08-04
-
-</details>
-
-<details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 1 new papers</summary>
-
-- [IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images](https://arxiv.org/abs/2608.03539) — 2026-08-04
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling](https://arxiv.org/abs/2608.03093) — 2026-08-04
+- No new papers today.
+
+</details>
+
+<details>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+
+- No new papers today.
 
 </details>
 
