@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-05 13:36 CST &nbsp; · &nbsp; **Indexed:** 318 unique papers
+**Last updated:** 2026-08-07 09:55 CST &nbsp; · &nbsp; **Indexed:** 318 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 105 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
 
-## Today's additions · 2026-08-06
+## Today's additions · 2026-08-07
 
 Papers first indexed during today's update, grouped by category.
 
@@ -423,7 +423,7 @@ Papers first indexed during today's update, grouped by category.
 | **Trigger-Based Fragile Model Watermarking for Image Transformation Networks**<br><sub>Preston K. Robinette, Dung T. Nguyen, Samuel Sasaki et al.</sub> | arXiv · cs.CR<br>**2024** | <img width="400" alt="Trigger-Based Fragile Model Watermarking for Image Transformation Networks" src="https://arxiv.org/html/2409.19442/x1.png"> | [Paper](https://arxiv.org/abs/2409.19442)<br>[PDF](https://arxiv.org/pdf/2409.19442)<br>`2409.19442` |
 | **Protecting Copyright of Medical Pre-trained Language Models: Training-Free Backdoor Model Watermarking**<br><sub>Cong Kong, Rui Xu, Weixi Chen et al.</sub> | arXiv · cs.LG<br>**2024** | <img width="400" alt="Protecting Copyright of Medical Pre-trained Language Models: Training-Free Backdoor Model Watermarking" src="https://arxiv.org/html/2409.10570/x1.png"> | [Paper](https://arxiv.org/abs/2409.10570)<br>[PDF](https://arxiv.org/pdf/2409.10570)<br>`2409.10570` |
 | **Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition**<br><sub>Zhenhua Xu, Qichen Liu, Zhebo Wang et al.</sub> | arXiv · cs.CR<br>**2024** | <img width="400" alt="Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition" src="https://arxiv.org/html/2409.08846/figures/pipeline.png"> | [Paper](https://arxiv.org/abs/2409.08846)<br>[PDF](https://arxiv.org/pdf/2409.08846)<br>`2409.08846` |
-| **On the Weaknesses of Backdoor-based Model Watermarking: An Information-theoretic Perspective**<br><sub>Aoting Hu, Yanzhi Chen, Renjie Xie et al.</sub> | arXiv · cs.CR<br>**2024** | <img width="400" alt="On the Weaknesses of Backdoor-based Model Watermarking: An Information-theoretic Perspective" src="https://arxiv.org/html/2409.06130/extracted/5809723/figure/adi_neuron_act3.png"> | [Paper](https://arxiv.org/abs/2409.06130)<br>[PDF](https://arxiv.org/pdf/2409.06130)<br>`2409.06130` |
+| **Revisiting Black-Box Model Ownership Verification through Information Theory**<br><sub>Aoting Hu, Yanzhi Chen, Renjie Xie et al.</sub> | arXiv · cs.CR<br>**2024** | <img width="400" alt="Revisiting Black-Box Model Ownership Verification through Information Theory" src="https://arxiv.org/html/2409.06130/extracted/5809723/figure/adi_neuron_act3.png"> | [Paper](https://arxiv.org/abs/2409.06130)<br>[PDF](https://arxiv.org/pdf/2409.06130)<br>`2409.06130` |
 | **Plug-and-Hide: Provable and Adjustable Diffusion Generative Steganography**<br><sub>Jiahao Zhu, Zixuan Chen, Jiali Liu et al.</sub> | arXiv · cs.CR<br>**2024** | <img width="400" alt="Plug-and-Hide: Provable and Adjustable Diffusion Generative Steganography" src="https://arxiv.org/html/2409.04878v5/x1.png"> | [Paper](https://arxiv.org/abs/2409.04878)<br>[PDF](https://arxiv.org/pdf/2409.04878)<br>`2409.04878` |
 | **WaterMAS: Sharpness-Aware Maximization for Neural Network Watermarking**<br><sub>Carl De Sousa Trias, Mihai Mitrea, Attilio Fiandrotti et al.</sub> | arXiv · cs.LG<br>**2024** | <img width="400" alt="WaterMAS: Sharpness-Aware Maximization for Neural Network Watermarking" src="https://arxiv.org/html/2409.03902/x1.png"> | [Paper](https://arxiv.org/abs/2409.03902)<br>[PDF](https://arxiv.org/pdf/2409.03902)<br>`2409.03902` |
 | **Agentic Copyright Watermarking against Adversarial Evidence Forgery with Purification-Agnostic Curriculum Proxy Learning**<br><sub>Erjin Bao, Ching-Chun Chang, Hanrui Wang et al.</sub> | arXiv · cs.CV<br>**2024** | <img width="400" alt="Agentic Copyright Watermarking against Adversarial Evidence Forgery with Purification-Agnostic Curriculum Proxy Learning" src="https://arxiv.org/html/2409.01541/extracted/6129193/Draft4/Draft4-Pic1.png"> | [Paper](https://arxiv.org/abs/2409.01541)<br>[PDF](https://arxiv.org/pdf/2409.01541)<br>`2409.01541` |
