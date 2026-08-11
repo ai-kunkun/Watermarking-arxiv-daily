@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-07 09:55 CST &nbsp; · &nbsp; **Indexed:** 318 unique papers
+**Last updated:** 2026-08-11 13:38 CST &nbsp; · &nbsp; **Indexed:** 319 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 104 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 39 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 105 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 101 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 106 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 102 papers
 
-## Today's additions · 2026-08-08
+## Today's additions · 2026-08-11
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking](https://arxiv.org/abs/2608.06416) — 2026-08-05
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking](https://arxiv.org/abs/2608.06416) — 2026-08-05
 
 </details>
 
@@ -214,10 +214,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**105 papers · newest first**
+**106 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking**<br><sub>Song Xiao, Yuqi Yuan, Yanshuo Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking" src="https://arxiv.org/html/2608.06416/2608.06416v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.06416)<br>[PDF](https://arxiv.org/pdf/2608.06416)<br>`2608.06416` |
 | **DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling**<br><sub>Haocheng Fu, Yuqi Qian, Luyao Wang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling" src="https://arxiv.org/html/2608.03093/2608.03093v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.03093)<br>[PDF](https://arxiv.org/pdf/2608.03093)<br>`2608.03093` |
 | **Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes**<br><sub>Lu Luo, Dandan Mo, Chengdong Xu et al.</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes" src="https://arxiv.org/html/2607.21958/2607.21958v1/flow_chart.png"> | [Paper](https://arxiv.org/abs/2607.21958)<br>[PDF](https://arxiv.org/pdf/2607.21958)<br>`2607.21958` |
 | **ChainMark: Model-Free LLM Watermarking with Closed-Form Calibration**<br><sub>Chengheng Li-Chen, Kyuhee Kim</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="ChainMark: Model-Free LLM Watermarking with Closed-Form Calibration" src="https://arxiv.org/html/2607.18445v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.18445)<br>[PDF](https://arxiv.org/pdf/2607.18445)<br>`2607.18445` |
@@ -326,10 +327,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**101 papers · newest first**
+**102 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking**<br><sub>Song Xiao, Yuqi Yuan, Yanshuo Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking" src="https://arxiv.org/html/2608.06416/2608.06416v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.06416)<br>[PDF](https://arxiv.org/pdf/2608.06416)<br>`2608.06416` |
 | **Synchronization-Free Algebraic Fingerprints for Large Language Models: From Autoregressive to Diffusion Models**<br><sub>Jaroslaw Janas, Josef Pieprzyk, Pawel Morawiecki</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.16648)<br>[PDF](https://arxiv.org/pdf/2607.16648)<br>`2607.16648` |
 | **modelDNA: Calibrated Lineage Verification and Merge Decomposition from Sampled Weight Fingerprints**<br><sub>Muhammad Awais Bin Adil, Saad Aamir</sub> | arXiv · cs.LG<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.10617)<br>[PDF](https://arxiv.org/pdf/2607.10617)<br>`2607.10617` |
 | **Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies**<br><sub>Kiarash Ahi, Saeed Valizadeh</sub> | IEEE 6th Silicon Valley Cybersecurity Conference (SVCC), San Francisco, CA, USA, 2025, pp. 1-10<br>**2025** | <img width="400" alt="Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies" src="https://arxiv.org/html/2607.06963v1/figure1.png"> | [Paper](https://arxiv.org/abs/2607.06963)<br>[PDF](https://arxiv.org/pdf/2607.06963)<br>`2607.06963` |

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-07T01:55:02.488992+00:00",
+    "last_updated": "2026-08-11T05:38:30.284774+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -4897,7 +4897,7 @@
         "primary_category": "cs.CL",
         "published": "2026-04-03",
         "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
-        "updated": "2026-08-03"
+        "updated": "2026-08-10"
       },
       "2604.10473": {
         "abs_url": "https://arxiv.org/abs/2604.10473",
@@ -5191,6 +5191,26 @@
         "published": "2026-07-18",
         "title": "Synchronization-Free Algebraic Fingerprints for Large Language Models: From Autoregressive to Diffusion Models",
         "updated": "2026-07-18"
+      },
+      "2608.06416": {
+        "abs_url": "https://arxiv.org/abs/2608.06416",
+        "abstract": "Watermarking traces the provenance of text produced by large language models by embedding statistically detectable signals during decoding. Existing schemes fall into logits-based, sampling-based, entropy-aware, and adaptive-strength families, yet all of them place watermark signals according to local token statistics. In the open-ended text-generation settings evaluated in this work, local statistics may provide insufficient guidance for placing robust watermark signals. We introduce WorldMark, a plug-and-play interface that uses World Knowledge Memory (WKM) to organize semantic and episodic knowledge in a memory graph, converts the retrieved knowledge into a token-level knowledge saliency score, and adjusts the strength of a host watermark through Asymmetric Knowledge Modulation (AKM). WorldMark requires no backbone retraining and introduces no additional detector-side model or parameter. On the primary C4 evaluation, the complete WorldMark interface improves clean and attacked detection across three adaptive-strength host variants while slightly reducing perplexity. Additional pilot experiments on C4 and OpenGen show that direct memory conditioning transfers across multiple watermark families but can be unstable without saliency-aware modulation. WorldMark requires no additional detector-side model or parameter and introduces negligible overhead under the primary protocol.",
+        "arxiv_id": "2608.06416",
+        "authors": [
+          "Song Xiao",
+          "Yuqi Yuan",
+          "Yanshuo Zhang",
+          "Kejun Zhang"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-11",
+        "introduction_image": "https://arxiv.org/html/2608.06416/2608.06416v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.06416",
+        "primary_category": "cs.CR",
+        "published": "2026-08-05",
+        "title": "WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking",
+        "updated": "2026-08-05"
       }
     },
     "Text and LLM Watermarking": {
@@ -7401,6 +7421,26 @@
         "published": "2026-08-04",
         "title": "DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling",
         "updated": "2026-08-04"
+      },
+      "2608.06416": {
+        "abs_url": "https://arxiv.org/abs/2608.06416",
+        "abstract": "Watermarking traces the provenance of text produced by large language models by embedding statistically detectable signals during decoding. Existing schemes fall into logits-based, sampling-based, entropy-aware, and adaptive-strength families, yet all of them place watermark signals according to local token statistics. In the open-ended text-generation settings evaluated in this work, local statistics may provide insufficient guidance for placing robust watermark signals. We introduce WorldMark, a plug-and-play interface that uses World Knowledge Memory (WKM) to organize semantic and episodic knowledge in a memory graph, converts the retrieved knowledge into a token-level knowledge saliency score, and adjusts the strength of a host watermark through Asymmetric Knowledge Modulation (AKM). WorldMark requires no backbone retraining and introduces no additional detector-side model or parameter. On the primary C4 evaluation, the complete WorldMark interface improves clean and attacked detection across three adaptive-strength host variants while slightly reducing perplexity. Additional pilot experiments on C4 and OpenGen show that direct memory conditioning transfers across multiple watermark families but can be unstable without saliency-aware modulation. WorldMark requires no additional detector-side model or parameter and introduces negligible overhead under the primary protocol.",
+        "arxiv_id": "2608.06416",
+        "authors": [
+          "Song Xiao",
+          "Yuqi Yuan",
+          "Yanshuo Zhang",
+          "Kejun Zhang"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-11",
+        "introduction_image": "https://arxiv.org/html/2608.06416/2608.06416v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.06416",
+        "primary_category": "cs.CR",
+        "published": "2026-08-05",
+        "title": "WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking",
+        "updated": "2026-08-05"
       }
     }
   }
