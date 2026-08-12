@@ -4,23 +4,24 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-11 13:38 CST &nbsp; · &nbsp; **Indexed:** 319 unique papers
+**Last updated:** 2026-08-12 10:25 CST &nbsp; · &nbsp; **Indexed:** 321 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 104 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 106 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 39 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 106 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 102 papers
 
-## Today's additions · 2026-08-11
+## Today's additions · 2026-08-12
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation](https://arxiv.org/abs/2608.10166) — 2026-08-10
+- [Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence](https://arxiv.org/abs/2608.10091) — 2026-08-10
 
 </details>
 
@@ -32,16 +33,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking](https://arxiv.org/abs/2608.06416) — 2026-08-05
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking](https://arxiv.org/abs/2608.06416) — 2026-08-05
+- No new papers today.
 
 </details>
 
@@ -57,10 +58,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**104 papers · newest first**
+**106 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation**<br><sub>Jie Cao, Qi Li, Zelin Zhang et al.</sub> | the 35th USENIX Security Symposium (USENIX Security 2026)<br>**2026** | <img width="400" alt="MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation" src="https://arxiv.org/html/2608.10166/2608.10166v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.10166)<br>[PDF](https://arxiv.org/pdf/2608.10166)<br>`2608.10166` |
+| **Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence**<br><sub>Shruti Agarwal, Vishal Asnani, John Collomosse</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence" src="https://arxiv.org/html/2608.10091/2608.10091v1/figure/CoexistWatermark_Architecture.png"> | [Paper](https://arxiv.org/abs/2608.10091)<br>[PDF](https://arxiv.org/pdf/2608.10091)<br>`2608.10091` |
 | **SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding**<br><sub>Wei Song, Yuxin Cao, Zhenchang Xing et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding" src="https://arxiv.org/html/2608.03165/2608.03165v1/figures/spreadmark_overview.png"> | [Paper](https://arxiv.org/abs/2608.03165)<br>[PDF](https://arxiv.org/pdf/2608.03165)<br>`2608.03165` |
 | **SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack**<br><sub>Chunpeng Wang, Yanan Shi, Zhiqiu Xia et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack" src="https://arxiv.org/html/2607.27811/2607.27811v1/Figures/figure1.jpg"> | [Paper](https://arxiv.org/abs/2607.27811)<br>[PDF](https://arxiv.org/pdf/2607.27811)<br>`2607.27811` |
 | **FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack**<br><sub>Chunpeng Wang, Yuxin Li, Xiaoyu Wang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack" src="https://arxiv.org/html/2607.27800/2607.27800v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.27800)<br>[PDF](https://arxiv.org/pdf/2607.27800)<br>`2607.27800` |

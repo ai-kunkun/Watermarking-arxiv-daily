@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-11T05:38:30.284774+00:00",
+    "last_updated": "2026-08-12T02:25:46.138286+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3042,6 +3042,48 @@
         "published": "2026-08-04",
         "title": "SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding",
         "updated": "2026-08-04"
+      },
+      "2608.10091": {
+        "abs_url": "https://arxiv.org/abs/2608.10091",
+        "abstract": "We present a method for training imperceptible visual watermarks to coexist with other such watermarks. Recent work has shown that independently trained image watermarking models can coexist with surprisingly limited interference, enabling watermark ensembling. However, this coexistence is a serendipitous property rather than an explicit optimization objective, leaving interference uncontrolled and potentially reducing decoding robustness or visual quality. We first show empirically that the same coexistence property extends to video watermarking. We then show that both image and video watermarks can be trained with a decoder-aware objective to improve coexistence. Our results suggest a practical path to signpost watermarks that indicate the presence of independently deployed provenance watermarking systems, supporting layered provenance signaling for content authenticity and rights.",
+        "arxiv_id": "2608.10091",
+        "authors": [
+          "Shruti Agarwal",
+          "Vishal Asnani",
+          "John Collomosse"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-12",
+        "introduction_image": "https://arxiv.org/html/2608.10091/2608.10091v1/figure/CoexistWatermark_Architecture.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.10091",
+        "primary_category": "cs.CV",
+        "published": "2026-08-10",
+        "title": "Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence",
+        "updated": "2026-08-10"
+      },
+      "2608.10166": {
+        "abs_url": "https://arxiv.org/abs/2608.10166",
+        "abstract": "Digital watermarking has emerged as a critical technique for provenance and copyright attribution in AI-generated imagery, yet its robustness against realistic, model-agnostic removal attacks remains poorly explored. Existing attacks either succeed only against specific generative models or achieve removal at the cost of severe visual degradation. In this paper, we propose MarkNull, a model-agnostic watermark removal attack via on-manifold latent manipulation. MarkNull is grounded in a key observation: watermarked images exhibit a strong statistical dependency between the generated latent representation and the embedded initial noise. To quantify this dependency, we introduce the Noise-Latent Alignment Score (NLAS) and formulate an optimization objective that selectively decorrelates the latent representation from the embedded watermark while preserving semantic fidelity. Extensive evaluations across different categories of watermarking paradigms, including post-hoc, fine-tuning-based, and initial-noise-based schemes, demonstrate that MarkNull reduces average bit accuracy to 53.14%, approaching random-guessing (50%), without perceptible image degradation. To further improve scalability, we propose MarkNull-A, an amortized, optimization-free variant that distills the attack into a single forward pass, achieving 0.50 s/image with modest computational overhead. Notably, our attacks successfully compromise Google's SynthID-Image system while preserving high visual quality and transfer effectively to video watermarking. Finally, we present an attack detection mechanism as a defensive counterpart to MarkNull and MarkNull-A, highlighting the necessity of developing watermark designs resilient to model-agnostic latent-space attacks.",
+        "arxiv_id": "2608.10166",
+        "authors": [
+          "Jie Cao",
+          "Qi Li",
+          "Zelin Zhang",
+          "Xiaodong Wu",
+          "Lingshuang Liu",
+          "Xiangman Li",
+          "Jianbing Ni"
+        ],
+        "comment": "Accepted to the 35th USENIX Security Symposium (USENIX Security 2026)",
+        "first_seen": "2026-08-12",
+        "introduction_image": "https://arxiv.org/html/2608.10166/2608.10166v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.10166",
+        "primary_category": "cs.CR",
+        "published": "2026-08-10",
+        "title": "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation",
+        "updated": "2026-08-10"
       }
     },
     "Model Ownership and Fingerprinting": {
