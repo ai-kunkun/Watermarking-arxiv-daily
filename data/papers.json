@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-12T02:25:46.138286+00:00",
+    "last_updated": "2026-08-13T03:47:39.056287+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -5253,6 +5253,30 @@
         "published": "2026-08-05",
         "title": "WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking",
         "updated": "2026-08-05"
+      },
+      "2608.11732": {
+        "abs_url": "https://arxiv.org/abs/2608.11732",
+        "abstract": "Proprietary text-to-image diffusion models are increasingly distributed as hosted services and downloadable checkpoints, making their intellectual property (IP) protection an increasingly critical concern when model leakage, copying, or unauthorized fine-tuning is disputed. In this work, we present a non-invasive model fingerprinting framework based on \\emph{collapsed generation}, a phenomenon where certain input conditions produce highly consistent images across multiple stochastic seeds. We show that collapsed generation is an intrinsic, model-dependent property of the learned generation process. These collapse-prone conditions therefore expose model-specific behavioral signatures, enabling reliable ownership verification without embedding invasive watermarks. After preparing conditions on the source model, the framework verifies a suspect model under two access settings: (1) white-box pipeline access, where optimized continuous embeddings can be injected into the generation process, and (2) black-box API-only access, where natural language prompts are queried through the service interface. In both cases, ownership evidence is measured by whether the suspect model reproduces the source model's collapse behavior across stochastic samplings. Extensive experiments across UNet- and transformer-based diffusion models show that collapsed generation fingerprints can distinguish different source models with low confusion. These fingerprints remain verifiable in fine-tuned derivatives and under common and adaptive model- or query-level obfuscations, while requiring only a modest verification query budget. Together, these results establish collapsed generation as a reliable intrinsic evidence source for non-invasive diffusion model ownership verification.",
+        "arxiv_id": "2608.11732",
+        "authors": [
+          "Yuanmin Huang",
+          "Chen Chen",
+          "Geng Hong",
+          "Xiaoyu You",
+          "Hui Xue",
+          "Zhenxing Qian",
+          "Mi Zhang",
+          "Min Yang"
+        ],
+        "comment": null,
+        "first_seen": "2026-08-13",
+        "introduction_image": "https://arxiv.org/html/2608.11732/2608.11732v1/intro.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.11732",
+        "primary_category": "cs.CR",
+        "published": "2026-08-12",
+        "title": "Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation",
+        "updated": "2026-08-12"
       }
     },
     "Text and LLM Watermarking": {

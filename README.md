@@ -4,24 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-12 10:25 CST &nbsp; · &nbsp; **Indexed:** 321 unique papers
+**Last updated:** 2026-08-13 11:47 CST &nbsp; · &nbsp; **Indexed:** 322 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 106 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 39 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 106 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 102 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 103 papers
 
-## Today's additions · 2026-08-12
+## Today's additions · 2026-08-13
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation](https://arxiv.org/abs/2608.10166) — 2026-08-10
-- [Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence](https://arxiv.org/abs/2608.10091) — 2026-08-10
+- No new papers today.
 
 </details>
 
@@ -40,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation](https://arxiv.org/abs/2608.11732) — 2026-08-12
 
 </details>
 
@@ -330,10 +329,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**102 papers · newest first**
+**103 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation**<br><sub>Yuanmin Huang, Chen Chen, Geng Hong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation" src="https://arxiv.org/html/2608.11732/2608.11732v1/intro.png"> | [Paper](https://arxiv.org/abs/2608.11732)<br>[PDF](https://arxiv.org/pdf/2608.11732)<br>`2608.11732` |
 | **WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking**<br><sub>Song Xiao, Yuqi Yuan, Yanshuo Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking" src="https://arxiv.org/html/2608.06416/2608.06416v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.06416)<br>[PDF](https://arxiv.org/pdf/2608.06416)<br>`2608.06416` |
 | **Synchronization-Free Algebraic Fingerprints for Large Language Models: From Autoregressive to Diffusion Models**<br><sub>Jaroslaw Janas, Josef Pieprzyk, Pawel Morawiecki</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.16648)<br>[PDF](https://arxiv.org/pdf/2607.16648)<br>`2607.16648` |
 | **modelDNA: Calibrated Lineage Verification and Merge Decomposition from Sampled Weight Fingerprints**<br><sub>Muhammad Awais Bin Adil, Saad Aamir</sub> | arXiv · cs.LG<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.10617)<br>[PDF](https://arxiv.org/pdf/2607.10617)<br>`2607.10617` |
