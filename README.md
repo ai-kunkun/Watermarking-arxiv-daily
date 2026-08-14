@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-13 11:47 CST &nbsp; · &nbsp; **Indexed:** 322 unique papers
+**Last updated:** 2026-08-14 12:15 CST &nbsp; · &nbsp; **Indexed:** 323 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 106 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 39 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 106 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 107 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 103 papers
 
-## Today's additions · 2026-08-13
+## Today's additions · 2026-08-14
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks](https://arxiv.org/abs/2608.12713) — 2026-08-13
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation](https://arxiv.org/abs/2608.11732) — 2026-08-12
+- No new papers today.
 
 </details>
 
@@ -100,7 +100,7 @@ Papers first indexed during today's update, grouped by category.
 | **WaTeRFlow: Watermark Temporal Robustness via Flow Consistency**<br><sub>Utae Jeong, Sumin In, Hyunju Ryu et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="WaTeRFlow: Watermark Temporal Robustness via Flow Consistency" src="https://arxiv.org/html/2512.19048/x1.png"> | [Paper](https://arxiv.org/abs/2512.19048)<br>[PDF](https://arxiv.org/pdf/2512.19048)<br>`2512.19048` |
 | **Pixel Seal: Adversarial-only training for invisible image and video watermarking**<br><sub>Tomáš Souček, Pierre Fernandez, Hady Elsahar et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Pixel Seal: Adversarial-only training for invisible image and video watermarking" src="https://arxiv.org/html/2512.16874/x1.png"> | [Paper](https://arxiv.org/abs/2512.16874)<br>[PDF](https://arxiv.org/pdf/2512.16874)<br>`2512.16874` |
 | **Where is the Watermark? Interpretable Watermark Detection at the Block Level**<br><sub>Maria Bulychev, Neil G. Marchant, Benjamin I. P. Rubinstein</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Where is the Watermark? Interpretable Watermark Detection at the Block Level" src="https://arxiv.org/html/2512.14994/x1.png"> | [Paper](https://arxiv.org/abs/2512.14994)<br>[PDF](https://arxiv.org/pdf/2512.14994)<br>`2512.14994` |
-| **Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models**<br><sub>Malte Hellmeier</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models" src="https://arxiv.org/html/2512.13325/x1.png"> | [Paper](https://arxiv.org/abs/2512.13325)<br>[PDF](https://arxiv.org/pdf/2512.13325)<br>`2512.13325` |
+| **Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models**<br><sub>Malte Hellmeier</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models" src="https://arxiv.org/html/2512.13325/x1.png"> | [Paper](https://arxiv.org/abs/2512.13325)<br>[PDF](https://arxiv.org/pdf/2512.13325)<br>`2512.13325` |
 | **SPDMark: Selective Parameter Displacement for Robust Video Watermarking**<br><sub>Samar Fares, Nurbek Tastan, Karthik Nandakumar</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="SPDMark: Selective Parameter Displacement for Robust Video Watermarking" src="https://arxiv.org/html/2512.12090v2/x1.png"> | [Paper](https://arxiv.org/abs/2512.12090)<br>[PDF](https://arxiv.org/pdf/2512.12090)<br>`2512.12090` |
 | **SimuFreeMark: A Noise-Simulation-Free Robust Watermarking Against Image Editing**<br><sub>Yichao Tang, Mingyang Li, Di Miao et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="SimuFreeMark: A Noise-Simulation-Free Robust Watermarking Against Image Editing" src="https://arxiv.org/html/2511.11295/figures/END.png"> | [Paper](https://arxiv.org/abs/2511.11295)<br>[PDF](https://arxiv.org/pdf/2511.11295)<br>`2511.11295` |
 | **On the Information-Theoretic Fragility of Robust Watermarking under Diffusion Editing**<br><sub>Yunyi Ni, Ziyu Yang, Ze Niu et al.</sub> | arXiv · cs.CR<br>**2025** | — | [Paper](https://arxiv.org/abs/2511.10933)<br>[PDF](https://arxiv.org/pdf/2511.10933)<br>`2511.10933` |
@@ -216,10 +216,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**106 papers · newest first**
+**107 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks**<br><sub>Xiaoyan Feng, Yanjun Zhang, He Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks" src="https://arxiv.org/html/2608.12713/2608.12713v1/teaser.png"> | [Paper](https://arxiv.org/abs/2608.12713)<br>[PDF](https://arxiv.org/pdf/2608.12713)<br>`2608.12713` |
 | **WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking**<br><sub>Song Xiao, Yuqi Yuan, Yanshuo Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking" src="https://arxiv.org/html/2608.06416/2608.06416v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.06416)<br>[PDF](https://arxiv.org/pdf/2608.06416)<br>`2608.06416` |
 | **DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling**<br><sub>Haocheng Fu, Yuqi Qian, Luyao Wang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling" src="https://arxiv.org/html/2608.03093/2608.03093v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.03093)<br>[PDF](https://arxiv.org/pdf/2608.03093)<br>`2608.03093` |
 | **Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes**<br><sub>Lu Luo, Dandan Mo, Chengdong Xu et al.</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Efficient Online LLM Watermark Detection via Rao-Blackwellized E-Processes" src="https://arxiv.org/html/2607.21958/2607.21958v1/flow_chart.png"> | [Paper](https://arxiv.org/abs/2607.21958)<br>[PDF](https://arxiv.org/pdf/2607.21958)<br>`2607.21958` |
@@ -268,7 +269,7 @@ Papers first indexed during today's update, grouped by category.
 | **BanglaLorica: Design and Evaluation of a Robust Watermarking Algorithm for Large Language Models in Bangla Text Generation**<br><sub>Amit Bin Tariqul, A N M Zahid Hossain Milkan, Sahab-Al-Chowdhury et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="BanglaLorica: Design and Evaluation of a Robust Watermarking Algorithm for Large Language Models in Bangla Text Generation" src="https://arxiv.org/html/2601.04534/x1.png"> | [Paper](https://arxiv.org/abs/2601.04534)<br>[PDF](https://arxiv.org/pdf/2601.04534)<br>`2601.04534` |
 | **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**<br><sub>Pierre Fernandez, Tom Sander, Hady Elsahar et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="How Good is Post-Hoc Watermarking With Language Model Rephrasing?" src="https://arxiv.org/html/2512.16904/x1.png"> | [Paper](https://arxiv.org/abs/2512.16904)<br>[PDF](https://arxiv.org/pdf/2512.16904)<br>`2512.16904` |
 | **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack**<br><sub>Hao Li, Yubing Ren, Yanan Cao et al.</sub> | ACL 2026 Findings<br>**2026** | <img width="400" alt="DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack" src="https://arxiv.org/html/2512.16182v2/x1.png"> | [Paper](https://arxiv.org/abs/2512.16182)<br>[PDF](https://arxiv.org/pdf/2512.16182)<br>`2512.16182` |
-| **Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models**<br><sub>Malte Hellmeier</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models" src="https://arxiv.org/html/2512.13325/x1.png"> | [Paper](https://arxiv.org/abs/2512.13325)<br>[PDF](https://arxiv.org/pdf/2512.13325)<br>`2512.13325` |
+| **Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models**<br><sub>Malte Hellmeier</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models" src="https://arxiv.org/html/2512.13325/x1.png"> | [Paper](https://arxiv.org/abs/2512.13325)<br>[PDF](https://arxiv.org/pdf/2512.13325)<br>`2512.13325` |
 | **Improved Pseudorandom Codes from Permuted Puzzles**<br><sub>Miranda Christ, Noah Golowich, Sam Gunn et al.</sub> | arXiv · cs.CR<br>**2025** | — | [Paper](https://arxiv.org/abs/2512.08918)<br>[PDF](https://arxiv.org/pdf/2512.08918)<br>`2512.08918` |
 | **MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking**<br><sub>Yizhou Zhao, Zhiwei Steven Wu, Adam Block</sub> | arXiv · cs.LG<br>**2025** | <img width="400" alt="MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking" src="https://arxiv.org/html/2512.04044/x1.png"> | [Paper](https://arxiv.org/abs/2512.04044)<br>[PDF](https://arxiv.org/pdf/2512.04044)<br>`2512.04044` |
 | **WaterSearch: Exploring Seed Pooling for Improving the Quality-Detectability Trade-off in LLM Watermarking**<br><sub>Yukang Lin, Jiahao Shao, Shuoran Jiang et al.</sub> | arXiv · cs.CL<br>**2025** | <img width="400" alt="WaterSearch: Exploring Seed Pooling for Improving the Quality-Detectability Trade-off in LLM Watermarking" src="https://arxiv.org/html/2512.00837v3/x1.png"> | [Paper](https://arxiv.org/abs/2512.00837)<br>[PDF](https://arxiv.org/pdf/2512.00837)<br>`2512.00837` |
