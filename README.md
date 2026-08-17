@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-14 12:15 CST &nbsp; · &nbsp; **Indexed:** 323 unique papers
+**Last updated:** 2026-08-17 14:09 CST &nbsp; · &nbsp; **Indexed:** 323 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 107 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 103 papers
 
-## Today's additions · 2026-08-14
+## Today's additions · 2026-08-17
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,9 +32,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks](https://arxiv.org/abs/2608.12713) — 2026-08-13
+- No new papers today.
 
 </details>
 
