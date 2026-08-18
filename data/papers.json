@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T06:09:04.334105+00:00",
+    "last_updated": "2026-08-18T08:52:17.183413+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3084,6 +3084,25 @@
         "published": "2026-08-10",
         "title": "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation",
         "updated": "2026-08-10"
+      },
+      "2608.14800": {
+        "abs_url": "https://arxiv.org/abs/2608.14800",
+        "abstract": "With the growth of digital document exchange, protecting image integrity against attacks such as Vector Quantization (VQ) and collage has become critical. Existing methods are vulnerable to these attacks and limited to fixed image dimensions. This paper presents a novel, dimension-agnostic, fragile watermarking algorithm that enhances security and tamper localization by replacing conventional hash functions with Triangular Content-Aware Permutation (TCA). The image is combined with key-based global noise and divided into blocks. The core innovation is applying content-dependent permutation with intrinsic avalanche effect (TCA) at the bit-plane level, generating a unique content-dependent watermark. For color images, a vertical sandwich transformation merges channels, preserving inter-channel dependency with only 1.62x time increase. The \"remainder merging\" strategy eliminates padding constraints. Experiments on 50 grayscale and 10 color images under 18 attacks show FPR=0% and FNR=0% for 17 attacks. Salt-and-pepper noise yields negligible FNR of 0.27% (grayscale) and 0.14% (color). Average PSNR is 51.14 dB (8-bit), 75.25 dB (12-bit), and 99.33 dB (16-bit). Embedding and extraction times are 1.61 s and 1.63 s, respectively. The algorithm achieves 100% accuracy against collage, VQ, copy-move, JPEG (quality 5-95), and geometric attacks, providing a secure solution for digital forensics, medical imaging, and legal document authentication.",
+        "arxiv_id": "2608.14800",
+        "authors": [
+          "Zahra Ghoraeian",
+          "Mohammad-Reza Sadeghi",
+          "Samaneh Mashhadi"
+        ],
+        "comment": "19 pages, 4 figures, 8 tables",
+        "first_seen": "2026-08-18",
+        "introduction_image": "https://arxiv.org/html/2608.14800/2608.14800v1/fig4.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.14800",
+        "primary_category": "cs.CR",
+        "published": "2026-08-14",
+        "title": "Bit-Level Triangular Content-Aware Permutation for Fragile Image Watermarking: Zero False Positive Rate, Single-Bit Sensitivity, and Arbitrary Dimension Support",
+        "updated": "2026-08-14"
       }
     },
     "Model Ownership and Fingerprinting": {

@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-08-17 14:09 CST &nbsp; · &nbsp; **Indexed:** 323 unique papers
+**Last updated:** 2026-08-18 16:52 CST &nbsp; · &nbsp; **Indexed:** 324 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 106 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 107 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 39 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 107 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 103 papers
 
-## Today's additions · 2026-08-17
+## Today's additions · 2026-08-18
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Bit-Level Triangular Content-Aware Permutation for Fragile Image Watermarking: Zero False Positive Rate, Single-Bit Sensitivity, and Arbitrary Dimension Support](https://arxiv.org/abs/2608.14800) — 2026-08-14
 
 </details>
 
@@ -57,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**106 papers · newest first**
+**107 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Bit-Level Triangular Content-Aware Permutation for Fragile Image Watermarking: Zero False Positive Rate, Single-Bit Sensitivity, and Arbitrary Dimension Support**<br><sub>Zahra Ghoraeian, Mohammad-Reza Sadeghi, Samaneh Mashhadi</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Bit-Level Triangular Content-Aware Permutation for Fragile Image Watermarking: Zero False Positive Rate, Single-Bit Sensitivity, and Arbitrary Dimension Support" src="https://arxiv.org/html/2608.14800/2608.14800v1/fig4.png"> | [Paper](https://arxiv.org/abs/2608.14800)<br>[PDF](https://arxiv.org/pdf/2608.14800)<br>`2608.14800` |
 | **MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation**<br><sub>Jie Cao, Qi Li, Zelin Zhang et al.</sub> | the 35th USENIX Security Symposium (USENIX Security 2026)<br>**2026** | <img width="400" alt="MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation" src="https://arxiv.org/html/2608.10166/2608.10166v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.10166)<br>[PDF](https://arxiv.org/pdf/2608.10166)<br>`2608.10166` |
 | **Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence**<br><sub>Shruti Agarwal, Vishal Asnani, John Collomosse</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Signpost Watermarking: Joint Optimization for Visual Watermark Coexistence" src="https://arxiv.org/html/2608.10091/2608.10091v1/figure/CoexistWatermark_Architecture.png"> | [Paper](https://arxiv.org/abs/2608.10091)<br>[PDF](https://arxiv.org/pdf/2608.10091)<br>`2608.10091` |
 | **SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding**<br><sub>Wei Song, Yuxin Cao, Zhenchang Xing et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding" src="https://arxiv.org/html/2608.03165/2608.03165v1/figures/spreadmark_overview.png"> | [Paper](https://arxiv.org/abs/2608.03165)<br>[PDF](https://arxiv.org/pdf/2608.03165)<br>`2608.03165` |
