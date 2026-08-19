@@ -13,14 +13,14 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 107 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 103 papers
 
-## Today's additions · 2026-08-18
+## Today's additions · 2026-08-19
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Bit-Level Triangular Content-Aware Permutation for Fragile Image Watermarking: Zero False Positive Rate, Single-Bit Sensitivity, and Arbitrary Dimension Support](https://arxiv.org/abs/2608.14800) — 2026-08-14
+- No new papers today.
 
 </details>
 
