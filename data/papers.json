@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T08:52:17.183413+00:00",
+    "last_updated": "2026-08-21T17:12:40.628759+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3041,7 +3041,7 @@
         "primary_category": "cs.CR",
         "published": "2026-08-04",
         "title": "SpreadMark: Robust Image Watermarking via Spread-Spectrum Embedding",
-        "updated": "2026-08-04"
+        "updated": "2026-08-18"
       },
       "2608.10091": {
         "abs_url": "https://arxiv.org/abs/2608.10091",
@@ -5296,6 +5296,28 @@
         "published": "2026-08-12",
         "title": "Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation",
         "updated": "2026-08-12"
+      },
+      "2608.20047": {
+        "abs_url": "https://arxiv.org/abs/2608.20047",
+        "abstract": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language single-paradigm evaluation cannot surface. Across detection and quality, observed disparity is predominantly between-family on the typological partition, indicating that cross-lingual fairness gaps in watermarking are structural to language properties rather than idiosyncratic to particular languages.",
+        "arxiv_id": "2608.20047",
+        "authors": [
+          "Alexander Nemecek",
+          "Osama Zafar",
+          "Debargha Ganguly",
+          "Vikash Singh",
+          "Vipin Chaudhary",
+          "Erman Ayday"
+        ],
+        "comment": "24 pages",
+        "first_seen": "2026-08-22",
+        "introduction_image": "https://arxiv.org/html/2608.20047/2608.20047v1/figure_q_5_2_combined_xglm_base.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.20047",
+        "primary_category": "cs.CL",
+        "published": "2026-08-20",
+        "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+        "updated": "2026-08-20"
       }
     },
     "Text and LLM Watermarking": {
@@ -7547,6 +7569,47 @@
         "published": "2026-08-13",
         "title": "Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks",
         "updated": "2026-08-13"
+      },
+      "2608.18102": {
+        "abs_url": "https://arxiv.org/abs/2608.18102",
+        "abstract": "The widespread adoption of large language models (LLMs) has intensified the demand for principled methods to distinguish human from machine-generated text. Watermarking provides a promising avenue, yet existing detectors exhibit sharp performance deterioration under multiple paraphrasing and when applied to shorter texts. We introduce Pattern Stability Score (PSS), a novel detection framework that leverages local statistical features and stability dynamics across paraphrased variants. Specifically, the proposed method combines global and local z-score features with higher-order statistics of run-length patterns, enriched by autocorrelation signals and stability scores computed over paraphrase depth. Numerical evaluations are performed on three benchmark datasets (PG-19, CNN/DailyMail, and WikiText) using multiple LLMs (Llama-3-8B, Qwen2-7B) and paraphrasers (Mistral-7B, Qwen2-7B, Gemma-7B), systematically stress-testing robustness under up to eight rounds of paraphrasing. Compared to prior z-score thresholding baselines and some state-of-the-art deep learning methods, our approach improves detection AUC (area under the receiver operating characteristic curve) by over 10-15 percentage points across different token lengths. Additionally, extensive cross-domain experiments demonstrate that a single universal classifier generalizes across different LLMs, paraphrasers, and text domains without retraining, maintaining above 87.8% AUC even when all components differ from training.",
+        "arxiv_id": "2608.18102",
+        "authors": [
+          "Sina Mansouri",
+          "Mohit Marvania",
+          "Abolfazl Safikhani"
+        ],
+        "comment": "Accepted at the 43rd International Conference on Machine Learning (ICML 2026), Seoul, South Korea. 20 pages, 5 figures",
+        "first_seen": "2026-08-22",
+        "introduction_image": "https://arxiv.org/html/2608.18102/2608.18102v1/figures/Pipeline_updated_final.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.18102",
+        "primary_category": "cs.CL",
+        "published": "2026-06-09",
+        "title": "Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text",
+        "updated": "2026-06-09"
+      },
+      "2608.20047": {
+        "abs_url": "https://arxiv.org/abs/2608.20047",
+        "abstract": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language single-paradigm evaluation cannot surface. Across detection and quality, observed disparity is predominantly between-family on the typological partition, indicating that cross-lingual fairness gaps in watermarking are structural to language properties rather than idiosyncratic to particular languages.",
+        "arxiv_id": "2608.20047",
+        "authors": [
+          "Alexander Nemecek",
+          "Osama Zafar",
+          "Debargha Ganguly",
+          "Vikash Singh",
+          "Vipin Chaudhary",
+          "Erman Ayday"
+        ],
+        "comment": "24 pages",
+        "first_seen": "2026-08-22",
+        "introduction_image": "https://arxiv.org/html/2608.20047/2608.20047v1/figure_q_5_2_combined_xglm_base.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.20047",
+        "primary_category": "cs.CL",
+        "published": "2026-08-20",
+        "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
+        "updated": "2026-08-20"
       }
     }
   }
