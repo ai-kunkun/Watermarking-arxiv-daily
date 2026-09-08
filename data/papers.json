@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T17:12:40.628759+00:00",
+    "last_updated": "2026-09-08T09:09:45.730867+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -562,7 +562,7 @@
       },
       "2603.23940": {
         "abs_url": "https://arxiv.org/abs/2603.23940",
-        "abstract": "The proliferation of AIGC-driven face manipulation and deepfakes poses severe threats to media provenance, integrity, and copyright protection. Prior versatile watermarking systems typically rely on embedding explicit localization payloads, which introduces a fidelity--functionality trade-off: larger localization signals degrade visual quality and often reduce decoding robustness under strong generative edits. Moreover, existing methods rarely support content recovery, limiting their forensic value when original evidence must be reconstructed. To address these challenges, we present VeriFi, a versatile watermarking framework that unifies copyright protection, pixel-level manipulation localization, and high-fidelity face content recovery. VeriFi makes three key contributions: (1) it embeds a compact semantic latent watermark that serves as an content-preserving prior, enabling faithful restoration even after severe manipulations; (2) it achieves fine-grained localization without embedding localization-specific artifacts by correlating image features with decoded provenance signals; and (3) it introduces an AIGC attack simulator that combines latent-space mixing with seamless blending to improve robustness to realistic deepfake pipelines. Extensive experiments on CelebA-HQ and FFHQ show that VeriFi consistently outperforms strong baselines in watermark robustness, localization accuracy, and recovery quality, providing a practical and verifiable defense for deepfake forensics.",
+        "abstract": "The proliferation of AIGC-driven face manipulation and deepfakes poses severe threats to media provenance, integrity, and copyright protection. Existing versatile watermarking systems typically rely on embedding explicit localization payloads, which introduces a fidelity--functionality trade-off: larger localization signals degrade visual quality and often reduce decoding robustness under strong generative edits. Moreover, these methods rarely support content recovery, limiting their forensic value when original evidence must be reconstructed. To address these challenges, we present VeriFi, a versatile watermarking framework that unifies copyright protection, pixel-level manipulation localization, and high-fidelity face content recovery. VeriFi makes three key contributions: (1) it embeds a compact semantic latent watermark that serves as a content-preserving prior, enabling faithful restoration even after severe manipulations; (2) it achieves fine-grained localization without dedicated payloads by correlating image features with decoded provenance signals; and (3) it introduces an AIGC attack simulator that combines latent-space mixing with seamless blending to enhance robustness against realistic deepfake pipelines. Extensive experiments on CelebA-HQ and FFHQ demonstrate that VeriFi consistently outperforms state-of-the-art baselines in watermark robustness, localization accuracy, and recovery quality, providing a practical and verifiable defense for deepfake forensics.",
         "arxiv_id": "2603.23940",
         "authors": [
           "Peipeng Yu",
@@ -582,7 +582,7 @@
         "primary_category": "cs.CV",
         "published": "2026-03-25",
         "title": "High-Fidelity Face Content Recovery via Tamper-Resilient Versatile Watermarking",
-        "updated": "2026-03-25"
+        "updated": "2026-08-27"
       },
       "2603.26167": {
         "abs_url": "https://arxiv.org/abs/2603.26167",
@@ -652,13 +652,13 @@
       },
       "2605.09203": {
         "abs_url": "https://arxiv.org/abs/2605.09203",
-        "abstract": "Watermarks for AI-generated images are meant to support downstream decisions about provenance, manipulation, and trust. In the settings that motivate watermark removal, therefore, success means more than causing the watermark test to fail. A successful remover must also preserve the utility of the image and make the output forensically indistinguishable from clean content, so that defeating the verifier restores deniability rather than merely replacing one detection signal with another. We show that current watermark removal attacks fail this stronger objective. Across six state-of-the-art removers spanning four attack families, independent forensic detectors distinguish removal-processed outputs from clean images at over 98% true-positive rate under a 1% false-positive budget. Thus, current removers often replace the watermark with a different detectable signal. Using UnMarker (IEEE S&P 2025) as a detailed case study, we show that this signal persists under common post-processing, exhibits a characteristic two-regime spectral deformation, and yields a three-way tension among removal success, image quality, and forensic stealth. These results show that existing removal benchmarks are incomplete: they reward verifier evasion and utility preservation while omitting forensic stealth. A workable watermark remover must satisfy all three conditions at once: watermark evasion, utility preservation, and forensic indistinguishability from clean content.",
+        "abstract": "The literature on watermark removal has largely asked whether an attacker can make the watermark verifier fail while preserving the appearance of the image. This is a useful test, but it does not capture the purpose of removal in applications where watermarks support provenance. In such settings, the attacker wants the image to pass as ordinary content. If the removal process leaves a recognizable statistical trace, the watermark may have disappeared, but deniability has not been restored. We call this missing requirement forensic stealth. We evaluate six recent attacks spanning four different removal strategies and find that all leave strong forensic traces. At a 1% false-positive target, attack-specific detectors identify at least 99% of the removal outputs. In a separate image-by-image assessment of five attacks, only one of 750 outputs removes the watermark, remains within the fidelity budget, and evades forensic detection. The consistency of this result across different mechanisms shows that current evaluation practice overlooks a central part of the security problem. We also ask whether forensic stealth is possible in principle. Under explicit idealized assumptions, we show that exact forensic stealth is possible when a remover preserves source content and resamples the remaining detail from the corresponding clean distribution. In this model, the resulting outputs exactly match the clean-image distribution while remaining within the distortion budget. This shows that removal traces are not inevitable and places the practical difficulty in generating source-appropriate clean variation without damaging the image. We argue that forensic stealth should become part of the standard by which watermark removal is judged.",
         "arxiv_id": "2605.09203",
         "authors": [
           "Yevin Nikhel Goonatilake",
           "Giuseppe Ateniese"
         ],
-        "comment": "17 pages, 12 pages main text plus 5 pages appendix, includes figures and tables; under submission",
+        "comment": "22 pages, including appendices. v2: substantially revised and expanded, with updated empirical evaluation and theoretical analysis",
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2605.09203v1/figures/pipeline-overview.png",
         "journal_reference": null,
@@ -666,7 +666,7 @@
         "primary_category": "cs.CR",
         "published": "2026-05-09",
         "title": "Removing the Watermark Is Not Enough: Forensic Stealth in Generative-AI Watermark Removal",
-        "updated": "2026-05-09"
+        "updated": "2026-08-28"
       },
       "2605.25967": {
         "abs_url": "https://arxiv.org/abs/2605.25967",
@@ -825,7 +825,7 @@
           "Xiaoyu Li",
           "Jiaojiao Jiang"
         ],
-        "comment": null,
+        "comment": "Substantial revisions",
         "first_seen": "2026-08-05",
         "introduction_image": "https://arxiv.org/html/2608.03539/2608.03539v1/x1.png",
         "journal_reference": null,
@@ -833,7 +833,7 @@
         "primary_category": "cs.CV",
         "published": "2026-08-04",
         "title": "IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images",
-        "updated": "2026-08-04"
+        "updated": "2026-08-26"
       }
     },
     "Image and Video Watermarking": {
@@ -3102,7 +3102,87 @@
         "primary_category": "cs.CR",
         "published": "2026-08-14",
         "title": "Bit-Level Triangular Content-Aware Permutation for Fragile Image Watermarking: Zero False Positive Rate, Single-Bit Sensitivity, and Arbitrary Dimension Support",
-        "updated": "2026-08-14"
+        "updated": "2026-08-28"
+      },
+      "2608.20580": {
+        "abs_url": "https://arxiv.org/abs/2608.20580",
+        "abstract": "Federated learning (FL) is vulnerable to multi-level attacks. However, existing methods address them separately, leaving FL exposed to data leakage, unauthorized reuse, and malicious gradient manipulation. In this work, we propose an FL framework that couples keyed context-provenance watermarking with verifiable lattice-based secure aggregation of Real-World Anchored Watermarking and Lattice-Based Zero-Knowledge Secure Aggregation. At the data layer, we propose a Kerckhoffs-compliant scheme that utilizes Physical Anchor Metadata (PAM) to ensure data provenance. PAM is defined as a context-provenance token derived from trusted infrastructure data (time, location, and server ID) and then subjected to a keyed HMAC-SHA-256 transformation to produce a watermark payload that cannot be generated without the client's secret key. We further design FMGAN, a GAN-based robust image watermarking framework that embeds this transformed payload using a feature fusion module and a Mamba-guided linear attention mechanism. At the computation layer, we adopt a lattice-based zero-knowledge secure aggregation (LZKSA) protocol that verifies key correctness, L2 norm bounds, and cosine similarity constraints over committed gradients without revealing private updates. The RLWE-based design guarantees post-quantum security. Extensive experiments validate the complementary protection of the two layers under composite attack scenarios. To our knowledge, no prior verification workflow has jointly evaluated both layers in a hybrid, end-to-end trustworthy FL framework.",
+        "arxiv_id": "2608.20580",
+        "authors": [
+          "Xinyun Liu",
+          "Zhi Lu",
+          "Yu Chen",
+          "Ronghua Xu"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-08",
+        "introduction_image": "https://arxiv.org/html/2608.20580/2608.20580v1/fig1_system_design.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.20580",
+        "primary_category": "cs.CR",
+        "published": "2026-08-20",
+        "title": "Keyed Provenance Watermarking with Complementary Lattice-Based Secure Aggregation for Federated Learning",
+        "updated": "2026-08-20"
+      },
+      "2608.29212": {
+        "abs_url": "https://arxiv.org/abs/2608.29212",
+        "abstract": "Existing video watermarking systems are symmetric: the party that can verify a mark holds the extractor weights or generator secret and can therefore also embed one. Benchmarks confirm the consequence, reporting that white-box forgery defeats all evaluated methods. We present a training-free video watermark that removes the shared secret. The signer embeds a complete Ed25519 signature into the phase spectrum of the chroma plane; any party holding the 32-byte public key and public per-video metadata verifies offline, with no model, no registry, and no network. The payload, 1024 bits of signed message with error correction, is an order of magnitude above common learned payloads and is carried by three design elements: a run-length temporal layout whose decoder identifies payload groups by correlation and never reads a frame index, a payload-free search that recovers scale, rotation, and translation from the carrier itself, and a closed-loop signing procedure that selects each video's embedding strength by self-verification through the unchanged public verifier. On 1000 uncurated real-world clips the system ships a verifying signature for 99.3% of the corpus and accepts a wrong public key zero times in 1000 attempts. An attack-aware acceptance gate yields embeddings that survive H.264 re-encoding at 100% and 50% rescaling at 97.4% on gated clips. The signature also verifies through a real display and capture loop, an axis absent from published evaluations.",
+        "arxiv_id": "2608.29212",
+        "authors": [
+          "Guang Yang",
+          "Fengchen Liu"
+        ],
+        "comment": "10 pages, 7 figures, 2 tables",
+        "first_seen": "2026-09-08",
+        "introduction_image": "https://arxiv.org/html/2608.29212/2608.29212v1/fig1_pipeline.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.29212",
+        "primary_category": "cs.CR",
+        "published": "2026-08-29",
+        "title": "Asymmetric Phase Coding Video Watermarking",
+        "updated": "2026-08-29"
+      },
+      "2609.01050": {
+        "abs_url": "https://arxiv.org/abs/2609.01050",
+        "abstract": "Robustness remains the principal open problem in deep image watermarking, and what limits it becomes sharper as payload grows. This paper asks whether capacity is itself the limit or only makes other limits visible, and answers in two parts. The first organizes the distortions a watermark must survive and the strategies developed to resist them, ordering each by the axis that governs it: payload capacity for the distortions, differentiability for the strategies. The second identifies and measures three mechanisms that limit robustness in schemes mapping the payload onto a spatial block grid with extraction trained separately from a frozen embedder: desynchronization of the payload grid, the resistance of codec-induced distortion to training, and the narrowing of the usable embedding-strength window. Payloads from 64 to 16384 bits are measured, well beyond the range those strategies address. Training the extraction stage against a codec proves not merely ineffective but harmful, degrading the reading at the operating points used in training. The limits follow the class of distortion rather than capacity itself, and none is removed by further training on the extraction side, because all three arise before extraction. An evaluation protocol making claims of generalization verifiable is also contributed. The conclusions are properties of a class of designs rather than of one implementation.",
+        "arxiv_id": "2609.01050",
+        "authors": [
+          "Marta Bistroń",
+          "Zbigniew Piotrowski"
+        ],
+        "comment": "Submitted to IEEE Access",
+        "first_seen": "2026-09-08",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.01050",
+        "primary_category": "cs.CR",
+        "published": "2026-09-01",
+        "title": "What Limits Robustness in Deep Image Watermarking: An Analysis of Mechanisms and Their Scaling Across Capacities",
+        "updated": "2026-09-01"
+      },
+      "2609.01249": {
+        "abs_url": "https://arxiv.org/abs/2609.01249",
+        "abstract": "Invisible watermarks are typically evaluated against predefined perturbations such as compression, blur, noise, cropping, and denoising. Public foundation image models expose a distinct threat: an attacker can submit a watermarked image with a single reconstruction prompt and obtain a visually faithful output from which the invisible watermark can no longer be decoded reliably. We formalize this failure mode as watermark laundering and evaluate it using a joint payload-fidelity profile that combines bit error rate (BER) with visual and semantic preservation. Across six OpenAI and Google image editing models, three representative watermarking schemes, and 1,800 reconstructed outputs, we identify two complementary laundering regimes: OpenAI models produce the strongest payload disruption across the evaluated schemes, whereas Nano Banana 2 shows that DwtDct remains vulnerable under high-fidelity reconstruction. Prompt ablations show that no single removal-oriented instruction is necessary for payload disruption, indicating that the effect is primarily induced by the reconstruction pathway rather than by explicit attack wording. Comparisons with conventional attacks further show that prompt-conditioned reconstruction constitutes a distinct operational attack interface. These findings motivate foundation-model reconstruction as a missing robustness condition in invisible watermark evaluation.",
+        "arxiv_id": "2609.01249",
+        "authors": [
+          "Jidong Yang",
+          "Qi Li",
+          "Wei Zong",
+          "Yang-Wai Chow",
+          "Willy Susilo",
+          "Huaike Yu",
+          "Chunpeng Wang",
+          "Suo Gao"
+        ],
+        "comment": "11 pages, 4 figures, and 2 tables",
+        "first_seen": "2026-09-08",
+        "introduction_image": "https://arxiv.org/html/2609.01249/2609.01249v1/Figures/fig1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.01249",
+        "primary_category": "cs.CV",
+        "published": "2026-09-01",
+        "title": "One Prompt Is Enough: Watermark Laundering Through Foundation Image Models",
+        "updated": "2026-09-01"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -5318,6 +5398,27 @@
         "published": "2026-08-20",
         "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
         "updated": "2026-08-20"
+      },
+      "2608.28929": {
+        "abs_url": "https://arxiv.org/abs/2608.28929",
+        "abstract": "Large-scale diffusion models have fueled numerous profitable downstream applications for AI-related businesses, including visual editing and content creation. Meanwhile, due to the huge amount of resource consumption (e.g., computation and high-quality data) during training, such diffusion models are deemed valuable intellectual property (IP) for tech companies like OpenAI and Google. Yet, the IP assets are vulnerable to various unauthorized uses by adversaries seeking to steal models for customized, usually commercial applications. Some existing approaches have explored IP protection for AI models; however, they mostly face structural limitations in common --- using a training-time watermarking by injecting artifacts in the model, which can impose a measurable utility cost and can be weakened by post-hoc fine-tuning. To address these challenges, this work investigates IP protection (i.e., model ownership verification) for diffusion models in a realistic commercial scenario with minimal model utility loss. Specifically, the proposed method builds a framework for model ownership verification, termed ``{Membership is Ownership} (MiO)'', based on a population-level hypothesis test on a private member evidence dataset. MiO verifies ownership using two criteria: model attribution through membership inference and model separation from public references. Both are tested at $p<10^{-6}$. We evaluate MiO on DDIM and Stable Diffusion models without modifying the owner model or its sampling pipeline, and report ROC-AUC and true-positive rates at fixed nominal false-positive targets. Furthermore, MiO stays stable under different post-theft fine-tuning and weight perturbation in adversarial scenarios, reflecting better robustness compared to the watermarking methods.",
+        "arxiv_id": "2608.28929",
+        "authors": [
+          "Feng Jiang",
+          "Zuobin Xiong",
+          "An Huang",
+          "Zhipeng Cai",
+          "Yingshu Li"
+        ],
+        "comment": "This paper has been accepted to the IEEE International Conference on Data Mining (ICDM) 2026",
+        "first_seen": "2026-09-08",
+        "introduction_image": "https://arxiv.org/html/2608.28929/2608.28929v1/MiO-framework.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.28929",
+        "primary_category": "cs.CR",
+        "published": "2026-08-28",
+        "title": "Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models",
+        "updated": "2026-08-28"
       }
     },
     "Text and LLM Watermarking": {
@@ -5872,7 +5973,7 @@
         "primary_category": "stat.ML",
         "published": "2025-06-27",
         "title": "Optimal Estimation of Watermark Proportions in Hybrid AI-Human Texts",
-        "updated": "2025-06-27"
+        "updated": "2026-08-30"
       },
       "2506.23066": {
         "abs_url": "https://arxiv.org/abs/2506.23066",
@@ -7143,7 +7244,7 @@
       },
       "2605.16709": {
         "abs_url": "https://arxiv.org/abs/2605.16709",
-        "abstract": "We study the problem of multi-bit watermarking for large language models (LLMs). We introduce a block-autoregressive model inspired by multi-token prediction, in which the encoder has limited non-causal access to token distributions within each block. This formulation enables an information-theoretic characterization of multi-bit watermarking capacity, by which the knowledge of LLM cover statistics is leveraged to enable a multi-bit covert embedding. We study the information-theoretic limits of the model by combining Gelfand-Pinsker and channel synthesis coding techniques and obtain an exact characterization of the capacity. The embedding strategy is further optimized across blocks using a constrained Markov decision process (CMDP) and we develop an explicit algorithm based on polar codes following the information-theoretic principles. Our algorithm achieves a bit-error rate below 10 percent with a rate of 0.375 bits/token over short token lengths with negligible perplexity and distortion degradation.",
+        "abstract": "We study the problem of multi-bit watermarking for non-autoregressive large language models (LLMs). We introduce an information-theoretic model inspired by diffusion language models (DLM), in which the encoder has limited non-causal access to token distributions within each token block. This formulation enables an information-theoretic characterization of the non-causal watermarking capacity, in which knowledge of LLM cover statistics is leveraged to enable a multi-bit covert embedding. We study the information-theoretic limits of the model by combining Gelfand--Pinsker and channel synthesis coding techniques and obtain an exact characterization of the capacity. The embedding strategy is further optimized across blocks using a constrained Markov decision process (CMDP) and we develop an explicit algorithm based on polar codes following the information-theoretic principles. We simulate the error performance on LLaDA, and provide empirical total variation (TV) analysis as a function of key randomness.",
         "arxiv_id": "2605.16709",
         "authors": [
           "Sidong Guo",
@@ -7159,7 +7260,7 @@
         "primary_category": "cs.IT",
         "published": "2026-05-15",
         "title": "Covert Multi-bit LLM Watermarking: An Information Theory and Coding Approach",
-        "updated": "2026-05-15"
+        "updated": "2026-09-02"
       },
       "2605.23175": {
         "abs_url": "https://arxiv.org/abs/2605.23175",
@@ -7252,7 +7353,7 @@
       },
       "2606.00613": {
         "abs_url": "https://arxiv.org/abs/2606.00613",
-        "abstract": "Watermarking should identify language-model output without degrading quality or limiting verification to the model provider. Multilingual deployment makes this harder because morphology, segmentation, and script change where watermark evidence can enter naturally. We introduce LUNA, a linguistically adaptive watermark that combines model-free detection with single-token non-distortion under the standard random-key model. LUNA estimates normalized next-tag entropy from part-of-speech contexts in an external corpus and uses it to set the depth of a non-distortionary binary tournament sampler; the detector reconstructs the same schedule from text, a tokenizer, a tagger, and a secret key. We evaluate six typologically diverse languages and two domains against eight primary baselines. LUNA attains an AUROC of 0.9959 and the lowest mean absolute median perplexity shift of 0.045 across the twelve settings; its 95% bootstrap interval [0.022, 0.073] lies below all baseline intervals. LUNA also records the lowest mean Self-BLEU, Distinct-1, surprisal, and entropy shifts. It is the only method that simultaneously achieves AUROC > 0.99 and an absolute median perplexity shift below 0.1 in a majority of settings, reaching this regime in 9 of the 12 settings while no baseline reaches it in more than 2. Our code is available at: https://github.com/Shinwoo-Park/luna_watermark",
+        "abstract": "Watermarking should identify language-model output without degrading quality or limiting verification to the model provider. Multilingual deployment makes this harder because morphology, segmentation, and script change where watermark evidence can be naturally embedded. We introduce LUNA, a linguistically adaptive watermark that combines model-free detection with single-token non-distortion under the standard random-key model. LUNA estimates normalized next-tag entropy from part-of-speech contexts in an external corpus and uses it to set the depth of a non-distortionary binary tournament sampler; the detector reconstructs the same schedule from text, a tokenizer, a tagger, and a secret key. We evaluate LUNA on six typologically diverse languages and two domains against eight primary baselines. LUNA attains an AUROC of 0.9959 and the lowest mean absolute median perplexity shift, 0.045, across the 12 settings; its 95% bootstrap interval [0.022, 0.073] lies below all baseline intervals. LUNA also records the lowest mean on Self-BLEU, Distinct-1, surprisal, and entropy shifts; it is the only method that simultaneously achieves AUROC > 0.99 and an absolute median perplexity shift below 0.1 in a majority of settings, reaching this regime in 9 of the 12 settings while no baseline reaches it in more than 2. Our code is available at https://github.com/Shinwoo-Park/luna_watermark.",
         "arxiv_id": "2606.00613",
         "authors": [
           "Shinwoo Park",
@@ -7260,7 +7361,7 @@
           "Hyeseon An",
           "Yo-Sub Han"
         ],
-        "comment": null,
+        "comment": "EMNLP 2026",
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2606.00613v1/x1.png",
         "journal_reference": null,
@@ -7268,7 +7369,7 @@
         "primary_category": "cs.CL",
         "published": "2026-05-30",
         "title": "Linguistics-Aware Non-Distortionary LLM Watermarking",
-        "updated": "2026-05-30"
+        "updated": "2026-08-29"
       },
       "2606.24163": {
         "abs_url": "https://arxiv.org/abs/2606.24163",
@@ -7291,14 +7392,14 @@
       },
       "2606.31602": {
         "abs_url": "https://arxiv.org/abs/2606.31602",
-        "abstract": "This work presents Dual-Embedding Watermarking (DEW), a semantic watermarking scheme for large language models (LLMs) that leverages contextual and token-level embeddings to enhance robustness against paraphrasing and translation. DEW utilizes a signal-processing methodology, applying algebraic vector-space operations to token and context embeddings to derive a watermark signal that degrades gracefully under semantic shifts. The method obfuscates the watermark by projecting embedding vectors through pseudo-random matrices seeded with a secret key. Relevant distributions derived from the underlying algebra are evaluated and employed for statistical testing and benchmarking of DEW. Experimental results across multiple LLMs indicate that DEW improves post-paraphrase detection while maintaining competitive text quality, and remains detectable after translation, even when prior semantic watermarks degrade significantly. These findings position DEW as a practical and robust solution for safeguarding LLM-generated text and addressing critical issues in responsible AI deployment.",
+        "abstract": "This work presents Dual-Embedding Watermarking (DEW), a semantic watermarking scheme for large language models (LLMs) that leverages contextual and token-level embeddings to enhance robustness against paraphrasing and translation. DEW utilizes a signal-processing methodology, applying algebraic vector-space operations to token and context embeddings to derive a watermark signal that degrades gracefully under semantic shifts. The method obfuscates the watermark by projecting embedding vectors through pseudo-random matrices seeded with a secret key. Experimental results show that dual-embedding watermarking can offer state-of-the-art robustness, particularly against translation, while incurring relatively low computational overhead compared with other semantic schemes. At lower watermark strength, DEW also maintains competitive text quality, suggesting that dual-embedding signals provide a promising substrate for robust semantic watermarking.",
         "arxiv_id": "2606.31602",
         "authors": [
           "Jonas Schäfer",
           "Cezary Pilaszewicz",
           "Gerhard Wunder"
         ],
-        "comment": "Preprint. 22 pages, 9 tables, 1 figure",
+        "comment": "Accepted to Findings of EMNLP 2026. 22 pages, 10 tables, 1 figure",
         "first_seen": "2026-07-22",
         "introduction_image": null,
         "journal_reference": null,
@@ -7306,7 +7407,7 @@
         "primary_category": "cs.CL",
         "published": "2026-06-30",
         "title": "Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings",
-        "updated": "2026-07-01"
+        "updated": "2026-09-04"
       },
       "2607.05694": {
         "abs_url": "https://arxiv.org/abs/2607.05694",
@@ -7330,7 +7431,7 @@
       },
       "2607.10103": {
         "abs_url": "https://arxiv.org/abs/2607.10103",
-        "abstract": "Large language models (LLMs) are increasingly embedded in high-impact workflows, yet their ability to generate fluent text at scale has amplified risks of provenance ambiguity, model misuse, and large-scale content laundering. LLM watermarking, embedding invisible signatures into model outputs, has emerged as a promising technical layer for attribution, auditing, and downstream trust decisions. However, the literature has grown rapidly and unevenly: existing categorizations often mix orthogonal design choices, making it difficult to compare methods, reason about guarantees, or translate research results into deployable systems. This survey provides a systematic, deployment-oriented review of LLM watermarking. We organize the space by the core questions practitioners must answer: where a watermark is embedded (generation-time vs. training-time, token vs. representation), who can detect it (public vs. private detection authority), what is assumed (access to logits, sampling control, secret keys, model ownership), and which threat models are targeted (paraphrasing, translation, summarization, style transfer, token manipulation, and adaptive removal). We synthesize the main families of techniques-including sampling biasing, code-based schemes, representation- and training-based approaches-and analyze their security-utility trade-offs through the lens of detectability, robustness, and distribution shift. We further review attack and evasion strategies, evaluation protocols and metrics (false positive control, calibration, robustness curves), and open challenges such as cross-model transfer, multi-modal pipelines, collusion, and governance constraints. Finally, we provide practical guidance for selecting watermark designs under real operational requirements and identify research directions needed for reliable, accountable LLM deployment.",
+        "abstract": "As large language models (LLMs) become widely deployed, their outputs can be copied, transformed, and redistributed at scale without reliable evidence of origin, creating risks for trust, accountability, intellectual property (IP) protection, and high-stakes decision-making. LLM watermarking addresses this problem by embedding detectable signals into text during or after generation. However, existing methods vary in design assumptions, threat models, and evaluation criteria, while deployment choices such as watermark placement, detection authority, and key management affect reliability, security, and scalability. This paper systematizes LLM watermarking as provenance infrastructure for large-scale data ecosystems. We organize existing approaches along four deployment dimensions: insertion point, verification authority, operational state, and transformation threat model, and relate them to the big data requirements of Volume, Velocity, Variety, Veracity, and Value. We further introduce a Big Data Watermarking Readiness framework centered on four deployment workloads: online generation, streaming detection, transformation pipelines, and ecosystem governance. The framework connects these workloads to system-level requirements including throughput, false-positive control, robustness, cross-domain reliability, governance, and downstream utility. Our analysis highlights a gap between benchmark performance and deployment readiness: false positives accumulate at scale, repeated transformations weaken watermark signals, computational overhead can limit online deployment, and centralized verification can create governance bottlenecks. We conclude with an evaluation blueprint and research directions for scalable, trustworthy provenance in big data ecosystems.",
         "arxiv_id": "2607.10103",
         "authors": [
           "Huy Phan",
@@ -7348,8 +7449,8 @@
         "pdf_url": "https://arxiv.org/pdf/2607.10103",
         "primary_category": "cs.CR",
         "published": "2026-07-11",
-        "title": "A Survey on LLM Watermarking: Theory and Deployment",
-        "updated": "2026-07-11"
+        "title": "LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization",
+        "updated": "2026-09-02"
       },
       "2607.10210": {
         "abs_url": "https://arxiv.org/abs/2607.10210",
@@ -7610,6 +7711,45 @@
         "published": "2026-08-20",
         "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
         "updated": "2026-08-20"
+      },
+      "2608.29151": {
+        "abs_url": "https://arxiv.org/abs/2608.29151",
+        "abstract": "Large Language Model (LLM) watermarks provide a mechanism for text provenance, enabling model owners to identify machine-generated content and attribute it to a specific watermarked model. However, current LLM watermarking approaches predominantly rely on inference-time sampler methods and focus their analysis on dense models. Inference-time methods are only effective when the text is explicitly generated via the model owner's controlled API; they fail in a post-compromise scenario. An adversary who steals or leaks the model weights gains complete control over inference and can simply run an unmodified sampler, bypassing the watermark and preventing post-theft attribution. In this work, we introduce Watermarking of Experts (WoE), a novel black-box text provenance method that leverages the unique structural properties of sparse Mixture-of-Experts (MoE) models. WoE biases the vocabulary of specific experts and shifts the watermark signal embedding away from unenforceable inference wrappers. This approach ensures the watermark remains intrinsic to the model parameters, enabling defenders to attribute text generated by stolen weights, leaked checkpoints, and secondary dense models distilled from the stolen architecture without needing access to the adversary's deployment or weights. We evaluate WoE across eight MoE models, demonstrating successful watermark detection from suspect text, achieving an average true positive rate of 90.1% at a 1% false positive rate, reaching up to 94.9%, while largely preserving general model utility. Furthermore, WoE remains detectable under adversarial supervised fine-tuning, model extraction, and output-level paraphrasing, forcing malicious actors into a trade-off in which weakening the attribution signal requires additional model adaptation or text-rewriting operations, or compromises the utility of the resulting output.",
+        "arxiv_id": "2608.29151",
+        "authors": [
+          "Jona te Lintelo",
+          "Lichao Wu",
+          "Stjepan Picek"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-08",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2608.29151",
+        "primary_category": "cs.CR",
+        "published": "2026-08-29",
+        "title": "WoE Wrote It? Watermarking Mixture-of-Experts LLMs for Black-Box Text Provenance",
+        "updated": "2026-08-29"
+      },
+      "2609.02177": {
+        "abs_url": "https://arxiv.org/abs/2609.02177",
+        "abstract": "Multi-bit watermarking for large language models (LLMs) enables content source tracing by embedding user-identifiable messages into generated text. Existing methods face a fundamental trade-off among extraction accuracy, text quality, and payload capacity. We propose WeaveMark, a robust and scalable multi-bit LLM watermarking scheme based on coded payload spreading. WeaveMark shifts this trade-off frontier by improving payload capacity through multi-bit-per-token spreading, improving extraction accuracy through soft-decision error-correcting code, and preserving text quality through unbiased multilayer reweighting. It further introduces dedicated zero-bit layers for reliable watermark presence detection. Experiments show large gains, especially for long messages and edited text. WeaveMark achieves 89.8% match rate for 32-bit messages at 200 tokens, compared with 20.8% for BiMark. Under 10% substitution attacks on 16-bit messages at 200 tokens, it maintains 86.0% versus 30.7%, while preserving text quality. Our code is available at https://github.com/qkrrkd90-source/WeaveMark.",
+        "arxiv_id": "2609.02177",
+        "authors": [
+          "Gang-Hyun Park",
+          "Ju-Hyeong Lee",
+          "Hee-Youl Kwak",
+          "Dae-Young Yun"
+        ],
+        "comment": "16 pages, 11 figures. Code: https://github.com/qkrrkd90-source/WeaveMark",
+        "first_seen": "2026-09-08",
+        "introduction_image": "https://arxiv.org/html/2609.02177/2609.02177v1/figures/scheme_diagram_new.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.02177",
+        "primary_category": "cs.CR",
+        "published": "2026-09-02",
+        "title": "WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading",
+        "updated": "2026-09-02"
       }
     }
   }
