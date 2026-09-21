@@ -4,48 +4,50 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-09-08 17:09 CST &nbsp; · &nbsp; **Indexed:** 333 unique papers
+**Last updated:** 2026-09-21 16:04 CST &nbsp; · &nbsp; **Indexed:** 342 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 111 papers
-- [Generative AI Watermarking](#generative-ai-watermarking) · 39 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 111 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 105 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 112 papers
+- [Generative AI Watermarking](#generative-ai-watermarking) · 40 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 116 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 108 papers
 
-## Today's additions · 2026-09-08
+## Today's additions · 2026-09-21
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 4 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- [One Prompt Is Enough: Watermark Laundering Through Foundation Image Models](https://arxiv.org/abs/2609.01249) — 2026-09-01
-- [What Limits Robustness in Deep Image Watermarking: An Analysis of Mechanisms and Their Scaling Across Capacities](https://arxiv.org/abs/2609.01050) — 2026-09-01
-- [Asymmetric Phase Coding Video Watermarking](https://arxiv.org/abs/2608.29212) — 2026-08-29
-- [Keyed Provenance Watermarking with Complementary Lattice-Based Secure Aggregation for Federated Learning](https://arxiv.org/abs/2608.20580) — 2026-08-20
+- [What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking](https://arxiv.org/abs/2609.16832) — 2026-09-15
 
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
-
-</details>
-
-<details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
-
-- [WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading](https://arxiv.org/abs/2609.02177) — 2026-09-02
-- [WoE Wrote It? Watermarking Mixture-of-Experts LLMs for Black-Box Text Provenance](https://arxiv.org/abs/2608.29151) — 2026-08-29
+- [DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory](https://arxiv.org/abs/2609.08213) — 2026-09-08
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 5 new papers</summary>
 
-- [Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models](https://arxiv.org/abs/2608.28929) — 2026-08-28
+- [MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks](https://arxiv.org/abs/2609.16681) — 2026-09-15
+- [Predictive Likelihood Ratios for Language Model Watermark Detection](https://arxiv.org/abs/2609.15657) — 2026-09-14
+- [DenMark: Robust Semantic Watermarking for Diffusion Language Models](https://arxiv.org/abs/2609.14257) — 2026-09-13
+- [TripPattern: A Pattern-based Text Watermarking Method for Large Language Models](https://arxiv.org/abs/2609.12472) — 2026-09-11
+- [Watermarks Without Verification: AI Text Watermarking After the EU AI Act](https://arxiv.org/abs/2609.09604) — 2026-09-09
+
+</details>
+
+<details>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 3 new papers</summary>
+
+- [Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape](https://arxiv.org/abs/2609.20614) — 2026-09-17
+- [Fingerprinting Multimodal Large Language Models](https://arxiv.org/abs/2609.20457) — 2026-09-17
+- [Predictive Likelihood Ratios for Language Model Watermark Detection](https://arxiv.org/abs/2609.15657) — 2026-09-14
 
 </details>
 
@@ -61,10 +63,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**111 papers · newest first**
+**112 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking**<br><sub>Kai Yao, Bence Szilágyi, Sebestyén Kamp et al.</sub> | the ACM Digital Library<br>**2026** | <img width="400" alt="What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking" src="https://arxiv.org/html/2609.16832/2609.16832v1/figures/evaluation_pipeline.png"> | [Paper](https://arxiv.org/abs/2609.16832)<br>[PDF](https://arxiv.org/pdf/2609.16832)<br>`2609.16832` |
 | **One Prompt Is Enough: Watermark Laundering Through Foundation Image Models**<br><sub>Jidong Yang, Qi Li, Wei Zong et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="One Prompt Is Enough: Watermark Laundering Through Foundation Image Models" src="https://arxiv.org/html/2609.01249/2609.01249v1/Figures/fig1.png"> | [Paper](https://arxiv.org/abs/2609.01249)<br>[PDF](https://arxiv.org/pdf/2609.01249)<br>`2609.01249` |
 | **What Limits Robustness in Deep Image Watermarking: An Analysis of Mechanisms and Their Scaling Across Capacities**<br><sub>Marta Bistroń, Zbigniew Piotrowski</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.01050)<br>[PDF](https://arxiv.org/pdf/2609.01050)<br>`2609.01050` |
 | **Asymmetric Phase Coding Video Watermarking**<br><sub>Guang Yang, Fengchen Liu</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Asymmetric Phase Coding Video Watermarking" src="https://arxiv.org/html/2608.29212/2608.29212v1/fig1_pipeline.png"> | [Paper](https://arxiv.org/abs/2608.29212)<br>[PDF](https://arxiv.org/pdf/2608.29212)<br>`2608.29212` |
@@ -179,10 +182,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Generative AI Watermarking
 
-**39 papers · newest first**
+**40 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory**<br><sub>Rui Bao, Zheng Gao, Xiaoyu Li et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory" src="https://arxiv.org/html/2609.08213/2609.08213v1/figure1-notitile.png"> | [Paper](https://arxiv.org/abs/2609.08213)<br>[PDF](https://arxiv.org/pdf/2609.08213)<br>`2609.08213` |
 | **IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images**<br><sub>Xiaoyan Feng, Zheng Gao, Tong Guan et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images" src="https://arxiv.org/html/2608.03539/2608.03539v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.03539)<br>[PDF](https://arxiv.org/pdf/2608.03539)<br>`2608.03539` |
 | **FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack**<br><sub>Chunpeng Wang, Yuxin Li, Xiaoyu Wang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FDDWAN: A Frequency-Decoupled Diffusion Network for Watermarking Attack" src="https://arxiv.org/html/2607.27800/2607.27800v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.27800)<br>[PDF](https://arxiv.org/pdf/2607.27800)<br>`2607.27800` |
 | **AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony**<br><sub>Yuqi Qian, Yun Cao, Haocheng Fu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="AnchorMark: Robust Diffusion Watermarking via Latent-Space Rotation Synchrony" src="https://arxiv.org/html/2607.27551/2607.27551v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.27551)<br>[PDF](https://arxiv.org/pdf/2607.27551)<br>`2607.27551` |
@@ -225,10 +229,15 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**111 papers · newest first**
+**116 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks**<br><sub>Kairong Li, Zhikun Zhang, Xiao Ren et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks" src="https://arxiv.org/html/2609.16681/2609.16681v1/system_overview_1.1.png"> | [Paper](https://arxiv.org/abs/2609.16681)<br>[PDF](https://arxiv.org/pdf/2609.16681)<br>`2609.16681` |
+| **Predictive Likelihood Ratios for Language Model Watermark Detection**<br><sub>Li Ma</sub> | arXiv · stat.ML<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.15657)<br>[PDF](https://arxiv.org/pdf/2609.15657)<br>`2609.15657` |
+| **DenMark: Robust Semantic Watermarking for Diffusion Language Models**<br><sub>Tianhao Ma, Weihao Xuan, Dong-Dong Wu et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="DenMark: Robust Semantic Watermarking for Diffusion Language Models" src="https://arxiv.org/html/2609.14257/2609.14257v1/denomark_motivation_unit_highlight.png"> | [Paper](https://arxiv.org/abs/2609.14257)<br>[PDF](https://arxiv.org/pdf/2609.14257)<br>`2609.14257` |
+| **TripPattern: A Pattern-based Text Watermarking Method for Large Language Models**<br><sub>Sangjun Moon, Dasom Choi, Jingun Kwon et al.</sub> | Findings of AACL-IJCNLP 2026<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.12472)<br>[PDF](https://arxiv.org/pdf/2609.12472)<br>`2609.12472` |
+| **Watermarks Without Verification: AI Text Watermarking After the EU AI Act**<br><sub>Alexander Nemecek, Vipin Chaudhary, Erman Ayday</sub> | arXiv · cs.CY<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.09604)<br>[PDF](https://arxiv.org/pdf/2609.09604)<br>`2609.09604` |
 | **WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading**<br><sub>Gang-Hyun Park, Ju-Hyeong Lee, Hee-Youl Kwak et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading" src="https://arxiv.org/html/2609.02177/2609.02177v1/figures/scheme_diagram_new.png"> | [Paper](https://arxiv.org/abs/2609.02177)<br>[PDF](https://arxiv.org/pdf/2609.02177)<br>`2609.02177` |
 | **WoE Wrote It? Watermarking Mixture-of-Experts LLMs for Black-Box Text Provenance**<br><sub>Jona te Lintelo, Lichao Wu, Stjepan Picek</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2608.29151)<br>[PDF](https://arxiv.org/pdf/2608.29151)<br>`2608.29151` |
 | **Auditing Cross-Lingual Fairness in Language Model Watermarking**<br><sub>Alexander Nemecek, Osama Zafar, Debargha Ganguly et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Auditing Cross-Lingual Fairness in Language Model Watermarking" src="https://arxiv.org/html/2608.20047/2608.20047v1/figure_q_5_2_combined_xglm_base.png"> | [Paper](https://arxiv.org/abs/2608.20047)<br>[PDF](https://arxiv.org/pdf/2608.20047)<br>`2608.20047` |
@@ -343,10 +352,13 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**105 papers · newest first**
+**108 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape**<br><sub>Sarah Radway, Andrew Cheng, Vijay Janapa Reddi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape" src="https://arxiv.org/html/2609.20614/2609.20614v1/inference-stack-example.png"> | [Paper](https://arxiv.org/abs/2609.20614)<br>[PDF](https://arxiv.org/pdf/2609.20614)<br>`2609.20614` |
+| **Fingerprinting Multimodal Large Language Models**<br><sub>Chao Huang, Meng Tong, Kejiang Chen</sub> | ACM Multimedia 2026 (MM '26) as an oral presentation<br>**2026** | <img width="400" alt="Fingerprinting Multimodal Large Language Models" src="https://arxiv.org/html/2609.20457/2609.20457v1/framework.png"> | [Paper](https://arxiv.org/abs/2609.20457)<br>[PDF](https://arxiv.org/pdf/2609.20457)<br>`2609.20457` |
+| **Predictive Likelihood Ratios for Language Model Watermark Detection**<br><sub>Li Ma</sub> | arXiv · stat.ML<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.15657)<br>[PDF](https://arxiv.org/pdf/2609.15657)<br>`2609.15657` |
 | **Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models**<br><sub>Feng Jiang, Zuobin Xiong, An Huang et al.</sub> | the IEEE International Conference on Data Mining (ICDM) 2026<br>**2026** | <img width="400" alt="Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models" src="https://arxiv.org/html/2608.28929/2608.28929v1/MiO-framework.png"> | [Paper](https://arxiv.org/abs/2608.28929)<br>[PDF](https://arxiv.org/pdf/2608.28929)<br>`2608.28929` |
 | **Auditing Cross-Lingual Fairness in Language Model Watermarking**<br><sub>Alexander Nemecek, Osama Zafar, Debargha Ganguly et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Auditing Cross-Lingual Fairness in Language Model Watermarking" src="https://arxiv.org/html/2608.20047/2608.20047v1/figure_q_5_2_combined_xglm_base.png"> | [Paper](https://arxiv.org/abs/2608.20047)<br>[PDF](https://arxiv.org/pdf/2608.20047)<br>`2608.20047` |
 | **Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation**<br><sub>Yuanmin Huang, Chen Chen, Geng Hong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation" src="https://arxiv.org/html/2608.11732/2608.11732v1/intro.png"> | [Paper](https://arxiv.org/abs/2608.11732)<br>[PDF](https://arxiv.org/pdf/2608.11732)<br>`2608.11732` |

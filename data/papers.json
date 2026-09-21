@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-08T09:09:45.730867+00:00",
+    "last_updated": "2026-09-21T08:04:56.766436+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -834,6 +834,28 @@
         "published": "2026-08-04",
         "title": "IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images",
         "updated": "2026-08-26"
+      },
+      "2609.08213": {
+        "abs_url": "https://arxiv.org/abs/2609.08213",
+        "abstract": "Diffusion watermarking embeds verifiable signals into the generative process and commonly verifies them by recovering trajectory-dependent evidence, making the marks robust to conventional pixel-space distortions. Existing removal attacks either regenerate along deterministic trajectories, which often preserve the watermark-bearing latent structure, or optimize every image separately. We identify the reliance on a recoverable generative trajectory as a common attack surface among the schemes we study. Based on this observation, we propose DRIFT, a black-box attack that combines partial forward diffusion with stochastic reverse resampling. Forward re-noising limits source information available to a fixed-depth recovery pipeline, while stochastic reversal supplies alternative noise-driven paths whose removal benefit we isolate through matched sampler comparisons. Adaptive DRIFT searches a selected ladder for each image's first verifier-rejected rung and refines fidelity while retaining only updates rejected by the same verifier. At fixed depth, we derive information-theoretic and Wasserstein source-dependence bounds; under realized-ladder monotonicity, the first rejected rung is least distorted among rejected rungs on that ladder, and verifier-gated refinement preserves rejection. Across nine watermarks spanning three paradigms, DRIFT achieves 98-100% attack success and the best image quality among the compared attacks, without secret keys, verifier internals, or per-image gradient optimization.",
+        "arxiv_id": "2609.08213",
+        "authors": [
+          "Rui Bao",
+          "Zheng Gao",
+          "Xiaoyu Li",
+          "Xiaoyan Feng",
+          "Yang Song",
+          "Jiaojiao Jiang"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-21",
+        "introduction_image": "https://arxiv.org/html/2609.08213/2609.08213v1/figure1-notitile.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.08213",
+        "primary_category": "cs.CR",
+        "published": "2026-09-08",
+        "title": "DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory",
+        "updated": "2026-09-08"
       }
     },
     "Image and Video Watermarking": {
@@ -3183,6 +3205,29 @@
         "published": "2026-09-01",
         "title": "One Prompt Is Enough: Watermark Laundering Through Foundation Image Models",
         "updated": "2026-09-01"
+      },
+      "2609.16832": {
+        "abs_url": "https://arxiv.org/abs/2609.16832",
+        "abstract": "Local image watermarking embeds an invisible signal into selected image regions rather than spreading it across the entire image, enabling payload recovery from specific objects or regions without perceptibly altering the image. Existing studies evaluate the robustness of payload recovery and localization under image transformations, but they often focus on their own proposed method, resulting in narrow evaluations with inconsistent choices of transformations, datasets, and metrics. These inconsistencies across studies limit direct comparisons across methods and muddle the overall picture of local watermark robustness. To address this gap, we present the first systematic robustness benchmark for local watermarks across 55 image transformations, including (i) signal distortions, (ii) changes in image coordinate alignment, (iii) indirect local edits, and (iv) direct watermark edits. The benchmark evaluates MaskWM, WAM, OmniGuard, TrustMark, and PixelSeal, all methods that either provide native localization or require minimal adaptation to support it. Our results show that all evaluated methods are vulnerable to some transformation, with MaskWM standing out as offering the strongest payload recovery and localization, although it has the lowest image quality in the clean setting. Synchronization further improves MaskWM's payload recovery under several geometric transformations, albeit at an additional cost to image quality. A key finding is that local watermark robustness depends strongly on the nature of the transformation: signal distortions are often tolerated by the strongest methods, while geometric misalignment and generative local edits, such as inpainting and outpainting, can completely impair payload recovery. We observe that payload recovery and localization are related but not interchangeable, and both strongly depend on the transformation's impact on the watermark region.",
+        "arxiv_id": "2609.16832",
+        "authors": [
+          "Kai Yao",
+          "Bence Szilágyi",
+          "Sebestyén Kamp",
+          "Máté Poór",
+          "Máté Szilveszter",
+          "Matyas K. Zsoldos",
+          "Marc Juarez"
+        ],
+        "comment": "This work has been accepted for publication in the proceedings of the 19th ACM Workshop on Artificial Intelligence and Security (AISec 2026), co-located with ACM CCS 2026. The final version will be published in the ACM Digital Library",
+        "first_seen": "2026-09-21",
+        "introduction_image": "https://arxiv.org/html/2609.16832/2609.16832v1/figures/evaluation_pipeline.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.16832",
+        "primary_category": "cs.CV",
+        "published": "2026-09-15",
+        "title": "What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking",
+        "updated": "2026-09-15"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -5419,6 +5464,62 @@
         "published": "2026-08-28",
         "title": "Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models",
         "updated": "2026-08-28"
+      },
+      "2609.15657": {
+        "abs_url": "https://arxiv.org/abs/2609.15657",
+        "abstract": "Keyed watermark detection tests dependence between observed tokens and pseudorandom variables reconstructed from a secret key. Building on the pivotal framework of Li et al. (2025), we construct predictive likelihood ratios that average over uncertain probability deficits and residual-tail distributions. The aim is robust detection power across alternative specifications without requiring a single signal-strength tuning. A mixture prior combines tail shape and effective width; hierarchical extensions allow within-document variation in deficit or width. The test maximizes prior-averaged power at a fixed size, but is not generally uniformly most powerful or minimax. Under the exact conditional pivot null, normalized predictive alternatives selected before each observation yield a Bayes factor that is also a test martingale: Type I error control is unaffected by alternative misspecification and remains valid under optional stopping. This guarantee does not cover violations of the conditional null, and the interpolated implementation has no certified anytime guarantee. Gumbel marginal likelihoods are evaluated by fixed quadrature. Across the evaluated tail-shape and tail-width alternatives and three horizons, the union-tail mixture has maximum observed Type II error regret .0080, compared with .0962 for the equal-tail mixture, relative to the best tested rule. On temperature-matched outputs from two open models, it improves AUC over the equal-tail baseline in all eight non-saturated model-temperature cells, although the leading reference score generally has higher AUC. Supplementary experiments show retained power under independent null-like replacement and smaller changes from hierarchical dependence modeling. The evidence supports robustness across the evaluated alternatives, not uniform power guarantees or resistance to arbitrary text edits.",
+        "arxiv_id": "2609.15657",
+        "authors": [
+          "Li Ma"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-21",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.15657",
+        "primary_category": "stat.ML",
+        "published": "2026-09-14",
+        "title": "Predictive Likelihood Ratios for Language Model Watermark Detection",
+        "updated": "2026-09-14"
+      },
+      "2609.20457": {
+        "abs_url": "https://arxiv.org/abs/2609.20457",
+        "abstract": "While multimodal large language models (MLLMs) enable a wide range of image-text reasoning tasks, recent incidents indicate that they are vulnerable to illicit deployment and unauthorized distillation. Existing solutions for model provenance are typically confounded by shared language backbones in MLLMs and struggle to detect violations of distillation. To bridge this gap and safeguard model ownership, we present the first study on multimodal model fingerprinting. Inspired by recent findings that self-attention acts as a low-pass filter and that its low-frequency components are informative, we develop AttnPrint for white-box provenance. Specifically, we extract cross-modal attention distributions and isolate their low-frequency components to serve as model fingerprints. To facilitate black-box auditing, we further introduce DistillTrace, which employs hypothesis testing of MLLM outputs to identify potential model infringement. We conduct extensive experiments on 154 model instances across 19 multimodal architectures. Notably, AttnPrint achieves strong derivative-model detection performance while remaining robust to five downstream modification techniques. DistillTrace also provides evidence of distillation relationships under three parameter-independent techniques.",
+        "arxiv_id": "2609.20457",
+        "authors": [
+          "Chao Huang",
+          "Meng Tong",
+          "Kejiang Chen"
+        ],
+        "comment": "10 pages, 3 figures. Accepted to ACM Multimedia 2026 (MM '26) as an oral presentation",
+        "first_seen": "2026-09-21",
+        "introduction_image": "https://arxiv.org/html/2609.20457/2609.20457v1/framework.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.20457",
+        "primary_category": "cs.CR",
+        "published": "2026-09-17",
+        "title": "Fingerprinting Multimodal Large Language Models",
+        "updated": "2026-09-17"
+      },
+      "2609.20614": {
+        "abs_url": "https://arxiv.org/abs/2609.20614",
+        "abstract": "Frontier AI models are rapidly gaining the ability to exploit vulnerabilities in complex pieces of software. The risk is not theoretical, as evidenced by recent sandbox escapes performed by frontier models at OpenAI and Anthropic. Discussions of how to sandbox inference stack components often focus on components other than the inference engine itself (e.g., network proxies or code execution environments). However, the inference engine is an attractive target for a misaligned model. For example, if a model can trigger exploits in that engine merely by generating specially-crafted output tokens, the model can initiate a multi-step, to-the-bare-metal exploit chain in the engine, without relying on vulnerabilities in other components of the inference stack, and without assistance from externally-provided, maliciously-crafted input tokens. In this paper, we show that a misaligned model can perform inference engine fingerprinting to determine the specific engine (e.g., vLLM, SGLang) which executes the model. Once the engine has been fingerprinted, the model can leverage engine-specific exploits to take control of the engine using only carefully-selected output tokens. We provide concrete examples of model fingerprints in five popular engines, and demonstrate how realistic agentic harnesses allow a model to leverage those fingerprints to identify the local engine. We also describe a proof-of-concept, to-the-bare-metal exploit chain that originates from a fingerprinted (and subsequently compromised) inference engine. We conclude by discussing several ways that inference engines could be changed to make fingerprinting attacks more difficult.",
+        "arxiv_id": "2609.20614",
+        "authors": [
+          "Sarah Radway",
+          "Andrew Cheng",
+          "Vijay Janapa Reddi",
+          "James Mickens"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-21",
+        "introduction_image": "https://arxiv.org/html/2609.20614/2609.20614v1/inference-stack-example.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.20614",
+        "primary_category": "cs.CR",
+        "published": "2026-09-17",
+        "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+        "updated": "2026-09-17"
       }
     },
     "Text and LLM Watermarking": {
@@ -6388,7 +6489,7 @@
       },
       "2510.18019": {
         "abs_url": "https://arxiv.org/abs/2510.18019",
-        "abstract": "Multilingual watermarking aims to make large language model (LLM) outputs traceable across languages, yet current methods still fall short. Despite claims of cross-lingual robustness, they are evaluated only on high-resource languages. We show that existing multilingual watermarking methods are not truly multilingual: they fail to remain robust under translation attacks in medium- and low-resource languages. We trace this failure to semantic clustering, which fails when the tokenizer vocabulary contains too few full-word tokens for a given language. To address this, we introduce STEAM, a detection method that uses Bayesian optimisation to search among 133 candidate languages for the back-translation that best recovers the watermark strength. It is compatible with any watermarking method, robust across different tokenizers and languages, non-invasive, and easily extendable to new languages. With average gains of +0.23 AUC and +37% TPR@1%, STEAM provides a scalable approach toward fairer watermarking across the diversity of languages.",
+        "abstract": "Multilingual watermarking aims to make large language model (LLM) outputs traceable across languages, yet current methods still fall short. Despite claims of cross-lingual robustness, they are evaluated only on high-resource languages. We show that existing multilingual watermarking methods are not truly multilingual: they fail to remain robust under translation attacks in medium- and low-resource languages. We trace this failure to semantic clustering, which fails when the tokenizer vocabulary contains too few full-word tokens for a given language. To address this, we introduce STEAM, a detection method that uses Bayesian optimisation to search among 126 candidate languages for the back-translation that best recovers the watermark strength. It is compatible with any watermarking method, robust across different tokenizers and languages, non-invasive, and easily extendable to new languages. With average gains of +0.23 AUC and +37%p TPR@1%, STEAM provides a scalable approach toward fairer watermarking across the diversity of languages.",
         "arxiv_id": "2510.18019",
         "authors": [
           "Asim Mohamed",
@@ -6402,7 +6503,7 @@
         "primary_category": "cs.CL",
         "published": "2025-10-20",
         "title": "Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation",
-        "updated": "2026-03-25"
+        "updated": "2026-09-11"
       },
       "2510.18333": {
         "abs_url": "https://arxiv.org/abs/2510.18333",
@@ -7750,6 +7851,108 @@
         "published": "2026-09-02",
         "title": "WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading",
         "updated": "2026-09-02"
+      },
+      "2609.09604": {
+        "abs_url": "https://arxiv.org/abs/2609.09604",
+        "abstract": "On August 2, 2026, the obligations of Article 50 of the EU AI Act took effect, requiring generative AI providers to mark the content their systems produce and ensure it can be detected as AI-generated. Days later, Anthropic disclosed that every Claude model released after that date embeds a watermark based on SynthID-Text in all generated text, enabled by default with no user opt-out; Google has deployed SynthID-Text in Gemini since 2024. Users objected that the watermark degrades quality, particularly for code, that it secretly encodes identifying information, and, in mutual contradiction, that it is easily removable and inescapable; the vendor answered with assurances of unchanged quality, no identifying information, and robustness to light editing. In this work, we argue that neither the objections nor the assurances can currently be verified and that this unverifiability, rather than watermarking itself, is the substantive governance failure. We sort the contested assertions by what it would take to settle each and evaluate the open-source SynthID-Text implementation on two open-weight models, because no public tool can test the deployed systems. On prose, the measured effect of the watermark does not exceed that of changing the sampling seed. On code, the cost is three points of correctness on one model and below measurement on the other, while detection remains near chance, a limitation of detectability rather than quality. The remaining gaps trace to withheld access or missing institutions and we map each to a requirement: release of matched outputs, configuration disclosure, accredited audits, a shared evaluation protocol, and interoperable detection.",
+        "arxiv_id": "2609.09604",
+        "authors": [
+          "Alexander Nemecek",
+          "Vipin Chaudhary",
+          "Erman Ayday"
+        ],
+        "comment": "10 pages, 2 figures",
+        "first_seen": "2026-09-21",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.09604",
+        "primary_category": "cs.CY",
+        "published": "2026-09-09",
+        "title": "Watermarks Without Verification: AI Text Watermarking After the EU AI Act",
+        "updated": "2026-09-09"
+      },
+      "2609.12472": {
+        "abs_url": "https://arxiv.org/abs/2609.12472",
+        "abstract": "Text watermarking techniques have gained significant attention for identifying machine-generated text and mitigating risks from large language models (LLMs). Existing methods typically divide an LLM's vocabulary into green and red tokens, but encouraging generation toward green tokens can reduce text quality and naturalness. To address this, we propose TripPattern, a watermarking framework that formulates text watermarking as a pattern-based matching task using three vocabulary partitions. TripPattern divides the vocabulary into one neutral group and two pattern groups. During generation, the model alternates token selection between the two pattern groups to embed detectable patterns, while neutral tokens are selected independently to improve flexibility and preserve naturalness. For detection, TripPattern uses pattern-based statistical tests that provide interpretable p-values by measuring how often adjacent tokens alternate between the pattern groups. Theoretical analysis and empirical evaluations on four multilingual datasets show that TripPattern maintains LLM generation quality while achieving robust watermark detectability.",
+        "arxiv_id": "2609.12472",
+        "authors": [
+          "Sangjun Moon",
+          "Dasom Choi",
+          "Jingun Kwon",
+          "Hidetaka Kamigaito",
+          "Taro Watanabe",
+          "Manabu Okumura"
+        ],
+        "comment": "Accepted to Findings of AACL-IJCNLP 2026. 16 pages, 4 figures, 10 tables",
+        "first_seen": "2026-09-21",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.12472",
+        "primary_category": "cs.AI",
+        "published": "2026-09-11",
+        "title": "TripPattern: A Pattern-based Text Watermarking Method for Large Language Models",
+        "updated": "2026-09-11"
+      },
+      "2609.14257": {
+        "abs_url": "https://arxiv.org/abs/2609.14257",
+        "abstract": "Semantic text watermarks encode signals in meaning rather than surface token choices, offering robustness to paraphrasing and other semantic-preserving edits. Existing semantic watermarking methods are primarily designed for autoregressive language models (ARLMs), where completed candidate units can be generated and scored before generation proceeds. This paradigm does not naturally extend to diffusion language models (DLMs), where semantic units remain incomplete during intermediate denoising steps and tokens may be updated in flexible orders. We propose DenMark, a semantic watermarking framework that injects key-dependent signals directly into the DLM denoising process. DenMark partitions the output into fixed token regions and uses temporary rollouts as semantic lookahead: conditional completions estimate the eventual semantics of an incomplete region, enabling DenMark to select local updates with higher estimated semantic watermark scores. Repeating this procedure across denoising steps progressively accumulates watermark evidence in the final output. For detection, DenMark uses calibrated scanning over candidate unit sizes to remain robust to boundary shifts introduced by semantic attacks. Across four DLMs, three datasets, and four semantic attacks, DenMark achieves the best results across all reported detection metrics in all 48 backbone-dataset-attack combinations. These results demonstrate that DenMark provides an effective mechanism for robust semantic watermarking in DLMs.",
+        "arxiv_id": "2609.14257",
+        "authors": [
+          "Tianhao Ma",
+          "Weihao Xuan",
+          "Dong-Dong Wu",
+          "Farshid Nooshi",
+          "Takashi Ishida",
+          "Gang Niu",
+          "Naoto Yokoya",
+          "Masashi Sugiyama"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-21",
+        "introduction_image": "https://arxiv.org/html/2609.14257/2609.14257v1/denomark_motivation_unit_highlight.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.14257",
+        "primary_category": "cs.CL",
+        "published": "2026-09-13",
+        "title": "DenMark: Robust Semantic Watermarking for Diffusion Language Models",
+        "updated": "2026-09-13"
+      },
+      "2609.15657": {
+        "abs_url": "https://arxiv.org/abs/2609.15657",
+        "abstract": "Keyed watermark detection tests dependence between observed tokens and pseudorandom variables reconstructed from a secret key. Building on the pivotal framework of Li et al. (2025), we construct predictive likelihood ratios that average over uncertain probability deficits and residual-tail distributions. The aim is robust detection power across alternative specifications without requiring a single signal-strength tuning. A mixture prior combines tail shape and effective width; hierarchical extensions allow within-document variation in deficit or width. The test maximizes prior-averaged power at a fixed size, but is not generally uniformly most powerful or minimax. Under the exact conditional pivot null, normalized predictive alternatives selected before each observation yield a Bayes factor that is also a test martingale: Type I error control is unaffected by alternative misspecification and remains valid under optional stopping. This guarantee does not cover violations of the conditional null, and the interpolated implementation has no certified anytime guarantee. Gumbel marginal likelihoods are evaluated by fixed quadrature. Across the evaluated tail-shape and tail-width alternatives and three horizons, the union-tail mixture has maximum observed Type II error regret .0080, compared with .0962 for the equal-tail mixture, relative to the best tested rule. On temperature-matched outputs from two open models, it improves AUC over the equal-tail baseline in all eight non-saturated model-temperature cells, although the leading reference score generally has higher AUC. Supplementary experiments show retained power under independent null-like replacement and smaller changes from hierarchical dependence modeling. The evidence supports robustness across the evaluated alternatives, not uniform power guarantees or resistance to arbitrary text edits.",
+        "arxiv_id": "2609.15657",
+        "authors": [
+          "Li Ma"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-21",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.15657",
+        "primary_category": "stat.ML",
+        "published": "2026-09-14",
+        "title": "Predictive Likelihood Ratios for Language Model Watermark Detection",
+        "updated": "2026-09-14"
+      },
+      "2609.16681": {
+        "abs_url": "https://arxiv.org/abs/2609.16681",
+        "abstract": "LLM watermarking helps trace the origin of generated text, but faces stealing attacks that recover watermark information, scrubbing attacks that remove watermark signals, and spoofing attacks that forge text accepted as watermarked. These attacks are often studied in isolation, leaving their connections unclear. Evaluations also often lack shared detector calibration, metric definitions, and reporting protocols. Moreover, measuring attack success and text quality separately makes it difficult to identify attacks that are both effective and quality-preserving. We propose MarkSec, a general framework that unifies analyses of stealing, scrubbing, and spoofing. We evaluate attacks under a common reporting protocol and introduce a quality-constrained attack success metric to assess effectiveness and text quality jointly. Experiments across representative watermark families, attacks, LLMs, and datasets reveal three findings. First, attacks that appear strongest by watermark removal alone can fall behind general rewriting when success also requires acceptable text quality. Second, general rewriting remains a strong baseline across watermark families, while its advantage over other scrubbers varies by family. Third, in a case study of one watermark family, stealing-based scrubbers often underperform the best general-scrubbing baselines when text quality is required. These results show that apparent attack winners depend on text-quality constraints, attack generality, and capability assumptions.",
+        "arxiv_id": "2609.16681",
+        "authors": [
+          "Kairong Li",
+          "Zhikun Zhang",
+          "Xiao Ren",
+          "Yunjun Gao"
+        ],
+        "comment": "21 pages, 7 figures",
+        "first_seen": "2026-09-21",
+        "introduction_image": "https://arxiv.org/html/2609.16681/2609.16681v1/system_overview_1.1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.16681",
+        "primary_category": "cs.CR",
+        "published": "2026-09-15",
+        "title": "MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks",
+        "updated": "2026-09-15"
       }
     }
   }
