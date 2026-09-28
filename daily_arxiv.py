@@ -91,7 +91,12 @@ def extract_first_figure_image(html: str, base_url: str) -> str | None:
     parser.feed(html)
     if not parser.image_src:
         return None
-    return urljoin(base_url.rstrip("/") + "/", parser.image_src)
+    source = parser.image_src
+    # arXiv now emits "<id>vN/figure.png" relative to /html/, while
+    # older renderings emit bare filenames relative to the paper directory.
+    if re.match(r"^(?:\d{4}\.\d{4,5}|[a-z-]+/\d{7})v\d+/", source):
+        return urljoin(base_url, "/html/" + source)
+    return urljoin(base_url.rstrip("/") + "/", source)
 
 
 def repair_cached_image_url(paper: dict[str, Any]) -> str | None:
@@ -103,6 +108,14 @@ def repair_cached_image_url(paper: dict[str, Any]) -> str | None:
     marker = "https://arxiv.org/html/"
     paper_id = str(paper.get("arxiv_id") or "")
     expected_prefix = f"{marker}{paper_id}"
+    if paper_id and image_url.startswith(marker):
+        suffix = image_url[len(marker):]
+        duplicate = re.match(
+            re.escape(paper_id) + r"(?:v\d+)?/(" + re.escape(paper_id) + r"v\d+/.*)",
+            suffix,
+        )
+        if duplicate:
+            return marker + duplicate.group(1)
     if paper_id and image_url.startswith(marker) and not image_url.startswith(expected_prefix):
         suffix = image_url[len(marker) :].lstrip("/")
         return f"{expected_prefix}/{suffix}"
@@ -235,7 +248,7 @@ def merge_topic(existing: dict[str, Any], papers: Iterable[dict[str, Any]]) -> i
 
 
 def escape_markdown(value: Any) -> str:
-    return str(value).replace("|", r"\|").replace("\n", " ").strip()
+    return escape_html(str(value), quote=False).replace("|", r"\|").replace("\n", " ").strip()
 
 
 def format_authors(authors: list[str], limit: int = 3) -> str:
@@ -270,8 +283,8 @@ def introduction_preview(paper: dict[str, Any]) -> str:
     image_url = paper.get("introduction_image")
     if not image_url:
         return "—"
-    title = escape_html(str(paper.get("title") or "Paper figure"), quote=True)
-    source = escape_html(str(image_url), quote=True)
+    title = escape_html(str(paper.get("title") or "Paper figure"), quote=True).replace("|", "&#124;")
+    source = escape_html(str(image_url), quote=True).replace("|", "%7C")
     return f'<img width="400" alt="{title}" src="{source}">'
 
 
@@ -340,6 +353,13 @@ def render_readme(config: dict[str, Any], catalog: dict[str, Any]) -> str:
             ]
         )
 
+    failed_topics = catalog.get("meta", {}).get("failed_topics", [])
+    if failed_topics:
+        lines.extend([
+            "> Warning: the latest update was incomplete. Retained cached papers for: "
+            + ", ".join(escape_markdown(name) for name in failed_topics) + ".",
+            "",
+        ])
     lines.extend(["## Categories", ""])
     for topic_name in config["topics"]:
         count = len(topic_data.get(topic_name, {}))
@@ -429,7 +449,8 @@ def render_readme(config: dict[str, Any], catalog: dict[str, Any]) -> str:
         [
             "## Automation",
             "",
-            "GitHub Actions runs once per day and can also be started manually from the Actions tab. "
+            "GitHub Actions is scheduled daily at **14:00 Asia/Shanghai (06:00 UTC)** "
+            "and can also be started manually from the Actions tab. Scheduled runs may be delayed by GitHub. "
             "The workflow uses the free arXiv API and does not call a paid AI service.",
             "",
             "Inspired by [liutaocode/Video-Generation-arxiv-daily]"
@@ -465,11 +486,12 @@ def run(config_path: Path, render_only: bool = False) -> int:
         paper_id: paper.get("introduction_image")
         for papers in catalog_topics.values()
         for paper_id, paper in papers.items()
-        if "introduction_image" in paper
+        if paper.get("introduction_image")
     }
 
     total_changes = 0
     successful_topics = 0
+    updated_topics: set[str] = set()
     if not render_only:
         normal_max = int(config.get("max_results_per_topic", 50))
         bootstrap_max = int(config.get("bootstrap_max_results_per_topic", normal_max))
@@ -492,6 +514,7 @@ def run(config_path: Path, render_only: bool = False) -> int:
                 delay_seconds=float(config.get("image_fetch_delay_seconds", 0.75)),
             )
             successful_topics += 1
+            updated_topics.add(topic_name)
             changes = merge_topic(existing, papers)
             total_changes += changes
             LOGGER.info("%s: fetched=%d changed=%d total=%d", topic_name, len(papers), changes, len(existing))
@@ -499,9 +522,11 @@ def run(config_path: Path, render_only: bool = False) -> int:
         if successful_topics == 0:
             LOGGER.error("All arXiv queries failed; existing files were left unchanged")
             return 1
-        if total_changes:
-            catalog.setdefault("meta", {})["schema_version"] = 1
-            catalog["meta"]["last_updated"] = datetime.now(timezone.utc).isoformat()
+        catalog.setdefault("meta", {})["schema_version"] = 1
+        catalog["meta"]["last_updated"] = datetime.now(timezone.utc).isoformat()
+        catalog["meta"]["failed_topics"] = [
+            name for name in config["topics"] if name not in updated_topics
+        ]
 
     catalog_changed = save_catalog(data_path, catalog)
     readme_changed = write_text_if_changed(readme_path, render_readme(config, catalog))

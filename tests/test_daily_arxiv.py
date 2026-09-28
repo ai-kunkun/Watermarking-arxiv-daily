@@ -1,7 +1,12 @@
 import unittest
+import json
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 from datetime import datetime, timezone
 
 from daily_arxiv import (
+    run,
     build_query,
     compact_introduction,
     escape_markdown,
@@ -72,6 +77,67 @@ class DailyArxivTests(unittest.TestCase):
         self.assertIn('width="400"', preview)
         self.assertIn('alt="A &amp; B"', preview)
         self.assertEqual(introduction_preview({}), "—")
+
+    def test_versioned_relative_figure_does_not_duplicate_id(self):
+        html = '<figure><img src="2609.26236v1/figures/COVER_scenario.png"></figure>'
+        self.assertEqual(
+            extract_first_figure_image(html, "https://arxiv.org/html/2609.26236"),
+            "https://arxiv.org/html/2609.26236v1/figures/COVER_scenario.png",
+        )
+
+    def test_repair_duplicate_id_preserves_version(self):
+        paper = {"arxiv_id": "2609.26236", "introduction_image":
+                 "https://arxiv.org/html/2609.26236/2609.26236v1/figures/COVER_scenario.png"}
+        expected = "https://arxiv.org/html/2609.26236v1/figures/COVER_scenario.png"
+        self.assertEqual(repair_cached_image_url(paper), expected)
+        paper["introduction_image"] = expected
+        self.assertEqual(repair_cached_image_url(paper), expected)
+
+    def test_absolute_figure_url_is_preserved(self):
+        for source in ["https://arxiv.org/html/2609.26236v1/x1.png",
+                       "/html/2609.26236v1/x1.png"]:
+            self.assertEqual(extract_first_figure_image(
+                f'<figure><img src="{source}"></figure>',
+                "https://arxiv.org/html/2609.26236"),
+                "https://arxiv.org/html/2609.26236v1/x1.png")
+
+    def test_partial_update_warning_is_visible(self):
+        config = {"title": "Test", "topics": {"Example": {"terms": ["watermark"]}}}
+        catalog = {"meta": {"failed_topics": ["Example"]}, "topics": {}}
+        self.assertIn("latest update was incomplete", render_readme(config, catalog))
+
+    def test_table_image_alt_escapes_pipe(self):
+        preview = introduction_preview({"title": "A | B", "introduction_image": "https://example.com/x.png"})
+        self.assertNotIn("|", preview)
+        self.assertIn("&#124;", preview)
+
+    def test_retry_failed_image_and_record_successful_check(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = root / "config.yaml"
+            config.write_text('title: Test\ndata_path: data.json\nreadme_path: README.md\n'
+                              'image_fetch_delay_seconds: 0\ntopics:\n  Test:\n    terms: [watermark]\n')
+            paper = {"arxiv_id": "2609.26236", "title": "Test", "abs_url": "https://arxiv.org/abs/2609.26236",
+                     "pdf_url": "https://arxiv.org/pdf/2609.26236", "first_seen": "2026-09-01",
+                     "introduction_image": None}
+            catalog = {"meta": {"last_updated": "2026-09-01T00:00:00+00:00"},
+                       "topics": {"Test": {paper["arxiv_id"]: paper}}}
+            data = root / "data.json"
+            data.write_text(json.dumps(catalog))
+            with patch("daily_arxiv.fetch_topic", return_value=[dict(paper)]), patch(
+                "daily_arxiv.fetch_first_figure_image", return_value=None
+            ) as fetch:
+                self.assertEqual(run(config), 0)
+                fetch.assert_called_once()
+            result = json.loads(data.read_text())
+            self.assertNotEqual(result["meta"]["last_updated"], catalog["meta"]["last_updated"])
+            self.assertEqual(result["topics"]["Test"][paper["arxiv_id"]]["first_seen"], "2026-09-01")
+            before = data.read_text()
+            with self.assertLogs("watermarking-arxiv-daily", level="ERROR"), patch(
+                "daily_arxiv.fetch_topic", side_effect=RuntimeError("unavailable")
+            ):
+                self.assertEqual(run(config), 1)
+            self.assertEqual(data.read_text(), before)
 
     def test_venue_and_year(self):
         paper = {

@@ -3,8 +3,8 @@ name: Update watermarking papers
 on:
   workflow_dispatch:
   schedule:
-    # 01:23 UTC = 09:23 Asia/Shanghai. An off-hour minute reduces scheduler congestion.
-    - cron: "23 1 * * *"
+    # 06:00 UTC = 14:00 Asia/Shanghai (UTC+8). GitHub may delay scheduled runs.
+    - cron: "0 6 * * *"
 
 permissions:
   contents: write
