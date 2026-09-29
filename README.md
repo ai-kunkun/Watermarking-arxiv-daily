@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-09-29 14:13 CST &nbsp; · &nbsp; **Indexed:** 354 unique papers
+**Last updated:** 2026-09-29 20:16 CST &nbsp; · &nbsp; **Indexed:** 354 unique papers
 
 ## Categories
 
