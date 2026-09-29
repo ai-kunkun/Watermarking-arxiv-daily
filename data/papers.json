@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-09-28T14:58:34.195012+00:00",
+    "last_updated": "2026-09-29T06:13:45.856846+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3290,6 +3290,99 @@
         "published": "2026-09-17",
         "title": "COVER: Codec-Robust Video Watermarking with Generative Video Priors",
         "updated": "2026-09-17"
+      },
+      "2609.31693": {
+        "abs_url": "https://arxiv.org/abs/2609.31693",
+        "abstract": "Invisible image watermarks are commonly evaluated against benign postprocessing operations such as compression, resizing, blur, and color changes. These tests leave out a different threat: a learned remover that preserves semantic image content while discarding residual evidence that carries the payload. We propose Disentangle and Drop (DnD), an attack that is agnostic to the watermark method and treats watermark removal as a representation routing problem. DnD decomposes a watermarked image into a semantic grayscale carrier and an auxiliary residual branch, and then suppresses the residual branch to reduce watermark evidence. The model is trained with latent spectral perturbations and low-strength diffusion exposure so that the drop operation remains stable under adaptive reconstruction. Experiments on seven representative watermark families show that one shared operating setting gives competitive removal with high visual fidelity. Operating scans and ablations separate usable attacks from image-damaging settings: stronger noise or diffusion can raise removal scores by damaging the image, while the practical regime comes from dropping the residual latent. These results argue for evaluating watermark robustness against learned removal at the representation level, not only against conventional image edits.",
+        "arxiv_id": "2609.31693",
+        "authors": [
+          "Qi Li",
+          "Jidong Yang",
+          "Feng-Lei Fan",
+          "Yuantian Miao",
+          "Xiao Chen",
+          "Huaike Yu",
+          "Chunpeng Wang",
+          "Suo Gao",
+          "Herbert Ho-Ching Iu",
+          "Bin Ma"
+        ],
+        "comment": "18 pages, 6 figures, and 5 tables",
+        "first_seen": "2026-09-29",
+        "introduction_image": "https://arxiv.org/html/2609.31693v1/figures/out/pipeline.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.31693",
+        "primary_category": "cs.CV",
+        "published": "2026-09-18",
+        "title": "Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition",
+        "updated": "2026-09-18"
+      },
+      "2609.31694": {
+        "abs_url": "https://arxiv.org/abs/2609.31694",
+        "abstract": "Removing an invisible watermark and concealing the forensic evidence are distinct objectives: successfully disrupting the embedded watermark does not imply that the removal process is forensically undetectable. When verification fails, removal traces can provide complementary evidence for provenance and ownership verification, whereas their absence leaves the cause of the failure ambiguous. Existing methods are typically evaluated by watermark suppression and perceptual quality, while forensic stealth is rarely considered. We therefore study watermark-attack-specific few-shot forensics: for each known pipeline, a specialist can separate its outputs from paired clean and unattacked watermarked controls. Separate Attack-vs-Clean and Attack-vs-Watermarked evaluations prevent watermark-presence shortcuts. Image-aligned and prompt-matched controls are used for post-hoc and generator-integrated schemes, respectively. In this work, we introduce RemTraceNet, which fuses constrained residuals, local relations, FFT/Haar statistics, and block-DCT evidence at native resolution. Across 23 removal pipelines and 10 watermark configurations, we evaluate native 256 x 256 and 512 x 512 inputs. With 100 attacked training images per pipeline, the three-seed TPR@1%FPR, macro-averaged over attacks and watermark configurations, ranges from 82.75% to 88.17% across resolutions and control types. Under the condition of same labels and protocol, RemTraceNet outperforms retrained SRNet, ZhuNet, and SiaStegNet baselines by 10.80--15.68 percentage points. Extensive experimental results show that erasing a watermark and erasing evidence of its removal are distinct challenges, and that removal traces remain learnable under limited supervision.",
+        "arxiv_id": "2609.31694",
+        "authors": [
+          "Jidong Yang",
+          "Huaike Yu",
+          "Qi Li",
+          "Yuantian Miao",
+          "Wei Zong",
+          "Yang-Wai Chow",
+          "Willy Susilo",
+          "Chunpeng Wang",
+          "Suo Gao"
+        ],
+        "comment": "11 pages, 4 figures",
+        "first_seen": "2026-09-29",
+        "introduction_image": "https://arxiv.org/html/2609.31694v1/Figures/Figure_1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.31694",
+        "primary_category": "cs.CV",
+        "published": "2026-09-18",
+        "title": "RemTraceNet: Few-Shot Forensic Detection of Invisible Watermark Attacks",
+        "updated": "2026-09-18"
+      },
+      "2609.31722": {
+        "abs_url": "https://arxiv.org/abs/2609.31722",
+        "abstract": "Fixed image distortions do not cover an attacker that learns from paired clean and watermarked images. We study this paired-training threat with single-image inference: deployment uses neither the clean reference nor the watermark key, payload, or decoder. An encoder maps each image to a structural latent $g$ and an auxiliary residual latent $u$. Push supervision reconstructs the watermarked image from $D(g_w,u_w)$. Pull supervision trains the zero-auxiliary output $D(A_g(g_w;k),0)$ toward the paired clean image. At $k=1.10,u=0$, the four-method sweep gives an average BER of $0.3958$, PSNR of $31.07$ dB, and SSIM of $0.9554$. Restoring $u$ from $0$ to $0.15$ moves average BER from $0.3893$ to $0.3357$, while PSNR falls from $30.99$ to $28.23$ dB. The intervention supports decoder dependence on the auxiliary input in the evaluated setting. The accompanying theory is a conditional, post-hoc account of this behavior rather than an experimentally verified information-relocation result.",
+        "arxiv_id": "2609.31722",
+        "authors": [
+          "Jidong Yang",
+          "Huaike Yu",
+          "Qi Li",
+          "Chunpeng Wang",
+          "Yuantian Miao",
+          "Suo Gao",
+          "Xiao Chen"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-29",
+        "introduction_image": "https://arxiv.org/html/2609.31722v1/figures/pipeline_revised.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.31722",
+        "primary_category": "cs.CV",
+        "published": "2026-09-22",
+        "title": "Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal",
+        "updated": "2026-09-22"
+      },
+      "2609.32241": {
+        "abs_url": "https://arxiv.org/abs/2609.32241",
+        "abstract": "Neural image watermarks can be forged by extracting watermark-bearing residuals from released images and transferring them to unrelated content. While prior work has demonstrated this vulnerability, what makes these residuals transferable remains poorly understood. We formalize this vulnerability with \\textbf{residual transferability (RT)}, a metric that quantifies how well watermark evidence remains decodable after transfer across unrelated images. Through comparative analyses and controlled interventions, we find that common training-side variations do not account for the large RT differences across watermarking systems; instead, architectural design plays a central role. By contrasting high- and low-RT systems and validating their architectural differences through controlled interventions, we identify two mechanisms that strengthen the dependence of watermark evidence on the cover image, thereby suppressing the residual transferability. These findings provide concrete design guidance for developing more forgery-resistant watermarking architectures. Complementarily, for existing watermarking systems where architectural redesign is impractical, we introduce \\textbf{CoverLock}, a plug-and-play strategy for existing watermarking systems that strengthens such image dependence without architectural redesign. Across representative watermarking systems exhibiting high residual transferability, CoverLock achieves a more favorable security--robustness trade-off than both traditional handcrafted defenses and learned classifier-based defenses.",
+        "arxiv_id": "2609.32241",
+        "authors": [
+          "Ziping Dong",
+          "Qi Li",
+          "Xinchao Wang"
+        ],
+        "comment": "Preprint",
+        "first_seen": "2026-09-29",
+        "introduction_image": "https://arxiv.org/html/2609.32241v1/residualsandratios.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.32241",
+        "primary_category": "cs.CR",
+        "published": "2026-09-26",
+        "title": "Residual Transferability in Neural Image Watermarking",
+        "updated": "2026-09-26"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -5625,6 +5718,29 @@
         "published": "2026-09-20",
         "title": "An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models",
         "updated": "2026-09-20"
+      },
+      "2609.31877": {
+        "abs_url": "https://arxiv.org/abs/2609.31877",
+        "abstract": "Cloud-based Large language model (LLM) services create a network-level traffic side channel that can expose model, prompt, and task behavior despite encryption. From packet sizes, directions, timing, and burst structure alone, a passive local observer can infer the serving model, the user's prompt category, and the task executed by a collaborative multi-agent system. Yet current evidence is fragmented across separate datasets and settings, limiting reproducibility and comparison. We present, to our knowledge, the first unified measurement study and public benchmark of encrypted LLM traffic across both user--LLM and multi-agent executions. The large-scale benchmark contains 60,000 user--LLM interactions across 10 models and 6 prompt categories, plus 2,838 multi-agent executions covering 10 task categories and two coordination topologies. Using only encrypted packet metadata, we assess the risk of traffic analysis attack by characterizing traffic signatures, identifying the features most associated with leakage, and testing robustness under prompt reformulation, decoding-temperature changes, larger candidate model sets, and partial traffic observation. Model fingerprinting achieves 97.7\\% balanced accuracy, prompt-category fingerprinting reaches 76.7\\% mean accuracy, and multi-agent task fingerprinting achieves up to 90.7\\% accuracy. Prompt reformulation weakens but does not remove model-specific leakage, and task fingerprints remain detectable even from a single agent's traffic.",
+        "arxiv_id": "2609.31877",
+        "authors": [
+          "Shahrooz Pouryousef",
+          "Jesus Lopez",
+          "Saeefa Rubaiyat Nowmi",
+          "Md Mahmuduzzaman Kamol",
+          "Moinul Hossain",
+          "Muoi Tran",
+          "Mohammad Saidur Rahman"
+        ],
+        "comment": "11 pages, 9 figures, and 4 tables",
+        "first_seen": "2026-09-29",
+        "introduction_image": "https://arxiv.org/html/2609.31877v1/threat_model.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.31877",
+        "primary_category": "cs.CR",
+        "published": "2026-09-25",
+        "title": "A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services",
+        "updated": "2026-09-25"
       }
     },
     "Text and LLM Watermarking": {
@@ -7417,7 +7533,7 @@
         "primary_category": "cs.CR",
         "published": "2026-05-12",
         "title": "Every Bit, Everywhere, All at Once: A Binomial Multibit LLM Watermark",
-        "updated": "2026-05-12"
+        "updated": "2026-09-28"
       },
       "2605.12456": {
         "abs_url": "https://arxiv.org/abs/2605.12456",
@@ -7939,7 +8055,7 @@
       },
       "2609.02177": {
         "abs_url": "https://arxiv.org/abs/2609.02177",
-        "abstract": "Multi-bit watermarking for large language models (LLMs) enables content source tracing by embedding user-identifiable messages into generated text. Existing methods face a fundamental trade-off among extraction accuracy, text quality, and payload capacity. We propose WeaveMark, a robust and scalable multi-bit LLM watermarking scheme based on coded payload spreading. WeaveMark shifts this trade-off frontier by improving payload capacity through multi-bit-per-token spreading, improving extraction accuracy through soft-decision error-correcting code, and preserving text quality through unbiased multilayer reweighting. It further introduces dedicated zero-bit layers for reliable watermark presence detection. Experiments show large gains, especially for long messages and edited text. WeaveMark achieves 89.8% match rate for 32-bit messages at 200 tokens, compared with 20.8% for BiMark. Under 10% substitution attacks on 16-bit messages at 200 tokens, it maintains 86.0% versus 30.7%, while preserving text quality. Our code is available at https://github.com/qkrrkd90-source/WeaveMark.",
+        "abstract": "Multi-bit watermarking for large language models enables content source tracing by embedding user-identifiable messages into generated text. Existing methods face a fundamental trade-off among extraction accuracy, text quality, and payload capacity. We propose WeaveMark, a robust and scalable multi-bit LLM watermarking scheme based on coded payload spreading. WeaveMark shifts this trade-off frontier by improving payload capacity through multi-bit-per-token spreading (weaving), improving extraction accuracy through soft-decision error-correcting codes, and preserving text quality through unbiased multilayer reweighting. It further introduces dedicated zero-bit layers for reliable watermark presence detection. Extensive experiments demonstrate substantial gains in extraction performance, especially for long messages and edited text, without degrading text quality. WeaveMark achieves an 89.8% match rate for 32-bit messages at 200 tokens, compared with 20.8% for BiMark. Under 10% substitution attacks on 16-bit messages at 200 tokens, it maintains 86.0% versus 30.7%. Code is available at https://anonymous.4open.science/r/WeaveMark-ED6F.",
         "arxiv_id": "2609.02177",
         "authors": [
           "Gang-Hyun Park",
@@ -7947,7 +8063,7 @@
           "Hee-Youl Kwak",
           "Dae-Young Yun"
         ],
-        "comment": "16 pages, 11 figures. Code: https://github.com/qkrrkd90-source/WeaveMark",
+        "comment": "22 pages, 11 figures, 16 tables. v2: added extended comparisons (payload scalability, generalization across model families), additional robustness results (insertion/deletion, truncation, copy-paste, rewriting), context-window and statistical reliability analyses; revised presentation",
         "first_seen": "2026-09-08",
         "introduction_image": "https://arxiv.org/html/2609.02177v1/figures/scheme_diagram_new.png",
         "journal_reference": null,
@@ -7955,7 +8071,7 @@
         "primary_category": "cs.CR",
         "published": "2026-09-02",
         "title": "WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading",
-        "updated": "2026-09-02"
+        "updated": "2026-09-28"
       },
       "2609.09604": {
         "abs_url": "https://arxiv.org/abs/2609.09604",
@@ -8078,6 +8194,46 @@
         "published": "2026-09-22",
         "title": "Sample-Efficient Multiple Testing with Adaptive Data Collection",
         "updated": "2026-09-22"
+      },
+      "2609.32678": {
+        "abs_url": "https://arxiv.org/abs/2609.32678",
+        "abstract": "E-processes provide a flexible framework for anytime-valid inference, with the conventional rejection boundary $1/α$ typically justified by Ville's inequality. Such a boundary is universal but can be conservative, as it does not exploit additional information about the null distribution. We propose a reference-null calibration framework that uses independent null samples to construct sharper rejection thresholds while preserving type-I error control. To study the statistical gain from sharper thresholds, we specialize the framework to conformal martingales. Building on histogram-based betting, we incorporate Krichevsky--Trofimov smoothing and develop a restart-mixture construction for distribution shift detection. We establish quantitative results for detection power and detection delay and characterize how the reduction in the rejection boundary translates into power and delay gains relative to the conventional Ville boundary. Numerical experiments corroborate the theoretical findings across a range of distributional changes. Finally, we apply the proposed calibration strategy to an existing e-process for online LLM watermark detection, showing that the method can improve sequential detection performance without modifying the underlying e-process. These results demonstrate that reference-null calibration provides a general and modular way to enhance the efficiency of e-process-based sequential inference.",
+        "arxiv_id": "2609.32678",
+        "authors": [
+          "Yi Ding",
+          "Lan Wei",
+          "Xuehu Zhu",
+          "Wenlin Dai"
+        ],
+        "comment": "45 pages, 8 figures",
+        "first_seen": "2026-09-29",
+        "introduction_image": "https://arxiv.org/html/2609.32678v1/watermark_boundaries.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.32678",
+        "primary_category": "math.ST",
+        "published": "2026-09-26",
+        "title": "Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales",
+        "updated": "2026-09-26"
+      },
+      "2609.35224": {
+        "abs_url": "https://arxiv.org/abs/2609.35224",
+        "abstract": "Masked-diffusion language models fill in masked positions in parallel and in no fixed order. Most practical text watermarks assume left-to-right generation. They key each token to the tokens before it, and in a diffusion model those tokens may still be masked. A fixed green list needs no such context, but it favors the same tokens at every position, so these tokens appear more often in watermarked text. An attacker who compares token frequencies in watermarked and unwatermarked text can recover the list and forge text that the provider's own detector accepts. We present TANGO, a watermark for masked-diffusion language models that keys each new token to a nearby token that is already unmasked. A secret key splits the vocabulary into color classes, and TANGO biases the new token toward a color determined by the key and the nearby token's color. The watermark is therefore embedded in pairs of tokens. Because the favored color changes from position to position, token frequencies stay much closer to those of unwatermarked text than under a fixed green list. Detection needs only the text and the key, and it does not assume any unmasking order. On two masked-diffusion models, TANGO detects nearly all unedited watermarked texts and most edited ones, and frequency attacks that forge the fixed green list fail against it.",
+        "arxiv_id": "2609.35224",
+        "authors": [
+          "Kasra Arabi",
+          "Nir Weinberger",
+          "Micah Goldblum",
+          "Niv Cohen"
+        ],
+        "comment": null,
+        "first_seen": "2026-09-29",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.35224",
+        "primary_category": "cs.LG",
+        "published": "2026-09-28",
+        "title": "TANGO: Watermarking Masked Diffusion Language Models in Token Pairs",
+        "updated": "2026-09-28"
       }
     }
   }

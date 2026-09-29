@@ -4,46 +4,48 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-09-28 22:58 CST &nbsp; · &nbsp; **Indexed:** 347 unique papers
+**Last updated:** 2026-09-29 14:13 CST &nbsp; · &nbsp; **Indexed:** 354 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 114 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 118 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 41 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 117 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 110 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 119 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 111 papers
 
-## Today's additions · 2026-09-28
+## Today's additions · 2026-09-29
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 4 new papers</summary>
 
-- [An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models](https://arxiv.org/abs/2609.23586) — 2026-09-20
-- [COVER: Codec-Robust Video Watermarking with Generative Video Priors](https://arxiv.org/abs/2609.26236) — 2026-09-17
-
-</details>
-
-<details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 1 new papers</summary>
-
-- [Latent Audio Watermarking for Robustness to Neural Codec Resynthesis](https://arxiv.org/abs/2609.25830) — 2026-09-22
+- [Residual Transferability in Neural Image Watermarking](https://arxiv.org/abs/2609.32241) — 2026-09-26
+- [Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal](https://arxiv.org/abs/2609.31722) — 2026-09-22
+- [RemTraceNet: Few-Shot Forensic Detection of Invisible Watermark Attacks](https://arxiv.org/abs/2609.31694) — 2026-09-18
+- [Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition](https://arxiv.org/abs/2609.31693) — 2026-09-18
 
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [Sample-Efficient Multiple Testing with Adaptive Data Collection](https://arxiv.org/abs/2609.26651) — 2026-09-22
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- [An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models](https://arxiv.org/abs/2609.23586) — 2026-09-20
-- [The Challenge of Identifying the Origin of Black-Box Large Language Models](https://arxiv.org/abs/2503.04332) — 2025-03-06
+- [TANGO: Watermarking Masked Diffusion Language Models in Token Pairs](https://arxiv.org/abs/2609.35224) — 2026-09-28
+- [Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales](https://arxiv.org/abs/2609.32678) — 2026-09-26
+
+</details>
+
+<details>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+
+- [A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services](https://arxiv.org/abs/2609.31877) — 2026-09-25
 
 </details>
 
@@ -59,11 +61,15 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**114 papers · newest first**
+**118 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Residual Transferability in Neural Image Watermarking**<br><sub>Ziping Dong, Qi Li, Xinchao Wang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Residual Transferability in Neural Image Watermarking" src="https://arxiv.org/html/2609.32241v1/residualsandratios.png"> | [Paper](https://arxiv.org/abs/2609.32241)<br>[PDF](https://arxiv.org/pdf/2609.32241)<br>`2609.32241` |
+| **Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal**<br><sub>Jidong Yang, Huaike Yu, Qi Li et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal" src="https://arxiv.org/html/2609.31722v1/figures/pipeline_revised.png"> | [Paper](https://arxiv.org/abs/2609.31722)<br>[PDF](https://arxiv.org/pdf/2609.31722)<br>`2609.31722` |
 | **An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models**<br><sub>Wenhong Huang, Jianwei Fei, Benedetta Tondi et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models" src="https://arxiv.org/html/2609.23586v1/Fig_vidmark.png"> | [Paper](https://arxiv.org/abs/2609.23586)<br>[PDF](https://arxiv.org/pdf/2609.23586)<br>`2609.23586` |
+| **RemTraceNet: Few-Shot Forensic Detection of Invisible Watermark Attacks**<br><sub>Jidong Yang, Huaike Yu, Qi Li et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="RemTraceNet: Few-Shot Forensic Detection of Invisible Watermark Attacks" src="https://arxiv.org/html/2609.31694v1/Figures/Figure_1.png"> | [Paper](https://arxiv.org/abs/2609.31694)<br>[PDF](https://arxiv.org/pdf/2609.31694)<br>`2609.31694` |
+| **Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition**<br><sub>Qi Li, Jidong Yang, Feng-Lei Fan et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition" src="https://arxiv.org/html/2609.31693v1/figures/out/pipeline.png"> | [Paper](https://arxiv.org/abs/2609.31693)<br>[PDF](https://arxiv.org/pdf/2609.31693)<br>`2609.31693` |
 | **COVER: Codec-Robust Video Watermarking with Generative Video Priors**<br><sub>Yuxin Cao, Hao Yang, Ziqi Ding et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="COVER: Codec-Robust Video Watermarking with Generative Video Priors" src="https://arxiv.org/html/2609.26236v1/figures/COVER_scenario.png"> | [Paper](https://arxiv.org/abs/2609.26236)<br>[PDF](https://arxiv.org/pdf/2609.26236)<br>`2609.26236` |
 | **What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking**<br><sub>Kai Yao, Bence Szilágyi, Sebestyén Kamp et al.</sub> | the ACM Digital Library<br>**2026** | <img width="400" alt="What Breaks Local Watermarks? A Robustness Benchmark for Local Invisible Image Watermarking" src="https://arxiv.org/html/2609.16832v1/figures/evaluation_pipeline.png"> | [Paper](https://arxiv.org/abs/2609.16832)<br>[PDF](https://arxiv.org/pdf/2609.16832)<br>`2609.16832` |
 | **One Prompt Is Enough: Watermark Laundering Through Foundation Image Models**<br><sub>Jidong Yang, Qi Li, Wei Zong et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="One Prompt Is Enough: Watermark Laundering Through Foundation Image Models" src="https://arxiv.org/html/2609.01249v1/Figures/fig1.png"> | [Paper](https://arxiv.org/abs/2609.01249)<br>[PDF](https://arxiv.org/pdf/2609.01249)<br>`2609.01249` |
@@ -228,10 +234,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**117 papers · newest first**
+**119 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **TANGO: Watermarking Masked Diffusion Language Models in Token Pairs**<br><sub>Kasra Arabi, Nir Weinberger, Micah Goldblum et al.</sub> | arXiv · cs.LG<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.35224)<br>[PDF](https://arxiv.org/pdf/2609.35224)<br>`2609.35224` |
+| **Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales**<br><sub>Yi Ding, Lan Wei, Xuehu Zhu et al.</sub> | arXiv · math.ST<br>**2026** | <img width="400" alt="Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales" src="https://arxiv.org/html/2609.32678v1/watermark_boundaries.png"> | [Paper](https://arxiv.org/abs/2609.32678)<br>[PDF](https://arxiv.org/pdf/2609.32678)<br>`2609.32678` |
 | **Sample-Efficient Multiple Testing with Adaptive Data Collection**<br><sub>Zhanran Lin, Wanteng Ma, Zhimei Ren et al.</sub> | arXiv · stat.ME<br>**2026** | <img width="400" alt="Sample-Efficient Multiple Testing with Adaptive Data Collection" src="https://arxiv.org/html/2609.26651v1/images/intro_new.png"> | [Paper](https://arxiv.org/abs/2609.26651)<br>[PDF](https://arxiv.org/pdf/2609.26651)<br>`2609.26651` |
 | **MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks**<br><sub>Kairong Li, Zhikun Zhang, Xiao Ren et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks" src="https://arxiv.org/html/2609.16681v1/system_overview_1.1.png"> | [Paper](https://arxiv.org/abs/2609.16681)<br>[PDF](https://arxiv.org/pdf/2609.16681)<br>`2609.16681` |
 | **Predictive Likelihood Ratios for Language Model Watermark Detection**<br><sub>Li Ma</sub> | arXiv · stat.ML<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.15657)<br>[PDF](https://arxiv.org/pdf/2609.15657)<br>`2609.15657` |
@@ -352,10 +360,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**110 papers · newest first**
+**111 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services**<br><sub>Shahrooz Pouryousef, Jesus Lopez, Saeefa Rubaiyat Nowmi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services" src="https://arxiv.org/html/2609.31877v1/threat_model.png"> | [Paper](https://arxiv.org/abs/2609.31877)<br>[PDF](https://arxiv.org/pdf/2609.31877)<br>`2609.31877` |
 | **An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models**<br><sub>Wenhong Huang, Jianwei Fei, Benedetta Tondi et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models" src="https://arxiv.org/html/2609.23586v1/Fig_vidmark.png"> | [Paper](https://arxiv.org/abs/2609.23586)<br>[PDF](https://arxiv.org/pdf/2609.23586)<br>`2609.23586` |
 | **Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape**<br><sub>Sarah Radway, Andrew Cheng, Vijay Janapa Reddi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape" src="https://arxiv.org/html/2609.20614v1/inference-stack-example.png"> | [Paper](https://arxiv.org/abs/2609.20614)<br>[PDF](https://arxiv.org/pdf/2609.20614)<br>`2609.20614` |
 | **Fingerprinting Multimodal Large Language Models**<br><sub>Chao Huang, Meng Tong, Kejiang Chen</sub> | ACM Multimedia 2026 (MM '26) as an oral presentation<br>**2026** | <img width="400" alt="Fingerprinting Multimodal Large Language Models" src="https://arxiv.org/html/2609.20457v1/framework.png"> | [Paper](https://arxiv.org/abs/2609.20457)<br>[PDF](https://arxiv.org/pdf/2609.20457)<br>`2609.20457` |
