@@ -4,26 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-09-29 20:16 CST &nbsp; · &nbsp; **Indexed:** 354 unique papers
+**Last updated:** 2026-09-30 20:02 CST &nbsp; · &nbsp; **Indexed:** 356 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 118 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 41 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 119 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 121 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 111 papers
 
-## Today's additions · 2026-09-29
+## Today's additions · 2026-09-30
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 4 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Residual Transferability in Neural Image Watermarking](https://arxiv.org/abs/2609.32241) — 2026-09-26
-- [Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal](https://arxiv.org/abs/2609.31722) — 2026-09-22
-- [RemTraceNet: Few-Shot Forensic Detection of Invisible Watermark Attacks](https://arxiv.org/abs/2609.31694) — 2026-09-18
-- [Disentangle and Drop: Robust Universal Removal of Image Watermarks via Reconstructive Grayscale Residual Decomposition](https://arxiv.org/abs/2609.31693) — 2026-09-18
+- No new papers today.
 
 </details>
 
@@ -37,15 +34,15 @@ Papers first indexed during today's update, grouped by category.
 <details>
 <summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- [TANGO: Watermarking Masked Diffusion Language Models in Token Pairs](https://arxiv.org/abs/2609.35224) — 2026-09-28
-- [Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales](https://arxiv.org/abs/2609.32678) — 2026-09-26
+- [AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks](https://arxiv.org/abs/2609.37310) — 2026-09-29
+- [Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods](https://arxiv.org/abs/2609.37218) — 2026-09-29
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services](https://arxiv.org/abs/2609.31877) — 2026-09-25
+- No new papers today.
 
 </details>
 
@@ -234,10 +231,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**119 papers · newest first**
+**121 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks**<br><sub>Thibaud Gloaguen, Robin Staab, Martin Vechev</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37310)<br>[PDF](https://arxiv.org/pdf/2609.37310)<br>`2609.37310` |
+| **Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods**<br><sub>Zewen Sun, Tongyang Zhao, Liyao Xiang et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37218)<br>[PDF](https://arxiv.org/pdf/2609.37218)<br>`2609.37218` |
 | **TANGO: Watermarking Masked Diffusion Language Models in Token Pairs**<br><sub>Kasra Arabi, Nir Weinberger, Micah Goldblum et al.</sub> | arXiv · cs.LG<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.35224)<br>[PDF](https://arxiv.org/pdf/2609.35224)<br>`2609.35224` |
 | **Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales**<br><sub>Yi Ding, Lan Wei, Xuehu Zhu et al.</sub> | arXiv · math.ST<br>**2026** | <img width="400" alt="Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales" src="https://arxiv.org/html/2609.32678v1/watermark_boundaries.png"> | [Paper](https://arxiv.org/abs/2609.32678)<br>[PDF](https://arxiv.org/pdf/2609.32678)<br>`2609.32678` |
 | **Sample-Efficient Multiple Testing with Adaptive Data Collection**<br><sub>Zhanran Lin, Wanteng Ma, Zhimei Ren et al.</sub> | arXiv · stat.ME<br>**2026** | <img width="400" alt="Sample-Efficient Multiple Testing with Adaptive Data Collection" src="https://arxiv.org/html/2609.26651v1/images/intro_new.png"> | [Paper](https://arxiv.org/abs/2609.26651)<br>[PDF](https://arxiv.org/pdf/2609.26651)<br>`2609.26651` |

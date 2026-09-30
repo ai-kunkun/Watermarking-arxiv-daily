@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-09-29T12:16:27.185501+00:00",
+    "last_updated": "2026-09-30T12:02:06.356578+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -7695,7 +7695,7 @@
       },
       "2606.24163": {
         "abs_url": "https://arxiv.org/abs/2606.24163",
-        "abstract": "Reliable provenance for LLM outputs requires multi-bit watermarks that remain robust under editing while maintaining strict false-positive control. Existing ECC-based LLM watermarks rely largely on hard-decision decoding, discarding token-level reliability information. We propose CORE-BREW, a Constant-hit-Rate Embedding extension of block-wise BREW for robust multi-bit watermarking. CORE-BREW calibrates the watermark channel by targeting a fixed hit rate p-star, yielding closed-form per-token log-likelihood ratios (LLRs) for principled soft-decision decoding. It supports two detection modes: Strict-Safe, which preserves the bounded-distance designated-codeword acceptance region, and FPR-Calibrated, which uses likelihood-based scoring and lightweight list decoding to characterize the FPR-TPR trade-off. Experiments on open-source LLMs under token-level edits and paraphrasing demonstrate improved low-FPR discrimination and robustness over prior multi-bit watermarking baselines while maintaining comparable semantic quality.",
+        "abstract": "Reliable provenance for LLM outputs requires multi-bit watermarks that remain robust under editing while maintaining low false-positive rates. Existing ECC-based LLM watermarks rely on hard-decision decoding, discarding token-level reliability information and limiting robustness under post-generation edits. We propose CORE-BREW, a COnstant-hit-Rate Embedding extension of BREW for multi-bit watermarking. CORE-BREW calibrates the watermark channel by targeting a fixed hit rate $p^\\star$, yielding closed-form per-token log-likelihood ratios (LLRs) for soft-decision decoding. It incorporates entropy-aware erasures to limit perturbations in low-entropy contexts and combines likelihood-based scoring with soft-decision list decoding to exploit soft evidence. Experiments on open-source LLMs under token-level edits and paraphrasing demonstrate that CORE-BREW generally improves detection robustness and payload recovery over the BREW baseline while maintaining low observed false-positive rates. Despite higher conditional perplexity, BLEU and BERTScore remain close to those of unwatermarked text, indicating comparable reference-based translation quality.",
         "arxiv_id": "2606.24163",
         "authors": [
           "Joeun Kim",
@@ -7710,7 +7710,7 @@
         "primary_category": "cs.CR",
         "published": "2026-06-23",
         "title": "CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking",
-        "updated": "2026-06-23"
+        "updated": "2026-09-29"
       },
       "2606.31602": {
         "abs_url": "https://arxiv.org/abs/2606.31602",
@@ -8234,6 +8234,47 @@
         "published": "2026-09-28",
         "title": "TANGO: Watermarking Masked Diffusion Language Models in Token Pairs",
         "updated": "2026-09-28"
+      },
+      "2609.37218": {
+        "abs_url": "https://arxiv.org/abs/2609.37218",
+        "abstract": "Semantic watermarking improves robustness against watermark removal attacks by embedding detectable signals into sentence-level representations. However, existing watermarking methods typically impose watermark-specific semantic preferences on generated sentences without explicitly accounting for the highly non-uniform and context-dependent semantic preference of LLM generation. When these two preferences are poorly aligned, many natural continuations become incompatible with the watermark, causing semantic narrowing: reduced semantic freedom, increased resampling cost, and potential degradation on tasks with strict semantic requirements. To alleviate this problem, we propose HammingMark, which uses the semantic hash of the preceding sentence as a dynamic center and accepts candidates whose hashes fall within its Hamming neighborhood. Defining watermark validity over a Hamming neighborhood in compact hash space retains a larger fraction of naturally likely semantic continuations. The coarse many-to-one hash mapping further allows diverse semantic realizations to remain watermark-valid. Experiments on C4 and BookSum show that HammingMark achieves strong robustness, high detectability, and near-unwatermarked generation quality, requiring only 2.2 sampled candidates per accepted sentence,a 72.8% reduction compared with the most sampling-efficient existing method. On more complex tasks with strict semantic constraints, HammingMark achieves the highest detection rates with the highest or tied-highest ROUGE-L scores, demonstrating its effectiveness in balancing watermark detectability and generation quality under constrained generation settings.",
+        "arxiv_id": "2609.37218",
+        "authors": [
+          "Zewen Sun",
+          "Tongyang Zhao",
+          "Liyao Xiang",
+          "Mingxuan Ma",
+          "Lingzhe Wang",
+          "Zhiyuan Li"
+        ],
+        "comment": "30pages",
+        "first_seen": "2026-09-30",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.37218",
+        "primary_category": "cs.CR",
+        "published": "2026-09-29",
+        "title": "Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods",
+        "updated": "2026-09-29"
+      },
+      "2609.37310": {
+        "abs_url": "https://arxiv.org/abs/2609.37310",
+        "abstract": "With LLM watermarking being deployed commercially and now required by regulations, improving its reliability and effectiveness has become crucial. Yet, recent progress in the field of LLM watermarking has increasingly been driven by improving details of existing methods, an effort fundamentally limited by the pace of human researchers. In this work, we enable for the first time the autonomous discovery of new distortion-free state-of-the-art watermarking schemes. To enable this, we (i) establish strict criteria to ensure that watermarks are reliable (e.g., they do not have an unexpectedly high false positive rate), (ii) propose rigorous statistical tests to automatically evaluate whether a watermarking scheme satisfies our criteria, and (iii) design an evaluation suite to rank watermarks along three key dimensions: detectability, quality, and robustness. By running our framework with 3 frontier models (GPT-6 Astra, Opus 5, Gemini-3.8 Flash), we discover over 50 different watermarking schemes, including several that outperform prior works along all key dimensions. We complement this by a manual study of the discovered schemes, distilling the key ideas into smaller components, and individually studying the impact of each component across dimensions (detectability, quality, robustness) to better understand how the proposed schemes operate. Importantly, we find that the agents, on top of improving existing ideas, also discover fundamentally new ideas (e.g., aligning watermark scores with random per-request direction). Overall, our work establishes the first steps of fully autonomous watermarking research, enabling the discovery of more reliable and effective watermarks. Our code is available at https://github.com/eth-sri/automark, and a blogpost to visualize our results at https://www.sri.inf.ethz.ch/blog/automark.",
+        "arxiv_id": "2609.37310",
+        "authors": [
+          "Thibaud Gloaguen",
+          "Robin Staab",
+          "Martin Vechev"
+        ],
+        "comment": "52 pages",
+        "first_seen": "2026-09-30",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.37310",
+        "primary_category": "cs.CR",
+        "published": "2026-09-29",
+        "title": "AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks",
+        "updated": "2026-09-29"
       }
     }
   }
