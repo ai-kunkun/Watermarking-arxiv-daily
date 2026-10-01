@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-09-30 20:02 CST &nbsp; · &nbsp; **Indexed:** 356 unique papers
+**Last updated:** 2026-10-01 20:34 CST &nbsp; · &nbsp; **Indexed:** 358 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 118 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 119 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 41 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 121 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 122 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 111 papers
 
-## Today's additions · 2026-09-30
+## Today's additions · 2026-10-01
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks](https://arxiv.org/abs/2609.40031) — 2026-09-30
 
 </details>
 
@@ -32,10 +32,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- [AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks](https://arxiv.org/abs/2609.37310) — 2026-09-29
-- [Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods](https://arxiv.org/abs/2609.37218) — 2026-09-29
+- [Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes](https://arxiv.org/abs/2609.38722) — 2026-09-30
 
 </details>
 
@@ -58,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**118 papers · newest first**
+**119 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks**<br><sub>Khaled Abud, Aleksey Yakushev, Aleksandr Akimenkov et al.</sub> | ACM MM 2026 (Main Track)<br>**2026** | <img width="400" alt="WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks" src="https://arxiv.org/html/2609.40031v1/wms_viz_generated.png"> | [Paper](https://arxiv.org/abs/2609.40031)<br>[PDF](https://arxiv.org/pdf/2609.40031)<br>`2609.40031` |
 | **Residual Transferability in Neural Image Watermarking**<br><sub>Ziping Dong, Qi Li, Xinchao Wang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Residual Transferability in Neural Image Watermarking" src="https://arxiv.org/html/2609.32241v1/residualsandratios.png"> | [Paper](https://arxiv.org/abs/2609.32241)<br>[PDF](https://arxiv.org/pdf/2609.32241)<br>`2609.32241` |
 | **Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal**<br><sub>Jidong Yang, Huaike Yu, Qi Li et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal" src="https://arxiv.org/html/2609.31722v1/figures/pipeline_revised.png"> | [Paper](https://arxiv.org/abs/2609.31722)<br>[PDF](https://arxiv.org/pdf/2609.31722)<br>`2609.31722` |
 | **An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models**<br><sub>Wenhong Huang, Jianwei Fei, Benedetta Tondi et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models" src="https://arxiv.org/html/2609.23586v1/Fig_vidmark.png"> | [Paper](https://arxiv.org/abs/2609.23586)<br>[PDF](https://arxiv.org/pdf/2609.23586)<br>`2609.23586` |
@@ -231,10 +231,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**121 papers · newest first**
+**122 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes**<br><sub>Zewei Deng, Muhammad Siddeek, Liyan Xie et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.38722)<br>[PDF](https://arxiv.org/pdf/2609.38722)<br>`2609.38722` |
 | **AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks**<br><sub>Thibaud Gloaguen, Robin Staab, Martin Vechev</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37310)<br>[PDF](https://arxiv.org/pdf/2609.37310)<br>`2609.37310` |
 | **Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods**<br><sub>Zewen Sun, Tongyang Zhao, Liyao Xiang et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37218)<br>[PDF](https://arxiv.org/pdf/2609.37218)<br>`2609.37218` |
 | **TANGO: Watermarking Masked Diffusion Language Models in Token Pairs**<br><sub>Kasra Arabi, Nir Weinberger, Micah Goldblum et al.</sub> | arXiv · cs.LG<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.35224)<br>[PDF](https://arxiv.org/pdf/2609.35224)<br>`2609.35224` |

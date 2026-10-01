@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-09-30T12:02:06.356578+00:00",
+    "last_updated": "2026-10-01T12:34:48.111587+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3383,6 +3383,34 @@
         "published": "2026-09-26",
         "title": "Residual Transferability in Neural Image Watermarking",
         "updated": "2026-09-26"
+      },
+      "2609.40031": {
+        "abs_url": "https://arxiv.org/abs/2609.40031",
+        "abstract": "Digital image watermarking is increasingly critical in media contexts, as emerging regulations and industry practices require marking AI-generated content and ensuring traceable sources to prevent manipulation or misuse. Recent advances in invisible watermarking methods highlight the need to update existing benchmarking practices to reflect current techniques and evaluation criteria. We address this by introducing WARP -- a unified framework and benchmark for evaluating the robustness of invisible watermarks. WARP incorporates 32 recent classical, deep, and generative watermarking methods, as well as 34 different erasing techniques, ranging from traditional distortions to more sophisticated adversarial, purification, and re-embedding attacks. It provides standardized, reproducible, and easily scalable protocols for evaluating perceptual quality, watermark readability, and attack resilience. Using WARP, we extensively evaluate current invisible watermarking techniques, collecting the largest robustness benchmark in the field. Results identify the most robust approaches under both distortion and adversarial conditions, and reveal consistent relationships between watermarking methods and the attack strategies most effective against them. Our experiments also highlight that some of the watermarking methods considered are highly vulnerable to reembedding, even if they are robust to standard distortions. The code is made available at https://github.com/ispras/wibe.",
+        "arxiv_id": "2609.40031",
+        "authors": [
+          "Khaled Abud",
+          "Aleksey Yakushev",
+          "Aleksandr Akimenkov",
+          "Irina Serzhenko",
+          "Kirill Aistov",
+          "Egor Kovalev",
+          "Dmitry Obydenkov",
+          "Sergey Lavrushkin",
+          "Anastasia Antsiferova",
+          "Dmitriy Vatolin",
+          "Yury Markin",
+          "Kirill Lukianov"
+        ],
+        "comment": "Accepted to ACM MM 2026 (Main Track)",
+        "first_seen": "2026-10-01",
+        "introduction_image": "https://arxiv.org/html/2609.40031v1/wms_viz_generated.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.40031",
+        "primary_category": "cs.CV",
+        "published": "2026-09-30",
+        "title": "WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks",
+        "updated": "2026-09-30"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -4586,7 +4614,7 @@
           "Gerard de Melo",
           "Linlin Wang"
         ],
-        "comment": "preprint",
+        "comment": null,
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2509.03122v4/x1.png",
         "journal_reference": null,
@@ -4594,7 +4622,7 @@
         "primary_category": "cs.CL",
         "published": "2025-09-03",
         "title": "From Construction to Injection: Edit-Based Fingerprints for Large Language Models",
-        "updated": "2026-06-18"
+        "updated": "2026-09-30"
       },
       "2509.09703": {
         "abs_url": "https://arxiv.org/abs/2509.09703",
@@ -8275,6 +8303,29 @@
         "published": "2026-09-29",
         "title": "AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks",
         "updated": "2026-09-29"
+      },
+      "2609.38722": {
+        "abs_url": "https://arxiv.org/abs/2609.38722",
+        "abstract": "LLM watermarking has become an effective approach to distinguishing AI-generated text from human-written text by embedding detectable patterns during generation. However, a small post-generation edit may change the meaning of the text without removing its overall watermark signal, creating a risk that the modified content is still attributed to the original model. We propose Anchor-ECC, which incorporates the error-correcting code (ECC) constraints and explicit boundary anchors into the watermark structure and pairs them with a dynamic-programming decoder to detect and localize post-generation edits. Across Qwen3-8B, Mistral-7B-Instruct-v0.3, and OPT-125M, the approximate-hard setting achieves about 99.7% block-level true positive rate (TPR) with at most 7.6% false alarm rate (FAR) for edit detection under mixed insertions, deletions, and substitutions, while preserving the distinction between watermarked outputs and unwatermarked text. Additional quality experiments identify lower-perplexity configurations that retain strong edit-detection performance. Together, these results extend LLM watermarking from source identification to local integrity verification while supporting configurable trade-offs between detection reliability and generation quality.",
+        "arxiv_id": "2609.38722",
+        "authors": [
+          "Zewei Deng",
+          "Muhammad Siddeek",
+          "Liyan Xie",
+          "Mohamed Seif",
+          "Mengdi Wang",
+          "H. Vincent Poor",
+          "Andrea Goldsmith"
+        ],
+        "comment": "18 pages, including references and appendices; 1 figure and 11 tables",
+        "first_seen": "2026-10-01",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2609.38722",
+        "primary_category": "cs.CR",
+        "published": "2026-09-30",
+        "title": "Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes",
+        "updated": "2026-09-30"
       }
     }
   }
