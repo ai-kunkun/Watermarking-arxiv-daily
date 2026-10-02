@@ -4,37 +4,38 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-01 20:34 CST &nbsp; · &nbsp; **Indexed:** 358 unique papers
+**Last updated:** 2026-10-02 19:59 CST &nbsp; · &nbsp; **Indexed:** 360 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 119 papers
-- [Generative AI Watermarking](#generative-ai-watermarking) · 41 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 121 papers
+- [Generative AI Watermarking](#generative-ai-watermarking) · 42 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 122 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 111 papers
 
-## Today's additions · 2026-10-01
+## Today's additions · 2026-10-02
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
 
-- [WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks](https://arxiv.org/abs/2609.40031) — 2026-09-30
+- [Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking](https://arxiv.org/abs/2610.02010) — 2026-10-01
+- [Made to Measure: Designing Image Watermarks to Specification](https://arxiv.org/abs/2610.00780) — 2026-09-30
 
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 1 new papers</summary>
+
+- [Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking](https://arxiv.org/abs/2610.02010) — 2026-10-01
+
+</details>
+
+<details>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
 - No new papers today.
-
-</details>
-
-<details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
-
-- [Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes](https://arxiv.org/abs/2609.38722) — 2026-09-30
 
 </details>
 
@@ -57,10 +58,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**119 papers · newest first**
+**121 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking**<br><sub>Kirill Aistov, Khaled Abud, Irina Serzhenko et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking" src="https://arxiv.org/html/2610.02010v1/wm_scheme.png"> | [Paper](https://arxiv.org/abs/2610.02010)<br>[PDF](https://arxiv.org/pdf/2610.02010)<br>`2610.02010` |
+| **Made to Measure: Designing Image Watermarks to Specification**<br><sub>Mingzhe Li, Yuefeng Peng, Kejing Xia et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Made to Measure: Designing Image Watermarks to Specification" src="https://arxiv.org/html/2610.00780v1/figures/illustration.png"> | [Paper](https://arxiv.org/abs/2610.00780)<br>[PDF](https://arxiv.org/pdf/2610.00780)<br>`2610.00780` |
 | **WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks**<br><sub>Khaled Abud, Aleksey Yakushev, Aleksandr Akimenkov et al.</sub> | ACM MM 2026 (Main Track)<br>**2026** | <img width="400" alt="WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks" src="https://arxiv.org/html/2609.40031v1/wms_viz_generated.png"> | [Paper](https://arxiv.org/abs/2609.40031)<br>[PDF](https://arxiv.org/pdf/2609.40031)<br>`2609.40031` |
 | **Residual Transferability in Neural Image Watermarking**<br><sub>Ziping Dong, Qi Li, Xinchao Wang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Residual Transferability in Neural Image Watermarking" src="https://arxiv.org/html/2609.32241v1/residualsandratios.png"> | [Paper](https://arxiv.org/abs/2609.32241)<br>[PDF](https://arxiv.org/pdf/2609.32241)<br>`2609.32241` |
 | **Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal**<br><sub>Jidong Yang, Huaike Yu, Qi Li et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Where Does the Watermark Hide? Push-Pull Disentanglement for Invisible Watermark Removal" src="https://arxiv.org/html/2609.31722v1/figures/pipeline_revised.png"> | [Paper](https://arxiv.org/abs/2609.31722)<br>[PDF](https://arxiv.org/pdf/2609.31722)<br>`2609.31722` |
@@ -183,10 +186,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Generative AI Watermarking
 
-**41 papers · newest first**
+**42 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking**<br><sub>Kirill Aistov, Khaled Abud, Irina Serzhenko et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking" src="https://arxiv.org/html/2610.02010v1/wm_scheme.png"> | [Paper](https://arxiv.org/abs/2610.02010)<br>[PDF](https://arxiv.org/pdf/2610.02010)<br>`2610.02010` |
 | **Latent Audio Watermarking for Robustness to Neural Codec Resynthesis**<br><sub>Lovro Brulec, Sahil Karawade, Leonard Kinzinger</sub> | arXiv · cs.SD<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.25830)<br>[PDF](https://arxiv.org/pdf/2609.25830)<br>`2609.25830` |
 | **DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory**<br><sub>Rui Bao, Zheng Gao, Xiaoyu Li et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="DRIFT: Removing Diffusion Watermarks by Deflecting the Generative Trajectory" src="https://arxiv.org/html/2609.08213v1/figure1-notitile.png"> | [Paper](https://arxiv.org/abs/2609.08213)<br>[PDF](https://arxiv.org/pdf/2609.08213)<br>`2609.08213` |
 | **IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images**<br><sub>Xiaoyan Feng, Zheng Gao, Tong Guan et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="IRIS: Visual-Semantic Binding for Forgery-Resistant Watermarking of Diffusion Images" src="https://arxiv.org/html/2608.03539v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.03539)<br>[PDF](https://arxiv.org/pdf/2608.03539)<br>`2608.03539` |

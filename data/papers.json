@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-01T12:34:48.111587+00:00",
+    "last_updated": "2026-10-02T11:59:52.827029+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -876,6 +876,33 @@
         "published": "2026-09-22",
         "title": "Latent Audio Watermarking for Robustness to Neural Codec Resynthesis",
         "updated": "2026-09-22"
+      },
+      "2610.02010": {
+        "abs_url": "https://arxiv.org/abs/2610.02010",
+        "abstract": "Invisible watermarking has become a central tool for tracing AI-generated images, but its robustness against adaptive removal attacks remains an open security question. We introduce Latent Frequency Masking, an attack that erases watermark evidence by replacing selected Fourier coefficients in the latent representation of a watermarked image. The replacement can be sampled from Gaussian noise for efficiency or derived from diffusion regeneration for improved image preservation. We provide a theoretical distortion bound relating the change between the reconstructed adversarial image and the masked latent-frequency perturbation. We evaluate the proposed attack against six diffusion watermarking methods on images generated from DiffusionDB and MS-COCO prompts. Latent Frequency Masking removes or substantially weakens several watermarks while preserving perceptual quality and achieving favorable runtime compared with existing attacks. These results identify latent-frequency manipulation as a practical attack surface and highlight the need to include such attacks in robustness evaluations of generative image watermarking.",
+        "arxiv_id": "2610.02010",
+        "authors": [
+          "Kirill Aistov",
+          "Khaled Abud",
+          "Irina Serzhenko",
+          "Egor Kovalev",
+          "Aleksey Yakushev",
+          "Aleksandr Akimenkov",
+          "Dmitry Obydenkov",
+          "Yury Markin",
+          "Sergey Lavrushkin",
+          "Dmitriy Vatolin",
+          "Anastasia Antsiferova"
+        ],
+        "comment": "This work has been accepted for publication at IEEE ICDM 2026 conference. The final published version will be available via IEEE Xplore",
+        "first_seen": "2026-10-02",
+        "introduction_image": "https://arxiv.org/html/2610.02010v1/wm_scheme.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.02010",
+        "primary_category": "cs.CV",
+        "published": "2026-10-01",
+        "title": "Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking",
+        "updated": "2026-10-01"
       }
     },
     "Image and Video Watermarking": {
@@ -3411,6 +3438,55 @@
         "published": "2026-09-30",
         "title": "WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks",
         "updated": "2026-09-30"
+      },
+      "2610.00780": {
+        "abs_url": "https://arxiv.org/abs/2610.00780",
+        "abstract": "Image watermarking supports provenance and attribution by embedding verifiable identity information into images. Practical deployments, however, must jointly satisfy requirements for attack resistance, false-positive rate (FPR), image quality, and latency. Existing watermarking methods are robust to different classes of transformations, so combining complementary methods can provide broader protection than any single watermark. Such composition is challenging, as additional fragments increase distortion and decoding cost and must share the same FPR budget. Therefore, we propose **TAILOR**, a request-conditioned watermark composition framework with three stages: (1) *offline characterization* measures fragment recovery, distortion, and runtime as response curves over embedding strength; (2) *joint configuration selection* encodes the request as an SMT model over these curves and solves for the lowest-distortion composition of fragments, strengths, order, and geometric recovery; and (3) *live calibration* validates the selected configuration on the user's images and refines predictions that fail to transfer. Experimental results across 7,321 distinct requests spanning five scenarios and 20 attack settings show that **TAILOR** achieves **96.21%** scenario-averaged request satisfaction with a mean PSNR of **41.02 dB**, outperforming existing methods in robustness while achieving consistently better image quality. Code is available at [https://github.com/aaFrostnova/Tailor](https://github.com/aaFrostnova/Tailor).",
+        "arxiv_id": "2610.00780",
+        "authors": [
+          "Mingzhe Li",
+          "Yuefeng Peng",
+          "Kejing Xia",
+          "Pranav Jeyakumar",
+          "Ruolan Leslie Famularo",
+          "Shiqing Ma"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-02",
+        "introduction_image": "https://arxiv.org/html/2610.00780v1/figures/illustration.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.00780",
+        "primary_category": "cs.CR",
+        "published": "2026-09-30",
+        "title": "Made to Measure: Designing Image Watermarks to Specification",
+        "updated": "2026-09-30"
+      },
+      "2610.02010": {
+        "abs_url": "https://arxiv.org/abs/2610.02010",
+        "abstract": "Invisible watermarking has become a central tool for tracing AI-generated images, but its robustness against adaptive removal attacks remains an open security question. We introduce Latent Frequency Masking, an attack that erases watermark evidence by replacing selected Fourier coefficients in the latent representation of a watermarked image. The replacement can be sampled from Gaussian noise for efficiency or derived from diffusion regeneration for improved image preservation. We provide a theoretical distortion bound relating the change between the reconstructed adversarial image and the masked latent-frequency perturbation. We evaluate the proposed attack against six diffusion watermarking methods on images generated from DiffusionDB and MS-COCO prompts. Latent Frequency Masking removes or substantially weakens several watermarks while preserving perceptual quality and achieving favorable runtime compared with existing attacks. These results identify latent-frequency manipulation as a practical attack surface and highlight the need to include such attacks in robustness evaluations of generative image watermarking.",
+        "arxiv_id": "2610.02010",
+        "authors": [
+          "Kirill Aistov",
+          "Khaled Abud",
+          "Irina Serzhenko",
+          "Egor Kovalev",
+          "Aleksey Yakushev",
+          "Aleksandr Akimenkov",
+          "Dmitry Obydenkov",
+          "Yury Markin",
+          "Sergey Lavrushkin",
+          "Dmitriy Vatolin",
+          "Anastasia Antsiferova"
+        ],
+        "comment": "This work has been accepted for publication at IEEE ICDM 2026 conference. The final published version will be available via IEEE Xplore",
+        "first_seen": "2026-10-02",
+        "introduction_image": "https://arxiv.org/html/2610.02010v1/wm_scheme.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.02010",
+        "primary_category": "cs.CV",
+        "published": "2026-10-01",
+        "title": "Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking",
+        "updated": "2026-10-01"
       }
     },
     "Model Ownership and Fingerprinting": {
