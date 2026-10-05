@@ -4,23 +4,24 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-04 19:52 CST &nbsp; · &nbsp; **Indexed:** 360 unique papers
+**Last updated:** 2026-10-05 21:48 CST &nbsp; · &nbsp; **Indexed:** 363 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 121 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 123 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 42 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 122 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 124 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 111 papers
 
-## Today's additions · 2026-10-04
+## Today's additions · 2026-10-05
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization](https://arxiv.org/abs/2610.03166) — 2026-10-02
+- [Mitigating Watermark Forgery in Generative Models via Randomized Key Selection](https://arxiv.org/abs/2507.07871) — 2025-07-10
 
 </details>
 
@@ -32,9 +33,10 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models](https://arxiv.org/abs/2610.02817) — 2026-10-02
+- [Mitigating Watermark Forgery in Generative Models via Randomized Key Selection](https://arxiv.org/abs/2507.07871) — 2025-07-10
 
 </details>
 
@@ -57,10 +59,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**121 papers · newest first**
+**123 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization**<br><sub>Saibo Ye, Huajie Chen, Xin Guo et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization" src="https://arxiv.org/html/2610.03166v1/Libra_Overview.png"> | [Paper](https://arxiv.org/abs/2610.03166)<br>[PDF](https://arxiv.org/pdf/2610.03166)<br>`2610.03166` |
 | **Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking**<br><sub>Kirill Aistov, Khaled Abud, Irina Serzhenko et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking" src="https://arxiv.org/html/2610.02010v1/wm_scheme.png"> | [Paper](https://arxiv.org/abs/2610.02010)<br>[PDF](https://arxiv.org/pdf/2610.02010)<br>`2610.02010` |
 | **Made to Measure: Designing Image Watermarks to Specification**<br><sub>Mingzhe Li, Yuefeng Peng, Kejing Xia et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Made to Measure: Designing Image Watermarks to Specification" src="https://arxiv.org/html/2610.00780v1/figures/illustration.png"> | [Paper](https://arxiv.org/abs/2610.00780)<br>[PDF](https://arxiv.org/pdf/2610.00780)<br>`2610.00780` |
 | **WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks**<br><sub>Khaled Abud, Aleksey Yakushev, Aleksandr Akimenkov et al.</sub> | ACM MM 2026 (Main Track)<br>**2026** | <img width="400" alt="WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks" src="https://arxiv.org/html/2609.40031v1/wms_viz_generated.png"> | [Paper](https://arxiv.org/abs/2609.40031)<br>[PDF](https://arxiv.org/pdf/2609.40031)<br>`2609.40031` |
@@ -137,6 +140,7 @@ Papers first indexed during today's update, grouped by category.
 | **Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design**<br><sub>Yuhao Sun, Yihua Zhang, Gaowen Liu et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design" src="https://arxiv.org/html/2508.10065/x1.png"> | [Paper](https://arxiv.org/abs/2508.10065)<br>[PDF](https://arxiv.org/pdf/2508.10065)<br>`2508.10065` |
 | **Learning Generalizable and Efficient Image Watermarking via Hierarchical Two-Stage Optimization**<br><sub>Ke Liu, Xuanhan Wang, Qilong Zhang et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Learning Generalizable and Efficient Image Watermarking via Hierarchical Two-Stage Optimization" src="https://arxiv.org/html/2508.08667/x1.png"> | [Paper](https://arxiv.org/abs/2508.08667)<br>[PDF](https://arxiv.org/pdf/2508.08667)<br>`2508.08667` |
 | **MaXsive: High-Capacity and Robust Training-Free Generative Image Watermarking in Diffusion Models**<br><sub>Po-Yuan Mao, Cheng-Chang Tsai, Chun-Shien Lu</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="MaXsive: High-Capacity and Robust Training-Free Generative Image Watermarking in Diffusion Models" src="https://arxiv.org/html/2507.21195/x1.png"> | [Paper](https://arxiv.org/abs/2507.21195)<br>[PDF](https://arxiv.org/pdf/2507.21195)<br>`2507.21195` |
+| **Mitigating Watermark Forgery in Generative Models via Randomized Key Selection**<br><sub>Toluwani Aremu, Noor Hussein, Munachiso Nwadike et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Mitigating Watermark Forgery in Generative Models via Randomized Key Selection" src="https://arxiv.org/html/2507.07871v5/eyecatcher_forgery.png"> | [Paper](https://arxiv.org/abs/2507.07871)<br>[PDF](https://arxiv.org/pdf/2507.07871)<br>`2507.07871` |
 | **TAG-WM: Tamper-Aware Generative Image Watermarking via Diffusion Inversion Sensitivity**<br><sub>Yuzhuo Chen, Zehua Ma, Han Fang et al.</sub> | arXiv · cs.MM<br>**2025** | <img width="400" alt="TAG-WM: Tamper-Aware Generative Image Watermarking via Diffusion Inversion Sensitivity" src="https://arxiv.org/html/2506.23484/figures/framework.png"> | [Paper](https://arxiv.org/abs/2506.23484)<br>[PDF](https://arxiv.org/pdf/2506.23484)<br>`2506.23484` |
 | **Peccavi: Visual Paraphrase Attack Safe and Distortion Free Image Watermarking Technique for AI-Generated Images**<br><sub>Shreyas Dixit, Ashhar Aziz, Shashwat Bajpai et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Peccavi: Visual Paraphrase Attack Safe and Distortion Free Image Watermarking Technique for AI-Generated Images" src="https://arxiv.org/html/2506.22960/x1.png"> | [Paper](https://arxiv.org/abs/2506.22960)<br>[PDF](https://arxiv.org/pdf/2506.22960)<br>`2506.22960` |
 | **BitMark: Watermarking Bitwise Autoregressive Image Generative Models**<br><sub>Louis Kerner, Michel Meintz, Bihe Zhao et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="BitMark: Watermarking Bitwise Autoregressive Image Generative Models" src="https://arxiv.org/html/2506.21209/x1.png"> | [Paper](https://arxiv.org/abs/2506.21209)<br>[PDF](https://arxiv.org/pdf/2506.21209)<br>`2506.21209` |
@@ -234,10 +238,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**122 papers · newest first**
+**124 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models**<br><sub>Yi Wang, Baicheng Chen, Yu Wang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models" src="https://arxiv.org/html/2610.02817v1/RMCW_overview.png"> | [Paper](https://arxiv.org/abs/2610.02817)<br>[PDF](https://arxiv.org/pdf/2610.02817)<br>`2610.02817` |
 | **Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes**<br><sub>Zewei Deng, Muhammad Siddeek, Liyan Xie et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.38722)<br>[PDF](https://arxiv.org/pdf/2609.38722)<br>`2609.38722` |
 | **AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks**<br><sub>Thibaud Gloaguen, Robin Staab, Martin Vechev</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37310)<br>[PDF](https://arxiv.org/pdf/2609.37310)<br>`2609.37310` |
 | **Beyond Semantic Narrowing: Robust and Efficient LLM Watermarking with Hamming Neighborhoods**<br><sub>Zewen Sun, Tongyang Zhao, Liyao Xiang et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37218)<br>[PDF](https://arxiv.org/pdf/2609.37218)<br>`2609.37218` |
@@ -332,6 +337,7 @@ Papers first indexed during today's update, grouped by category.
 | **Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends**<br><sub>Zhenhua Xu, Xubin Yue, Zhebo Wang et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Copyright Protection for Large Language Models: A Survey of Methods, Challenges, and Trends" src="https://arxiv.org/html/2508.11548v2/figures/text_watermark.png"> | [Paper](https://arxiv.org/abs/2508.11548)<br>[PDF](https://arxiv.org/pdf/2508.11548)<br>`2508.11548` |
 | **SAEMark: Steering Personalized Multilingual LLM Watermarks with Sparse Autoencoders**<br><sub>Zhuohao Yu, Xingru Jiang, Weizheng Gu et al.</sub> | arXiv · cs.CL<br>**2025** | <img width="400" alt="SAEMark: Steering Personalized Multilingual LLM Watermarks with Sparse Autoencoders" src="https://arxiv.org/html/2508.08211/x1.png"> | [Paper](https://arxiv.org/abs/2508.08211)<br>[PDF](https://arxiv.org/pdf/2508.08211)<br>`2508.08211` |
 | **VLA-Mark: A cross modal watermark for large vision-language alignment model**<br><sub>Shuliang Liu, Qi Zheng, Jesse Jiaxi Xu et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="VLA-Mark: A cross modal watermark for large vision-language alignment model" src="https://arxiv.org/html/2507.14067/x1.png"> | [Paper](https://arxiv.org/abs/2507.14067)<br>[PDF](https://arxiv.org/pdf/2507.14067)<br>`2507.14067` |
+| **Mitigating Watermark Forgery in Generative Models via Randomized Key Selection**<br><sub>Toluwani Aremu, Noor Hussein, Munachiso Nwadike et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Mitigating Watermark Forgery in Generative Models via Randomized Key Selection" src="https://arxiv.org/html/2507.07871v5/eyecatcher_forgery.png"> | [Paper](https://arxiv.org/abs/2507.07871)<br>[PDF](https://arxiv.org/pdf/2507.07871)<br>`2507.07871` |
 | **Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks**<br><sub>Huanming Shen, Baizhou Huang, Xiaojun Wan</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks" src="https://arxiv.org/html/2507.06274/figures/toutu.png"> | [Paper](https://arxiv.org/abs/2507.06274)<br>[PDF](https://arxiv.org/pdf/2507.06274)<br>`2507.06274` |
 | **CoreMark: Toward Robust and Universal Text Watermarking Technique**<br><sub>Jiale Meng, Yiming Li, Zheming Lu et al.</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="CoreMark: Toward Robust and Universal Text Watermarking Technique" src="https://arxiv.org/html/2506.23066/x1.png"> | [Paper](https://arxiv.org/abs/2506.23066)<br>[PDF](https://arxiv.org/pdf/2506.23066)<br>`2506.23066` |
 | **Optimal Estimation of Watermark Proportions in Hybrid AI-Human Texts**<br><sub>Xiang Li, Garrett Wen, Weiqing He et al.</sub> | arXiv · stat.ML<br>**2025** | <img width="400" alt="Optimal Estimation of Watermark Proportions in Hybrid AI-Human Texts" src="https://arxiv.org/html/2506.22343/x1.png"> | [Paper](https://arxiv.org/abs/2506.22343)<br>[PDF](https://arxiv.org/pdf/2506.22343)<br>`2506.22343` |
