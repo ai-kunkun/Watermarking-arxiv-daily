@@ -4,24 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-05 21:48 CST &nbsp; · &nbsp; **Indexed:** 363 unique papers
+**Last updated:** 2026-10-06 20:53 CST &nbsp; · &nbsp; **Indexed:** 369 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 123 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 124 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 42 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 124 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 111 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 129 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-05
+## Today's additions · 2026-10-06
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- [LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization](https://arxiv.org/abs/2610.03166) — 2026-10-02
-- [Mitigating Watermark Forgery in Generative Models via Randomized Key Selection](https://arxiv.org/abs/2507.07871) — 2025-07-10
+- [Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video](https://arxiv.org/abs/2610.04151) — 2026-10-02
 
 </details>
 
@@ -33,17 +32,21 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 5 new papers</summary>
 
-- [RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models](https://arxiv.org/abs/2610.02817) — 2026-10-02
-- [Mitigating Watermark Forgery in Generative Models via Randomized Key Selection](https://arxiv.org/abs/2507.07871) — 2025-07-10
+- [SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints](https://arxiv.org/abs/2610.05712) — 2026-10-05
+- [Grammar-Guided Code Watermarking with Green Temperature](https://arxiv.org/abs/2610.05323) — 2026-10-04
+- [Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate](https://arxiv.org/abs/2610.04860) — 2026-10-04
+- [Language Model Fingerprinting Requires Rethinking Watermark Teachers](https://arxiv.org/abs/2610.04169) — 2026-10-03
+- [Adaptive Co-Serving LLM Watermarking on Modern Inference Engines](https://arxiv.org/abs/2610.03955) — 2026-10-02
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [Grammar-Guided Code Watermarking with Green Temperature](https://arxiv.org/abs/2610.05323) — 2026-10-04
+- [Language Model Fingerprinting Requires Rethinking Watermark Teachers](https://arxiv.org/abs/2610.04169) — 2026-10-03
 
 </details>
 
@@ -59,10 +62,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**123 papers · newest first**
+**124 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video**<br><sub>Seyedmahdi Kazempourradi, Ramtin Mojtahedi, Behrang Mohseni</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video" src="https://arxiv.org/html/2610.04151v1/wm_fig3_image_robustness.png"> | [Paper](https://arxiv.org/abs/2610.04151)<br>[PDF](https://arxiv.org/pdf/2610.04151)<br>`2610.04151` |
 | **LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization**<br><sub>Saibo Ye, Huajie Chen, Xin Guo et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization" src="https://arxiv.org/html/2610.03166v1/Libra_Overview.png"> | [Paper](https://arxiv.org/abs/2610.03166)<br>[PDF](https://arxiv.org/pdf/2610.03166)<br>`2610.03166` |
 | **Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking**<br><sub>Kirill Aistov, Khaled Abud, Irina Serzhenko et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking" src="https://arxiv.org/html/2610.02010v1/wm_scheme.png"> | [Paper](https://arxiv.org/abs/2610.02010)<br>[PDF](https://arxiv.org/pdf/2610.02010)<br>`2610.02010` |
 | **Made to Measure: Designing Image Watermarks to Specification**<br><sub>Mingzhe Li, Yuefeng Peng, Kejing Xia et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Made to Measure: Designing Image Watermarks to Specification" src="https://arxiv.org/html/2610.00780v1/figures/illustration.png"> | [Paper](https://arxiv.org/abs/2610.00780)<br>[PDF](https://arxiv.org/pdf/2610.00780)<br>`2610.00780` |
@@ -238,10 +242,15 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**124 papers · newest first**
+**129 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints**<br><sub>Benjamin D. Kim, Wanrong Zhang, Weitong Ruan et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints" src="https://arxiv.org/html/2610.05712v1/figures/simplemark_embedding_diagram.png"> | [Paper](https://arxiv.org/abs/2610.05712)<br>[PDF](https://arxiv.org/pdf/2610.05712)<br>`2610.05712` |
+| **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |
+| **Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate**<br><sub>Haocheng Ye, Aoting Hu, Xinwei Zhang et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate" src="https://arxiv.org/html/2610.04860v1/watermark_mechanism.png"> | [Paper](https://arxiv.org/abs/2610.04860)<br>[PDF](https://arxiv.org/pdf/2610.04860)<br>`2610.04860` |
+| **Language Model Fingerprinting Requires Rethinking Watermark Teachers**<br><sub>Jeongyeon Hwang, Anshul Nasery, Sewoong Oh et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Language Model Fingerprinting Requires Rethinking Watermark Teachers" src="https://arxiv.org/html/2610.04169v1/overview3.png"> | [Paper](https://arxiv.org/abs/2610.04169)<br>[PDF](https://arxiv.org/pdf/2610.04169)<br>`2610.04169` |
+| **Adaptive Co-Serving LLM Watermarking on Modern Inference Engines**<br><sub>Kieu Dang, Phung Lai, Ching-Yun Ko et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Adaptive Co-Serving LLM Watermarking on Modern Inference Engines" src="https://arxiv.org/html/2610.03955v1/images/Example_updated.png"> | [Paper](https://arxiv.org/abs/2610.03955)<br>[PDF](https://arxiv.org/pdf/2610.03955)<br>`2610.03955` |
 | **RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models**<br><sub>Yi Wang, Baicheng Chen, Yu Wang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models" src="https://arxiv.org/html/2610.02817v1/RMCW_overview.png"> | [Paper](https://arxiv.org/abs/2610.02817)<br>[PDF](https://arxiv.org/pdf/2610.02817)<br>`2610.02817` |
 | **Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes**<br><sub>Zewei Deng, Muhammad Siddeek, Liyan Xie et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.38722)<br>[PDF](https://arxiv.org/pdf/2609.38722)<br>`2609.38722` |
 | **AutoMark: Enabling Autoresearch to Discover Better LLM Watermarks**<br><sub>Thibaud Gloaguen, Robin Staab, Martin Vechev</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.37310)<br>[PDF](https://arxiv.org/pdf/2609.37310)<br>`2609.37310` |
@@ -369,10 +378,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**111 papers · newest first**
+**113 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |
+| **Language Model Fingerprinting Requires Rethinking Watermark Teachers**<br><sub>Jeongyeon Hwang, Anshul Nasery, Sewoong Oh et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Language Model Fingerprinting Requires Rethinking Watermark Teachers" src="https://arxiv.org/html/2610.04169v1/overview3.png"> | [Paper](https://arxiv.org/abs/2610.04169)<br>[PDF](https://arxiv.org/pdf/2610.04169)<br>`2610.04169` |
 | **A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services**<br><sub>Shahrooz Pouryousef, Jesus Lopez, Saeefa Rubaiyat Nowmi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services" src="https://arxiv.org/html/2609.31877v1/threat_model.png"> | [Paper](https://arxiv.org/abs/2609.31877)<br>[PDF](https://arxiv.org/pdf/2609.31877)<br>`2609.31877` |
 | **An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models**<br><sub>Wenhong Huang, Jianwei Fei, Benedetta Tondi et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models" src="https://arxiv.org/html/2609.23586v1/Fig_vidmark.png"> | [Paper](https://arxiv.org/abs/2609.23586)<br>[PDF](https://arxiv.org/pdf/2609.23586)<br>`2609.23586` |
 | **Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape**<br><sub>Sarah Radway, Andrew Cheng, Vijay Janapa Reddi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape" src="https://arxiv.org/html/2609.20614v1/inference-stack-example.png"> | [Paper](https://arxiv.org/abs/2609.20614)<br>[PDF](https://arxiv.org/pdf/2609.20614)<br>`2609.20614` |

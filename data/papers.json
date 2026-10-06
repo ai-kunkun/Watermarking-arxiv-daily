@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-05T13:48:34.175979+00:00",
+    "last_updated": "2026-10-06T12:53:37.994221+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3535,6 +3535,25 @@
         "published": "2026-10-02",
         "title": "LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization",
         "updated": "2026-10-02"
+      },
+      "2610.04151": {
+        "abs_url": "https://arxiv.org/abs/2610.04151",
+        "abstract": "Content-provenance standards such as C2PA let a platform recover a stripped manifest through a soft binding: an invisible watermark read from the content, or a fingerprint looked up in a registry. We benchmarked both families under one protocol, restricted to openly available models whose licences we audited, on public media, with false-match rates calibrated on held-out negatives and source-level bootstrap intervals for performance estimates. For watermarking we evaluated 25 image, 7 audio and 7 video configurations from 12 methods on perceptual quality, robustness, false positives and cost; for fingerprinting, 35 methods on registries of up to 98,985 images, partial edits and adversarial attacks. PixelSeal gave the best balance for image and video watermarks and AudioSeal for audio, but the error-correcting detector of every TrustMark variant fired on 5.9 to 15.3% of unmarked images, so a verifier should test the expected payload. Among fingerprints, copy detectors trained on non-commercial data detected up to 75.5% of transformed images at a pair-level false-match rate of $10^{-7}$ and DINOv2, the best permissively licensed method, 65.0%; near-copies in a product catalogue dominated the false matches, and no detection improvement from geometric verification was observed under a matched calibration false-binding constraint in the evaluated image pipelines. On the same attacked copies the two families failed differently: the union of watermark and fingerprint successes covered 69% of image copies; fingerprints covered more audio queries, whereas expected-key watermark verification covered more video queries. Embedding a watermark moved the ISCC code of 62.0% of images past its match threshold, and platform-dependent colour conversion changed watermark bits between x86 and ARM hosts.",
+        "arxiv_id": "2610.04151",
+        "authors": [
+          "Seyedmahdi Kazempourradi",
+          "Ramtin Mojtahedi",
+          "Behrang Mohseni"
+        ],
+        "comment": "59 pages. Code, recorded results and manuscript source: https://github.com/Original-Pictures/soft-bindings-benchmark (v1.0)",
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.04151v1/wm_fig3_image_robustness.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.04151",
+        "primary_category": "cs.CV",
+        "published": "2026-10-02",
+        "title": "Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video",
+        "updated": "2026-10-02"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -5893,6 +5912,46 @@
         "published": "2026-09-25",
         "title": "A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services",
         "updated": "2026-09-25"
+      },
+      "2610.04169": {
+        "abs_url": "https://arxiv.org/abs/2610.04169",
+        "abstract": "LLM fingerprinting via watermark distillation embeds a statistical watermark signal into model weights, enabling model owners to identify their models behind black-box APIs. Revisiting a recent protocol, we find that its utility evaluation understates text quality degradation in open-ended generation, favoring overly strong watermark teachers. Weakening the watermark improves text quality but sacrifices detectability. To move beyond this trade-off, we rethink whether text watermarks designed for verifying generated text are suitable distillation teachers for model fingerprinting. Such watermarks are typically designed to remain detectable from an individual output, limiting how sparse the watermark signal can be. In contrast, fingerprint verification can aggregate signal across queries, making sparser watermark signals viable. This raises a key question: where should the sparse signal be placed? We analyze signal placement through token surprisal and show that, even at comparable watermark strength, different placements can target tokens with different plausibility under the base model. This motivates near-tie restriction, which uses top-1-relative logit gaps to restrict the watermark bias to tokens close to the base model's top prediction. Across multiple models, near-tie improves detection--quality frontiers under deployment changes, preserves higher text quality across query budgets, and further improves existing watermarking schemes when combined with them.",
+        "arxiv_id": "2610.04169",
+        "authors": [
+          "Jeongyeon Hwang",
+          "Anshul Nasery",
+          "Sewoong Oh",
+          "Jungseul Ok"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.04169v1/overview3.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.04169",
+        "primary_category": "cs.CR",
+        "published": "2026-10-03",
+        "title": "Language Model Fingerprinting Requires Rethinking Watermark Teachers",
+        "updated": "2026-10-03"
+      },
+      "2610.05323": {
+        "abs_url": "https://arxiv.org/abs/2610.05323",
+        "abstract": "Large language model watermarking embeds detectable statistical signals during decoding, but the resulting changes to token probabilities can degrade generation quality. This trade-off is particularly important for code, where small changes in token selection can break syntax or alter program behavior. Existing code watermarking methods mitigate this risk through entropy-based insertion or syntax-aware token selection, but they do not directly construct the watermark over the set of continuations admitted by the current grammar state. We propose Grammar-Guided Code Watermarking with Green Temperature (GTCW), which integrates grammar-constrained decoding with probability-aware watermarking. At each decoding step, GTCW restricts the candidate set to grammar-admissible tokens and partitions this support into keyed green and red subsets. At eligible high-entropy positions, green temperature reweights the green tokens according to the model's relative preferences, strengthening the watermark signal while retaining the grammar constraint. Across five models and five benchmarks spanning four programming languages, GTCW achieves a mean AUROC of 73.61%, compared with 67.83% for the strongest baseline, while maintaining a mean Pass@1 of 59.18% versus 59.58% for unwatermarked generation. Our implementation is available at https://github.com/hyundong98/GTCW .",
+        "arxiv_id": "2610.05323",
+        "authors": [
+          "Hyundong Jin",
+          "Hyeseon An",
+          "Soohan Lim",
+          "Yo-Sub Han"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.05323v1/Overview.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.05323",
+        "primary_category": "cs.CR",
+        "published": "2026-10-04",
+        "title": "Grammar-Guided Code Watermarking with Green Temperature",
+        "updated": "2026-10-04"
       }
     },
     "Text and LLM Watermarking": {
@@ -8496,6 +8555,109 @@
         "published": "2026-10-02",
         "title": "RMCW: A Deletion-Robust Watermark Based on Reed--Muller Codes for Language Models",
         "updated": "2026-10-02"
+      },
+      "2610.03955": {
+        "abs_url": "https://arxiv.org/abs/2610.03955",
+        "abstract": "Large language model (LLM) watermarking is important for ownership verification and intellectual property protection. However, existing approaches focus on algorithmic design while treating LLM inference engines as separate components. This separation often introduces auxiliary models or external tools, increasing latency and memory overhead while limiting the use of modern inference optimizations. As a result, a deployment gap remains: practical watermarking must preserve utility, detectability, and robustness while minimizing serving overhead. To bridge this gap, we propose SWIFT, a framework that co-designs LLM watermarking with modern inference infrastructure. SWIFT (i) integrates text generation and watermark construction within a shared LLM backend to reduce re-computation, improve cache reuse, and simplify system complexity; (ii) uses instruction-guided candidate generation with semantic protection to preserve factual consistency and meaning; (iii) executes watermarking concurrently with generation through asynchronous co-serving and adaptive scheduling to reduce latency and improve resource utilization; and (iv) leverages vLLM optimizations to enhance serving efficiency. Extensive experiments across domains and tasks show that SWIFT achieves strong utility, detectability, robustness, and downstream performance while substantially improving serving efficiency. Specifically, it achieves the highest utility score (4.87), 99.65% detection accuracy compared with 76.65% for the low-latency baseline SynthID, and up to 97.7% detection under watermark removal attacks, with 5.9x lower latency than the highest-utility baseline, SafeSeal. These results demonstrate the benefits of co-designing watermarking with inference infrastructure for practical LLM serving. Code and artifacts are available at: https://anonymous.4open.science/r/SWIFT-0597.",
+        "arxiv_id": "2610.03955",
+        "authors": [
+          "Kieu Dang",
+          "Phung Lai",
+          "Ching-Yun Ko",
+          "Pin-Yu Chen"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.03955v1/images/Example_updated.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.03955",
+        "primary_category": "cs.CR",
+        "published": "2026-10-02",
+        "title": "Adaptive Co-Serving LLM Watermarking on Modern Inference Engines",
+        "updated": "2026-10-02"
+      },
+      "2610.04169": {
+        "abs_url": "https://arxiv.org/abs/2610.04169",
+        "abstract": "LLM fingerprinting via watermark distillation embeds a statistical watermark signal into model weights, enabling model owners to identify their models behind black-box APIs. Revisiting a recent protocol, we find that its utility evaluation understates text quality degradation in open-ended generation, favoring overly strong watermark teachers. Weakening the watermark improves text quality but sacrifices detectability. To move beyond this trade-off, we rethink whether text watermarks designed for verifying generated text are suitable distillation teachers for model fingerprinting. Such watermarks are typically designed to remain detectable from an individual output, limiting how sparse the watermark signal can be. In contrast, fingerprint verification can aggregate signal across queries, making sparser watermark signals viable. This raises a key question: where should the sparse signal be placed? We analyze signal placement through token surprisal and show that, even at comparable watermark strength, different placements can target tokens with different plausibility under the base model. This motivates near-tie restriction, which uses top-1-relative logit gaps to restrict the watermark bias to tokens close to the base model's top prediction. Across multiple models, near-tie improves detection--quality frontiers under deployment changes, preserves higher text quality across query budgets, and further improves existing watermarking schemes when combined with them.",
+        "arxiv_id": "2610.04169",
+        "authors": [
+          "Jeongyeon Hwang",
+          "Anshul Nasery",
+          "Sewoong Oh",
+          "Jungseul Ok"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.04169v1/overview3.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.04169",
+        "primary_category": "cs.CR",
+        "published": "2026-10-03",
+        "title": "Language Model Fingerprinting Requires Rethinking Watermark Teachers",
+        "updated": "2026-10-03"
+      },
+      "2610.04860": {
+        "abs_url": "https://arxiv.org/abs/2610.04860",
+        "abstract": "Text watermarking helps identify AI-generated content, but its effect on factual reliability remains underexplored. In this paper, we study watermarking hallucination: factual errors induced or amplified by watermarking even when the required evidence is present in the context and the unwatermarked model can answer correctly. Using a controlled retrieval-augmented generation setting, we compare unwatermarked and watermarked generations under the same context, query, and decoding configuration, and quantify their factual accuracy decrease. Across six representative watermarking methods, including KGW, SWEET, DiPmark, GumbelSoft, Gumbel-Max, and SynthID watermarking, we consistently observe watermark-induced hallucination. Watermarked outputs can remain fluent while introducing factual errors. We attribute this failure mode to two mechanisms: (1) token perturbations in the current-step arising from method-specific reweighting or keyed sampling, and (2) prefix-induced attention drift, which accumulates through autoregressive decoding and weakens later attention to the factual context. Motivated by this analysis, we propose two plug-in interventions at the token and attention levels that can be integrated into existing watermarking methods to improve factuality. At a matched TPR of 0.90 at 1% FPR, combining the two interventions reduces factual errors by approximately 90% relative to watermark-only decoding while preserving fluency and comparable decoding efficiency. Overall, this work highlights factuality as a first-class criterion in watermark evaluation, alongside detectability and robustness, and calls for careful factuality validation before deploying watermarks in fact-critical applications.",
+        "arxiv_id": "2610.04860",
+        "authors": [
+          "Haocheng Ye",
+          "Aoting Hu",
+          "Xinwei Zhang",
+          "Xunzhu Tang",
+          "Shuchao Pang",
+          "Jason Xue"
+        ],
+        "comment": "Accepted at NeurIPS 2026",
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.04860v1/watermark_mechanism.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.04860",
+        "primary_category": "cs.CR",
+        "published": "2026-10-04",
+        "title": "Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate",
+        "updated": "2026-10-04"
+      },
+      "2610.05323": {
+        "abs_url": "https://arxiv.org/abs/2610.05323",
+        "abstract": "Large language model watermarking embeds detectable statistical signals during decoding, but the resulting changes to token probabilities can degrade generation quality. This trade-off is particularly important for code, where small changes in token selection can break syntax or alter program behavior. Existing code watermarking methods mitigate this risk through entropy-based insertion or syntax-aware token selection, but they do not directly construct the watermark over the set of continuations admitted by the current grammar state. We propose Grammar-Guided Code Watermarking with Green Temperature (GTCW), which integrates grammar-constrained decoding with probability-aware watermarking. At each decoding step, GTCW restricts the candidate set to grammar-admissible tokens and partitions this support into keyed green and red subsets. At eligible high-entropy positions, green temperature reweights the green tokens according to the model's relative preferences, strengthening the watermark signal while retaining the grammar constraint. Across five models and five benchmarks spanning four programming languages, GTCW achieves a mean AUROC of 73.61%, compared with 67.83% for the strongest baseline, while maintaining a mean Pass@1 of 59.18% versus 59.58% for unwatermarked generation. Our implementation is available at https://github.com/hyundong98/GTCW .",
+        "arxiv_id": "2610.05323",
+        "authors": [
+          "Hyundong Jin",
+          "Hyeseon An",
+          "Soohan Lim",
+          "Yo-Sub Han"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.05323v1/Overview.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.05323",
+        "primary_category": "cs.CR",
+        "published": "2026-10-04",
+        "title": "Grammar-Guided Code Watermarking with Green Temperature",
+        "updated": "2026-10-04"
+      },
+      "2610.05712": {
+        "abs_url": "https://arxiv.org/abs/2610.05712",
+        "abstract": "We introduce a framework for multi-bit text watermarking with security defined directly through $f$-divergence from the base language model distribution. Unlike prior approaches that focus on average-key distortion-freeness or a particular statistical distance, our formulation supports general $f$-divergences, including total variation and KL divergence, and enforces the guarantee for each realized key and embedded message. We develop a coding-based watermarking scheme that optimally biases next-token distributions subject to a prescribed divergence budget, and characterize the resulting tradeoff between embedding rate, decoding reliability, and statistical security. Experimentally, we compare our method against prior multi-bit watermarking schemes across modern language models and payload regimes. Our approach achieves substantially lower watermark detectability while maintaining competitive message-recovery performance and generation quality. Our results provide a unified view of secure multi-bit watermarking and recover several commonly used security notions as special cases.",
+        "arxiv_id": "2610.05712",
+        "authors": [
+          "Benjamin D. Kim",
+          "Wanrong Zhang",
+          "Weitong Ruan",
+          "Lav R. Varshney",
+          "Daniel Alabi"
+        ],
+        "comment": "39 pages, 10 figures",
+        "first_seen": "2026-10-06",
+        "introduction_image": "https://arxiv.org/html/2610.05712v1/figures/simplemark_embedding_diagram.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.05712",
+        "primary_category": "cs.CR",
+        "published": "2026-10-05",
+        "title": "SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints",
+        "updated": "2026-10-05"
       }
     }
   }
