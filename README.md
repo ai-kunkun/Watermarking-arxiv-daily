@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-06 20:53 CST &nbsp; · &nbsp; **Indexed:** 369 unique papers
+**Last updated:** 2026-10-07 20:47 CST &nbsp; · &nbsp; **Indexed:** 370 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 124 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 42 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 129 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 130 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-06
+## Today's additions · 2026-10-07
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video](https://arxiv.org/abs/2610.04151) — 2026-10-02
+- No new papers today.
 
 </details>
 
@@ -32,21 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 5 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- [SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints](https://arxiv.org/abs/2610.05712) — 2026-10-05
-- [Grammar-Guided Code Watermarking with Green Temperature](https://arxiv.org/abs/2610.05323) — 2026-10-04
-- [Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate](https://arxiv.org/abs/2610.04860) — 2026-10-04
-- [Language Model Fingerprinting Requires Rethinking Watermark Teachers](https://arxiv.org/abs/2610.04169) — 2026-10-03
-- [Adaptive Co-Serving LLM Watermarking on Modern Inference Engines](https://arxiv.org/abs/2610.03955) — 2026-10-02
+- [Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents](https://arxiv.org/abs/2610.08668) — 2026-10-06
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Grammar-Guided Code Watermarking with Green Temperature](https://arxiv.org/abs/2610.05323) — 2026-10-04
-- [Language Model Fingerprinting Requires Rethinking Watermark Teachers](https://arxiv.org/abs/2610.04169) — 2026-10-03
+- No new papers today.
 
 </details>
 
@@ -242,10 +237,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**129 papers · newest first**
+**130 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents**<br><sub>Suxin Ji, Hungtao Wan, Shaoxuan Chen et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents" src="https://arxiv.org/html/2610.08668v1/results/real_results_600.png"> | [Paper](https://arxiv.org/abs/2610.08668)<br>[PDF](https://arxiv.org/pdf/2610.08668)<br>`2610.08668` |
 | **SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints**<br><sub>Benjamin D. Kim, Wanrong Zhang, Weitong Ruan et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints" src="https://arxiv.org/html/2610.05712v1/figures/simplemark_embedding_diagram.png"> | [Paper](https://arxiv.org/abs/2610.05712)<br>[PDF](https://arxiv.org/pdf/2610.05712)<br>`2610.05712` |
 | **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |
 | **Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate**<br><sub>Haocheng Ye, Aoting Hu, Xinwei Zhang et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate" src="https://arxiv.org/html/2610.04860v1/watermark_mechanism.png"> | [Paper](https://arxiv.org/abs/2610.04860)<br>[PDF](https://arxiv.org/pdf/2610.04860)<br>`2610.04860` |
