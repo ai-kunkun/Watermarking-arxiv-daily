@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-07T12:47:20.816103+00:00",
+    "last_updated": "2026-10-08T12:56:23.069993+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -903,6 +903,24 @@
         "published": "2026-10-01",
         "title": "Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking",
         "updated": "2026-10-01"
+      },
+      "2610.09702": {
+        "abs_url": "https://arxiv.org/abs/2610.09702",
+        "abstract": "Ordinary prompt-based editing can cause latent watermark detection to fail without explicitly targeting the watermark. We benchmark eight watermark methods against five editors across four generative backbones, four editing strengths, and five semantic categories, with edit-validity and threshold checks. Separating editing from seven subsequent distortions reveals that editing alone primarily distinguishes Tree-Ring, while added distortions expose a broader spectrum of detection survival. Sequential edits reveal a second hidden difference: score separation can decline while detection rates remain near their ceiling. Across methods, standardized clean score separation ($d'$) organizes composite-survival tiers, whereas spatial overlap adds little to predicting edit-only survival beyond clean detectability. Embedding-strength interventions in two methods link higher clean separation to higher post-edit separation. In HSTR, the margin contrast is positive, while the angular layout contrast at matched clean separation remains unresolved. Together, outcome decomposition and continuous separation expose differences hidden by aggregate TPR. Method tiers are stable under threshold recalibration at the main operating points and alternative composite weights. Clean $d'$ is thus a useful empirical diagnostic within this benchmark, with mixed transfer to unseen methods. Code and supporting artifacts are planned for a separate release.",
+        "arxiv_id": "2610.09702",
+        "authors": [
+          "Sung Ju Lee",
+          "Nam Ik Cho"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-08",
+        "introduction_image": "https://arxiv.org/html/2610.09702v1/F_main_teaser.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.09702",
+        "primary_category": "cs.CV",
+        "published": "2026-10-07",
+        "title": "Latent Watermarks under Generative Editing: A Benchmark and Analysis of Detection Survival",
+        "updated": "2026-10-07"
       }
     },
     "Image and Video Watermarking": {
@@ -3554,6 +3572,24 @@
         "published": "2026-10-02",
         "title": "Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video",
         "updated": "2026-10-02"
+      },
+      "2610.09755": {
+        "abs_url": "https://arxiv.org/abs/2610.09755",
+        "abstract": "Watermarking diffusion-generated images requires balancing provenance signals with image quality, robustness, and computational cost. This work organizes methods along two axes: insertion mechanism and primary signal-bearing representation, and formalizes a representative $z_T$-Fourier pipeline for verification and identification. We then use the taxonomy to structure three protocol-bounded case studies. The first examines associations among frequency integrity, detection, quality, and cropping behavior. The second revisits persistence under seed-linked and seed-independent editing and formulates a scoped Semantic Imprinting Hypothesis without claiming a localized carrier or causal mechanism. The third studies single-shot VAE-latent phase modulation, including its efficiency, regeneration robustness, and robustness--quality operating points. Finally, we separate four content-level attack families from model/pipeline adaptation, propose corresponding evaluation protocols and testable conjectures for parameter-tuning threats, and identify additional temporal extensions for video. These analyses do not establish a universal ranking; instead, they provide a framework for matched, protocol-aware comparisons of watermarking systems for diffusion-generated images.",
+        "arxiv_id": "2610.09755",
+        "authors": [
+          "Sung Ju Lee",
+          "Nam Ik Cho"
+        ],
+        "comment": "17 pages, 2 figures. Accepted to the non-archival track of the ECCV 2026 LifeGenIP Workshop. English translation with partial reorganization of our article in Journal of Broadcast Engineering 31(4), 687-699 (2026)",
+        "first_seen": "2026-10-08",
+        "introduction_image": "https://arxiv.org/html/2610.09755v1/figures-wm-pipeline.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.09755",
+        "primary_category": "cs.CV",
+        "published": "2026-10-07",
+        "title": "Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies",
+        "updated": "2026-10-07"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -8678,6 +8714,25 @@
         "published": "2026-10-06",
         "title": "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
         "updated": "2026-10-06"
+      },
+      "2610.09339": {
+        "abs_url": "https://arxiv.org/abs/2610.09339",
+        "abstract": "Data arrive sequentially, each associated with a null hypothesis. We develop testing procedures to locate intervals in which some null hypotheses fail with false discovery rate (FDR) control. The new procedures are called sequential resetting procedures, and they are based on e-values and test supermartingales. We also develop a refined version of the procedures by dropping less informative data points before the block minimum of the test supermartingale in each rejection block. These procedures have explicit FDR bounds under two settings: a classic setting of independence and the more general setting of possible dependence across null data and non-null data. These FDR bounds are independent of the testing horizon, and the general one has anytime validity, but it has an extra logarithm factor compared with the standard FDR level. We present simulation studies and data experiments with applications of sequential resetting procedures to LLM watermark detection and financial backtesting.",
+        "arxiv_id": "2610.09339",
+        "authors": [
+          "Qiuqi Wang",
+          "Ruodu Wang",
+          "Zhenyuan Zhang"
+        ],
+        "comment": "67 pages",
+        "first_seen": "2026-10-08",
+        "introduction_image": "https://arxiv.org/html/2610.09339v1/tournament_mixed_passage.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.09339",
+        "primary_category": "stat.ME",
+        "published": "2026-10-07",
+        "title": "Sequential resetting procedures and false discovery rate",
+        "updated": "2026-10-07"
       }
     }
   }
