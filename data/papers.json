@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-08T12:56:23.069993+00:00",
+    "last_updated": "2026-10-09T12:42:20.726090+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -2761,6 +2761,26 @@
         "title": "AWPD: Frequency Shield Network for Agnostic Watermark Presence Detection",
         "updated": "2026-04-17"
       },
+      "2603.07090": {
+        "abs_url": "https://arxiv.org/abs/2603.07090",
+        "abstract": "Watermarking joint audio-visual generation supports vendor copyright protection and content provenance. However, independently valid audio and video watermarks do not establish a shared generation session. An adversary can splice watermarked modalities from different sessions, causing the pair to be mistaken for the vendor's original joint output. We introduce mAVE (Manifold Audio-Visual Entanglement), a training-free watermarking framework that strengthens vendor attribution through session binding in native joint audio-visual diffusion transformers. mAVE separates public record retrieval from secret session authentication: a fixed public index locates the server record, while a randomized payload binds audio bits to a session-keyed video grid through a cryptographic digest. One prompt-conditioned joint inversion supports provider-assisted verification of both modalities against a session record, without modifying generator weights or training auxiliary watermark networks. Our analysis establishes implementation-matched distribution preservation and a full-initialization routing/clipping budget, alongside adaptive session-pool security and stable local-perturbation bounds. Experiments on LTX-2 and MOVA show comparable generation quality. mAVE achieves 99.8\\% true-positive rate and 0\\% observed false-positive rate in the evaluated swap test, and retains 99.2\\% true-positive rate under FrameAvg temporal averaging. Same-prompt and similarity-selected swaps further test session authentication beyond perceptual compatibility.",
+        "arxiv_id": "2603.07090",
+        "authors": [
+          "Luyang Si",
+          "Leyi Pan",
+          "Dongsheng Ma",
+          "Lijie Wen"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-09",
+        "introduction_image": "https://arxiv.org/html/2603.07090v2/0_teaser.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2603.07090",
+        "primary_category": "cs.CR",
+        "published": "2026-03-07",
+        "title": "mAVE: A Watermark for Joint Audio-Visual Generation Models",
+        "updated": "2026-10-08"
+      },
       "2603.09454": {
         "abs_url": "https://arxiv.org/abs/2603.09454",
         "abstract": "Diffusion models have made substantial advances in recent years, enabling high-quality image synthesis; however, the widespread dissemination and reuse of their outputs have introduced new challenges in intellectual property protection and content provenance. Image watermarking offers a solution to these challenges, and recent work has increasingly explored Noise-as-Watermark (NaW) approaches that integrate watermarking directly into the diffusion process. However, existing NaW methods fail to balance robustness and diversity. We attribute this weakness to value encoding, which encodes watermark bits into individual sampled values. It is extremely fragile in practical application scenarios. To address this, we encode watermark bits into the structured noise pattern, so that the watermark is preserved even when individual values are perturbed. To further ensure generation diversity, we introduce a dedicated randomization design that reshuffles the positions of noise elements without changing their values, preventing the watermark from inducing fixed noise patterns or spatial locations. Extensive experiments demonstrate that our method achieves state-of-the-art robustness while maintaining high generation quality across a wide range of lossy scenarios.",
@@ -3590,6 +3610,48 @@
         "published": "2026-10-07",
         "title": "Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies",
         "updated": "2026-10-07"
+      },
+      "2610.11290": {
+        "abs_url": "https://arxiv.org/abs/2610.11290",
+        "abstract": "Invisible image watermark removal has received growing attention. Despite substantial progress, existing attacks face a tension between practicality and specificity. Attacks exploiting detector outputs, decoder responses, or paired images can be tailored to the watermark decision boundary, but require information rarely available in realistic scenarios. Conversely, attacks based on compression, geometric distortion, or reconstruction are easily deployed from a single watermarked image, but remain largely open-loop: they apply generic transformations without knowing if the image is moving toward watermark failure. Thus, the key challenge in single-image blind watermark removal is not merely how to transform the image, but how to obtain a useful removal direction without accessing the hidden decoder. To bridge this gap, we propose ProxyEraseAgent, an agent-driven framework recovering attack specificity through proxy decoder responses. Publicly available watermarking schemes provide a natural knowledge base of candidate decoders, where some are informative for a given unknown image. Our insight is that a decoder producing a strong calibrated response to the query image likely shares a nearby decoding boundary with the hidden target mechanism. ProxyEraseAgent ranks these decoders by calibrated response strength and uses the top ones as proxy boundary estimators. Their responses then guide a progressive search over heterogeneous removal operations (e.g., geometric distortion, JPEG compression, image reconstruction, and gradient perturbation) under perceptual-quality constraints. Experiments across 11 watermarking systems show ProxyEraseAgent achieves a 94.8% attack success rate, demonstrating the effectiveness of response-guided proxy retrieval and feedback-driven sequential planning for blind watermark removal.",
+        "arxiv_id": "2610.11290",
+        "authors": [
+          "Jun Yao",
+          "Chao Wang",
+          "Yupeng Qiu",
+          "Zehua Ma",
+          "Weiming Zhang",
+          "Bin Liu",
+          "Han Fang"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-09",
+        "introduction_image": "https://arxiv.org/html/2610.11290v1/figure/figure1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.11290",
+        "primary_category": "cs.CR",
+        "published": "2026-10-08",
+        "title": "ProxyEraseAgent: Blind Watermark Removal in the Wild",
+        "updated": "2026-10-08"
+      },
+      "2610.11364": {
+        "abs_url": "https://arxiv.org/abs/2610.11364",
+        "abstract": "A trained 3D Gaussian Splatting (3DGS) scene ships as a portable parameter array that can be copied, pruned, requantized, or repackaged outside its training pipeline, so ownership evidence is most useful when it lives in the released parameters and remains checkable long after the embedding tooling is gone. Existing 3DGS watermarks typically tie embedding or extraction to scene optimization, a learned decoder, or rendered views, so the evidence survives only as long as a second trained artifact does. FlyMark instead writes a keyed message into the parameters a 3DGS file already stores. Its carrier directions are derived from the photoreceptors of a published connectome, a citable versioned artifact that fixes the geometry exhaustively and leaves nothing to tune per scene. A virtual observer reads cone-wise apparent luminance along a scene-normalized orbit from stored centers, colors, and opacities; a keyed dithered quantization-index-modulation code replicates each message bit across these observations; and one sparse bounded least-squares solve realizes the targets through achromatic shifts of existing degree-zero colors under a hard per-channel linear-RGB bound. All geometry and higher-order appearance parameters are preserved bit-identically, and extraction needs only cone queries, rounding, and majority voting. Under a model-domain threat model on synthetic and real scenes, FlyMark attains high clean bit accuracy and visual fidelity while cleanly separating matched from wrong keys.",
+        "arxiv_id": "2610.11364",
+        "authors": [
+          "Ziyuan Luo",
+          "Haoliang Li",
+          "Renjie Wan"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-09",
+        "introduction_image": "https://arxiv.org/html/2610.11364v1/teaser_v7.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.11364",
+        "primary_category": "cs.CV",
+        "published": "2026-10-08",
+        "title": "FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome",
+        "updated": "2026-10-08"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -8733,6 +8795,27 @@
         "published": "2026-10-07",
         "title": "Sequential resetting procedures and false discovery rate",
         "updated": "2026-10-07"
+      },
+      "2610.12106": {
+        "abs_url": "https://arxiv.org/abs/2610.12106",
+        "abstract": "Watermarking large language models is popular for tracing chatbot and agentic outputs, yet detectors remain unreleased since exposing them could let attackers do targeted edits with the detector's feedback. However, watermarks are already vulnerable to uninformed tampering attacks. We thus first quantify whether a public detector would be an additional liability in a deployment setting at varying levels of access, from token-level scores to a binary verdict. Second, we introduce a split-key public-private watermarking method that exposes one key through a public detector while keeping the other for full verification and forensics. An informed attacker can only move the public signal, creating an imbalance between public and private scores. We introduce a statistical test for this imbalance, and combine it with the full key verdict in a two-stage mechanism. Third, we evaluate the split-key method on a wide range of removal and forgery attacks, comparing the uninformed to detector-informed settings. Public detection improves removal only at small edit budgets, since plain rephrasing already strips the watermark at a lower quality cost, but it does enable forgery, which the private pipeline can identify. Overall, releasing half of the watermark enables transparency and interoperability, and tampering with the released half stays detectable. This bounds the provider's liability and questions the need to keep detectors fully private.",
+        "arxiv_id": "2610.12106",
+        "authors": [
+          "Georgios Milis",
+          "Tom Sander",
+          "Tomáš Souček",
+          "Heng Huang",
+          "Pierre Fernandez"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-09",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.12106",
+        "primary_category": "cs.CR",
+        "published": "2026-10-08",
+        "title": "Could LLM Watermark Detection be Public?",
+        "updated": "2026-10-08"
       }
     }
   }

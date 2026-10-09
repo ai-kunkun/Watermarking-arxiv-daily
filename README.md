@@ -4,37 +4,39 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-08 20:56 CST &nbsp; · &nbsp; **Indexed:** 373 unique papers
+**Last updated:** 2026-10-09 20:42 CST &nbsp; · &nbsp; **Indexed:** 377 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 125 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 128 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 131 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 132 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-08
+## Today's additions · 2026-10-09
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 3 new papers</summary>
 
-- [Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies](https://arxiv.org/abs/2610.09755) — 2026-10-07
+- [FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome](https://arxiv.org/abs/2610.11364) — 2026-10-08
+- [ProxyEraseAgent: Blind Watermark Removal in the Wild](https://arxiv.org/abs/2610.11290) — 2026-10-08
+- [mAVE: A Watermark for Joint Audio-Visual Generation Models](https://arxiv.org/abs/2603.07090) — 2026-03-07
 
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [Latent Watermarks under Generative Editing: A Benchmark and Analysis of Detection Survival](https://arxiv.org/abs/2610.09702) — 2026-10-07
+- No new papers today.
 
 </details>
 
 <details>
 <summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- [Sequential resetting procedures and false discovery rate](https://arxiv.org/abs/2610.09339) — 2026-10-07
+- [Could LLM Watermark Detection be Public?](https://arxiv.org/abs/2610.12106) — 2026-10-08
 
 </details>
 
@@ -57,10 +59,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**125 papers · newest first**
+**128 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome**<br><sub>Ziyuan Luo, Haoliang Li, Renjie Wan</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome" src="https://arxiv.org/html/2610.11364v1/teaser_v7.png"> | [Paper](https://arxiv.org/abs/2610.11364)<br>[PDF](https://arxiv.org/pdf/2610.11364)<br>`2610.11364` |
+| **ProxyEraseAgent: Blind Watermark Removal in the Wild**<br><sub>Jun Yao, Chao Wang, Yupeng Qiu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="ProxyEraseAgent: Blind Watermark Removal in the Wild" src="https://arxiv.org/html/2610.11290v1/figure/figure1.png"> | [Paper](https://arxiv.org/abs/2610.11290)<br>[PDF](https://arxiv.org/pdf/2610.11290)<br>`2610.11290` |
 | **Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies**<br><sub>Sung Ju Lee, Nam Ik Cho</sub> | the non-archival track of the ECCV 2026 LifeGenIP Workshop<br>**2026** | <img width="400" alt="Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies" src="https://arxiv.org/html/2610.09755v1/figures-wm-pipeline.png"> | [Paper](https://arxiv.org/abs/2610.09755)<br>[PDF](https://arxiv.org/pdf/2610.09755)<br>`2610.09755` |
 | **Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video**<br><sub>Seyedmahdi Kazempourradi, Ramtin Mojtahedi, Behrang Mohseni</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Watermarks and Fingerprints as Soft Bindings for Content Provenance: An Open-Licence Benchmark for Images, Audio and Video" src="https://arxiv.org/html/2610.04151v1/wm_fig3_image_robustness.png"> | [Paper](https://arxiv.org/abs/2610.04151)<br>[PDF](https://arxiv.org/pdf/2610.04151)<br>`2610.04151` |
 | **LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization**<br><sub>Saibo Ye, Huajie Chen, Xin Guo et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="LiBRA: Detection-Aware Image Watermark Removal via Bidirectional Latent Optimization" src="https://arxiv.org/html/2610.03166v1/Libra_Overview.png"> | [Paper](https://arxiv.org/abs/2610.03166)<br>[PDF](https://arxiv.org/pdf/2610.03166)<br>`2610.03166` |
@@ -100,6 +104,7 @@ Papers first indexed during today's update, grouped by category.
 | **Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution**<br><sub>Hongsong Wang, Renxi Cheng, Chaolei Han et al.</sub> | CVPR 2026<br>**2026** | <img width="400" alt="Attribution as Retrieval: Model-Agnostic AI-Generated Image Attribution" src="https://arxiv.org/html/2603.10583v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.10583)<br>[PDF](https://arxiv.org/pdf/2603.10583)<br>`2603.10583` |
 | **The Orthogonal Vulnerabilities of Generative AI Watermarks: A Comparative Empirical Benchmark of Spatial and Latent Provenance**<br><sub>Jesse Yu, Nicholas Wei</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2603.10323)<br>[PDF](https://arxiv.org/pdf/2603.10323)<br>`2603.10323` |
 | **ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models**<br><sub>Yuqi Qian, Yun Cao, Haocheng Fu et al.</sub> | In Proceedings of the 34th ACM International Conference on Multimedia (MM 2026)<br>**2026** | <img width="400" alt="ShapeMark: Robust and Diversity-Preserving Watermarking for Diffusion Models" src="https://arxiv.org/html/2603.09454v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.09454)<br>[PDF](https://arxiv.org/pdf/2603.09454)<br>`2603.09454` |
+| **mAVE: A Watermark for Joint Audio-Visual Generation Models**<br><sub>Luyang Si, Leyi Pan, Dongsheng Ma et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="mAVE: A Watermark for Joint Audio-Visual Generation Models" src="https://arxiv.org/html/2603.07090v2/0_teaser.png"> | [Paper](https://arxiv.org/abs/2603.07090)<br>[PDF](https://arxiv.org/pdf/2603.07090)<br>`2603.07090` |
 | **AWPD: Frequency Shield Network for Agnostic Watermark Presence Detection**<br><sub>Xiang Ao, Yilin Du, Zidan Wang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="AWPD: Frequency Shield Network for Agnostic Watermark Presence Detection" src="https://arxiv.org/html/2603.06723v3/x1.png"> | [Paper](https://arxiv.org/abs/2603.06723)<br>[PDF](https://arxiv.org/pdf/2603.06723)<br>`2603.06723` |
 | **When Denoising Becomes Unsigning: Theoretical and Empirical Analysis of Watermark Fragility Under Diffusion-Based Image Editing**<br><sub>Fai Gu, Qiyu Tang, Te Wen et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2603.04696)<br>[PDF](https://arxiv.org/pdf/2603.04696)<br>`2603.04696` |
 | **SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion**<br><sub>Xinjie Zhu, Zijing Zhao, Hui Jin et al.</sub> | ICLR 2026<br>**2026** | <img width="400" alt="SIGMark: Scalable In-Generation Watermark with Blind Extraction for Video Diffusion" src="https://arxiv.org/html/2603.02882v1/x1.png"> | [Paper](https://arxiv.org/abs/2603.02882)<br>[PDF](https://arxiv.org/pdf/2603.02882)<br>`2603.02882` |
@@ -239,10 +244,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**131 papers · newest first**
+**132 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Could LLM Watermark Detection be Public?**<br><sub>Georgios Milis, Tom Sander, Tomáš Souček et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.12106)<br>[PDF](https://arxiv.org/pdf/2610.12106)<br>`2610.12106` |
 | **Sequential resetting procedures and false discovery rate**<br><sub>Qiuqi Wang, Ruodu Wang, Zhenyuan Zhang</sub> | arXiv · stat.ME<br>**2026** | <img width="400" alt="Sequential resetting procedures and false discovery rate" src="https://arxiv.org/html/2610.09339v1/tournament_mixed_passage.png"> | [Paper](https://arxiv.org/abs/2610.09339)<br>[PDF](https://arxiv.org/pdf/2610.09339)<br>`2610.09339` |
 | **Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents**<br><sub>Suxin Ji, Hungtao Wan, Shaoxuan Chen et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents" src="https://arxiv.org/html/2610.08668v1/results/real_results_600.png"> | [Paper](https://arxiv.org/abs/2610.08668)<br>[PDF](https://arxiv.org/pdf/2610.08668)<br>`2610.08668` |
 | **SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints**<br><sub>Benjamin D. Kim, Wanrong Zhang, Weitong Ruan et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="SimpleMark: Fast Multi-Bit Text Watermarking under f -Divergence Constraints" src="https://arxiv.org/html/2610.05712v1/figures/simplemark_embedding_diagram.png"> | [Paper](https://arxiv.org/abs/2610.05712)<br>[PDF](https://arxiv.org/pdf/2610.05712)<br>`2610.05712` |
