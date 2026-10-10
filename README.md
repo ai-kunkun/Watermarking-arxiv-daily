@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-09 20:42 CST &nbsp; · &nbsp; **Indexed:** 377 unique papers
+**Last updated:** 2026-10-10 20:01 CST &nbsp; · &nbsp; **Indexed:** 377 unique papers
 
 ## Categories
 
@@ -13,16 +13,14 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 132 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-09
+## Today's additions · 2026-10-10
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 3 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome](https://arxiv.org/abs/2610.11364) — 2026-10-08
-- [ProxyEraseAgent: Blind Watermark Removal in the Wild](https://arxiv.org/abs/2610.11290) — 2026-10-08
-- [mAVE: A Watermark for Joint Audio-Visual Generation Models](https://arxiv.org/abs/2603.07090) — 2026-03-07
+- No new papers today.
 
 </details>
 
@@ -34,9 +32,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Could LLM Watermark Detection be Public?](https://arxiv.org/abs/2610.12106) — 2026-10-08
+- No new papers today.
 
 </details>
 
