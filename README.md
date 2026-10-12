@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-11 20:14 CST &nbsp; · &nbsp; **Indexed:** 377 unique papers
+**Last updated:** 2026-10-12 22:37 CST &nbsp; · &nbsp; **Indexed:** 378 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 128 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 129 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 132 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-11
+## Today's additions · 2026-10-12
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models](https://arxiv.org/abs/2610.12952) — 2026-10-09
 
 </details>
 
@@ -57,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**128 papers · newest first**
+**129 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models**<br><sub>Jie Cao, Qi Li, Chaklam Cheong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models" src="https://arxiv.org/html/2610.12952v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.12952)<br>[PDF](https://arxiv.org/pdf/2610.12952)<br>`2610.12952` |
 | **FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome**<br><sub>Ziyuan Luo, Haoliang Li, Renjie Wan</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome" src="https://arxiv.org/html/2610.11364v1/teaser_v7.png"> | [Paper](https://arxiv.org/abs/2610.11364)<br>[PDF](https://arxiv.org/pdf/2610.11364)<br>`2610.11364` |
 | **ProxyEraseAgent: Blind Watermark Removal in the Wild**<br><sub>Jun Yao, Chao Wang, Yupeng Qiu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="ProxyEraseAgent: Blind Watermark Removal in the Wild" src="https://arxiv.org/html/2610.11290v1/figure/figure1.png"> | [Paper](https://arxiv.org/abs/2610.11290)<br>[PDF](https://arxiv.org/pdf/2610.11290)<br>`2610.11290` |
 | **Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies**<br><sub>Sung Ju Lee, Nam Ik Cho</sub> | the non-archival track of the ECCV 2026 LifeGenIP Workshop<br>**2026** | <img width="400" alt="Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies" src="https://arxiv.org/html/2610.09755v1/figures-wm-pipeline.png"> | [Paper](https://arxiv.org/abs/2610.09755)<br>[PDF](https://arxiv.org/pdf/2610.09755)<br>`2610.09755` |
