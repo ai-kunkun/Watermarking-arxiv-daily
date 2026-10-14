@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-13 21:41 CST &nbsp; · &nbsp; **Indexed:** 378 unique papers
+**Last updated:** 2026-10-14 19:20 CST &nbsp; · &nbsp; **Indexed:** 383 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 129 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 132 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 137 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-13
+## Today's additions · 2026-10-14
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,9 +32,13 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 5 new papers</summary>
 
-- No new papers today.
+- [Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key](https://arxiv.org/abs/2610.18359) — 2026-10-13
+- [LensErase: A Foundation Model for Erase Anything](https://arxiv.org/abs/2610.18072) — 2026-10-13
+- [Perturbation, Not Provenance: Why Activation Steering Does Not Make a Robust Text Watermark](https://arxiv.org/abs/2610.17810) — 2026-10-13
+- [Visually Legible but Adversarial: Watermark-Constrained Attacks on End-to-End VLMs for Document Understanding](https://arxiv.org/abs/2610.15728) — 2026-10-11
+- [Watermarking for Byzantine Robust LLM Training](https://arxiv.org/abs/2610.14289) — 2026-10-09
 
 </details>
 
@@ -243,10 +247,15 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**132 papers · newest first**
+**137 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key**<br><sub>Paweł Batorski, Przemysław Spurek, Paul Swoboda</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.18359)<br>[PDF](https://arxiv.org/pdf/2610.18359)<br>`2610.18359` |
+| **LensErase: A Foundation Model for Erase Anything**<br><sub>Yunuo Chen, Xiuyu Wu, Qinhong Yang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="LensErase: A Foundation Model for Erase Anything" src="https://arxiv.org/html/2610.18072v1/lens_erase_teaser.png"> | [Paper](https://arxiv.org/abs/2610.18072)<br>[PDF](https://arxiv.org/pdf/2610.18072)<br>`2610.18072` |
+| **Perturbation, Not Provenance: Why Activation Steering Does Not Make a Robust Text Watermark**<br><sub>Sergey Pletenev</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.17810)<br>[PDF](https://arxiv.org/pdf/2610.17810)<br>`2610.17810` |
+| **Visually Legible but Adversarial: Watermark-Constrained Attacks on End-to-End VLMs for Document Understanding**<br><sub>Qingzhe Han, Fan Dang, Shengqi Chen et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Visually Legible but Adversarial: Watermark-Constrained Attacks on End-to-End VLMs for Document Understanding" src="https://arxiv.org/html/2610.15728v1/figures/overview.png"> | [Paper](https://arxiv.org/abs/2610.15728)<br>[PDF](https://arxiv.org/pdf/2610.15728)<br>`2610.15728` |
+| **Watermarking for Byzantine Robust LLM Training**<br><sub>Leixu Huang, Zedian Shao, Teodora Baluta</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Watermarking for Byzantine Robust LLM Training" src="https://arxiv.org/html/2610.14289v1/threat_model.png"> | [Paper](https://arxiv.org/abs/2610.14289)<br>[PDF](https://arxiv.org/pdf/2610.14289)<br>`2610.14289` |
 | **Could LLM Watermark Detection be Public?**<br><sub>Georgios Milis, Tom Sander, Tomáš Souček et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.12106)<br>[PDF](https://arxiv.org/pdf/2610.12106)<br>`2610.12106` |
 | **Sequential resetting procedures and false discovery rate**<br><sub>Qiuqi Wang, Ruodu Wang, Zhenyuan Zhang</sub> | arXiv · stat.ME<br>**2026** | <img width="400" alt="Sequential resetting procedures and false discovery rate" src="https://arxiv.org/html/2610.09339v1/tournament_mixed_passage.png"> | [Paper](https://arxiv.org/abs/2610.09339)<br>[PDF](https://arxiv.org/pdf/2610.09339)<br>`2610.09339` |
 | **Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents**<br><sub>Suxin Ji, Hungtao Wan, Shaoxuan Chen et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents" src="https://arxiv.org/html/2610.08668v1/results/real_results_600.png"> | [Paper](https://arxiv.org/abs/2610.08668)<br>[PDF](https://arxiv.org/pdf/2610.08668)<br>`2610.08668` |
@@ -278,7 +287,7 @@ Papers first indexed during today's update, grouped by category.
 | **SSTMark: Robust Training-Free Semantic-Level Speech Watermarking**<br><sub>Kuan-Lin Chu, Jun-Cheng Chen, Chun-Shien Lu</sub> | arXiv · cs.SD<br>**2026** | <img width="400" alt="SSTMark: Robust Training-Free Semantic-Level Speech Watermarking" src="https://arxiv.org/html/2607.17592v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.17592)<br>[PDF](https://arxiv.org/pdf/2607.17592)<br>`2607.17592` |
 | **AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation**<br><sub>Saifur Rahman Tamim, Amir Labib Khan</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation" src="https://arxiv.org/html/2607.16010v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.16010)<br>[PDF](https://arxiv.org/pdf/2607.16010)<br>`2607.16010` |
 | **WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency**<br><sub>Z Sun, Q Jiang, S Sheng et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency" src="https://arxiv.org/html/2607.13099v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.13099)<br>[PDF](https://arxiv.org/pdf/2607.13099)<br>`2607.13099` |
-| **Toward Stronger Code Watermarking: A Grammar-Driven Approach to Optimizing the Trade-off Between Quality and Detectability**<br><sub>Licheng Yu, Aiwei Liu, Songze Li</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Toward Stronger Code Watermarking: A Grammar-Driven Approach to Optimizing the Trade-off Between Quality and Detectability" src="https://arxiv.org/html/2607.10210v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.10210)<br>[PDF](https://arxiv.org/pdf/2607.10210)<br>`2607.10210` |
+| **Preserving Structure, Strengthening Signals: A Grammar-Driven Approach to Optimize the Trade-off Between Quality and Detectability in Code Watermarking**<br><sub>Licheng Yu, Aiwei Liu, Songze Li</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Preserving Structure, Strengthening Signals: A Grammar-Driven Approach to Optimize the Trade-off Between Quality and Detectability in Code Watermarking" src="https://arxiv.org/html/2607.10210v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.10210)<br>[PDF](https://arxiv.org/pdf/2607.10210)<br>`2607.10210` |
 | **LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization**<br><sub>Huy Phan, Kieu Dang, Ojaswi Dulal et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization" src="https://arxiv.org/html/2607.10103v1/figurellm.png"> | [Paper](https://arxiv.org/abs/2607.10103)<br>[PDF](https://arxiv.org/pdf/2607.10103)<br>`2607.10103` |
 | **Beyond Heuristic Tuning: Power-Calibrated LLM Watermarking**<br><sub>Xiaopu Wang, Zelin He, Chengyuan Liu et al.</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Beyond Heuristic Tuning: Power-Calibrated LLM Watermarking" src="https://arxiv.org/html/2607.05694v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.05694)<br>[PDF](https://arxiv.org/pdf/2607.05694)<br>`2607.05694` |
 | **Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings**<br><sub>Jonas Schäfer, Cezary Pilaszewicz, Gerhard Wunder</sub> | Findings of EMNLP 2026<br>**2026** | — | [Paper](https://arxiv.org/abs/2606.31602)<br>[PDF](https://arxiv.org/pdf/2606.31602)<br>`2606.31602` |
