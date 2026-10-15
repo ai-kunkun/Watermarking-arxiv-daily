@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-14 19:20 CST &nbsp; · &nbsp; **Indexed:** 383 unique papers
+**Last updated:** 2026-10-15 18:58 CST &nbsp; · &nbsp; **Indexed:** 384 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 129 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 130 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 137 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
 
-## Today's additions · 2026-10-14
+## Today's additions · 2026-10-15
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation](https://arxiv.org/abs/2610.20278) — 2026-10-14
 
 </details>
 
@@ -32,13 +32,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 5 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key](https://arxiv.org/abs/2610.18359) — 2026-10-13
-- [LensErase: A Foundation Model for Erase Anything](https://arxiv.org/abs/2610.18072) — 2026-10-13
-- [Perturbation, Not Provenance: Why Activation Steering Does Not Make a Robust Text Watermark](https://arxiv.org/abs/2610.17810) — 2026-10-13
-- [Visually Legible but Adversarial: Watermark-Constrained Attacks on End-to-End VLMs for Document Understanding](https://arxiv.org/abs/2610.15728) — 2026-10-11
-- [Watermarking for Byzantine Robust LLM Training](https://arxiv.org/abs/2610.14289) — 2026-10-09
+- No new papers today.
 
 </details>
 
@@ -61,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**129 papers · newest first**
+**130 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation**<br><sub>Jefferson David Rodriguez Chivata, Davide Ghiani, Simone Maurizio La Cava et al.</sub> | IEEE International Joint Conference on Biometrics (IJCB 2026)<br>**2026** | <img width="400" alt="A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation" src="https://arxiv.org/html/2610.20278v1/figures/Pipeline_Adversarial.png"> | [Paper](https://arxiv.org/abs/2610.20278)<br>[PDF](https://arxiv.org/pdf/2610.20278)<br>`2610.20278` |
 | **WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models**<br><sub>Jie Cao, Qi Li, Chaklam Cheong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models" src="https://arxiv.org/html/2610.12952v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.12952)<br>[PDF](https://arxiv.org/pdf/2610.12952)<br>`2610.12952` |
 | **FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome**<br><sub>Ziyuan Luo, Haoliang Li, Renjie Wan</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome" src="https://arxiv.org/html/2610.11364v1/teaser_v7.png"> | [Paper](https://arxiv.org/abs/2610.11364)<br>[PDF](https://arxiv.org/pdf/2610.11364)<br>`2610.11364` |
 | **ProxyEraseAgent: Blind Watermark Removal in the Wild**<br><sub>Jun Yao, Chao Wang, Yupeng Qiu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="ProxyEraseAgent: Blind Watermark Removal in the Wild" src="https://arxiv.org/html/2610.11290v1/figure/figure1.png"> | [Paper](https://arxiv.org/abs/2610.11290)<br>[PDF](https://arxiv.org/pdf/2610.11290)<br>`2610.11290` |

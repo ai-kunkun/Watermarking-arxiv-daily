@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-14T11:20:58.598450+00:00",
+    "last_updated": "2026-10-15T10:58:06.526706+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3675,6 +3675,28 @@
         "published": "2026-10-09",
         "title": "WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models",
         "updated": "2026-10-09"
+      },
+      "2610.20278": {
+        "abs_url": "https://arxiv.org/abs/2610.20278",
+        "abstract": "Facial image watermarking can support traceability and certification in biometric pipelines, but provenance or manipulation detection alone does not guarantee reliable biometric identity. We introduce a watermark-preserving face evasion attack that targets this gap under a black-box watermarking setting, without access to the watermarking components. The proposed PGD-L_2 attack guides adversarial perturbations with spatial and spectral preservation terms to reduce face-recognition similarity while limiting pixel-level distortion and high-frequency changes that may interfere with hidden watermark cues. Evaluated on controlled facial images with two watermarking schemes, two face-recognition models, and two datasets, the attack achieves evasion rates above 92% at operational thresholds while preserving watermark recovery above 93% for StegaFormer and above 99.7% for FaceSigns, with visual quality above 47dB PSNR at epsilon_2=2.0. These results expose a structural gap in watermark-based facial certification: a face image can remain watermark-valid and visually faithful while becoming biometrically unreliable.",
+        "arxiv_id": "2610.20278",
+        "authors": [
+          "Jefferson David Rodriguez Chivata",
+          "Davide Ghiani",
+          "Simone Maurizio La Cava",
+          "Marco Micheletto",
+          "Giulia Orrù",
+          "Gian Luca Marcialis"
+        ],
+        "comment": "Accepted at IEEE International Joint Conference on Biometrics (IJCB 2026)",
+        "first_seen": "2026-10-15",
+        "introduction_image": "https://arxiv.org/html/2610.20278v1/figures/Pipeline_Adversarial.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.20278",
+        "primary_category": "cs.CV",
+        "published": "2026-10-14",
+        "title": "A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation",
+        "updated": "2026-10-14"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -7709,13 +7731,15 @@
       },
       "2604.27666": {
         "abs_url": "https://arxiv.org/abs/2604.27666",
-        "abstract": "Large Language Model (LLM) watermarking is crucial for establishing the provenance of machine-generated text, but most existing methods rely on a centralized trust model. This model forces users to reveal potentially sensitive text to a provider for detection and offers no way to verify the integrity of the result. While asymmetric schemes have been proposed to address these issues, they are either impractical for short texts or lack formal guarantees linking watermark insertion and detection. We propose VOW, a new protocol that achieves both privacy-preserving and cryptographically verifiable watermark detection with high efficiency. Our approach formulates detection as a secure two-party computation problem, instantiating the watermark's core logic with a Verifiable Oblivious Pseudorandom Function (VOPRF). This allows the user and provider to perform detection without the user's text being revealed, while the provider's result is verifiable. Our comprehensive evaluation shows that VOW is practical for short texts and provides a crucial reassessment of watermark robustness against modern paraphrasing attacks.",
+        "abstract": "Regulation requires generated text to be marked and detectable, but symmetric-key watermarks leave detection to the key-holding provider. We study first-party provenance audit (FPA), where an organization examines sensitive content in its custody. Such an audit should not disclose the audited text and should provide a verifiable result and checkable record. We present VOW, which uses a verifiable oblivious pseudorandom function to evaluate the detector's keyed component without revealing its inputs to the detection service, while the provider retains the watermarking key. A signed setup record published before use fixes the public key and detector specification, and a proof binds returned evaluations to that key. The auditor computes the statistic and decision locally, so the service may refuse but cannot make an incorrect result pass verification. Given the text, transcript, and setup record, a reviewer can reconstruct the prescribed result without the watermarking key or provider interaction. With the detector configured for a nominal false-positive rate of $10^{-5}$, VOW detects 99.4% of 200-token watermarked texts with competitive text quality and practical overhead. Under explicit conditions, our oracle-assisted text construction produces detector-positive text for all three Green-Red detectors evaluated. Paraphrasing substantially weakens every scheme evaluated, limiting watermark-based FPA to relatively intact content.",
         "arxiv_id": "2604.27666",
         "authors": [
           "Xiaokun Luan",
           "Yihao Zhang",
           "Pengcheng Su",
           "Feiran Lei",
+          "Kailong Wang",
+          "Guangdong Bai",
           "Meng Sun"
         ],
         "comment": null,
@@ -7726,7 +7750,7 @@
         "primary_category": "cs.CR",
         "published": "2026-04-30",
         "title": "VOW: Verifiable and Oblivious Watermark Detection for Large Language Models",
-        "updated": "2026-04-30"
+        "updated": "2026-10-09"
       },
       "2605.00348": {
         "abs_url": "https://arxiv.org/abs/2605.00348",
