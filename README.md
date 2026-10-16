@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-15 18:58 CST &nbsp; · &nbsp; **Indexed:** 384 unique papers
+**Last updated:** 2026-10-16 18:51 CST &nbsp; · &nbsp; **Indexed:** 385 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 130 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 137 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 113 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 114 papers
 
-## Today's additions · 2026-10-15
+## Today's additions · 2026-10-16
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation](https://arxiv.org/abs/2610.20278) — 2026-10-14
+- No new papers today.
 
 </details>
 
@@ -39,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems](https://arxiv.org/abs/2610.22286) — 2026-10-15
 
 </details>
 
@@ -388,10 +388,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**113 papers · newest first**
+**114 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems**<br><sub>Zhang Jiang, Marios Andreou, Nan Chen</sub> | arXiv · math.DS<br>**2026** | <img width="400" alt="Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems" src="https://arxiv.org/html/2610.22286v1/test1_oscillatory_combined.png"> | [Paper](https://arxiv.org/abs/2610.22286)<br>[PDF](https://arxiv.org/pdf/2610.22286)<br>`2610.22286` |
 | **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |
 | **Language Model Fingerprinting Requires Rethinking Watermark Teachers**<br><sub>Jeongyeon Hwang, Anshul Nasery, Sewoong Oh et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Language Model Fingerprinting Requires Rethinking Watermark Teachers" src="https://arxiv.org/html/2610.04169v1/overview3.png"> | [Paper](https://arxiv.org/abs/2610.04169)<br>[PDF](https://arxiv.org/pdf/2610.04169)<br>`2610.04169` |
 | **A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services**<br><sub>Shahrooz Pouryousef, Jesus Lopez, Saeefa Rubaiyat Nowmi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services" src="https://arxiv.org/html/2609.31877v1/threat_model.png"> | [Paper](https://arxiv.org/abs/2609.31877)<br>[PDF](https://arxiv.org/pdf/2609.31877)<br>`2609.31877` |

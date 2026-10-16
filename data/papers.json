@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-15T10:58:06.526706+00:00",
+    "last_updated": "2026-10-16T10:51:36.251074+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -6095,6 +6095,25 @@
         "published": "2026-10-04",
         "title": "Grammar-Guided Code Watermarking with Green Temperature",
         "updated": "2026-10-04"
+      },
+      "2610.22286": {
+        "abs_url": "https://arxiv.org/abs/2610.22286",
+        "abstract": "In partially-observed dynamical systems, distinct hidden mechanisms can produce similar observable summary statistics while explaining individual events differently. We introduce causal fingerprints: realization-dependent patterns that track how information about a hidden state is revealed through subsequent evolution. Within a prescribed dynamical model, we compare the filtering posterior, based on observations up to a given time, with the smoothing posterior, obtained after adding an expanding window of future observations. We quantify this retrospective information gain using Kullback-Leibler divergence and track its evolution as the future window of observational data expands. The fingerprint reveals both the strength and temporal reach of hidden influence, which can vary across events and their stages. Because the observed trajectory is held fixed while hidden-state inference depends on the candidate model, fingerprints reveal how competing dynamical mechanisms explain the same observations even when selected statistics agree. In linear Gaussian systems, we derive a characteristic fingerprint timescale for the temporal reach of hidden influence. Calibrated surrogates matching the observable mean, variance, and decorrelation time can still produce distinct fingerprints when feedback memory, hidden-noise memory, or hidden forcing timescales are misrepresented. Nonlinear examples reveal mechanism-dependent signatures for extreme bursts, oscillatory variability, and regime switching, including multiplicative instability versus additive forcing, deterministic nonlinear feedback versus state-dependent multiplicative noise, and intrinsic bistability versus hidden double-well forcing. Causal fingerprints therefore provide a time- and event-resolved diagnostic for asking not only whether a model reproduces observed statistics, but how its hidden dynamics explain individual events.",
+        "arxiv_id": "2610.22286",
+        "authors": [
+          "Zhang Jiang",
+          "Marios Andreou",
+          "Nan Chen"
+        ],
+        "comment": "42 pages, 15 figures, 6 tables. Submitted to Chaos",
+        "first_seen": "2026-10-16",
+        "introduction_image": "https://arxiv.org/html/2610.22286v1/test1_oscillatory_combined.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.22286",
+        "primary_category": "math.DS",
+        "published": "2026-10-15",
+        "title": "Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems",
+        "updated": "2026-10-15"
       }
     },
     "Text and LLM Watermarking": {
