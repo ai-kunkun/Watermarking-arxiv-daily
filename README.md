@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-16 18:51 CST &nbsp; · &nbsp; **Indexed:** 385 unique papers
+**Last updated:** 2026-10-17 18:15 CST &nbsp; · &nbsp; **Indexed:** 385 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 137 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 114 papers
 
-## Today's additions · 2026-10-16
+## Today's additions · 2026-10-17
 
 Papers first indexed during today's update, grouped by category.
 
@@ -39,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems](https://arxiv.org/abs/2610.22286) — 2026-10-15
+- No new papers today.
 
 </details>
 
