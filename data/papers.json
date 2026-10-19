@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-18T10:31:21.405434+00:00",
+    "last_updated": "2026-10-19T12:21:08.863134+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3697,6 +3697,31 @@
         "published": "2026-10-14",
         "title": "A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation",
         "updated": "2026-10-14"
+      },
+      "2610.22457": {
+        "abs_url": "https://arxiv.org/abs/2610.22457",
+        "abstract": "Recent advances in video generation have increased the demand for reliable watermarking for copyright protection, yet the robustness of video watermarks against removal attacks remains underexplored. Most watermark-removal methods originate from the image domain: signal optimization injects imperceptible pixel-domain perturbations, whereas generative resynthesis produces a visually similar instance through diffusion synthesis. When extended to videos, the former introduces temporally varying noise that causes visible flickering, while the latter regenerates fine-grained structures inconsistently across frames, leading to structural motion inconsistency. To evaluate video watermark robustness, we propose PoseRegen, a pose-consistent reconstruction framework that removes watermarks while preserving the original content and motion. PoseRegen first applies a temporally shared viewpoint transformation to disrupt watermark-bearing spatial patterns and then jointly reconstructs the transformed sequence with a pose-conditioned video model. A frozen video DiT processes the complete sequence with its reference-video latent, and full-sequence Flow Matching supervision keeps identity and background consistent across frames. To further preserve motion structure, we introduce a lightweight Pose-Conditioned Motion Consistency Adapter that adapts the frozen backbone to temporally ordered pose guidance and constrains body-part trajectories throughout reconstruction. Experiments on eleven video watermarking schemes show that PoseRegen reduces the average bit accuracy to 0.505, near random guessing, while outperforming the strongest baseline by 9.34% on motion-related VBench metrics. These results reveal a practical vulnerability of current video watermarks and highlight the need to evaluate robustness jointly with temporal and motion quality.",
+        "arxiv_id": "2610.22457",
+        "authors": [
+          "Yifan Liao",
+          "Zhen Sun",
+          "Zhicong Huang",
+          "Jiaming He",
+          "Zongmin Zhang",
+          "Xi Ai",
+          "Cheng Hong",
+          "Xinhu Zheng",
+          "Xinlei He"
+        ],
+        "comment": "Our videos and code can be viewed on: https://sites.google.com/view/poseregen",
+        "first_seen": "2026-10-19",
+        "introduction_image": "https://arxiv.org/html/2610.22457v1/intro.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.22457",
+        "primary_category": "cs.CR",
+        "published": "2026-10-15",
+        "title": "Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks",
+        "updated": "2026-10-15"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -6114,6 +6139,25 @@
         "published": "2026-10-15",
         "title": "Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems",
         "updated": "2026-10-15"
+      },
+      "2610.22810": {
+        "abs_url": "https://arxiv.org/abs/2610.22810",
+        "abstract": "Language-model watermarks can help identify model-generated text, encode provenance information, and detect post-generation edits. A broad class of logit-based watermarks increases the logits of a designated token set at each decoding step. Because a base model's native probability mass on this set varies across contexts, models, and watermark rules, the same logit bias can yield different adherence rates and increases in perplexity (PPL). We introduce watermarkability to characterize the compatibility between a model and the token sets requested by a watermark. At a target mass $τ$, we quantify this property through a watermarkability cost: the expected minimum KL divergence from the base-model distribution required to assign probability at least $τ$ to the requested set. A lower cost means that the model is more watermarkable for that request distribution. To reduce this cost, we propose a two-stage method. In the first stage, we train a target-set-conditioned low-rank adapter on unions drawn from a 16-way vocabulary partition to increase the requested set's probability mass. In the second stage, a closed-form controller applies the smallest remaining uniform logit bias needed to reach the target mass. We evaluate the method on six watermark schedules using OPT-125M and Qwen3-8B. Across the 12 model-schedule pairs, the pre-adaptation watermarkability cost correlates with the log-PPL increase under a near-hard fixed-bias baseline (pooled Pearson $r=0.929$). For every schedule, at least 99.80% of sampled tokens fall in the target set requested at their decoding step. At this reliability, the adapter and controller reduce average per-schedule prompt-conditional PPL by 46.3% on OPT-125M and 5.2% on Qwen3-8B relative to the fixed-bias baseline.",
+        "arxiv_id": "2610.22810",
+        "authors": [
+          "Zewei Deng",
+          "Mohamed Seif",
+          "Liyan Xie"
+        ],
+        "comment": "16 pages, 2 figures, 10 tables. Code available at https://github.com/zeweid1221/LLM_Watermarkability",
+        "first_seen": "2026-10-19",
+        "introduction_image": "https://arxiv.org/html/2610.22810v1/pipeline.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.22810",
+        "primary_category": "cs.CL",
+        "published": "2026-10-16",
+        "title": "Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks",
+        "updated": "2026-10-16"
       }
     },
     "Text and LLM Watermarking": {
@@ -8990,6 +9034,45 @@
         "published": "2026-10-13",
         "title": "Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key",
         "updated": "2026-10-13"
+      },
+      "2610.22810": {
+        "abs_url": "https://arxiv.org/abs/2610.22810",
+        "abstract": "Language-model watermarks can help identify model-generated text, encode provenance information, and detect post-generation edits. A broad class of logit-based watermarks increases the logits of a designated token set at each decoding step. Because a base model's native probability mass on this set varies across contexts, models, and watermark rules, the same logit bias can yield different adherence rates and increases in perplexity (PPL). We introduce watermarkability to characterize the compatibility between a model and the token sets requested by a watermark. At a target mass $τ$, we quantify this property through a watermarkability cost: the expected minimum KL divergence from the base-model distribution required to assign probability at least $τ$ to the requested set. A lower cost means that the model is more watermarkable for that request distribution. To reduce this cost, we propose a two-stage method. In the first stage, we train a target-set-conditioned low-rank adapter on unions drawn from a 16-way vocabulary partition to increase the requested set's probability mass. In the second stage, a closed-form controller applies the smallest remaining uniform logit bias needed to reach the target mass. We evaluate the method on six watermark schedules using OPT-125M and Qwen3-8B. Across the 12 model-schedule pairs, the pre-adaptation watermarkability cost correlates with the log-PPL increase under a near-hard fixed-bias baseline (pooled Pearson $r=0.929$). For every schedule, at least 99.80% of sampled tokens fall in the target set requested at their decoding step. At this reliability, the adapter and controller reduce average per-schedule prompt-conditional PPL by 46.3% on OPT-125M and 5.2% on Qwen3-8B relative to the fixed-bias baseline.",
+        "arxiv_id": "2610.22810",
+        "authors": [
+          "Zewei Deng",
+          "Mohamed Seif",
+          "Liyan Xie"
+        ],
+        "comment": "16 pages, 2 figures, 10 tables. Code available at https://github.com/zeweid1221/LLM_Watermarkability",
+        "first_seen": "2026-10-19",
+        "introduction_image": "https://arxiv.org/html/2610.22810v1/pipeline.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.22810",
+        "primary_category": "cs.CL",
+        "published": "2026-10-16",
+        "title": "Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks",
+        "updated": "2026-10-16"
+      },
+      "2610.23601": {
+        "abs_url": "https://arxiv.org/abs/2610.23601",
+        "abstract": "A watermark verifier may hold many modes, i.e., secret keys, and a document may mix spans of different modes with unwatermarked text. Directly reporting the mode with the largest pivotal statistic (pivot) inflates the Type I error, and restoring the nominal level reduces power as candidate modes are added. We formulate token-level multi-mode attribution for the Gumbel-max watermark as maximizing correct-label power under a Type I error constraint given a mode prior. We show that the optimal rule reports the mode with the largest prior-weighted alternative density and rejects when this density exceeds one common threshold. Based on this rule, we propose the Belief-weighted Likelihood Attribution with Density Estimation (BLADE) detector. It estimates the mode prior from neighboring pivots and the alternative density from reference token probabilities. Under a conditional product model of the pivots, it keeps the exact Type I error. We further show that BLADE approaches the optimal rule as its prior and density estimates improve, with a sharp coefficient on the density error. On OPT-1.3B and other open-weight large language models, BLADE attains higher correct-label power than the compared detectors across candidate counts, token-substitution rates, generation temperatures and generator models.",
+        "arxiv_id": "2610.23601",
+        "authors": [
+          "Rui Zhou",
+          "Licheng Zhao",
+          "Chao Shen",
+          "Wenqiang Pu"
+        ],
+        "comment": "13 pages, 9 figures",
+        "first_seen": "2026-10-19",
+        "introduction_image": "https://arxiv.org/html/2610.23601v1/fig2_optimal_region.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.23601",
+        "primary_category": "cs.CR",
+        "published": "2026-10-16",
+        "title": "Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting",
+        "updated": "2026-10-16"
       }
     }
   }

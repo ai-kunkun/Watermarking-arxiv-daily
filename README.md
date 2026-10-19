@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-18 18:31 CST &nbsp; · &nbsp; **Indexed:** 385 unique papers
+**Last updated:** 2026-10-19 20:21 CST &nbsp; · &nbsp; **Indexed:** 388 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 130 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 131 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 137 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 114 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 139 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 115 papers
 
-## Today's additions · 2026-10-18
+## Today's additions · 2026-10-19
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks](https://arxiv.org/abs/2610.22457) — 2026-10-15
 
 </details>
 
@@ -32,16 +32,17 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting](https://arxiv.org/abs/2610.23601) — 2026-10-16
+- [Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks](https://arxiv.org/abs/2610.22810) — 2026-10-16
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks](https://arxiv.org/abs/2610.22810) — 2026-10-16
 
 </details>
 
@@ -57,10 +58,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**130 papers · newest first**
+**131 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks**<br><sub>Yifan Liao, Zhen Sun, Zhicong Huang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks" src="https://arxiv.org/html/2610.22457v1/intro.png"> | [Paper](https://arxiv.org/abs/2610.22457)<br>[PDF](https://arxiv.org/pdf/2610.22457)<br>`2610.22457` |
 | **A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation**<br><sub>Jefferson David Rodriguez Chivata, Davide Ghiani, Simone Maurizio La Cava et al.</sub> | IEEE International Joint Conference on Biometrics (IJCB 2026)<br>**2026** | <img width="400" alt="A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation" src="https://arxiv.org/html/2610.20278v1/figures/Pipeline_Adversarial.png"> | [Paper](https://arxiv.org/abs/2610.20278)<br>[PDF](https://arxiv.org/pdf/2610.20278)<br>`2610.20278` |
 | **WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models**<br><sub>Jie Cao, Qi Li, Chaklam Cheong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models" src="https://arxiv.org/html/2610.12952v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.12952)<br>[PDF](https://arxiv.org/pdf/2610.12952)<br>`2610.12952` |
 | **FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome**<br><sub>Ziyuan Luo, Haoliang Li, Renjie Wan</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome" src="https://arxiv.org/html/2610.11364v1/teaser_v7.png"> | [Paper](https://arxiv.org/abs/2610.11364)<br>[PDF](https://arxiv.org/pdf/2610.11364)<br>`2610.11364` |
@@ -244,10 +246,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**137 papers · newest first**
+**139 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting**<br><sub>Rui Zhou, Licheng Zhao, Chao Shen et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting" src="https://arxiv.org/html/2610.23601v1/fig2_optimal_region.png"> | [Paper](https://arxiv.org/abs/2610.23601)<br>[PDF](https://arxiv.org/pdf/2610.23601)<br>`2610.23601` |
+| **Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks**<br><sub>Zewei Deng, Mohamed Seif, Liyan Xie</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks" src="https://arxiv.org/html/2610.22810v1/pipeline.png"> | [Paper](https://arxiv.org/abs/2610.22810)<br>[PDF](https://arxiv.org/pdf/2610.22810)<br>`2610.22810` |
 | **Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key**<br><sub>Paweł Batorski, Przemysław Spurek, Paul Swoboda</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.18359)<br>[PDF](https://arxiv.org/pdf/2610.18359)<br>`2610.18359` |
 | **LensErase: A Foundation Model for Erase Anything**<br><sub>Yunuo Chen, Xiuyu Wu, Qinhong Yang et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="LensErase: A Foundation Model for Erase Anything" src="https://arxiv.org/html/2610.18072v1/lens_erase_teaser.png"> | [Paper](https://arxiv.org/abs/2610.18072)<br>[PDF](https://arxiv.org/pdf/2610.18072)<br>`2610.18072` |
 | **Perturbation, Not Provenance: Why Activation Steering Does Not Make a Robust Text Watermark**<br><sub>Sergey Pletenev</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.17810)<br>[PDF](https://arxiv.org/pdf/2610.17810)<br>`2610.17810` |
@@ -388,10 +392,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**114 papers · newest first**
+**115 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks**<br><sub>Zewei Deng, Mohamed Seif, Liyan Xie</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks" src="https://arxiv.org/html/2610.22810v1/pipeline.png"> | [Paper](https://arxiv.org/abs/2610.22810)<br>[PDF](https://arxiv.org/pdf/2610.22810)<br>`2610.22810` |
 | **Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems**<br><sub>Zhang Jiang, Marios Andreou, Nan Chen</sub> | arXiv · math.DS<br>**2026** | <img width="400" alt="Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems" src="https://arxiv.org/html/2610.22286v1/test1_oscillatory_combined.png"> | [Paper](https://arxiv.org/abs/2610.22286)<br>[PDF](https://arxiv.org/pdf/2610.22286)<br>`2610.22286` |
 | **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |
 | **Language Model Fingerprinting Requires Rethinking Watermark Teachers**<br><sub>Jeongyeon Hwang, Anshul Nasery, Sewoong Oh et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Language Model Fingerprinting Requires Rethinking Watermark Teachers" src="https://arxiv.org/html/2610.04169v1/overview3.png"> | [Paper](https://arxiv.org/abs/2610.04169)<br>[PDF](https://arxiv.org/pdf/2610.04169)<br>`2610.04169` |
