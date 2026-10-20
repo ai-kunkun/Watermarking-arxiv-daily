@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-19 20:21 CST &nbsp; · &nbsp; **Indexed:** 388 unique papers
+**Last updated:** 2026-10-20 19:01 CST &nbsp; · &nbsp; **Indexed:** 389 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 131 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 132 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 139 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 115 papers
 
-## Today's additions · 2026-10-19
+## Today's additions · 2026-10-20
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
 <summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- [Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks](https://arxiv.org/abs/2610.22457) — 2026-10-15
+- [BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting](https://arxiv.org/abs/2610.26682) — 2026-10-19
 
 </details>
 
@@ -32,17 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting](https://arxiv.org/abs/2610.23601) — 2026-10-16
-- [Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks](https://arxiv.org/abs/2610.22810) — 2026-10-16
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks](https://arxiv.org/abs/2610.22810) — 2026-10-16
+- No new papers today.
 
 </details>
 
@@ -58,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**131 papers · newest first**
+**132 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting**<br><sub>Hao Chen, Junnan Xu</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting" src="https://arxiv.org/html/2610.26682v1/fig0_examples.png"> | [Paper](https://arxiv.org/abs/2610.26682)<br>[PDF](https://arxiv.org/pdf/2610.26682)<br>`2610.26682` |
 | **Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks**<br><sub>Yifan Liao, Zhen Sun, Zhicong Huang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks" src="https://arxiv.org/html/2610.22457v1/intro.png"> | [Paper](https://arxiv.org/abs/2610.22457)<br>[PDF](https://arxiv.org/pdf/2610.22457)<br>`2610.22457` |
 | **A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation**<br><sub>Jefferson David Rodriguez Chivata, Davide Ghiani, Simone Maurizio La Cava et al.</sub> | IEEE International Joint Conference on Biometrics (IJCB 2026)<br>**2026** | <img width="400" alt="A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation" src="https://arxiv.org/html/2610.20278v1/figures/Pipeline_Adversarial.png"> | [Paper](https://arxiv.org/abs/2610.20278)<br>[PDF](https://arxiv.org/pdf/2610.20278)<br>`2610.20278` |
 | **WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models**<br><sub>Jie Cao, Qi Li, Chaklam Cheong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WaveMark: Robust Wavelet-Domain Image Watermarking for Diffusion Models" src="https://arxiv.org/html/2610.12952v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.12952)<br>[PDF](https://arxiv.org/pdf/2610.12952)<br>`2610.12952` |

@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-19T12:21:08.863134+00:00",
+    "last_updated": "2026-10-20T11:01:17.758507+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -2693,7 +2693,7 @@
         "primary_category": "cs.CR",
         "published": "2026-03-02",
         "title": "Authenticated Contradictions from Desynchronized Provenance and Watermarking",
-        "updated": "2026-04-18"
+        "updated": "2026-10-17"
       },
       "2603.02882": {
         "abs_url": "https://arxiv.org/abs/2603.02882",
@@ -3722,6 +3722,24 @@
         "published": "2026-10-15",
         "title": "Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks",
         "updated": "2026-10-15"
+      },
+      "2610.26682": {
+        "abs_url": "https://arxiv.org/abs/2610.26682",
+        "abstract": "Invisible watermarks are used to mark who owns a painting. We show that a simple attack removes the most robust one we test. The attack redraws the watermarked painting with brush strokes, using a pretrained stroke-based renderer. We call this attack BrushOff. It needs no training, no knowledge of the watermark, and no generative model. We test four watermarks on 500 paintings from five styles. VINE, a recent watermark built to survive image editing, survives all 14 conventional distortions we test, with at least 97.8% detection. Repainting lowers its detection to 1.8%, while the output keeps a no-reference quality score close to that of the clean paintings. Diffusion regeneration can also remove VINE, but at the same removal level it moves the image twice as far from the painting in DreamSim distance, and it changes what the painting shows. Because the renderer draws a countable number of strokes, we can control the attack strength step by step. Finally, we test what kind of signal survives. A simple probe that stores bits in the relative brightness of neighboring regions survives repainting, while a probe that uses absolute brightness does not. The same probe fails under diffusion regeneration, while VINE fails under repainting. Robustness to these two attacks is therefore a separate property, and benchmarks should test both.",
+        "arxiv_id": "2610.26682",
+        "authors": [
+          "Hao Chen",
+          "Junnan Xu"
+        ],
+        "comment": "8 pages, 4 figures, 2 tables",
+        "first_seen": "2026-10-20",
+        "introduction_image": "https://arxiv.org/html/2610.26682v1/fig0_examples.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.26682",
+        "primary_category": "cs.CV",
+        "published": "2026-10-19",
+        "title": "BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting",
+        "updated": "2026-10-19"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -7956,7 +7974,7 @@
         "primary_category": "cs.CR",
         "published": "2026-05-11",
         "title": "Sequential Behavioral Watermarking for LLM Agents",
-        "updated": "2026-05-11"
+        "updated": "2026-10-19"
       },
       "2605.11653": {
         "abs_url": "https://arxiv.org/abs/2605.11653",
