@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-20 19:01 CST &nbsp; · &nbsp; **Indexed:** 389 unique papers
+**Last updated:** 2026-10-21 19:18 CST &nbsp; · &nbsp; **Indexed:** 392 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 132 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 139 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 115 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 116 papers
 
-## Today's additions · 2026-10-20
+## Today's additions · 2026-10-21
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting](https://arxiv.org/abs/2610.26682) — 2026-10-19
+- No new papers today.
 
 </details>
 
@@ -32,16 +32,17 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models](https://arxiv.org/abs/2610.27653) — 2026-10-20
+- [ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models](https://arxiv.org/abs/2610.27079) — 2026-10-19
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers](https://arxiv.org/abs/2610.28076) — 2026-10-20
 
 </details>
 
@@ -246,10 +247,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**139 papers · newest first**
+**141 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models**<br><sub>Romina Omidi, Nima Naderloui, Yuan Hong et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.27653)<br>[PDF](https://arxiv.org/pdf/2610.27653)<br>`2610.27653` |
+| **ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models**<br><sub>Yupeng Qiu, Han Fang, Ee-Chien Chang</sub> | arXiv · cs.LG<br>**2026** | <img width="400" alt="ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models" src="https://arxiv.org/html/2610.27079v1/figures/clockmark_embedding.png"> | [Paper](https://arxiv.org/abs/2610.27079)<br>[PDF](https://arxiv.org/pdf/2610.27079)<br>`2610.27079` |
 | **Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting**<br><sub>Rui Zhou, Licheng Zhao, Chao Shen et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting" src="https://arxiv.org/html/2610.23601v1/fig2_optimal_region.png"> | [Paper](https://arxiv.org/abs/2610.23601)<br>[PDF](https://arxiv.org/pdf/2610.23601)<br>`2610.23601` |
 | **Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks**<br><sub>Zewei Deng, Mohamed Seif, Liyan Xie</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks" src="https://arxiv.org/html/2610.22810v1/pipeline.png"> | [Paper](https://arxiv.org/abs/2610.22810)<br>[PDF](https://arxiv.org/pdf/2610.22810)<br>`2610.22810` |
 | **Pin It on Anyone: Certified Targeted Displacement of Multi-Bit LLM Watermarks Without the Key**<br><sub>Paweł Batorski, Przemysław Spurek, Paul Swoboda</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.18359)<br>[PDF](https://arxiv.org/pdf/2610.18359)<br>`2610.18359` |
@@ -392,10 +395,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**115 papers · newest first**
+**116 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers**<br><sub>Elena Rodríguez-Lois, Fernando Pérez-González</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers" src="https://arxiv.org/html/2610.28076v1/figs/recovered/airplane.png"> | [Paper](https://arxiv.org/abs/2610.28076)<br>[PDF](https://arxiv.org/pdf/2610.28076)<br>`2610.28076` |
 | **Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks**<br><sub>Zewei Deng, Mohamed Seif, Liyan Xie</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks" src="https://arxiv.org/html/2610.22810v1/pipeline.png"> | [Paper](https://arxiv.org/abs/2610.22810)<br>[PDF](https://arxiv.org/pdf/2610.22810)<br>`2610.22810` |
 | **Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems**<br><sub>Zhang Jiang, Marios Andreou, Nan Chen</sub> | arXiv · math.DS<br>**2026** | <img width="400" alt="Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems" src="https://arxiv.org/html/2610.22286v1/test1_oscillatory_combined.png"> | [Paper](https://arxiv.org/abs/2610.22286)<br>[PDF](https://arxiv.org/pdf/2610.22286)<br>`2610.22286` |
 | **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |

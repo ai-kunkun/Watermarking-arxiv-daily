@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-20T11:01:17.758507+00:00",
+    "last_updated": "2026-10-21T11:18:02.241515+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -6176,6 +6176,24 @@
         "published": "2026-10-16",
         "title": "Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks",
         "updated": "2026-10-16"
+      },
+      "2610.28076": {
+        "abs_url": "https://arxiv.org/abs/2610.28076",
+        "abstract": "Batch Normalization (BN) layers have become a common choice for embedding white-box watermarks in Federated Learning (FL), providing a simple and effective mechanism for model ownership verification and participant identification. However, previous works have focused on robustness against generic model modifications, leaving the security implications of this design largely unexplored. In this paper, we identify fundamental vulnerabilities of BN-based watermarking schemes and propose a practical data-free attack that exploits them. Experimental results on two representative FL watermarking schemes show that the proposed attack consistently removes the watermark with minimal impact on model performance, even without access to representative training data. More broadly, our findings highlight the importance of evaluating DNN watermarking schemes under threat models consistent with Kerckhoffs's principle, rather than relying on security through obscurity.",
+        "arxiv_id": "2610.28076",
+        "authors": [
+          "Elena Rodríguez-Lois",
+          "Fernando Pérez-González"
+        ],
+        "comment": "\\c{opyright} 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works",
+        "first_seen": "2026-10-21",
+        "introduction_image": "https://arxiv.org/html/2610.28076v1/figs/recovered/airplane.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.28076",
+        "primary_category": "cs.CR",
+        "published": "2026-10-20",
+        "title": "On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers",
+        "updated": "2026-10-20"
       }
     },
     "Text and LLM Watermarking": {
@@ -8064,7 +8082,7 @@
         "primary_category": "cs.CR",
         "published": "2026-05-22",
         "title": "Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection",
-        "updated": "2026-05-22"
+        "updated": "2026-10-20"
       },
       "2605.25796": {
         "abs_url": "https://arxiv.org/abs/2605.25796",
@@ -9091,6 +9109,45 @@
         "published": "2026-10-16",
         "title": "Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting",
         "updated": "2026-10-16"
+      },
+      "2610.27079": {
+        "abs_url": "https://arxiv.org/abs/2610.27079",
+        "abstract": "Large language model (LLM) watermarking operates on the next-token distribution that evolves during generation. In streaming generation, each sampled token becomes part of the text and affects subsequent distributions. Embedding therefore proceeds with a changing host, unlike classical watermarking, which adapts embedding to an existing host signal. To accommodate this difference, we formulate a novel embedding framework for LLM watermarking based on two principles. We first argue that embedding should be adaptive, retaining the state of previous sampling decisions to better guide subsequent choices. We further argue that embedding should be host-dependent, using the current LLM distribution to constrain both token selection and state updates. Guided by these principles and the two requirements of distribution preservation and robustness to text editing, we propose ClockMark. It combines adaptive and host-dependent embedding with message spreading, embedding the full payload in each watermarked token. Theoretically, we prove that ClockMark preserves the original LLM sequence distribution, thereby maintaining generation quality. Empirically, extensive experiments against 12 baselines demonstrate improved robustness to text editing, with gains of up to 16.08 percentage points in bit accuracy over the strongest tested baseline.",
+        "arxiv_id": "2610.27079",
+        "authors": [
+          "Yupeng Qiu",
+          "Han Fang",
+          "Ee-Chien Chang"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-21",
+        "introduction_image": "https://arxiv.org/html/2610.27079v1/figures/clockmark_embedding.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.27079",
+        "primary_category": "cs.LG",
+        "published": "2026-10-19",
+        "title": "ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models",
+        "updated": "2026-10-19"
+      },
+      "2610.27653": {
+        "abs_url": "https://arxiv.org/abs/2610.27653",
+        "abstract": "Watermarking has emerged as a key tool for identifying text generated by large language models (LLMs), with current schemes embedding statistical signals into the generation process to enable later detection. In this work, we identify a shared weakness across a broad class of popular LLM watermarking methods, including KGW (and its variants), GumbelSoft, DipMark, ITS, and SynthID. We show that these schemes exhibit a fundamental link between their detection scores and the token probability shifts they introduce during generation. This link, which we call score-ratio alignment, allows an attacker with only black-box query access to the model--and no knowledge of secret keys or model weights--to produce text that evades detection while remaining fluent and natural. We prove that the resulting attack is optimal across all covered watermark families, and show that the weakness is intrinsic: any watermark designed to maximize statistical detection power necessarily induces the very structure that attackers can exploit. We evaluate our attack on seven popular generative LLM watermarking schemes, three LLMs, and tasks, which reduce detection rates to at most 0.05 across all settings while preserving text quality. Our findings show that current watermarking methods can be reliably defeated under realistic attack conditions, highlighting the need for fundamentally different watermarking designs that decouple detection scores from token probability shifts.",
+        "arxiv_id": "2610.27653",
+        "authors": [
+          "Romina Omidi",
+          "Nima Naderloui",
+          "Yuan Hong",
+          "Binghui Wang"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-21",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.27653",
+        "primary_category": "cs.CR",
+        "published": "2026-10-20",
+        "title": "A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models",
+        "updated": "2026-10-20"
       }
     }
   }
