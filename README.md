@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-21 19:18 CST &nbsp; · &nbsp; **Indexed:** 392 unique papers
+**Last updated:** 2026-10-22 19:17 CST &nbsp; · &nbsp; **Indexed:** 392 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 116 papers
 
-## Today's additions · 2026-10-21
+## Today's additions · 2026-10-22
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,17 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models](https://arxiv.org/abs/2610.27653) — 2026-10-20
-- [ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models](https://arxiv.org/abs/2610.27079) — 2026-10-19
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers](https://arxiv.org/abs/2610.28076) — 2026-10-20
+- No new papers today.
 
 </details>
 
