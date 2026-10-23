@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-22 19:17 CST &nbsp; · &nbsp; **Indexed:** 392 unique papers
+**Last updated:** 2026-10-23 19:08 CST &nbsp; · &nbsp; **Indexed:** 394 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 132 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 133 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 116 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 118 papers
 
-## Today's additions · 2026-10-22
+## Today's additions · 2026-10-23
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking](https://arxiv.org/abs/2610.30347) — 2026-10-21
 
 </details>
 
@@ -39,9 +39,10 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models](https://arxiv.org/abs/2610.30626) — 2026-10-22
+- [MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking](https://arxiv.org/abs/2512.04044) — 2025-12-03
 
 </details>
 
@@ -57,10 +58,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**132 papers · newest first**
+**133 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking**<br><sub>Yash Kulthe, Vishal Asnani, Shruti Agarwal et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking" src="https://arxiv.org/html/2610.30347v1/images/method_plus_cam_improvedv2.png"> | [Paper](https://arxiv.org/abs/2610.30347)<br>[PDF](https://arxiv.org/pdf/2610.30347)<br>`2610.30347` |
 | **BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting**<br><sub>Hao Chen, Junnan Xu</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting" src="https://arxiv.org/html/2610.26682v1/fig0_examples.png"> | [Paper](https://arxiv.org/abs/2610.26682)<br>[PDF](https://arxiv.org/pdf/2610.26682)<br>`2610.26682` |
 | **Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks**<br><sub>Yifan Liao, Zhen Sun, Zhicong Huang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks" src="https://arxiv.org/html/2610.22457v1/intro.png"> | [Paper](https://arxiv.org/abs/2610.22457)<br>[PDF](https://arxiv.org/pdf/2610.22457)<br>`2610.22457` |
 | **A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation**<br><sub>Jefferson David Rodriguez Chivata, Davide Ghiani, Simone Maurizio La Cava et al.</sub> | IEEE International Joint Conference on Biometrics (IJCB 2026)<br>**2026** | <img width="400" alt="A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation" src="https://arxiv.org/html/2610.20278v1/figures/Pipeline_Adversarial.png"> | [Paper](https://arxiv.org/abs/2610.20278)<br>[PDF](https://arxiv.org/pdf/2610.20278)<br>`2610.20278` |
@@ -334,7 +336,7 @@ Papers first indexed during today's update, grouped by category.
 | **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack**<br><sub>Hao Li, Yubing Ren, Yanan Cao et al.</sub> | ACL 2026 Findings<br>**2026** | <img width="400" alt="DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack" src="https://arxiv.org/html/2512.16182v2/x1.png"> | [Paper](https://arxiv.org/abs/2512.16182)<br>[PDF](https://arxiv.org/pdf/2512.16182)<br>`2512.16182` |
 | **Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models**<br><sub>Malte Hellmeier</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Security and Detectability Analysis of Unicode Text Watermarking Methods against Large Language Models" src="https://arxiv.org/html/2512.13325/x1.png"> | [Paper](https://arxiv.org/abs/2512.13325)<br>[PDF](https://arxiv.org/pdf/2512.13325)<br>`2512.13325` |
 | **Improved Pseudorandom Codes from Permuted Puzzles**<br><sub>Miranda Christ, Noah Golowich, Sam Gunn et al.</sub> | arXiv · cs.CR<br>**2025** | — | [Paper](https://arxiv.org/abs/2512.08918)<br>[PDF](https://arxiv.org/pdf/2512.08918)<br>`2512.08918` |
-| **MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking**<br><sub>Yizhou Zhao, Zhiwei Steven Wu, Adam Block</sub> | arXiv · cs.LG<br>**2025** | <img width="400" alt="MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking" src="https://arxiv.org/html/2512.04044/x1.png"> | [Paper](https://arxiv.org/abs/2512.04044)<br>[PDF](https://arxiv.org/pdf/2512.04044)<br>`2512.04044` |
+| **MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking**<br><sub>Yizhou Zhao, Zhiwei Steven Wu, Adam Block</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking" src="https://arxiv.org/html/2512.04044/x1.png"> | [Paper](https://arxiv.org/abs/2512.04044)<br>[PDF](https://arxiv.org/pdf/2512.04044)<br>`2512.04044` |
 | **WaterSearch: Exploring Seed Pooling for Improving the Quality-Detectability Trade-off in LLM Watermarking**<br><sub>Yukang Lin, Jiahao Shao, Shuoran Jiang et al.</sub> | arXiv · cs.CL<br>**2025** | <img width="400" alt="WaterSearch: Exploring Seed Pooling for Improving the Quality-Detectability Trade-off in LLM Watermarking" src="https://arxiv.org/html/2512.00837v3/x1.png"> | [Paper](https://arxiv.org/abs/2512.00837)<br>[PDF](https://arxiv.org/pdf/2512.00837)<br>`2512.00837` |
 | **WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking**<br><sub>Shinwoo Park, Hyejin Park, Hyeseon Ahn et al.</sub> | arXiv · cs.AI<br>**2025** | <img width="400" alt="WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking" src="https://arxiv.org/html/2511.07863/x1.png"> | [Paper](https://arxiv.org/abs/2511.07863)<br>[PDF](https://arxiv.org/pdf/2511.07863)<br>`2511.07863` |
 | **Adaptive Testing for Segmenting Watermarked Texts From Language Models**<br><sub>Xingchi Li, Xiaochi Liu, Guanxun Li</sub> | arXiv · stat.ML<br>**2025** | <img width="400" alt="Adaptive Testing for Segmenting Watermarked Texts From Language Models" src="https://arxiv.org/html/2511.06645/x1.png"> | [Paper](https://arxiv.org/abs/2511.06645)<br>[PDF](https://arxiv.org/pdf/2511.06645)<br>`2511.06645` |
@@ -394,10 +396,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**116 papers · newest first**
+**118 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models**<br><sub>Yanan He, Yanli Chen, Ling Xiong et al.</sub> | IEEE International Workshop on Information Forensics and Security (2026)<br>**2026** | <img width="400" alt="Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models" src="https://arxiv.org/html/2610.30626v1/F1.png"> | [Paper](https://arxiv.org/abs/2610.30626)<br>[PDF](https://arxiv.org/pdf/2610.30626)<br>`2610.30626` |
 | **On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers**<br><sub>Elena Rodríguez-Lois, Fernando Pérez-González</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers" src="https://arxiv.org/html/2610.28076v1/figs/recovered/airplane.png"> | [Paper](https://arxiv.org/abs/2610.28076)<br>[PDF](https://arxiv.org/pdf/2610.28076)<br>`2610.28076` |
 | **Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks**<br><sub>Zewei Deng, Mohamed Seif, Liyan Xie</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks" src="https://arxiv.org/html/2610.22810v1/pipeline.png"> | [Paper](https://arxiv.org/abs/2610.22810)<br>[PDF](https://arxiv.org/pdf/2610.22810)<br>`2610.22810` |
 | **Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems**<br><sub>Zhang Jiang, Marios Andreou, Nan Chen</sub> | arXiv · math.DS<br>**2026** | <img width="400" alt="Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems" src="https://arxiv.org/html/2610.22286v1/test1_oscillatory_combined.png"> | [Paper](https://arxiv.org/abs/2610.22286)<br>[PDF](https://arxiv.org/pdf/2610.22286)<br>`2610.22286` |
@@ -443,6 +446,7 @@ Papers first indexed during today's update, grouped by category.
 | **ComMark: Covert and Robust Black-Box Model Watermarking with Compressed Samples**<br><sub>Yunfei Yang, Xiaojun Chen, Zhendong Zhao et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="ComMark: Covert and Robust Black-Box Model Watermarking with Compressed Samples" src="https://arxiv.org/html/2512.15641v2/x1.png"> | [Paper](https://arxiv.org/abs/2512.15641)<br>[PDF](https://arxiv.org/pdf/2512.15641)<br>`2512.15641` |
 | **SPDMark: Selective Parameter Displacement for Robust Video Watermarking**<br><sub>Samar Fares, Nurbek Tastan, Karthik Nandakumar</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="SPDMark: Selective Parameter Displacement for Robust Video Watermarking" src="https://arxiv.org/html/2512.12090v2/x1.png"> | [Paper](https://arxiv.org/abs/2512.12090)<br>[PDF](https://arxiv.org/pdf/2512.12090)<br>`2512.12090` |
 | **Smudged Fingerprints: A Systematic Evaluation of the Robustness of AI Image Fingerprints**<br><sub>Kai Yao, Marc Juarez</sub> | arXiv · cs.CV<br>**2025** | <img width="400" alt="Smudged Fingerprints: A Systematic Evaluation of the Robustness of AI Image Fingerprints" src="https://arxiv.org/html/2512.11771/x1.png"> | [Paper](https://arxiv.org/abs/2512.11771)<br>[PDF](https://arxiv.org/pdf/2512.11771)<br>`2512.11771` |
+| **MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking**<br><sub>Yizhou Zhao, Zhiwei Steven Wu, Adam Block</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking" src="https://arxiv.org/html/2512.04044/x1.png"> | [Paper](https://arxiv.org/abs/2512.04044)<br>[PDF](https://arxiv.org/pdf/2512.04044)<br>`2512.04044` |
 | **SEAL: Subspace-Anchored Watermarks for LLM Ownership**<br><sub>Yanbo Dai, Zongjie Li, Zhenlan Ji et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="SEAL: Subspace-Anchored Watermarks for LLM Ownership" src="https://arxiv.org/html/2511.11356/x1.png"> | [Paper](https://arxiv.org/abs/2511.11356)<br>[PDF](https://arxiv.org/pdf/2511.11356)<br>`2511.11356` |
 | **DeepTracer: Tracing Stolen Model via Deep Coupled Watermarks**<br><sub>Yunfei Yang, Xiaojun Chen, Yuexin Xuan et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="DeepTracer: Tracing Stolen Model via Deep Coupled Watermarks" src="https://arxiv.org/html/2511.08985/x1.png"> | [Paper](https://arxiv.org/abs/2511.08985)<br>[PDF](https://arxiv.org/pdf/2511.08985)<br>`2511.08985` |
 | **Class-feature Watermark: A Resilient Black-box Watermark Against Model Extraction Attacks**<br><sub>Yaxin Xiao, Qingqing Ye, Zi Liang et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Class-feature Watermark: A Resilient Black-box Watermark Against Model Extraction Attacks" src="https://arxiv.org/html/2511.07947/x1.png"> | [Paper](https://arxiv.org/abs/2511.07947)<br>[PDF](https://arxiv.org/pdf/2511.07947)<br>`2511.07947` |

@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-22T11:17:17.708974+00:00",
+    "last_updated": "2026-10-23T11:08:19.408816+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3740,6 +3740,27 @@
         "published": "2026-10-19",
         "title": "BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting",
         "updated": "2026-10-19"
+      },
+      "2610.30347": {
+        "abs_url": "https://arxiv.org/abs/2610.30347",
+        "abstract": "We propose FiLM-CAM; a conditional-access image watermarking approach that enforces authorized encoding, decoding, and removal through keyed feature modulation. A secret key conditions a Feature-wise Linear Modulation (FiLM) mechanism that transforms the internal representation of the watermark signal before embedding, thereby coupling the payload to the key at the feature, rather than pixel level. The same key must be presented to condition the decoder to correctly recover the payload embedded in an image. To enforce conditional access, we train the system to maximize the performance gap between authorized and unauthorized use, ensuring reliable extraction under the correct key while inducing failure under incorrect keys. In addition, we design our encoder to estimate the watermark residual invariant to the presence of pre-existing watermarks. This design enables conditional watermark removal via simple re-encoding and subtraction of the residual using iterative refinement, contingent on knowledge of the secret key. We evaluate FiLM-CAM across multiple watermarking encoder-decoder backbones, demonstrating that keyed feature modulation serves as an effective, architecture-agnostic conditional access module (CAM) for image watermarking.",
+        "arxiv_id": "2610.30347",
+        "authors": [
+          "Yash Kulthe",
+          "Vishal Asnani",
+          "Shruti Agarwal",
+          "Andrew Gilbert",
+          "John Collomosse"
+        ],
+        "comment": "Accepted to NeurIPS 2026",
+        "first_seen": "2026-10-23",
+        "introduction_image": "https://arxiv.org/html/2610.30347v1/images/method_plus_cam_improvedv2.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.30347",
+        "primary_category": "cs.CV",
+        "published": "2026-10-21",
+        "title": "FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking",
+        "updated": "2026-10-21"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -5264,6 +5285,25 @@
         "title": "SEAL: Subspace-Anchored Watermarks for LLM Ownership",
         "updated": "2025-11-14"
       },
+      "2512.04044": {
+        "abs_url": "https://arxiv.org/abs/2512.04044",
+        "abstract": "Language model watermarking schemes fall into two broad categories: inference-time methods, which modify the decoding process at generation time, and model-embedded methods, which encode a secret signal directly into the model weights. Inference-time watermarking methods incur additional inference overhead and are not applicable in the increasingly prevalent open-weight model settings. In contrast, model-embedded watermarks introduce no additional inference latency-generation uses the standard sampling pipeline-and are particularly well-suited to open-weight settings. However, existing model-embedded approaches such as GaussMark face a fundamental quality-detectability trade-off: achieving strong detection power typically requires weight perturbations that noticeably degrade generation quality. Our key insight is that regularizing toward a high-quality reference distribution decouples quality preservation from proximity to the base model, enabling a better quality-detectability trade-off. Building on this insight, we introduce MarkTune, a theoretically grounded on-policy fine-tuning framework that uses the GaussMark detection statistic as a reward while preserving generation quality through cross-entropy on high-quality human text or KL divergence to a stronger oracle model. Empirically, MarkTune substantially improves the quality-detectability frontier of GaussMark, approaching the detectability of strong inference-time schemes while preserving generation quality and downstream task performance. Marktune also remains robust under the evaluated text-editing and open-weight attacks and generalizes across datasets, retaining substantial detection power on corpora unseen during training. Code is available at https://github.com/zhyzmath/MarkTune-LLM-Watermarking.",
+        "arxiv_id": "2512.04044",
+        "authors": [
+          "Yizhou Zhao",
+          "Zhiwei Steven Wu",
+          "Adam Block"
+        ],
+        "comment": "Accepted at NeurIPS 2026",
+        "first_seen": "2026-10-23",
+        "introduction_image": "https://arxiv.org/html/2512.04044/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2512.04044",
+        "primary_category": "cs.LG",
+        "published": "2025-12-03",
+        "title": "MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking",
+        "updated": "2026-10-22"
+      },
       "2512.11771": {
         "abs_url": "https://arxiv.org/abs/2512.11771",
         "abstract": "Model fingerprint detection has shown promise to trace the provenance of AI-generated images in forensic applications. However, despite the inherent adversarial nature of these applications, existing evaluations rarely consider adversarial settings. We present the first systematic security evaluation of these techniques, formalizing threat models that encompass both white- and black-box access and two attack goals: fingerprint removal, which erases identifying traces to evade attribution, and fingerprint forgery, which seeks to cause misattribution to a target model. We implement five attack strategies and evaluate 14 representative fingerprinting methods across RGB, frequency, and learned-feature domains on 12 state-of-the-art image generators. Our experiments reveal a pronounced gap between clean and adversarial performance. Removal attacks are highly effective, often achieving success rates above 80% in white-box settings and over 50% under black-box access. While forgery is more challenging than removal, its success varies significantly across targeted models. We also observe a utility-robustness trade-off: accurate attribution methods are often vulnerable to attacks and, although some techniques are robust in specific settings, none achieves robustness and accuracy across all evaluated threat models. These findings highlight the need for techniques that balance robustness and accuracy, and we identify the most promising approaches toward this goal. Code available at: https://github.com/kaikaiyao/SmudgedFingerprints.",
@@ -6194,6 +6234,27 @@
         "published": "2026-10-20",
         "title": "On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers",
         "updated": "2026-10-20"
+      },
+      "2610.30626": {
+        "abs_url": "https://arxiv.org/abs/2610.30626",
+        "abstract": "The increasing release and reuse of Large Language Models (LLMs) as open-weight checkpoints make model fingerprinting important for ownership protection and offline auditing. Existing fingerprinting methods typically construct evidence from query responses, generated outputs, or input-induced activations. Although effective in representation-based settings, they can be affected by prompt selection, decoding configuration, inference environment, and forward-pass implementation, which may limit their applicability. Here we introduce a model-intrinsic weight-level framework that derives compact fingerprints from spectral structures encoded in LLM parameters. Specifically, the framework constructs GATE spectral scalar features from the singular-value distributions of GATE projection weights in gated feed-forward networks (FFNs), and aggregates the resulting layer-wise features through depth-wise segmented pooling to form a model-level fingerprint. Such representation preserves coarse layer-depth organization while reducing dependence on strict layer-to-layer alignment, enabling comparison across LLMs with different depths. The similarity between fingerprints is computed by linear centered kernel alignment. The entire pipeline is training-free and does not require input samples, generated outputs, forward activations, or an auxiliary verifier. Experiments on representative LLM families and post-training variants have demonstrated a clear separation between source-related models and unrelated ones, and stable similarity under instruction tuning, quantization, pruning, and distillation-related modifications, which verify that spectral features are robust evidence for LLM fingerprinting.",
+        "arxiv_id": "2610.30626",
+        "authors": [
+          "Yanan He",
+          "Yanli Chen",
+          "Ling Xiong",
+          "Gejian Zhao",
+          "Hanzhou Wu"
+        ],
+        "comment": "To appear in IEEE International Workshop on Information Forensics and Security (2026)",
+        "first_seen": "2026-10-23",
+        "introduction_image": "https://arxiv.org/html/2610.30626v1/F1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.30626",
+        "primary_category": "cs.CR",
+        "published": "2026-10-22",
+        "title": "Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models",
+        "updated": "2026-10-22"
       }
     },
     "Text and LLM Watermarking": {
@@ -7391,22 +7452,22 @@
       },
       "2512.04044": {
         "abs_url": "https://arxiv.org/abs/2512.04044",
-        "abstract": "Watermarking aims to embed hidden signals in generated text that can be reliably detected when given access to a secret key. Open-weight language models pose acute challenges for such watermarking schemes because the inference-time interventions that dominate contemporary approaches cannot be enforced once model weights are public. Existing watermaking techniques for open-weight models, such as the recently proposed GaussMark, typically rely on small modifications to model weights, which can yield signals detectable to those equipped with a secret key, but achieving detection power comparable to inference-time watermarks generally requires weight perturbations that noticeably reduce generation quality. We introduce MarkTune, a theoretically principled, on-policy fine-tuning framework that treats the GaussMark signal as a reward while simultaneously regularizing against degradation in text quality. We derive MarkTune as an improvement on GaussMark and demonstrate that MarkTune consistently improves the quality-detectability trade-off over GaussMark by steering finer-grained, watermark-aware weight updates within the model's representation space while preserving generation quality. Empirically, we show that MarkTune pushes the quality-detectability frontier of GaussMark close to that of inference-time watermarking, remains robust to paraphrasing and fine-tuning attacks, and exhibits strong generalization: a model fine-tuned on one dataset retains substantial watermark detection power on unseen datasets. Together, these results establish MarkTune as a general strategy for embedding robust, high-quality watermarks into open-weight LMs.",
+        "abstract": "Language model watermarking schemes fall into two broad categories: inference-time methods, which modify the decoding process at generation time, and model-embedded methods, which encode a secret signal directly into the model weights. Inference-time watermarking methods incur additional inference overhead and are not applicable in the increasingly prevalent open-weight model settings. In contrast, model-embedded watermarks introduce no additional inference latency-generation uses the standard sampling pipeline-and are particularly well-suited to open-weight settings. However, existing model-embedded approaches such as GaussMark face a fundamental quality-detectability trade-off: achieving strong detection power typically requires weight perturbations that noticeably degrade generation quality. Our key insight is that regularizing toward a high-quality reference distribution decouples quality preservation from proximity to the base model, enabling a better quality-detectability trade-off. Building on this insight, we introduce MarkTune, a theoretically grounded on-policy fine-tuning framework that uses the GaussMark detection statistic as a reward while preserving generation quality through cross-entropy on high-quality human text or KL divergence to a stronger oracle model. Empirically, MarkTune substantially improves the quality-detectability frontier of GaussMark, approaching the detectability of strong inference-time schemes while preserving generation quality and downstream task performance. Marktune also remains robust under the evaluated text-editing and open-weight attacks and generalizes across datasets, retaining substantial detection power on corpora unseen during training. Code is available at https://github.com/zhyzmath/MarkTune-LLM-Watermarking.",
         "arxiv_id": "2512.04044",
         "authors": [
           "Yizhou Zhao",
           "Zhiwei Steven Wu",
           "Adam Block"
         ],
-        "comment": null,
+        "comment": "Accepted at NeurIPS 2026",
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2512.04044/x1.png",
         "journal_reference": null,
         "pdf_url": "https://arxiv.org/pdf/2512.04044",
         "primary_category": "cs.LG",
         "published": "2025-12-03",
-        "title": "MarkTune: Improving the Quality-Detectability Trade-off in Open-Weight LLM Watermarking",
-        "updated": "2025-12-03"
+        "title": "MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking",
+        "updated": "2026-10-22"
       },
       "2512.08918": {
         "abs_url": "https://arxiv.org/abs/2512.08918",
