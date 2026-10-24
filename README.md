@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-23 19:08 CST &nbsp; · &nbsp; **Indexed:** 394 unique papers
+**Last updated:** 2026-10-24 18:25 CST &nbsp; · &nbsp; **Indexed:** 394 unique papers
 
 ## Categories
 
@@ -13,14 +13,14 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 118 papers
 
-## Today's additions · 2026-10-23
+## Today's additions · 2026-10-24
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking](https://arxiv.org/abs/2610.30347) — 2026-10-21
+- No new papers today.
 
 </details>
 
@@ -39,10 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models](https://arxiv.org/abs/2610.30626) — 2026-10-22
-- [MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking](https://arxiv.org/abs/2512.04044) — 2025-12-03
+- No new papers today.
 
 </details>
 
