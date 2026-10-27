@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-26 20:23 CST &nbsp; · &nbsp; **Indexed:** 394 unique papers
+**Last updated:** 2026-10-27 19:42 CST &nbsp; · &nbsp; **Indexed:** 397 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 133 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 134 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 118 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 120 papers
 
-## Today's additions · 2026-10-26
+## Today's additions · 2026-10-27
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Support-guided OOD Removal with Diffusion](https://arxiv.org/abs/2610.33194) — 2026-10-23
 
 </details>
 
@@ -39,9 +39,10 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking](https://arxiv.org/abs/2610.34942) — 2026-10-26
+- [From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification](https://arxiv.org/abs/2610.34675) — 2026-10-26
 
 </details>
 
@@ -57,10 +58,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**133 papers · newest first**
+**134 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Support-guided OOD Removal with Diffusion**<br><sub>Alireza Kheirandish, Sara Fridovich-Keil</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Support-guided OOD Removal with Diffusion" src="https://arxiv.org/html/2610.33194v1/figs/fig_teaser_notitles_per3_fresh_nocifar_drop6_a2w1p7_tight.png"> | [Paper](https://arxiv.org/abs/2610.33194)<br>[PDF](https://arxiv.org/pdf/2610.33194)<br>`2610.33194` |
 | **FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking**<br><sub>Yash Kulthe, Vishal Asnani, Shruti Agarwal et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking" src="https://arxiv.org/html/2610.30347v1/images/method_plus_cam_improvedv2.png"> | [Paper](https://arxiv.org/abs/2610.30347)<br>[PDF](https://arxiv.org/pdf/2610.30347)<br>`2610.30347` |
 | **BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting**<br><sub>Hao Chen, Junnan Xu</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting" src="https://arxiv.org/html/2610.26682v1/fig0_examples.png"> | [Paper](https://arxiv.org/abs/2610.26682)<br>[PDF](https://arxiv.org/pdf/2610.26682)<br>`2610.26682` |
 | **Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks**<br><sub>Yifan Liao, Zhen Sun, Zhicong Huang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks" src="https://arxiv.org/html/2610.22457v1/intro.png"> | [Paper](https://arxiv.org/abs/2610.22457)<br>[PDF](https://arxiv.org/pdf/2610.22457)<br>`2610.22457` |
@@ -395,17 +397,19 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**118 papers · newest first**
+**120 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking**<br><sub>Hamed Poursiami, Farshad Soleiman, Ahmad Tahmasivand et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.34942)<br>[PDF](https://arxiv.org/pdf/2610.34942)<br>`2610.34942` |
+| **From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification**<br><sub>Haiyong Tang, Hanzhou Wu, Xinpeng Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification" src="https://arxiv.org/html/2610.34675v1/Fig0_Motivation.png"> | [Paper](https://arxiv.org/abs/2610.34675)<br>[PDF](https://arxiv.org/pdf/2610.34675)<br>`2610.34675` |
 | **Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models**<br><sub>Yanan He, Yanli Chen, Ling Xiong et al.</sub> | IEEE International Workshop on Information Forensics and Security (2026)<br>**2026** | <img width="400" alt="Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models" src="https://arxiv.org/html/2610.30626v1/F1.png"> | [Paper](https://arxiv.org/abs/2610.30626)<br>[PDF](https://arxiv.org/pdf/2610.30626)<br>`2610.30626` |
 | **On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers**<br><sub>Elena Rodríguez-Lois, Fernando Pérez-González</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="On the Vulnerabilities and Data-Free Removal of Watermarks in Batch Normalization Layers" src="https://arxiv.org/html/2610.28076v1/figs/recovered/airplane.png"> | [Paper](https://arxiv.org/abs/2610.28076)<br>[PDF](https://arxiv.org/pdf/2610.28076)<br>`2610.28076` |
 | **Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks**<br><sub>Zewei Deng, Mohamed Seif, Liyan Xie</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Watermarkability: Measuring and Improving Language-Model Compatibility with Logit-Based Watermarks" src="https://arxiv.org/html/2610.22810v1/pipeline.png"> | [Paper](https://arxiv.org/abs/2610.22810)<br>[PDF](https://arxiv.org/pdf/2610.22810)<br>`2610.22810` |
 | **Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems**<br><sub>Zhang Jiang, Marios Andreou, Nan Chen</sub> | arXiv · math.DS<br>**2026** | <img width="400" alt="Causal Fingerprints Reveal Hidden Mechanisms in Partially-Observed Dynamical Systems" src="https://arxiv.org/html/2610.22286v1/test1_oscillatory_combined.png"> | [Paper](https://arxiv.org/abs/2610.22286)<br>[PDF](https://arxiv.org/pdf/2610.22286)<br>`2610.22286` |
 | **Grammar-Guided Code Watermarking with Green Temperature**<br><sub>Hyundong Jin, Hyeseon An, Soohan Lim et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Grammar-Guided Code Watermarking with Green Temperature" src="https://arxiv.org/html/2610.05323v1/Overview.png"> | [Paper](https://arxiv.org/abs/2610.05323)<br>[PDF](https://arxiv.org/pdf/2610.05323)<br>`2610.05323` |
 | **Language Model Fingerprinting Requires Rethinking Watermark Teachers**<br><sub>Jeongyeon Hwang, Anshul Nasery, Sewoong Oh et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Language Model Fingerprinting Requires Rethinking Watermark Teachers" src="https://arxiv.org/html/2610.04169v1/overview3.png"> | [Paper](https://arxiv.org/abs/2610.04169)<br>[PDF](https://arxiv.org/pdf/2610.04169)<br>`2610.04169` |
-| **A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services**<br><sub>Shahrooz Pouryousef, Jesus Lopez, Saeefa Rubaiyat Nowmi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services" src="https://arxiv.org/html/2609.31877v1/threat_model.png"> | [Paper](https://arxiv.org/abs/2609.31877)<br>[PDF](https://arxiv.org/pdf/2609.31877)<br>`2609.31877` |
+| **A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services**<br><sub>Shahrooz Pouryousef, Jesus Lopez, Saeefa Rubaiyet Nowmi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services" src="https://arxiv.org/html/2609.31877v1/threat_model.png"> | [Paper](https://arxiv.org/abs/2609.31877)<br>[PDF](https://arxiv.org/pdf/2609.31877)<br>`2609.31877` |
 | **An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models**<br><sub>Wenhong Huang, Jianwei Fei, Benedetta Tondi et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="An Efficient and Effective Watermarking Scheme for the Protection of the Intellectual Property Rights of Video Generative Models" src="https://arxiv.org/html/2609.23586v1/Fig_vidmark.png"> | [Paper](https://arxiv.org/abs/2609.23586)<br>[PDF](https://arxiv.org/pdf/2609.23586)<br>`2609.23586` |
 | **Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape**<br><sub>Sarah Radway, Andrew Cheng, Vijay Janapa Reddi et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape" src="https://arxiv.org/html/2609.20614v1/inference-stack-example.png"> | [Paper](https://arxiv.org/abs/2609.20614)<br>[PDF](https://arxiv.org/pdf/2609.20614)<br>`2609.20614` |
 | **Fingerprinting Multimodal Large Language Models**<br><sub>Chao Huang, Meng Tong, Kejiang Chen</sub> | ACM Multimedia 2026 (MM '26) as an oral presentation<br>**2026** | <img width="400" alt="Fingerprinting Multimodal Large Language Models" src="https://arxiv.org/html/2609.20457v1/framework.png"> | [Paper](https://arxiv.org/abs/2609.20457)<br>[PDF](https://arxiv.org/pdf/2609.20457)<br>`2609.20457` |
