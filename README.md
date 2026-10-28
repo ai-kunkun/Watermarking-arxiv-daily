@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-27 19:42 CST &nbsp; · &nbsp; **Indexed:** 397 unique papers
+**Last updated:** 2026-10-28 20:15 CST &nbsp; · &nbsp; **Indexed:** 397 unique papers
 
 ## Categories
 
@@ -13,14 +13,14 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 120 papers
 
-## Today's additions · 2026-10-27
+## Today's additions · 2026-10-28
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Support-guided OOD Removal with Diffusion](https://arxiv.org/abs/2610.33194) — 2026-10-23
+- No new papers today.
 
 </details>
 
@@ -39,10 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 2 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking](https://arxiv.org/abs/2610.34942) — 2026-10-26
-- [From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification](https://arxiv.org/abs/2610.34675) — 2026-10-26
+- No new papers today.
 
 </details>
 
