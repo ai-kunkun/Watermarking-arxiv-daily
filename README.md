@@ -4,37 +4,38 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-29 20:25 CST &nbsp; · &nbsp; **Indexed:** 397 unique papers
+**Last updated:** 2026-10-30 20:16 CST &nbsp; · &nbsp; **Indexed:** 401 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 134 papers
-- [Generative AI Watermarking](#generative-ai-watermarking) · 43 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 141 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 135 papers
+- [Generative AI Watermarking](#generative-ai-watermarking) · 45 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 142 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 120 papers
 
-## Today's additions · 2026-10-29
+## Today's additions · 2026-10-30
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
-
-</details>
-
-<details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
-
-- No new papers today.
+- [Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping](https://arxiv.org/abs/2610.40204) — 2026-10-29
 
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [Provably Secure Diffusion Watermarking Against Removal Adversaries with Batched Detector Access](https://arxiv.org/abs/2610.39189) — 2026-10-29
+- [CLaW: Codec-Guided Adaptive Latent Watermarking for Traceable Diffusion Image Generation](https://arxiv.org/abs/2610.39160) — 2026-10-29
+
+</details>
+
+<details>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+
+- [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](https://arxiv.org/abs/2610.40613) — 2026-10-29
 
 </details>
 
@@ -57,10 +58,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**134 papers · newest first**
+**135 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping**<br><sub>Marjan Beheshti, Ronghua Xu</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping" src="https://arxiv.org/html/2610.40204v1/fig1_concept_design.png"> | [Paper](https://arxiv.org/abs/2610.40204)<br>[PDF](https://arxiv.org/pdf/2610.40204)<br>`2610.40204` |
 | **Support-guided OOD Removal with Diffusion**<br><sub>Alireza Kheirandish, Sara Fridovich-Keil</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Support-guided OOD Removal with Diffusion" src="https://arxiv.org/html/2610.33194v1/figs/fig_teaser_notitles_per3_fresh_nocifar_drop6_a2w1p7_tight.png"> | [Paper](https://arxiv.org/abs/2610.33194)<br>[PDF](https://arxiv.org/pdf/2610.33194)<br>`2610.33194` |
 | **FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking**<br><sub>Yash Kulthe, Vishal Asnani, Shruti Agarwal et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking" src="https://arxiv.org/html/2610.30347v1/images/method_plus_cam_improvedv2.png"> | [Paper](https://arxiv.org/abs/2610.30347)<br>[PDF](https://arxiv.org/pdf/2610.30347)<br>`2610.30347` |
 | **BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting**<br><sub>Hao Chen, Junnan Xu</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting" src="https://arxiv.org/html/2610.26682v1/fig0_examples.png"> | [Paper](https://arxiv.org/abs/2610.26682)<br>[PDF](https://arxiv.org/pdf/2610.26682)<br>`2610.26682` |
@@ -198,10 +200,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Generative AI Watermarking
 
-**43 papers · newest first**
+**45 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Provably Secure Diffusion Watermarking Against Removal Adversaries with Batched Detector Access**<br><sub>De Zhang Lee, Ee-Chien Chang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Provably Secure Diffusion Watermarking Against Removal Adversaries with Batched Detector Access" src="https://arxiv.org/html/2610.39189v1/img/sd21_appendix/upscaled_image_5.png"> | [Paper](https://arxiv.org/abs/2610.39189)<br>[PDF](https://arxiv.org/pdf/2610.39189)<br>`2610.39189` |
+| **CLaW: Codec-Guided Adaptive Latent Watermarking for Traceable Diffusion Image Generation**<br><sub>Huangchao Song, Lingyun Yu, Cong Li et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="CLaW: Codec-Guided Adaptive Latent Watermarking for Traceable Diffusion Image Generation" src="https://arxiv.org/html/2610.39160v1/fig1_user-trace-scenery.png"> | [Paper](https://arxiv.org/abs/2610.39160)<br>[PDF](https://arxiv.org/pdf/2610.39160)<br>`2610.39160` |
 | **Latent Watermarks under Generative Editing: A Benchmark and Analysis of Detection Survival**<br><sub>Sung Ju Lee, Nam Ik Cho</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Latent Watermarks under Generative Editing: A Benchmark and Analysis of Detection Survival" src="https://arxiv.org/html/2610.09702v1/F_main_teaser.png"> | [Paper](https://arxiv.org/abs/2610.09702)<br>[PDF](https://arxiv.org/pdf/2610.09702)<br>`2610.09702` |
 | **Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking**<br><sub>Kirill Aistov, Khaled Abud, Irina Serzhenko et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Exploring Weaknesses of Generative Image Watermarks against Latent Frequency Masking" src="https://arxiv.org/html/2610.02010v1/wm_scheme.png"> | [Paper](https://arxiv.org/abs/2610.02010)<br>[PDF](https://arxiv.org/pdf/2610.02010)<br>`2610.02010` |
 | **Latent Audio Watermarking for Robustness to Neural Codec Resynthesis**<br><sub>Lovro Brulec, Sahil Karawade, Leonard Kinzinger</sub> | arXiv · cs.SD<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.25830)<br>[PDF](https://arxiv.org/pdf/2609.25830)<br>`2609.25830` |
@@ -248,10 +252,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**141 papers · newest first**
+**142 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races**<br><sub>Tom Sander, Pierre Fernandez, Itai Gat et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races" src="https://arxiv.org/html/2610.40613v1/x1.png"> | [Paper](https://arxiv.org/abs/2610.40613)<br>[PDF](https://arxiv.org/pdf/2610.40613)<br>`2610.40613` |
 | **A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models**<br><sub>Romina Omidi, Nima Naderloui, Yuan Hong et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.27653)<br>[PDF](https://arxiv.org/pdf/2610.27653)<br>`2610.27653` |
 | **ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models**<br><sub>Yupeng Qiu, Han Fang, Ee-Chien Chang</sub> | arXiv · cs.LG<br>**2026** | <img width="400" alt="ClockMark: Adaptive and Host-Dependent Watermarking for Large Language Models" src="https://arxiv.org/html/2610.27079v1/figures/clockmark_embedding.png"> | [Paper](https://arxiv.org/abs/2610.27079)<br>[PDF](https://arxiv.org/pdf/2610.27079)<br>`2610.27079` |
 | **Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting**<br><sub>Rui Zhou, Licheng Zhao, Chao Shen et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Token-Level Attribution of Multi-Mode LLM Watermarks: Optimal Rule and Belief Weighting" src="https://arxiv.org/html/2610.23601v1/fig2_optimal_region.png"> | [Paper](https://arxiv.org/abs/2610.23601)<br>[PDF](https://arxiv.org/pdf/2610.23601)<br>`2610.23601` |

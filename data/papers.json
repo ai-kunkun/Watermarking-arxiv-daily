@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-10-29T12:25:05.173052+00:00",
+    "last_updated": "2026-10-30T12:16:04.156680+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -921,6 +921,46 @@
         "published": "2026-10-07",
         "title": "Latent Watermarks under Generative Editing: A Benchmark and Analysis of Detection Survival",
         "updated": "2026-10-07"
+      },
+      "2610.39160": {
+        "abs_url": "https://arxiv.org/abs/2610.39160",
+        "abstract": "With the rapid advancement of text-to-image diffusion models, increasingly realistic AI-generated content has raised serious concerns about misuse and copyright infringement. Digital watermarking offers a promising solution by enabling user-level traceability, yet existing methods remain difficult to deploy at scale, hindered by costly model retraining or detection, poor effectiveness-fidelity trade-offs, and limited robustness to image transformations. To address these challenges, we propose CLaW (Codec-guided Latent Watermarking), a robust and efficient watermarking framework for traceable diffusion image generation with frozen diffusion backbones and inversion-free detection. Specifically, CLaW first uses a pretrained watermark codec to map each watermark message to a latent residual, enabling low-cost sampling-time injection. Then, the residual is injected within a late denoising window, where image semantics are better preserved and the watermark signal is less perturbed by subsequent denoising updates, yielding a better balance between watermark effectiveness and image fidelity. Furthermore, we introduce a decoder-guided adaptive injection mechanism that uses decoding confidence as feedback to dynamically calibrate watermark strength, reinforcing weak watermark signals and improving robustness under image transformations. Extensive experiments show that CLaW preserves high visual fidelity and achieves state-of-the-art robustness under image transformations, enabling reliable user-level traceability.",
+        "arxiv_id": "2610.39160",
+        "authors": [
+          "Huangchao Song",
+          "Lingyun Yu",
+          "Cong Li",
+          "Peiqi Jiang",
+          "Mingqi Fang",
+          "Hongtao Xie"
+        ],
+        "comment": "Accepted at NeurIPS 2026",
+        "first_seen": "2026-10-30",
+        "introduction_image": "https://arxiv.org/html/2610.39160v1/fig1_user-trace-scenery.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.39160",
+        "primary_category": "cs.CV",
+        "published": "2026-10-29",
+        "title": "CLaW: Codec-Guided Adaptive Latent Watermarking for Traceable Diffusion Image Generation",
+        "updated": "2026-10-29"
+      },
+      "2610.39189": {
+        "abs_url": "https://arxiv.org/abs/2610.39189",
+        "abstract": "Recent latent-based watermarking methods can embed undetectable watermarks into AI-generated content. However, these approaches are vulnerable to removal attacks as their watermark detection boundaries are exposed, prompting the use of secret long-term transformations to hide these boundaries. We show that such defenses are insecure under a stronger threat model motivated by publicly reachable detectors: an adversary with batched detector access can reconstruct the transformations, permanently re-exposing the decision boundary. To address this, we propose a watermarking scheme based on a hybrid of long-term and one-time secret transformations, which prevents the reuse of structure across samples and keeps the long-term secret hidden. Besides undetectability, we show that this scheme is provably secure against removal adversaries with batched detector access, in the sense that no probabilistic polynomial-time adversary can achieve a non-negligible advantage over an adversary restricted to adding isotropic white-noise with a $\\sqrt{2}\\times$ larger perturbation budget, and we show this $\\sqrt{2}$ factor to be tight. Evaluations on Stable Diffusion 2.1 and XL demonstrate the attack against the existing defense, and show that our scheme preserves generation quality and withstands common perturbations and targeted removal attacks.",
+        "arxiv_id": "2610.39189",
+        "authors": [
+          "De Zhang Lee",
+          "Ee-Chien Chang"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-30",
+        "introduction_image": "https://arxiv.org/html/2610.39189v1/img/sd21_appendix/upscaled_image_5.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.39189",
+        "primary_category": "cs.CR",
+        "published": "2026-10-29",
+        "title": "Provably Secure Diffusion Watermarking Against Removal Adversaries with Batched Detector Access",
+        "updated": "2026-10-29"
       }
     },
     "Image and Video Watermarking": {
@@ -3779,6 +3819,24 @@
         "published": "2026-10-23",
         "title": "Support-guided OOD Removal with Diffusion",
         "updated": "2026-10-23"
+      },
+      "2610.40204": {
+        "abs_url": "https://arxiv.org/abs/2610.40204",
+        "abstract": "Watermarking is essential for image copyright protection and attribution, yet existing methods suffer from fundamental trade-offs among post-hoc applicability to pre-existing images, multi-bit capacity, training-free deployment, and adversarial resilience. To address these limitations, we propose a training-free watermarking framework that exploits the overcompleteness of diffusion latent spaces to embed multi-bit payloads into arbitrary images while preserving high visual quality. Additionally, we develop a three-layer decoding pipeline that combines magnitude-weighted majority voting, BCH, and Chase decoding to maximize message-extraction accuracy in the presence of channel noise. To counter active adversaries, our framework integrates a steganalysis-resistant noise camouflage layer and a dual-layer forgery defense that combines perceptual hashing with a Reed-Solomon fuzzy commitment scheme over CLIP features. Empirical evaluations demonstrate that our method applies to both natural and AI-generated images with a scalable $32\\text{--}128$-bit capacity. Furthermore, it effectively mitigates advanced removal vectors ($94.6\\%$ decode rate against CtrlRegen+ regeneration attacks) and secures robust forgery detection ($98.8\\%$ accuracy via joint CLIP and RS fuzzy commitment mechanism).",
+        "arxiv_id": "2610.40204",
+        "authors": [
+          "Marjan Beheshti",
+          "Ronghua Xu"
+        ],
+        "comment": null,
+        "first_seen": "2026-10-30",
+        "introduction_image": "https://arxiv.org/html/2610.40204v1/fig1_concept_design.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.40204",
+        "primary_category": "cs.CR",
+        "published": "2026-10-29",
+        "title": "Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping",
+        "updated": "2026-10-29"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -9271,6 +9329,36 @@
         "published": "2026-10-20",
         "title": "A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models",
         "updated": "2026-10-20"
+      },
+      "2610.40613": {
+        "abs_url": "https://arxiv.org/abs/2610.40613",
+        "abstract": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing each token to one of two keys via a coin flip. This is suboptimal because the detector averages the scores from both keys without knowing which key was used. TextSeal2 instead merges two or more keys into a single virtual key and couples it to fresh noise through AutoMark's Gaussian copula. Any number of keys, including publicly shared keys, can be merged this way without diluting detection. Under speculative decoding, TextSeal2 verifies keyed drafts with one more exponential race, run on the leftovers of the draft races. By memorylessness, this race reproduces block verification, so the output follows the target model exactly. We evaluate TextSeal2 on three LLMs. At equal output token diversity, TextSeal2 detects 8 to 22 percentage points more 100-token answers than TextSeal at a false-positive rate of $10^{-3}$, and is comparable to textGrain while requiring no post-logits optimization. Under speculative decoding, it detects 18 and 22 percentage points more 200-token answers than TextSeal and textGrain, respectively, at the same acceptance rate.",
+        "arxiv_id": "2610.40613",
+        "authors": [
+          "Tom Sander",
+          "Pierre Fernandez",
+          "Itai Gat",
+          "Haiming Bao",
+          "Jiaxin Shi",
+          "Jason Park",
+          "Valeriu Lacatusu",
+          "Sylvestre-Alvise Rebuffi",
+          "Hongyan Chang",
+          "Hady Elsahar",
+          "Tomáš Souček",
+          "Tuan Tran",
+          "Surya Parimi",
+          "Alexandre Mourachko"
+        ],
+        "comment": "Code: https://github.com/facebookresearch/textseal",
+        "first_seen": "2026-10-30",
+        "introduction_image": "https://arxiv.org/html/2610.40613v1/x1.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2610.40613",
+        "primary_category": "cs.CR",
+        "published": "2026-10-29",
+        "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+        "updated": "2026-10-29"
       }
     }
   }
