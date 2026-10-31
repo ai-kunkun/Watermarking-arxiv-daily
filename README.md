@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-10-30 20:16 CST &nbsp; · &nbsp; **Indexed:** 401 unique papers
+**Last updated:** 2026-10-31 19:48 CST &nbsp; · &nbsp; **Indexed:** 401 unique papers
 
 ## Categories
 
@@ -13,29 +13,28 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 142 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 120 papers
 
-## Today's additions · 2026-10-30
+## Today's additions · 2026-10-31
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping](https://arxiv.org/abs/2610.40204) — 2026-10-29
-
-</details>
-
-<details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 2 new papers</summary>
-
-- [Provably Secure Diffusion Watermarking Against Removal Adversaries with Batched Detector Access](https://arxiv.org/abs/2610.39189) — 2026-10-29
-- [CLaW: Codec-Guided Adaptive Latent Watermarking for Traceable Diffusion Image Generation](https://arxiv.org/abs/2610.39160) — 2026-10-29
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](https://arxiv.org/abs/2610.40613) — 2026-10-29
+- No new papers today.
+
+</details>
+
+<details>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+
+- No new papers today.
 
 </details>
 
