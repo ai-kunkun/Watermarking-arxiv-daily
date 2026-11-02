@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-01T12:47:09.188128+00:00",
+    "last_updated": "2026-11-02T14:56:19.305329+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -7349,14 +7349,14 @@
       },
       "2510.17033": {
         "abs_url": "https://arxiv.org/abs/2510.17033",
-        "abstract": "Federated learning (FL) enables fine-tuning large language models (LLMs) across distributed data sources. As these sources increasingly include LLM-generated text, provenance tracking becomes essential for accountability and transparency. We adapt LLM watermarking for data provenance in FL where a subset of clients compute local updates on watermarked data, and the server averages all updates into the global LLM. In this setup, watermarks are radioactive: the watermark signal remains detectable after fine-tuning with high confidence. The $p$-value can reach $10^{-24}$ even when as little as $6.6\\%$ of data is watermarked. However, the server can act as an active adversary that wants to preserve model utility while evading provenance tracking. Our observation is that updates induced by watermarked synthetic data appear as outliers relative to non-watermark updates. Our adversary thus applies strong robust aggregation that can filter these outliers, together with the watermark signal. All evaluated radioactive watermarks are not robust against such an active filtering server. Our work suggests fundamental trade-offs between radioactivity, robustness, and utility.",
+        "abstract": "Federated learning (FL) enables fine-tuning large language models (LLMs) across distributed data sources. As these sources increasingly include LLM-generated text, provenance tracking becomes essential for accountability and transparency. We adapt LLM watermarking for FL data provenance, where a subset of clients computes local updates on watermarked data, and the server averages all updates into the global LLM. We find that several evaluated LLM watermarks remain radioactive in this setup: the watermark signal stays detectable after fine-tuning, with a $p-$value reaching $10^{-24}$ even when only 6.6% of data is watermarked. However, the server can act as an active adversary, aiming to preserve model utility while evading provenance tracking. We observe that updates from watermarked synthetic data appear as outliers relative to clean updates. Our adversary thus applies strong robust aggregation to filter out these outliers along with the watermark signal. All evaluated radioactive watermarks are not robust against such an adversarial server. Our work suggests fundamental trade-offs between radioactivity, robustness, and utility.",
         "arxiv_id": "2510.17033",
         "authors": [
           "Leixu Huang",
           "Zedian Shao",
           "Teodora Baluta"
         ],
-        "comment": "9 pages, 4 figures (not including citation and appendix) submitted to ICLR 2026",
+        "comment": "7 pages, 40th Conference on Neural Information Processing Systems (NeurIPS 2026). Workshop: 3rd Workshop on Attributing Model Behavior at Scale: Data Attribution and Provenance",
         "first_seen": "2026-07-22",
         "introduction_image": "https://arxiv.org/html/2510.17033/x1.png",
         "journal_reference": null,
@@ -7364,7 +7364,7 @@
         "primary_category": "cs.CR",
         "published": "2025-10-19",
         "title": "Watermark Robustness and Radioactivity May Be at Odds in Federated Learning",
-        "updated": "2025-10-19"
+        "updated": "2026-10-30"
       },
       "2510.18019": {
         "abs_url": "https://arxiv.org/abs/2510.18019",
@@ -9320,7 +9320,7 @@
           "Yuan Hong",
           "Binghui Wang"
         ],
-        "comment": null,
+        "comment": "Correct the affiliation information and add a link to the source code",
         "first_seen": "2026-10-21",
         "introduction_image": null,
         "journal_reference": null,
@@ -9328,7 +9328,7 @@
         "primary_category": "cs.CR",
         "published": "2026-10-20",
         "title": "A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models",
-        "updated": "2026-10-20"
+        "updated": "2026-10-29"
       },
       "2610.40613": {
         "abs_url": "https://arxiv.org/abs/2610.40613",
