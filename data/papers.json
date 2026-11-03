@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-02T14:56:19.305329+00:00",
+    "last_updated": "2026-11-03T13:44:48.998383+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -960,7 +960,27 @@
         "primary_category": "cs.CR",
         "published": "2026-10-29",
         "title": "Provably Secure Diffusion Watermarking Against Removal Adversaries with Batched Detector Access",
-        "updated": "2026-10-29"
+        "updated": "2026-11-02"
+      },
+      "2611.00069": {
+        "abs_url": "https://arxiv.org/abs/2611.00069",
+        "abstract": "Diffusion models have made high-fidelity visual generation widely accessible, while also lowering the barrier to producing convincing visual forgeries and complicating content provenance. Existing watermarking methods typically use a fixed embedding strength throughout denoising or treat all watermark dimensions equally. As a result, they may introduce unnecessary distortion when some watermark dimensions are already reliable, while failing to sufficiently reinforce those that are more vulnerable to subsequent perturbations. Therefore, robust watermarking requires adapting both the embedding strength during denoising and the optimization priority across watermark dimensions. To address this problem, we present SAMP, a self-adaptive framework consisting of global margin regulation and vulnerability-sensitive allocation. Global margin regulation adjusts the embedding strength according to the separation between the target codeword and competing codewords, together with the estimated effects of common attacks. Vulnerability-sensitive allocation identifies watermark dimensions that are more easily weakened by local perturbations and gives them higher optimization priority. Experimental results demonstrate that SAMP achieves an average information recovery accuracy of 0.993. Compared with state-of-the-art methods, SAMP improves PSNR by 16.8% and reduces LPIPS by 47.1%. These results validate the effectiveness of SAMP for reliable and high-quality diffusion watermarking.",
+        "arxiv_id": "2611.00069",
+        "authors": [
+          "Yuhao Xue",
+          "Jiuan Zhou",
+          "Yu Cheng",
+          "Zhaoxia Yin"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-03",
+        "introduction_image": "https://arxiv.org/html/2611.00069v1/framework.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.00069",
+        "primary_category": "cs.CV",
+        "published": "2026-10-15",
+        "title": "SAMP: Self-Adaptive Margin Prioritization For Robust Diffusion Watermarking",
+        "updated": "2026-10-15"
       }
     },
     "Image and Video Watermarking": {
@@ -6375,6 +6395,25 @@
         "published": "2026-10-26",
         "title": "Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking",
         "updated": "2026-10-26"
+      },
+      "2611.01284": {
+        "abs_url": "https://arxiv.org/abs/2611.01284",
+        "abstract": "Character names in large language model (LLM) fiction concentrate on a handful of recurrent names such as 'Elara' and 'Elias', a measurable face of AI slop. Existing fixes either require logit access or retraining, or operate per request and cannot control concentration across a corpus. How much prompt-level strategies reduce concentration, and at what cost to name naturalness, has not been systematically measured. We present an empirical study of name-concentration control across eight strategies and introduce speculative naming, a fine-tuning-free method that adapts the draft-verify-reject paradigm of speculative decoding from tokens to names. The method requests candidate name-sets through verbalized sampling, scores them against a SlopTracker that combines a per-model fingerprint with a runtime counter, and selects through a temperature-controlled rule or its strict variant (HARD). We use 20 LLMs to generate 44,782 stories in four languages from text and visual stimuli (88,919 named characters), and measure concentration with a list-free collision metric (Slop Ratio, SR) decomposed into known and emergent components. List-based strategies do not remove slop: static banlists displace concentration to emergent names and more than halve the share of attested real names. Speculative naming removes it: the sampling scaffold alone cuts SR by 89% on average, the dynamic tracker brings the total reduction to 95%, mean collision probability falls from 7.3% to 0.4%, and known-name collisions hold at zero while naturalness stays close to baseline (42-69% attested by language) and within-story collisions drop from 4.3% to 0.2%. The strategy ranking is stable across languages, model families, and name-counting conventions. Name concentration is thus controllable at the corpus level without logit access or retraining; broader creative diversity beyond naming remains open.",
+        "arxiv_id": "2611.01284",
+        "authors": [
+          "Alejandro Mozo Quesada",
+          "Sergio Gálvez Rojas",
+          "Francisco López Valverde"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-03",
+        "introduction_image": "https://arxiv.org/html/2611.01284v1/fig17_name_trajectory_per_model.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.01284",
+        "primary_category": "cs.CL",
+        "published": "2026-10-31",
+        "title": "Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition",
+        "updated": "2026-10-31"
       }
     },
     "Text and LLM Watermarking": {
@@ -9359,6 +9398,25 @@
         "published": "2026-10-29",
         "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
         "updated": "2026-10-29"
+      },
+      "2611.02030": {
+        "abs_url": "https://arxiv.org/abs/2611.02030",
+        "abstract": "Recently, the detection of AI-generated content has been of particular importance in various fields of our society. For accountability purposes, many large language models (LLMs) have implicitly watermarked their outputs. Localizing such watermarks requires a piece of text to undergo an additional verification process. Existing localization methods typically rely on dense token-level scoring, making verification costly even when an LLM-generated watermark only sparsely appears. To tackle this problem, we design a new adaptive allocation strategy that first maintains broad document coverage and then progressively concentrates the detection budget on regions that exhibit stronger watermark evidence or are more likely to contain watermarked content. We then transform the statistical signals from the selected regions into e-values and employ the proposed token-weighted e-BH procedure to determine the localized watermark regions. The resulting framework is called BELL (Budgeted E-evidence Localization for LLM Watermarks). Theoretically, BELL can control the token-weighted false discovery rate (FDR) without independence assumptions across regions. Finally, extensive experimental results demonstrate that BELL consistently outperforms competing methods across multiple LLMs, datasets, and watermarking schemes.",
+        "arxiv_id": "2611.02030",
+        "authors": [
+          "Liyuan Wang",
+          "Xinsong Ma",
+          "Ziye Ma"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-03",
+        "introduction_image": "https://arxiv.org/html/2611.02030v1/figure-01.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.02030",
+        "primary_category": "cs.CR",
+        "published": "2026-11-01",
+        "title": "Query-efficient scan-and-search watermark localization",
+        "updated": "2026-11-01"
       }
     }
   }
