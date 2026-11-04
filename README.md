@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-03 21:44 CST &nbsp; · &nbsp; **Indexed:** 404 unique papers
+**Last updated:** 2026-11-04 21:53 CST &nbsp; · &nbsp; **Indexed:** 404 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 143 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 121 papers
 
-## Today's additions · 2026-11-03
+## Today's additions · 2026-11-04
 
 Papers first indexed during today's update, grouped by category.
 
@@ -25,23 +25,23 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#generative-ai-watermarking">Generative AI Watermarking</a></b> · 0 new papers</summary>
 
-- [SAMP: Self-Adaptive Margin Prioritization For Robust Diffusion Watermarking](https://arxiv.org/abs/2611.00069) — 2026-10-15
-
-</details>
-
-<details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
-
-- [Query-efficient scan-and-search watermark localization](https://arxiv.org/abs/2611.02030) — 2026-11-01
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition](https://arxiv.org/abs/2611.01284) — 2026-10-31
+- No new papers today.
+
+</details>
+
+<details>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+
+- No new papers today.
 
 </details>
 

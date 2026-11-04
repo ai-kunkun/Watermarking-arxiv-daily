@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-03T13:44:48.998383+00:00",
+    "last_updated": "2026-11-04T13:53:09.589758+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -9416,7 +9416,7 @@
         "primary_category": "cs.CR",
         "published": "2026-11-01",
         "title": "Query-efficient scan-and-search watermark localization",
-        "updated": "2026-11-01"
+        "updated": "2026-11-03"
       }
     }
   }
