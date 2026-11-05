@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-04 21:53 CST &nbsp; · &nbsp; **Indexed:** 404 unique papers
+**Last updated:** 2026-11-05 22:09 CST &nbsp; · &nbsp; **Indexed:** 405 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 135 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 143 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 121 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 144 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 122 papers
 
-## Today's additions · 2026-11-04
+## Today's additions · 2026-11-05
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Reconciling Privacy with Provenance for Language Model Watermarks](https://arxiv.org/abs/2611.06100) — 2026-11-04
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Reconciling Privacy with Provenance for Language Model Watermarks](https://arxiv.org/abs/2611.06100) — 2026-11-04
 
 </details>
 
@@ -252,10 +252,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**143 papers · newest first**
+**144 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Reconciling Privacy with Provenance for Language Model Watermarks**<br><sub>Elise L. Han, Tatsunori Hashimoto</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Reconciling Privacy with Provenance for Language Model Watermarks" src="https://arxiv.org/html/2611.06100v1/figures/c4-main.png"> | [Paper](https://arxiv.org/abs/2611.06100)<br>[PDF](https://arxiv.org/pdf/2611.06100)<br>`2611.06100` |
 | **Query-efficient scan-and-search watermark localization**<br><sub>Liyuan Wang, Xinsong Ma, Ziye Ma</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Query-efficient scan-and-search watermark localization" src="https://arxiv.org/html/2611.02030v1/figure-01.png"> | [Paper](https://arxiv.org/abs/2611.02030)<br>[PDF](https://arxiv.org/pdf/2611.02030)<br>`2611.02030` |
 | **TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races**<br><sub>Tom Sander, Pierre Fernandez, Itai Gat et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races" src="https://arxiv.org/html/2610.40613v1/x1.png"> | [Paper](https://arxiv.org/abs/2610.40613)<br>[PDF](https://arxiv.org/pdf/2610.40613)<br>`2610.40613` |
 | **A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models**<br><sub>Romina Omidi, Nima Naderloui, Yuan Hong et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.27653)<br>[PDF](https://arxiv.org/pdf/2610.27653)<br>`2610.27653` |
@@ -402,10 +403,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**121 papers · newest first**
+**122 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Reconciling Privacy with Provenance for Language Model Watermarks**<br><sub>Elise L. Han, Tatsunori Hashimoto</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Reconciling Privacy with Provenance for Language Model Watermarks" src="https://arxiv.org/html/2611.06100v1/figures/c4-main.png"> | [Paper](https://arxiv.org/abs/2611.06100)<br>[PDF](https://arxiv.org/pdf/2611.06100)<br>`2611.06100` |
 | **Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition**<br><sub>Alejandro Mozo Quesada, Sergio Gálvez Rojas, Francisco López Valverde</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition" src="https://arxiv.org/html/2611.01284v1/fig17_name_trajectory_per_model.png"> | [Paper](https://arxiv.org/abs/2611.01284)<br>[PDF](https://arxiv.org/pdf/2611.01284)<br>`2611.01284` |
 | **Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking**<br><sub>Hamed Poursiami, Farshad Soleiman, Ahmad Tahmasivand et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.34942)<br>[PDF](https://arxiv.org/pdf/2610.34942)<br>`2610.34942` |
 | **From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification**<br><sub>Haiyong Tang, Hanzhou Wu, Xinpeng Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="From Representations to Computational Trajectories: Intrinsic Fingerprinting for Large Language Model Provenance Verification" src="https://arxiv.org/html/2610.34675v1/Fig0_Motivation.png"> | [Paper](https://arxiv.org/abs/2610.34675)<br>[PDF](https://arxiv.org/pdf/2610.34675)<br>`2610.34675` |
