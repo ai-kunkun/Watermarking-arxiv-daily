@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-05 22:09 CST &nbsp; · &nbsp; **Indexed:** 405 unique papers
+**Last updated:** 2026-11-06 21:50 CST &nbsp; · &nbsp; **Indexed:** 405 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 144 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 122 papers
 
-## Today's additions · 2026-11-05
+## Today's additions · 2026-11-06
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
 
-- [Reconciling Privacy with Provenance for Language Model Watermarks](https://arxiv.org/abs/2611.06100) — 2026-11-04
+- No new papers today.
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [Reconciling Privacy with Provenance for Language Model Watermarks](https://arxiv.org/abs/2611.06100) — 2026-11-04
+- No new papers today.
 
 </details>
 
