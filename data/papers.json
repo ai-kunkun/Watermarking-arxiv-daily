@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-08T12:52:21.190445+00:00",
+    "last_updated": "2026-11-09T15:25:04.218027+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3781,7 +3781,7 @@
         "primary_category": "cs.CR",
         "published": "2026-10-15",
         "title": "Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks",
-        "updated": "2026-10-15"
+        "updated": "2026-11-06"
       },
       "2610.26682": {
         "abs_url": "https://arxiv.org/abs/2610.26682",
