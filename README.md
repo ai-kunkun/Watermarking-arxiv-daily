@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-09 23:25 CST &nbsp; · &nbsp; **Indexed:** 405 unique papers
+**Last updated:** 2026-11-10 22:27 CST &nbsp; · &nbsp; **Indexed:** 406 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 135 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 136 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 144 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 122 papers
 
-## Today's additions · 2026-11-09
+## Today's additions · 2026-11-10
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes](https://arxiv.org/abs/2611.11800) — 2026-11-09
 
 </details>
 
@@ -57,13 +57,14 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**135 papers · newest first**
+**136 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes**<br><sub>Guodong Liu, Lei Wang, Dongxu Liu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes" src="https://arxiv.org/html/2611.11800v1/samples/fig/UltraGuard3.png"> | [Paper](https://arxiv.org/abs/2611.11800)<br>[PDF](https://arxiv.org/pdf/2611.11800)<br>`2611.11800` |
 | **Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping**<br><sub>Marjan Beheshti, Ronghua Xu</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping" src="https://arxiv.org/html/2610.40204v1/fig1_concept_design.png"> | [Paper](https://arxiv.org/abs/2610.40204)<br>[PDF](https://arxiv.org/pdf/2610.40204)<br>`2610.40204` |
 | **Support-guided OOD Removal with Diffusion**<br><sub>Alireza Kheirandish, Sara Fridovich-Keil</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Support-guided OOD Removal with Diffusion" src="https://arxiv.org/html/2610.33194v1/figs/fig_teaser_notitles_per3_fresh_nocifar_drop6_a2w1p7_tight.png"> | [Paper](https://arxiv.org/abs/2610.33194)<br>[PDF](https://arxiv.org/pdf/2610.33194)<br>`2610.33194` |
-| **FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking**<br><sub>Yash Kulthe, Vishal Asnani, Shruti Agarwal et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking" src="https://arxiv.org/html/2610.30347v1/images/method_plus_cam_improvedv2.png"> | [Paper](https://arxiv.org/abs/2610.30347)<br>[PDF](https://arxiv.org/pdf/2610.30347)<br>`2610.30347` |
+| **FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking**<br><sub>Yash Kulthe, Shruti Agarwal, Vishal Asnani et al.</sub> | NeurIPS 2026<br>**2026** | <img width="400" alt="FiLM-CAM: Keyed Feature Modulation for Conditional-Access Watermarking" src="https://arxiv.org/html/2610.30347v1/images/method_plus_cam_improvedv2.png"> | [Paper](https://arxiv.org/abs/2610.30347)<br>[PDF](https://arxiv.org/pdf/2610.30347)<br>`2610.30347` |
 | **BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting**<br><sub>Hao Chen, Junnan Xu</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="BrushOff: Stroke-Based Re-rendering as a Watermark Removal Attack on Painting" src="https://arxiv.org/html/2610.26682v1/fig0_examples.png"> | [Paper](https://arxiv.org/abs/2610.26682)<br>[PDF](https://arxiv.org/pdf/2610.26682)<br>`2610.26682` |
 | **Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks**<br><sub>Yifan Liao, Zhen Sun, Zhicong Huang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Erase the Mark, Preserve the Motion: Temporally Consistent Removal of Video Watermarks" src="https://arxiv.org/html/2610.22457v1/intro.png"> | [Paper](https://arxiv.org/abs/2610.22457)<br>[PDF](https://arxiv.org/pdf/2610.22457)<br>`2610.22457` |
 | **A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation**<br><sub>Jefferson David Rodriguez Chivata, Davide Ghiani, Simone Maurizio La Cava et al.</sub> | IEEE International Joint Conference on Biometrics (IJCB 2026)<br>**2026** | <img width="400" alt="A Valid Watermark Is Not a Valid Identity: Spatial-Spectral Adversarial Face Evasion with Watermark Preservation" src="https://arxiv.org/html/2610.20278v1/figures/Pipeline_Adversarial.png"> | [Paper](https://arxiv.org/abs/2610.20278)<br>[PDF](https://arxiv.org/pdf/2610.20278)<br>`2610.20278` |
@@ -300,7 +301,7 @@ Papers first indexed during today's update, grouped by category.
 | **AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation**<br><sub>Saifur Rahman Tamim, Amir Labib Khan</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="AI Watermark Evidence Fails Forensic Readiness: An Empirical Evaluation" src="https://arxiv.org/html/2607.16010v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.16010)<br>[PDF](https://arxiv.org/pdf/2607.16010)<br>`2607.16010` |
 | **WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency**<br><sub>Z Sun, Q Jiang, S Sheng et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WaterMoE: Expert-Routing-based Watermarking for High Fidelity and Efficiency" src="https://arxiv.org/html/2607.13099v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.13099)<br>[PDF](https://arxiv.org/pdf/2607.13099)<br>`2607.13099` |
 | **Preserving Structure, Strengthening Signals: A Grammar-Driven Approach to Optimize the Trade-off Between Quality and Detectability in Code Watermarking**<br><sub>Licheng Yu, Aiwei Liu, Songze Li</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Preserving Structure, Strengthening Signals: A Grammar-Driven Approach to Optimize the Trade-off Between Quality and Detectability in Code Watermarking" src="https://arxiv.org/html/2607.10210v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.10210)<br>[PDF](https://arxiv.org/pdf/2607.10210)<br>`2607.10210` |
-| **LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization**<br><sub>Huy Phan, Kieu Dang, Ojaswi Dulal et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization" src="https://arxiv.org/html/2607.10103v1/figurellm.png"> | [Paper](https://arxiv.org/abs/2607.10103)<br>[PDF](https://arxiv.org/pdf/2607.10103)<br>`2607.10103` |
+| **LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization**<br><sub>Huy Phan, Kieu Dang, Ojaswi Dulal et al.</sub> | the 13th IEEE Special Session on Privacy and Security of Big Data (PSBD 2026), IEEE BigData 2026<br>**2026** | <img width="400" alt="LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization" src="https://arxiv.org/html/2607.10103v1/figurellm.png"> | [Paper](https://arxiv.org/abs/2607.10103)<br>[PDF](https://arxiv.org/pdf/2607.10103)<br>`2607.10103` |
 | **Beyond Heuristic Tuning: Power-Calibrated LLM Watermarking**<br><sub>Xiaopu Wang, Zelin He, Chengyuan Liu et al.</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Beyond Heuristic Tuning: Power-Calibrated LLM Watermarking" src="https://arxiv.org/html/2607.05694v1/x1.png"> | [Paper](https://arxiv.org/abs/2607.05694)<br>[PDF](https://arxiv.org/pdf/2607.05694)<br>`2607.05694` |
 | **Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings**<br><sub>Jonas Schäfer, Cezary Pilaszewicz, Gerhard Wunder</sub> | Findings of EMNLP 2026<br>**2026** | — | [Paper](https://arxiv.org/abs/2606.31602)<br>[PDF](https://arxiv.org/pdf/2606.31602)<br>`2606.31602` |
 | **CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking**<br><sub>Joeun Kim, HoEun Kim, Young-Sik Kim</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking" src="https://arxiv.org/html/2606.24163v1/x1.png"> | [Paper](https://arxiv.org/abs/2606.24163)<br>[PDF](https://arxiv.org/pdf/2606.24163)<br>`2606.24163` |
@@ -349,7 +350,7 @@ Papers first indexed during today's update, grouped by category.
 | **Adaptive Testing for Segmenting Watermarked Texts From Language Models**<br><sub>Xingchi Li, Xiaochi Liu, Guanxun Li</sub> | arXiv · stat.ML<br>**2025** | <img width="400" alt="Adaptive Testing for Segmenting Watermarked Texts From Language Models" src="https://arxiv.org/html/2511.06645/x1.png"> | [Paper](https://arxiv.org/abs/2511.06645)<br>[PDF](https://arxiv.org/pdf/2511.06645)<br>`2511.06645` |
 | **Watermarking Large Language Models in Europe: Interpreting the AI Act in Light of Technology**<br><sub>Thomas Souverain</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Watermarking Large Language Models in Europe: Interpreting the AI Act in Light of Technology" src="https://arxiv.org/html/2511.03641/schema_watermarking_during_inference_10_28.png"> | [Paper](https://arxiv.org/abs/2511.03641)<br>[PDF](https://arxiv.org/pdf/2511.03641)<br>`2511.03641` |
 | **PVMark: Enabling Public Verifiability for LLM Watermarking Schemes**<br><sub>Haohua Duan, Liyao Xiang, Xin Zhang</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="PVMark: Enabling Public Verifiability for LLM Watermarking Schemes" src="https://arxiv.org/html/2510.26274/x1.png"> | [Paper](https://arxiv.org/abs/2510.26274)<br>[PDF](https://arxiv.org/pdf/2510.26274)<br>`2510.26274` |
-| **PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs**<br><sub>Jiaqi Xue, Yifei Zhao, Mansour Al Ghanim et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs" src="https://arxiv.org/html/2510.23891/x1.png"> | [Paper](https://arxiv.org/abs/2510.23891)<br>[PDF](https://arxiv.org/pdf/2510.23891)<br>`2510.23891` |
+| **OpenMarkX: An Extensible Platform for Watermarking Open-Source Model and Agent Outputs**<br><sub>Jiaqi Xue, Yifei Zhao, Mansour Al Ghanim et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="OpenMarkX: An Extensible Platform for Watermarking Open-Source Model and Agent Outputs" src="https://arxiv.org/html/2510.23891/x1.png"> | [Paper](https://arxiv.org/abs/2510.23891)<br>[PDF](https://arxiv.org/pdf/2510.23891)<br>`2510.23891` |
 | **Optimal Detection for Language Watermarks with Pseudorandom Collision**<br><sub>T. Tony Cai, Xiang Li, Qi Long et al.</sub> | arXiv · math.ST<br>**2025** | <img width="400" alt="Optimal Detection for Language Watermarks with Pseudorandom Collision" src="https://arxiv.org/html/2510.22007/x1.png"> | [Paper](https://arxiv.org/abs/2510.22007)<br>[PDF](https://arxiv.org/pdf/2510.22007)<br>`2510.22007` |
 | **A Reinforcement Learning Framework for Robust and Secure LLM Watermarking**<br><sub>Li An, Yujian Liu, Yepeng Liu et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="A Reinforcement Learning Framework for Robust and Secure LLM Watermarking" src="https://arxiv.org/html/2510.21053/x1.png"> | [Paper](https://arxiv.org/abs/2510.21053)<br>[PDF](https://arxiv.org/pdf/2510.21053)<br>`2510.21053` |
 | **Position: LLM Watermarking Should Align Stakeholders' Incentives for Practical Adoption**<br><sub>Yepeng Liu, Xuandong Zhao, Dawn Song et al.</sub> | arXiv · cs.CR<br>**2025** | <img width="400" alt="Position: LLM Watermarking Should Align Stakeholders&#x27; Incentives for Practical Adoption" src="https://arxiv.org/html/2510.18333v2/x1.png"> | [Paper](https://arxiv.org/abs/2510.18333)<br>[PDF](https://arxiv.org/pdf/2510.18333)<br>`2510.18333` |
