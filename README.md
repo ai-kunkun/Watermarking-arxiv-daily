@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-10 22:27 CST &nbsp; · &nbsp; **Indexed:** 406 unique papers
+**Last updated:** 2026-11-11 21:41 CST &nbsp; · &nbsp; **Indexed:** 407 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 136 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 144 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 122 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 123 papers
 
-## Today's additions · 2026-11-10
+## Today's additions · 2026-11-11
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes](https://arxiv.org/abs/2611.11800) — 2026-11-09
+- No new papers today.
 
 </details>
 
@@ -39,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences](https://arxiv.org/abs/2611.14010) — 2026-11-10
 
 </details>
 
@@ -291,7 +291,7 @@ Papers first indexed during today's update, grouped by category.
 | **Watermarks Without Verification: AI Text Watermarking After the EU AI Act**<br><sub>Alexander Nemecek, Vipin Chaudhary, Erman Ayday</sub> | arXiv · cs.CY<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.09604)<br>[PDF](https://arxiv.org/pdf/2609.09604)<br>`2609.09604` |
 | **WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading**<br><sub>Gang-Hyun Park, Ju-Hyeong Lee, Hee-Youl Kwak et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading" src="https://arxiv.org/html/2609.02177v1/figures/scheme_diagram_new.png"> | [Paper](https://arxiv.org/abs/2609.02177)<br>[PDF](https://arxiv.org/pdf/2609.02177)<br>`2609.02177` |
 | **WoE Wrote It? Watermarking Mixture-of-Experts LLMs for Black-Box Text Provenance**<br><sub>Jona te Lintelo, Lichao Wu, Stjepan Picek</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2608.29151)<br>[PDF](https://arxiv.org/pdf/2608.29151)<br>`2608.29151` |
-| **Auditing Cross-Lingual Fairness in Language Model Watermarking**<br><sub>Alexander Nemecek, Osama Zafar, Debargha Ganguly et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Auditing Cross-Lingual Fairness in Language Model Watermarking" src="https://arxiv.org/html/2608.20047v1/figure_q_5_2_combined_xglm_base.png"> | [Paper](https://arxiv.org/abs/2608.20047)<br>[PDF](https://arxiv.org/pdf/2608.20047)<br>`2608.20047` |
+| **Auditing Cross-Lingual Fairness in Language Model Watermarking**<br><sub>Alexander Nemecek, Osama Zafar, Debargha Ganguly et al.</sub> | NeurIPS 2026 Evaluations &amp; Datasets Track<br>**2026** | <img width="400" alt="Auditing Cross-Lingual Fairness in Language Model Watermarking" src="https://arxiv.org/html/2608.20047v1/figure_q_5_2_combined_xglm_base.png"> | [Paper](https://arxiv.org/abs/2608.20047)<br>[PDF](https://arxiv.org/pdf/2608.20047)<br>`2608.20047` |
 | **Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks**<br><sub>Xiaoyan Feng, Yanjun Zhang, He Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks" src="https://arxiv.org/html/2608.12713v1/teaser.png"> | [Paper](https://arxiv.org/abs/2608.12713)<br>[PDF](https://arxiv.org/pdf/2608.12713)<br>`2608.12713` |
 | **WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking**<br><sub>Song Xiao, Yuqi Yuan, Yanshuo Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking" src="https://arxiv.org/html/2608.06416v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.06416)<br>[PDF](https://arxiv.org/pdf/2608.06416)<br>`2608.06416` |
 | **DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling**<br><sub>Haocheng Fu, Yuqi Qian, Luyao Wang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="DHMark: Public-Key Watermarking for LLM-Generated Text via Diffie-Hellman-Guided Rejection Sampling" src="https://arxiv.org/html/2608.03093v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.03093)<br>[PDF](https://arxiv.org/pdf/2608.03093)<br>`2608.03093` |
@@ -404,10 +404,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**122 papers · newest first**
+**123 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences**<br><sub>Fantong Meng, Chengjie Sun, Shuangjia Yang et al.</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.14010)<br>[PDF](https://arxiv.org/pdf/2611.14010)<br>`2611.14010` |
 | **Reconciling Privacy with Provenance for Language Model Watermarks**<br><sub>Elise L. Han, Tatsunori Hashimoto</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Reconciling Privacy with Provenance for Language Model Watermarks" src="https://arxiv.org/html/2611.06100v1/figures/c4-main.png"> | [Paper](https://arxiv.org/abs/2611.06100)<br>[PDF](https://arxiv.org/pdf/2611.06100)<br>`2611.06100` |
 | **Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition**<br><sub>Alejandro Mozo Quesada, Sergio Gálvez Rojas, Francisco López Valverde</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition" src="https://arxiv.org/html/2611.01284v1/fig17_name_trajectory_per_model.png"> | [Paper](https://arxiv.org/abs/2611.01284)<br>[PDF](https://arxiv.org/pdf/2611.01284)<br>`2611.01284` |
 | **Intellectual Property Protection of Hyperdimensional Computing Classifiers: Black-Box Ownership Verification via Model Watermarking**<br><sub>Hamed Poursiami, Farshad Soleiman, Ahmad Tahmasivand et al.</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2610.34942)<br>[PDF](https://arxiv.org/pdf/2610.34942)<br>`2610.34942` |
@@ -424,7 +425,7 @@ Papers first indexed during today's update, grouped by category.
 | **Fingerprinting Multimodal Large Language Models**<br><sub>Chao Huang, Meng Tong, Kejiang Chen</sub> | ACM Multimedia 2026 (MM '26) as an oral presentation<br>**2026** | <img width="400" alt="Fingerprinting Multimodal Large Language Models" src="https://arxiv.org/html/2609.20457v1/framework.png"> | [Paper](https://arxiv.org/abs/2609.20457)<br>[PDF](https://arxiv.org/pdf/2609.20457)<br>`2609.20457` |
 | **Predictive Likelihood Ratios for Language Model Watermark Detection**<br><sub>Li Ma</sub> | arXiv · stat.ML<br>**2026** | — | [Paper](https://arxiv.org/abs/2609.15657)<br>[PDF](https://arxiv.org/pdf/2609.15657)<br>`2609.15657` |
 | **Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models**<br><sub>Feng Jiang, Zuobin Xiong, An Huang et al.</sub> | the IEEE International Conference on Data Mining (ICDM) 2026<br>**2026** | <img width="400" alt="Membership is Ownership: A Robust Ownership Verification Framework for Diffusion Models" src="https://arxiv.org/html/2608.28929v1/MiO-framework.png"> | [Paper](https://arxiv.org/abs/2608.28929)<br>[PDF](https://arxiv.org/pdf/2608.28929)<br>`2608.28929` |
-| **Auditing Cross-Lingual Fairness in Language Model Watermarking**<br><sub>Alexander Nemecek, Osama Zafar, Debargha Ganguly et al.</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Auditing Cross-Lingual Fairness in Language Model Watermarking" src="https://arxiv.org/html/2608.20047v1/figure_q_5_2_combined_xglm_base.png"> | [Paper](https://arxiv.org/abs/2608.20047)<br>[PDF](https://arxiv.org/pdf/2608.20047)<br>`2608.20047` |
+| **Auditing Cross-Lingual Fairness in Language Model Watermarking**<br><sub>Alexander Nemecek, Osama Zafar, Debargha Ganguly et al.</sub> | NeurIPS 2026 Evaluations &amp; Datasets Track<br>**2026** | <img width="400" alt="Auditing Cross-Lingual Fairness in Language Model Watermarking" src="https://arxiv.org/html/2608.20047v1/figure_q_5_2_combined_xglm_base.png"> | [Paper](https://arxiv.org/abs/2608.20047)<br>[PDF](https://arxiv.org/pdf/2608.20047)<br>`2608.20047` |
 | **Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation**<br><sub>Yuanmin Huang, Chen Chen, Geng Hong et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Fingerprinting Text-to-Image Diffusion Models via Collapsed Generation" src="https://arxiv.org/html/2608.11732v1/intro.png"> | [Paper](https://arxiv.org/abs/2608.11732)<br>[PDF](https://arxiv.org/pdf/2608.11732)<br>`2608.11732` |
 | **WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking**<br><sub>Song Xiao, Yuqi Yuan, Yanshuo Zhang et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking" src="https://arxiv.org/html/2608.06416v1/x1.png"> | [Paper](https://arxiv.org/abs/2608.06416)<br>[PDF](https://arxiv.org/pdf/2608.06416)<br>`2608.06416` |
 | **Synchronization-Free Algebraic Fingerprints for Large Language Models: From Autoregressive to Diffusion Models**<br><sub>Jaroslaw Janas, Josef Pieprzyk, Pawel Morawiecki</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2607.16648)<br>[PDF](https://arxiv.org/pdf/2607.16648)<br>`2607.16648` |

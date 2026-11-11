@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-10T14:27:21.307995+00:00",
+    "last_updated": "2026-11-11T13:41:29.418011+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -6118,7 +6118,7 @@
       },
       "2608.20047": {
         "abs_url": "https://arxiv.org/abs/2608.20047",
-        "abstract": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language single-paradigm evaluation cannot surface. Across detection and quality, observed disparity is predominantly between-family on the typological partition, indicating that cross-lingual fairness gaps in watermarking are structural to language properties rather than idiosyncratic to particular languages.",
+        "abstract": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language, single-paradigm evaluation cannot surface. Against a shape-matched null, detection disparity is predominantly between-family on the typological partition, indicating that detection gaps are structural to language properties rather than idiosyncratic to particular languages; quality disparity is large but not reliably family-structured.",
         "arxiv_id": "2608.20047",
         "authors": [
           "Alexander Nemecek",
@@ -6128,7 +6128,7 @@
           "Vipin Chaudhary",
           "Erman Ayday"
         ],
-        "comment": "24 pages",
+        "comment": "Accepted at NeurIPS 2026 Evaluations & Datasets Track",
         "first_seen": "2026-08-22",
         "introduction_image": "https://arxiv.org/html/2608.20047v1/figure_q_5_2_combined_xglm_base.png",
         "journal_reference": null,
@@ -6136,7 +6136,7 @@
         "primary_category": "cs.CL",
         "published": "2026-08-20",
         "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
-        "updated": "2026-08-20"
+        "updated": "2026-11-10"
       },
       "2608.28929": {
         "abs_url": "https://arxiv.org/abs/2608.28929",
@@ -6456,6 +6456,28 @@
         "published": "2026-11-04",
         "title": "Reconciling Privacy with Provenance for Language Model Watermarks",
         "updated": "2026-11-04"
+      },
+      "2611.14010": {
+        "abs_url": "https://arxiv.org/abs/2611.14010",
+        "abstract": "Users of model APIs and third-party platforms often rely on the declared model name to identify the model responding to their requests. However, the actual model may differ from the declared one, motivating identity verification based on observable outputs. Previous studies have shown that preferences in simple numerical-choice tasks can serve as model fingerprints. We investigate whether a single fixed-length integer sequence can combine multiple numerical observations to identify its source model. For this task, we introduce NumPrint, a benchmark of 5,036 answers from 51 models, collected using Chinese, Japanese, and English prompts that request 294 integers between 1 and 355 in one response. We propose the Shallow MLP and Causal Transformer (SMCT) to capture aggregate numerical preferences and behavioral patterns in generated sequences. In 51-class closed-set evaluation, SMCT achieves 92.72% accuracy from a single sequence, outperforming all methods compared in this study. Using two and four answers increases accuracy to 96.06% and 97.12%, respectively. These results show that a single integer sequence contains useful model fingerprints and that additional answers further improve identification.",
+        "arxiv_id": "2611.14010",
+        "authors": [
+          "Fantong Meng",
+          "Chengjie Sun",
+          "Shuangjia Yang",
+          "Zhiyuan Zhao",
+          "Yansheng Pei",
+          "Xinyang Li"
+        ],
+        "comment": "17 pages including appendices, 6 figures",
+        "first_seen": "2026-11-11",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.14010",
+        "primary_category": "cs.CL",
+        "published": "2026-11-10",
+        "title": "One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences",
+        "updated": "2026-11-10"
       }
     },
     "Text and LLM Watermarking": {
@@ -8755,7 +8777,7 @@
       },
       "2608.20047": {
         "abs_url": "https://arxiv.org/abs/2608.20047",
-        "abstract": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language single-paradigm evaluation cannot surface. Across detection and quality, observed disparity is predominantly between-family on the typological partition, indicating that cross-lingual fairness gaps in watermarking are structural to language properties rather than idiosyncratic to particular languages.",
+        "abstract": "Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine conclusions cross-lingually. We propose an evaluation framework with four components: detection thresholds calibrated empirically per deployment context, a threshold-independent companion measurement that distinguishes calibration failures from detection failures, three disjoint quality measurement paradigms (distributional, paired-semantic, and reference-perplexity), and a generalized-entropy decomposition of cross-language disparity over a typological family partition. Applied to six watermarking schemes, three open-weight generators, eleven languages spanning four scripts and eight typological families, and both base and instruction-tuned regimes, the framework reveals failure modes that single-language, single-paradigm evaluation cannot surface. Against a shape-matched null, detection disparity is predominantly between-family on the typological partition, indicating that detection gaps are structural to language properties rather than idiosyncratic to particular languages; quality disparity is large but not reliably family-structured.",
         "arxiv_id": "2608.20047",
         "authors": [
           "Alexander Nemecek",
@@ -8765,7 +8787,7 @@
           "Vipin Chaudhary",
           "Erman Ayday"
         ],
-        "comment": "24 pages",
+        "comment": "Accepted at NeurIPS 2026 Evaluations & Datasets Track",
         "first_seen": "2026-08-22",
         "introduction_image": "https://arxiv.org/html/2608.20047v1/figure_q_5_2_combined_xglm_base.png",
         "journal_reference": null,
@@ -8773,7 +8795,7 @@
         "primary_category": "cs.CL",
         "published": "2026-08-20",
         "title": "Auditing Cross-Lingual Fairness in Language Model Watermarking",
-        "updated": "2026-08-20"
+        "updated": "2026-11-10"
       },
       "2608.29151": {
         "abs_url": "https://arxiv.org/abs/2608.29151",
