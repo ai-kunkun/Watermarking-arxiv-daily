@@ -4,7 +4,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-11 21:41 CST &nbsp; · &nbsp; **Indexed:** 407 unique papers
+**Last updated:** 2026-11-12 22:44 CST &nbsp; · &nbsp; **Indexed:** 407 unique papers
 
 ## Categories
 
@@ -13,7 +13,7 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 144 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 123 papers
 
-## Today's additions · 2026-11-11
+## Today's additions · 2026-11-12
 
 Papers first indexed during today's update, grouped by category.
 
@@ -39,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences](https://arxiv.org/abs/2611.14010) — 2026-11-10
+- No new papers today.
 
 </details>
 
