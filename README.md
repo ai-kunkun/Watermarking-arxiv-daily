@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-12 22:44 CST &nbsp; · &nbsp; **Indexed:** 407 unique papers
+**Last updated:** 2026-11-13 22:02 CST &nbsp; · &nbsp; **Indexed:** 409 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 136 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 144 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 146 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 123 papers
 
-## Today's additions · 2026-11-12
+## Today's additions · 2026-11-13
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,9 +32,10 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 2 new papers</summary>
 
-- No new papers today.
+- [Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity](https://arxiv.org/abs/2611.17035) — 2026-11-12
+- [Look It Up: Multi-bit LLM Watermarking via Codebook Search](https://arxiv.org/abs/2611.16890) — 2026-11-12
 
 </details>
 
@@ -253,10 +254,12 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**144 papers · newest first**
+**146 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity**<br><sub>Kuancheng Ye</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity" src="https://arxiv.org/html/2611.17035v1/figures/fig_sequential.png"> | [Paper](https://arxiv.org/abs/2611.17035)<br>[PDF](https://arxiv.org/pdf/2611.17035)<br>`2611.17035` |
+| **Look It Up: Multi-bit LLM Watermarking via Codebook Search**<br><sub>Jarosław Janas, Paweł Morawiecki, Josef Pieprzyk</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Look It Up: Multi-bit LLM Watermarking via Codebook Search" src="https://arxiv.org/html/2611.16890v1/images/watermark_codebook_scheme.png"> | [Paper](https://arxiv.org/abs/2611.16890)<br>[PDF](https://arxiv.org/pdf/2611.16890)<br>`2611.16890` |
 | **Reconciling Privacy with Provenance for Language Model Watermarks**<br><sub>Elise L. Han, Tatsunori Hashimoto</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Reconciling Privacy with Provenance for Language Model Watermarks" src="https://arxiv.org/html/2611.06100v1/figures/c4-main.png"> | [Paper](https://arxiv.org/abs/2611.06100)<br>[PDF](https://arxiv.org/pdf/2611.06100)<br>`2611.06100` |
 | **Query-efficient scan-and-search watermark localization**<br><sub>Liyuan Wang, Xinsong Ma, Ziye Ma</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Query-efficient scan-and-search watermark localization" src="https://arxiv.org/html/2611.02030v1/figure-01.png"> | [Paper](https://arxiv.org/abs/2611.02030)<br>[PDF](https://arxiv.org/pdf/2611.02030)<br>`2611.02030` |
 | **TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races**<br><sub>Tom Sander, Pierre Fernandez, Itai Gat et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races" src="https://arxiv.org/html/2610.40613v1/x1.png"> | [Paper](https://arxiv.org/abs/2610.40613)<br>[PDF](https://arxiv.org/pdf/2610.40613)<br>`2610.40613` |

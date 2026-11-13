@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-12T14:44:38.312923+00:00",
+    "last_updated": "2026-11-13T14:02:23.098117+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -9499,6 +9499,42 @@
         "published": "2026-11-04",
         "title": "Reconciling Privacy with Provenance for Language Model Watermarks",
         "updated": "2026-11-04"
+      },
+      "2611.16890": {
+        "abs_url": "https://arxiv.org/abs/2611.16890",
+        "abstract": "Attributing short LLM-generated texts to a specific source remains challenging for existing multi-bit watermarking methods, which often require long generations or costly decoding to recover payloads reliably. We propose a codebook-based watermarking scheme that maps an $n$-bit payload to a longer $u$-bit codeword and embeds it during generation through token-level logit biasing. During extraction, the received bit sequence is matched to the nearest codeword in a precomputed secret codebook using Hamming or Levenshtein distance. Experiments show that our method achieves near-perfect recovery for 16-24 bit payloads on 200-token generations and strong performance on 127-token generations for base models. Results are weaker on some instruction-tuned models with very short texts, where low-entropy output distributions reduce embedding reliability. We also study a BCH-based variant that avoids codebook storage but generally reduces robustness. The Levenshtein variant improves resilience to deletions and light paraphrasing, while insertions and stronger rewrites remain challenging. We analyze collision probability, codeword separation, extraction time, tokenization consistency, and text quality, highlighting both the practicality and limitations of codebook-based watermarking for short-form attribution.",
+        "arxiv_id": "2611.16890",
+        "authors": [
+          "Jarosław Janas",
+          "Paweł Morawiecki",
+          "Josef Pieprzyk"
+        ],
+        "comment": "16 pages, 8 figures, 6 tables. Submitted to IEEE Transactions on Information Forensics and Security. Code: https://github.com/jaroslawjanas/llmw-codebook",
+        "first_seen": "2026-11-13",
+        "introduction_image": "https://arxiv.org/html/2611.16890v1/images/watermark_codebook_scheme.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.16890",
+        "primary_category": "cs.CR",
+        "published": "2026-11-12",
+        "title": "Look It Up: Multi-bit LLM Watermarking via Codebook Search",
+        "updated": "2026-11-12"
+      },
+      "2611.17035": {
+        "abs_url": "https://arxiv.org/abs/2611.17035",
+        "abstract": "Watermark detectors decide whether one document came from a watermarked language model. Auditors often need a different number: the share of a corpus that did. We study this share for Gumbel-max and green-list (KGW) watermarks when every document may have been edited by an unknown amount. Without restrictions on the edits, the upper end of the identified set is 1. Combining a known least-favourable next-token distribution with a sequential coupling, we derive a power envelope indexed by three budgets: a retention floor, an entropy budget, and a budget for in-place substitutions, which for Gumbel-max make edited positions look less watermarked than human text. The envelope gives an identified set that is sharp for the alternatives it dominates, finite-sample bounds on the realized share of a fixed corpus with either the exact null or a null calibrated on an independent human sample, and confidence sequences for streams. In Gumbel-max simulations where the envelope binds, the bounds cover, and the threshold that maximizes the gap between envelope and null is generally as tight as twelve thresholds. On text from OPT-1.3B and Qwen3-1.7B, 12,000 fresh human documents scored under three keys show no robust departure from the exact null, and all bounds covered in resampling trials from finite pools of documents with random edits, substitutions and paraphrases; at a share of 0.2 the exact-null bound is about [0.14,0.38]. These results are fragile in two ways we make precise. LLM-paraphrased KGW pools fall below the envelope, yet at 2000 documents the bounds still covered in these trials. A simulated null error of 0.01, comparable to the largest deviation we observed at our thresholds, is likewise harmless at 2000 documents but breaks exact-null coverage at 100,000; a null calibrated on an independent human sample keeps coverage there, but needs a large reference sample to stay narrow.",
+        "arxiv_id": "2611.17035",
+        "authors": [
+          "Kuancheng Ye"
+        ],
+        "comment": "31 pages, 3 figures, 8 tables. Code and results: https://github.com/YYKKCC-kevin/watermark-prevalence",
+        "first_seen": "2026-11-13",
+        "introduction_image": "https://arxiv.org/html/2611.17035v1/figures/fig_sequential.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.17035",
+        "primary_category": "stat.ML",
+        "published": "2026-11-12",
+        "title": "Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity",
+        "updated": "2026-11-12"
       }
     }
   }
