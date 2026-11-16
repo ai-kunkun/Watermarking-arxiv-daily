@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-15T13:32:36.881139+00:00",
+    "last_updated": "2026-11-16T14:59:32.851453+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3881,6 +3881,27 @@
         "published": "2026-11-09",
         "title": "Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes",
         "updated": "2026-11-09"
+      },
+      "2611.18363": {
+        "abs_url": "https://arxiv.org/abs/2611.18363",
+        "abstract": "We explore the adaptability of neural image watermarking models; the extent to which one watermarking method can be transformed into another through lightweight adaptation. We introduce a framework that enables encoder-decoder watermarking architectures to become modular and upgradable, supporting multiple watermarking styles without re-training full models. Adaptation is performed by attaching a compact parameter-efficient adapter and fine-tuning under a multi-domain residual alignment loss (spatial, gradient, and frequency) while preserving bit accuracy via a secret-loss term. We evaluate this approach across a suite of recent watermarking models, including TrustMark, InvisMark, RoSteALS, HiDDeN, and WAM, demonstrating that adapted encoders closely reproduce target residuals and that adapted decoders recover messages with near-optimal accuracy under standard augmentations and distortions. We show that cross-model adaptation, with applications in interoperable and upgradable watermarking, can be achieved with as few as 1-2M trainable parameters per component (e.g., the 2M decoder adapter used in our multi-decoder inference pipeline).",
+        "arxiv_id": "2611.18363",
+        "authors": [
+          "Mehrdad Saberi",
+          "Vishal Asnani",
+          "Shruti Agarwal",
+          "Soheil Feizi",
+          "John Collomosse"
+        ],
+        "comment": "Accepted to WACV 2027",
+        "first_seen": "2026-11-16",
+        "introduction_image": "https://arxiv.org/html/2611.18363v1/method_overview_v2.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.18363",
+        "primary_category": "cs.CV",
+        "published": "2026-11-13",
+        "title": "Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters",
+        "updated": "2026-11-13"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -6478,6 +6499,23 @@
         "published": "2026-11-10",
         "title": "One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences",
         "updated": "2026-11-10"
+      },
+      "2611.18104": {
+        "abs_url": "https://arxiv.org/abs/2611.18104",
+        "abstract": "The fingerprint by which a classifier recognizes the LLM behind a text is usually treated as a fixed property of the model. We show that it is contagious: a model that continues a conversation begun by another model inherits that model's fingerprint. This undermines audits of API relays, which can serve the first turns of a conversation with the model a customer pays for and silently hand the rest to a cheaper one. After such a handoff, detection of the substitute by a text classifier drops from 0.97 to 0.72 (DeepSeek replacing Claude Sonnet) and from 0.87 to 0.54 for a same-vendor downgrade (Haiku), and retraining on handoff data repairs only substitutes seen in training. Preregistered experiments trace the contagion to imitation of the history's style. History also moves a model away from its own fingerprint: active probes are not camouflaged, but when calibrated on fresh conversations they flag \\emph{honest} models on long contexts at rates up to 1.00, and a standard MMD equality test rejects all nine models we test. Both failures come from comparing a history-dependent reply with a history-free reference. We propose \\textsc{Lineup}, which samples references from the claimed model \\emph{on the same history} and tests the audited reply by its rank among them. \\textsc{Lineup} controls false positives by exchangeability and needs no fitted threshold or log-probabilities. With contemporaneous references on two closed models, its false-positive rate is 0.056 (preregistered bound 0.10), and it detects 0.81 of substitute sessions across six pairs after four audited turns.",
+        "arxiv_id": "2611.18104",
+        "authors": [
+          "Zailong Tian"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-16",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.18104",
+        "primary_category": "cs.CL",
+        "published": "2026-11-13",
+        "title": "Contagious Fingerprints: When LLMs Inherit Another Model's Identity",
+        "updated": "2026-11-13"
       }
     },
     "Text and LLM Watermarking": {

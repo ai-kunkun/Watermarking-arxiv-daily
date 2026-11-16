@@ -4,23 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-15 21:32 CST &nbsp; · &nbsp; **Indexed:** 409 unique papers
+**Last updated:** 2026-11-16 22:59 CST &nbsp; · &nbsp; **Indexed:** 411 unique papers
 
 ## Categories
 
-- [Image and Video Watermarking](#image-and-video-watermarking) · 136 papers
+- [Image and Video Watermarking](#image-and-video-watermarking) · 137 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 146 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 123 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 124 papers
 
-## Today's additions · 2026-11-15
+## Today's additions · 2026-11-16
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters](https://arxiv.org/abs/2611.18363) — 2026-11-13
 
 </details>
 
@@ -39,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [Contagious Fingerprints: When LLMs Inherit Another Model's Identity](https://arxiv.org/abs/2611.18104) — 2026-11-13
 
 </details>
 
@@ -57,10 +57,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Image and Video Watermarking
 
-**136 papers · newest first**
+**137 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters**<br><sub>Mehrdad Saberi, Vishal Asnani, Shruti Agarwal et al.</sub> | WACV 2027<br>**2027** | <img width="400" alt="Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters" src="https://arxiv.org/html/2611.18363v1/method_overview_v2.png"> | [Paper](https://arxiv.org/abs/2611.18363)<br>[PDF](https://arxiv.org/pdf/2611.18363)<br>`2611.18363` |
 | **Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes**<br><sub>Guodong Liu, Lei Wang, Dongxu Liu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes" src="https://arxiv.org/html/2611.11800v1/samples/fig/UltraGuard3.png"> | [Paper](https://arxiv.org/abs/2611.11800)<br>[PDF](https://arxiv.org/pdf/2611.11800)<br>`2611.11800` |
 | **Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping**<br><sub>Marjan Beheshti, Ronghua Xu</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Attack-Resilient Multi-Bit Image Watermarking Framework via Latent Coordinate Sign Clamping" src="https://arxiv.org/html/2610.40204v1/fig1_concept_design.png"> | [Paper](https://arxiv.org/abs/2610.40204)<br>[PDF](https://arxiv.org/pdf/2610.40204)<br>`2610.40204` |
 | **Support-guided OOD Removal with Diffusion**<br><sub>Alireza Kheirandish, Sara Fridovich-Keil</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="Support-guided OOD Removal with Diffusion" src="https://arxiv.org/html/2610.33194v1/figs/fig_teaser_notitles_per3_fresh_nocifar_drop6_a2w1p7_tight.png"> | [Paper](https://arxiv.org/abs/2610.33194)<br>[PDF](https://arxiv.org/pdf/2610.33194)<br>`2610.33194` |
@@ -406,10 +407,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**123 papers · newest first**
+**124 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **Contagious Fingerprints: When LLMs Inherit Another Model's Identity**<br><sub>Zailong Tian</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.18104)<br>[PDF](https://arxiv.org/pdf/2611.18104)<br>`2611.18104` |
 | **One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences**<br><sub>Fantong Meng, Chengjie Sun, Shuangjia Yang et al.</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.14010)<br>[PDF](https://arxiv.org/pdf/2611.14010)<br>`2611.14010` |
 | **Reconciling Privacy with Provenance for Language Model Watermarks**<br><sub>Elise L. Han, Tatsunori Hashimoto</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Reconciling Privacy with Provenance for Language Model Watermarks" src="https://arxiv.org/html/2611.06100v1/figures/c4-main.png"> | [Paper](https://arxiv.org/abs/2611.06100)<br>[PDF](https://arxiv.org/pdf/2611.06100)<br>`2611.06100` |
 | **Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition**<br><sub>Alejandro Mozo Quesada, Sergio Gálvez Rojas, Francisco López Valverde</sub> | arXiv · cs.CL<br>**2026** | <img width="400" alt="Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition" src="https://arxiv.org/html/2611.01284v1/fig17_name_trajectory_per_model.png"> | [Paper](https://arxiv.org/abs/2611.01284)<br>[PDF](https://arxiv.org/pdf/2611.01284)<br>`2611.01284` |
