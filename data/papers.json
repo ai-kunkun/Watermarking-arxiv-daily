@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-16T14:59:32.851453+00:00",
+    "last_updated": "2026-11-17T15:36:25.666464+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3902,6 +3902,23 @@
         "published": "2026-11-13",
         "title": "Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters",
         "updated": "2026-11-13"
+      },
+      "2611.20115": {
+        "abs_url": "https://arxiv.org/abs/2611.20115",
+        "abstract": "Advancements in artificial intelligence (AI) have accelerated digital content generation and intensified concerns around fraud, misuse, counterfeiting, and content provenance. Defensive image watermarking provides a practical mechanism for identifying and tracing digital content, but recent watermark-removal attacks challenge its robustness. This study investigates Sequential Semantic Non-Semantic Watermarking (SSNSW), which combines HiDDeN and StegaStamp as complementary non-semantic and semantic watermarking schemes. Using 50 images from MS-COCO and CelebA-HQ, both embedding orders are evaluated, followed by UnMarker's non-semantic and semantic attacks applied individually and sequentially. Results show that both watermarks remain highly decodable after dual embedding, with only limited embedding-order effects. Under individual attacks, one watermark generally remains strongly decodable: StegaStamp under the non-semantic attack and HiDDeN under the semantic attack. Sequential attacks are therefore required to substantially reduce both watermark signals, while attack order has a limited and configuration-dependent effect. The semantic attack also shows a broader effect across the two watermark types than the non-semantic attack. LPIPS remains relatively low in several settings, although qualitative inspection reveals noticeable distortions, particularly in selected facial images, indicating that LPIPS should not be used alone to assess visual quality. Overall, the findings show that combining complementary watermark types can increase robustness against single-stage removal attacks and motivate broader multi-layer watermarking, stronger perceptual evaluation, and further study of sequential watermark-removal strategies.",
+        "arxiv_id": "2611.20115",
+        "authors": [
+          "Md Ifraham Iqbal"
+        ],
+        "comment": "13 pages, 16 figures. Preprint based on M.Sc. thesis research",
+        "first_seen": "2026-11-17",
+        "introduction_image": "https://arxiv.org/html/2611.20115v1/images/visible-and-invisible.jpg",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.20115",
+        "primary_category": "cs.CR",
+        "published": "2026-11-15",
+        "title": "Sequential Semantic-Non-Semantic Watermarking: Robustness Against UnMarker Attacks",
+        "updated": "2026-11-15"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -8428,7 +8445,7 @@
         "primary_category": "cs.CR",
         "published": "2026-05-25",
         "title": "SAMark: A Self-Anchored Text Watermarking with Paragraph-Level Paraphrase Robustness",
-        "updated": "2026-07-16"
+        "updated": "2026-11-14"
       },
       "2605.28632": {
         "abs_url": "https://arxiv.org/abs/2605.28632",
