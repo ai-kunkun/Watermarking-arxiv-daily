@@ -1,7 +1,9 @@
 {
   "meta": {
-    "failed_topics": [],
-    "last_updated": "2026-11-17T15:36:25.666464+00:00",
+    "failed_topics": [
+      "Image and Video Watermarking"
+    ],
+    "last_updated": "2026-11-18T15:17:41.990995+00:00",
     "schema_version": 1
   },
   "topics": {

@@ -4,7 +4,9 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-17 23:36 CST &nbsp; · &nbsp; **Indexed:** 412 unique papers
+**Last updated:** 2026-11-18 23:17 CST &nbsp; · &nbsp; **Indexed:** 412 unique papers
+
+> Warning: the latest update was incomplete. Retained cached papers for: Image and Video Watermarking.
 
 ## Categories
 
@@ -13,14 +15,14 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 146 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 124 papers
 
-## Today's additions · 2026-11-17
+## Today's additions · 2026-11-18
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 1 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Sequential Semantic-Non-Semantic Watermarking: Robustness Against UnMarker Attacks](https://arxiv.org/abs/2611.20115) — 2026-11-15
+- No new papers today.
 
 </details>
 
