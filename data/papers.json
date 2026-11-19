@@ -1,9 +1,7 @@
 {
   "meta": {
-    "failed_topics": [
-      "Image and Video Watermarking"
-    ],
-    "last_updated": "2026-11-18T15:17:41.990995+00:00",
+    "failed_topics": [],
+    "last_updated": "2026-11-19T15:21:19.774675+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3921,6 +3919,44 @@
         "published": "2026-11-15",
         "title": "Sequential Semantic-Non-Semantic Watermarking: Robustness Against UnMarker Attacks",
         "updated": "2026-11-15"
+      },
+      "2611.23350": {
+        "abs_url": "https://arxiv.org/abs/2611.23350",
+        "abstract": "Watermark detectors held by a provider cannot be checked by third parties, and a party that can detect a mark can usually also forge it. We study a two-layer image watermark in which the Fourier transform at the core of the pipeline is performed by a coherent optical 4F unit. Layer 1 carries an Ed25519 signature bound to the image content in Fourier magnitudes, so anyone with the public key verifies offline. Layer 2 is a key-defined carrier written by a secret phase hologram and read by a matched-filter correlator. The optics is a scalar-diffraction simulation with finite modulator bits, pixel aperture, pupil, defocus, misalignment, and sensor noise. No hardware is built. All criteria were fixed in a hashed specification before any optical result. The simulated optical signer reproduces the digital pipeline (field error 1.7e-15, bit agreement 99.997%), verifies at least 99.5% of 877 images under each of 8 post-sensor settings, one unattacked, and accepts none of 40,670 unmarked images. The optical carrier is key-selective: the matched key detects it on 99.8% of the unattacked images, and detection falls to 0% under a scale error of 1% and to 0% under a mask shift of 1 bin. Security rests on the signature and the content binding, for which we separate what is provable from what is measured.",
+        "arxiv_id": "2611.23350",
+        "authors": [
+          "Guang Yang"
+        ],
+        "comment": "10 pages, 4 figures, 5 tables",
+        "first_seen": "2026-11-19",
+        "introduction_image": null,
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.23350",
+        "primary_category": "cs.CR",
+        "published": "2026-11-17",
+        "title": "Asymmetric Optical Image Watermarking",
+        "updated": "2026-11-17"
+      },
+      "2611.23363": {
+        "abs_url": "https://arxiv.org/abs/2611.23363",
+        "abstract": "Publishers often revise and reissue images, yet valid watermarks may persist on superseded releases or unapproved edits. Even a current release can contain regions last authorized at different revisions. We introduce and formalize reissuable provenance: determining an image's current, superseded, or unissued status and recovering each region's last authorized revision (its generation), with abstention when evidence is insufficient. Generational Stratigraphy Fields (GSF) combine watermark evidence with an authenticated live reference to the current release, enabling replacement or retirement without rewriting circulated copies. Each reissue freshly embeds new generation labels in approved regions and inherited labels elsewhere, preserving history without requiring old watermarks to survive successive edits. Our complete-output reissuance evaluation follows 480 histories through four releases, retaining each AI editor's entire output. GSF achieves 99.67% accuracy in classifying issued images as current or superseded and 94.09% recall of unissued edits. After three reissues, one generation map provides time and location: it recovers regional labels with 93.13% median accuracy and localizes the latest approved revision with 92.86% IoU. Regional labels remain readable under tested delivery transformations that impair issued-state recognition. Watermarks can thus express who issued an image, which release is authoritative now, and when each region was last authorized.",
+        "arxiv_id": "2611.23363",
+        "authors": [
+          "Xinyuan Li",
+          "Yi Nian",
+          "Xiaoqin Feng",
+          "Tiankai Yang",
+          "Yue Zhao"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-19",
+        "introduction_image": "https://arxiv.org/html/2611.23363v1/GSF_method_refined_v10_corrected.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.23363",
+        "primary_category": "cs.CR",
+        "published": "2026-11-17",
+        "title": "Image Watermarking With Memory Across Reissuance",
+        "updated": "2026-11-17"
       }
     },
     "Model Ownership and Fingerprinting": {
@@ -6535,6 +6571,25 @@
         "published": "2026-11-13",
         "title": "Contagious Fingerprints: When LLMs Inherit Another Model's Identity",
         "updated": "2026-11-13"
+      },
+      "2611.23838": {
+        "abs_url": "https://arxiv.org/abs/2611.23838",
+        "abstract": "Mixture-of-Experts (MoE) architectures enable high-capacity large language models (LLMs) with high sparse computation, making them attractive for deployment on private hardware. However, distributing model weights exposes valuable intellectual property (IP) to leakage and unauthorized redistribution, creating an urgent need to both verify model ownership and trace leaked copies to individual licensees. Existing model-watermarking techniques are ill-suited for meeting this need because they are fragile under MoE's dynamic routing or require costly retraining to embed a distinct watermark for each licensee, thus making scalable distribution difficult. To address these challenges, we present PPMoE, the first plug-and-play multi-licensee watermarking framework for MoE LLMs. Rather than training a separate model per user, PPMoE trains a compact set of mergeable incremental weight modules that steer the MoE router toward distinct, mutually compatible routing patterns. During model distribution, the model owner selectively merges unique combinations of these pre-trained, mutually compatible modules into the base model on the fly, embedding a licensee-specific watermark without additional training. PPMoE supports reliable multi-licensee attribution under both white- and black-box threat models. In the white-box setting, attribution is done by inspecting triggered routing decisions or the merged weight modules responsible for these decisions, whereas in the black-box setting, attribution relies on analyzing output token likelihood ratios. Extensive experiments across five state-of-the-art MoE models, seven benchmark datasets, and varying number of licensees show that PPMoE achieves very high attribution accuracy while preserving base model utility and maintaining strong robustness to various adaptive watermark-removal attacks.",
+        "arxiv_id": "2611.23838",
+        "authors": [
+          "Jianshuo Liu",
+          "Kang G. Shin",
+          "Haining Wang"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-19",
+        "introduction_image": "https://arxiv.org/html/2611.23838v1/workflow_cropped.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.23838",
+        "primary_category": "cs.CR",
+        "published": "2026-11-18",
+        "title": "Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs",
+        "updated": "2026-11-18"
       }
     },
     "Text and LLM Watermarking": {
