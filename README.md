@@ -4,24 +4,23 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-19 23:21 CST &nbsp; · &nbsp; **Indexed:** 415 unique papers
+**Last updated:** 2026-11-20 22:59 CST &nbsp; · &nbsp; **Indexed:** 416 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 140 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 146 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 125 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 126 papers
 
-## Today's additions · 2026-11-19
+## Today's additions · 2026-11-20
 
 Papers first indexed during today's update, grouped by category.
 
 <details>
-<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 2 new papers</summary>
+<summary><b><a href="#image-and-video-watermarking">Image and Video Watermarking</a></b> · 0 new papers</summary>
 
-- [Image Watermarking With Memory Across Reissuance](https://arxiv.org/abs/2611.23363) — 2026-11-17
-- [Asymmetric Optical Image Watermarking](https://arxiv.org/abs/2611.23350) — 2026-11-17
+- No new papers today.
 
 </details>
 
@@ -42,7 +41,7 @@ Papers first indexed during today's update, grouped by category.
 <details>
 <summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- [Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs](https://arxiv.org/abs/2611.23838) — 2026-11-18
+- [UniReFP: Robust Unified Fingerprinting for Vision Models against Cross-Task Repurposing Attacks](https://arxiv.org/abs/2611.25555) — 2026-11-19
 
 </details>
 
@@ -63,7 +62,7 @@ Papers first indexed during today's update, grouped by category.
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
 | **Image Watermarking With Memory Across Reissuance**<br><sub>Xinyuan Li, Yi Nian, Xiaoqin Feng et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Image Watermarking With Memory Across Reissuance" src="https://arxiv.org/html/2611.23363v1/GSF_method_refined_v10_corrected.png"> | [Paper](https://arxiv.org/abs/2611.23363)<br>[PDF](https://arxiv.org/pdf/2611.23363)<br>`2611.23363` |
-| **Asymmetric Optical Image Watermarking**<br><sub>Guang Yang</sub> | arXiv · cs.CR<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.23350)<br>[PDF](https://arxiv.org/pdf/2611.23350)<br>`2611.23350` |
+| **Asymmetric Optical Image Watermarking**<br><sub>Guang Yang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Asymmetric Optical Image Watermarking" src="https://arxiv.org/html/2611.23350v2/devices.png"> | [Paper](https://arxiv.org/abs/2611.23350)<br>[PDF](https://arxiv.org/pdf/2611.23350)<br>`2611.23350` |
 | **Sequential Semantic-Non-Semantic Watermarking: Robustness Against UnMarker Attacks**<br><sub>Md Ifraham Iqbal</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Sequential Semantic-Non-Semantic Watermarking: Robustness Against UnMarker Attacks" src="https://arxiv.org/html/2611.20115v1/images/visible-and-invisible.jpg"> | [Paper](https://arxiv.org/abs/2611.20115)<br>[PDF](https://arxiv.org/pdf/2611.20115)<br>`2611.20115` |
 | **Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters**<br><sub>Mehrdad Saberi, Vishal Asnani, Shruti Agarwal et al.</sub> | WACV 2027<br>**2027** | <img width="400" alt="Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters" src="https://arxiv.org/html/2611.18363v1/method_overview_v2.png"> | [Paper](https://arxiv.org/abs/2611.18363)<br>[PDF](https://arxiv.org/pdf/2611.18363)<br>`2611.18363` |
 | **Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes**<br><sub>Guodong Liu, Lei Wang, Dongxu Liu et al.</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes" src="https://arxiv.org/html/2611.11800v1/samples/fig/UltraGuard3.png"> | [Paper](https://arxiv.org/abs/2611.11800)<br>[PDF](https://arxiv.org/pdf/2611.11800)<br>`2611.11800` |
@@ -411,10 +410,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**125 papers · newest first**
+**126 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **UniReFP: Robust Unified Fingerprinting for Vision Models against Cross-Task Repurposing Attacks**<br><sub>Ziye Geng, Guang Yang, Yihang Chen et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="UniReFP: Robust Unified Fingerprinting for Vision Models against Cross-Task Repurposing Attacks" src="https://arxiv.org/html/2611.25555v1/fig_threatmodel.png"> | [Paper](https://arxiv.org/abs/2611.25555)<br>[PDF](https://arxiv.org/pdf/2611.25555)<br>`2611.25555` |
 | **Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs**<br><sub>Jianshuo Liu, Kang G. Shin, Haining Wang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs" src="https://arxiv.org/html/2611.23838v1/workflow_cropped.png"> | [Paper](https://arxiv.org/abs/2611.23838)<br>[PDF](https://arxiv.org/pdf/2611.23838)<br>`2611.23838` |
 | **Contagious Fingerprints: When LLMs Inherit Another Model's Identity**<br><sub>Zailong Tian</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.18104)<br>[PDF](https://arxiv.org/pdf/2611.18104)<br>`2611.18104` |
 | **One Sequence Is Enough: Fingerprinting Language Models from Fixed-Length Integer Sequences**<br><sub>Fantong Meng, Chengjie Sun, Shuangjia Yang et al.</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.14010)<br>[PDF](https://arxiv.org/pdf/2611.14010)<br>`2611.14010` |
