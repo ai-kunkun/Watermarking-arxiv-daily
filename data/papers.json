@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-22T14:10:57.840288+00:00",
+    "last_updated": "2026-11-23T17:32:36.647490+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -6614,6 +6614,26 @@
         "published": "2026-11-19",
         "title": "UniReFP: Robust Unified Fingerprinting for Vision Models against Cross-Task Repurposing Attacks",
         "updated": "2026-11-19"
+      },
+      "2611.27831": {
+        "abs_url": "https://arxiv.org/abs/2611.27831",
+        "abstract": "Behavioral fingerprints identify a large language model (LLM) from its responses to a shared set of prompts, enabling applications such as verifying whether a deployed model corresponds to the checkpoint it claims to be. Deployed models, however, are commonly served with stochastic decoding, under which the same model may produce different responses to an identical prompt, depending on an unknown temperature and top-$p$ setting. Existing representations such as LLM DNA provide limited treatment of this variation. A natural remedy is to characterize models by their response distributions, which, however, raises two challenges. First, each distribution must be estimated from only a small number of sampled responses. Second, a change in decoding setting can alter responses to the same extent as a change of checkpoint. Consequently, fingerprint distances alone provide an incomplete basis for model identity, and identification typically relies on a classifier trained jointly on fingerprints from many checkpoints. We propose DistDNA, which represents a model by its prompt-conditional response distributions and compares models by promptwise maximum mean discrepancy (MMD). The model under examination is assigned to the known checkpoint whose reference fingerprints, collected at several decoding settings, lie nearest to its own, without training a classifier. We show that finite sampling adds variance-dependent terms to the expected squared fingerprint distance, with these terms decreasing as $O(1/R)$ for equal response counts, where $R$ is the number of responses per prompt. Experiments across 115 model checkpoint entries demonstrate that DistDNA improves identification accuracy over the strongest baseline, LLM DNA, by 10.36%.",
+        "arxiv_id": "2611.27831",
+        "authors": [
+          "Lifan Hu",
+          "Qian Yu",
+          "Zhaomin Wu",
+          "Bingsheng He"
+        ],
+        "comment": "37 pages, 12 figures, 23 tables, including appendices",
+        "first_seen": "2026-11-24",
+        "introduction_image": "https://arxiv.org/html/2611.27831v1/main_svm_confusion.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.27831",
+        "primary_category": "cs.LG",
+        "published": "2026-11-20",
+        "title": "DistDNA: Language Model Fingerprinting under Stochastic Decoding",
+        "updated": "2026-11-20"
       }
     },
     "Text and LLM Watermarking": {

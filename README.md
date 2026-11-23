@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-22 22:10 CST &nbsp; · &nbsp; **Indexed:** 416 unique papers
+**Last updated:** 2026-11-24 01:32 CST &nbsp; · &nbsp; **Indexed:** 417 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 140 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
 - [Text and LLM Watermarking](#text-and-llm-watermarking) · 146 papers
-- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 126 papers
+- [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 127 papers
 
-## Today's additions · 2026-11-22
+## Today's additions · 2026-11-24
 
 Papers first indexed during today's update, grouped by category.
 
@@ -39,9 +39,9 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [DistDNA: Language Model Fingerprinting under Stochastic Decoding](https://arxiv.org/abs/2611.27831) — 2026-11-20
 
 </details>
 
@@ -410,10 +410,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Model Ownership and Fingerprinting
 
-**126 papers · newest first**
+**127 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **DistDNA: Language Model Fingerprinting under Stochastic Decoding**<br><sub>Lifan Hu, Qian Yu, Zhaomin Wu et al.</sub> | arXiv · cs.LG<br>**2026** | <img width="400" alt="DistDNA: Language Model Fingerprinting under Stochastic Decoding" src="https://arxiv.org/html/2611.27831v1/main_svm_confusion.png"> | [Paper](https://arxiv.org/abs/2611.27831)<br>[PDF](https://arxiv.org/pdf/2611.27831)<br>`2611.27831` |
 | **UniReFP: Robust Unified Fingerprinting for Vision Models against Cross-Task Repurposing Attacks**<br><sub>Ziye Geng, Guang Yang, Yihang Chen et al.</sub> | arXiv · cs.CV<br>**2026** | <img width="400" alt="UniReFP: Robust Unified Fingerprinting for Vision Models against Cross-Task Repurposing Attacks" src="https://arxiv.org/html/2611.25555v1/fig_threatmodel.png"> | [Paper](https://arxiv.org/abs/2611.25555)<br>[PDF](https://arxiv.org/pdf/2611.25555)<br>`2611.25555` |
 | **Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs**<br><sub>Jianshuo Liu, Kang G. Shin, Haining Wang</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Plug-and-Play Multi-Licensee Robust Watermarking for Mixture-of-Experts LLMs" src="https://arxiv.org/html/2611.23838v1/workflow_cropped.png"> | [Paper](https://arxiv.org/abs/2611.23838)<br>[PDF](https://arxiv.org/pdf/2611.23838)<br>`2611.23838` |
 | **Contagious Fingerprints: When LLMs Inherit Another Model's Identity**<br><sub>Zailong Tian</sub> | arXiv · cs.CL<br>**2026** | — | [Paper](https://arxiv.org/abs/2611.18104)<br>[PDF](https://arxiv.org/pdf/2611.18104)<br>`2611.18104` |
