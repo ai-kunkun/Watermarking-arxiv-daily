@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-24T17:04:33.060823+00:00",
+    "last_updated": "2026-11-25T16:53:58.596730+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -3563,7 +3563,7 @@
       },
       "2610.00780": {
         "abs_url": "https://arxiv.org/abs/2610.00780",
-        "abstract": "Image watermarking supports provenance and attribution by embedding verifiable identity information into images. Practical deployments, however, must jointly satisfy requirements for attack resistance, false-positive rate (FPR), image quality, and latency. Existing watermarking methods are robust to different classes of transformations, so combining complementary methods can provide broader protection than any single watermark. Such composition is challenging, as additional fragments increase distortion and decoding cost and must share the same FPR budget. Therefore, we propose **TAILOR**, a request-conditioned watermark composition framework with three stages: (1) *offline characterization* measures fragment recovery, distortion, and runtime as response curves over embedding strength; (2) *joint configuration selection* encodes the request as an SMT model over these curves and solves for the lowest-distortion composition of fragments, strengths, order, and geometric recovery; and (3) *live calibration* validates the selected configuration on the user's images and refines predictions that fail to transfer. Experimental results across 7,321 distinct requests spanning five scenarios and 20 attack settings show that **TAILOR** achieves **96.21%** scenario-averaged request satisfaction with a mean PSNR of **41.02 dB**, outperforming existing methods in robustness while achieving consistently better image quality. Code is available at [https://github.com/aaFrostnova/Tailor](https://github.com/aaFrostnova/Tailor).",
+        "abstract": "Image watermarking enables provenance and attribution, but practical deployments must jointly satisfy robustness, false-positive rate (FPR), image quality, and latency requirements. Existing watermarking methods offer complementary robustness against different attacks, making their composition attractive for broader protection. However, combining watermarks introduces interference, distortion, decoding overhead, and additional verification paths that share the same FPR budget. We propose TAILOR, a request-conditioned watermark composition framework with three stages: (1) offline characterization models fragment recovery, distortion, latency, and composition interactions across embedding strengths; (2) joint configuration selection uses satisfiability modulo theories (SMT) to jointly optimize fragment selection, continuous embedding strengths, embedding order, and geometric recovery while minimizing predicted distortion; and (3) live calibration validates candidate configurations on user images and refines inaccurate offline predictions to improve deployment success. Across 7,321 distinct deployment requests spanning five scenarios and 20 attack settings, TAILOR achieves 96.21% scenario-averaged request satisfaction with a mean PSNR of 41.02 dB, demonstrating its effectiveness in meeting diverse deployment requirements while maintaining high image fidelity. Code is available at https://github.com/aaFrostnova/Tailor.",
         "arxiv_id": "2610.00780",
         "authors": [
           "Mingzhe Li",
@@ -3581,7 +3581,7 @@
         "primary_category": "cs.CR",
         "published": "2026-09-30",
         "title": "Made to Measure: Designing Image Watermarks to Specification",
-        "updated": "2026-09-30"
+        "updated": "2026-11-24"
       },
       "2610.02010": {
         "abs_url": "https://arxiv.org/abs/2610.02010",
@@ -3935,7 +3935,7 @@
         "primary_category": "cs.CR",
         "published": "2026-11-17",
         "title": "Asymmetric Optical Image Watermarking",
-        "updated": "2026-11-19"
+        "updated": "2026-11-24"
       },
       "2611.23363": {
         "abs_url": "https://arxiv.org/abs/2611.23363",
@@ -6634,6 +6634,30 @@
         "published": "2026-11-20",
         "title": "DistDNA: Language Model Fingerprinting under Stochastic Decoding",
         "updated": "2026-11-20"
+      },
+      "2611.31781": {
+        "abs_url": "https://arxiv.org/abs/2611.31781",
+        "abstract": "Hyperdimensional computing (HDC) models deployed on edge hardware are valuable intellectual property that is easy to steal, since a trained classifier consolidates its learned knowledge into a compact set of class prototype hypervectors; yet protecting their ownership through watermarking remains largely unexplored. We present HDMark, the first model watermarking framework native to HDC, which encodes ownership in the same hyperdimensional algebra the model computes with. HDMark maps a multi-bit owner identity to secret quasi-orthogonal carriers, superimposes them holographically onto the trained class prototypes, and verifies ownership with a statistical test. Across four datasets and three HDC learning rules, HDMark leaves accuracy essentially unchanged and verifies a 64-bit identity in 99.8% of trials at p < 0.001. We derive closed-form expressions for prediction fidelity and bit recovery that match measurements within 0.4 pp mean absolute error. The watermark survives fine-tuning and low-bit quantization, while attempting to erase it through noise injection, pruning, or overwriting severely degrades model accuracy. We further identify a dimension-permutation attack specific to HDC, which reorders hypervector coordinates to evade verification without altering predictions, and counter it through encoder realignment. Finally, an AMD ZCU104 FPGA implementation confirms that HDMark adds no hardware overhead, remains bit-exact under aggressive undervolting, and stays verifiable under timing faults until the classifier itself fails.",
+        "arxiv_id": "2611.31781",
+        "authors": [
+          "Hamed Poursiami",
+          "Ahmad Tahmasivand",
+          "Farshad Soleiman",
+          "Guojing Cong",
+          "Thomas Potok",
+          "Kai Zeng",
+          "Khaled N. Khasawneh",
+          "Maryam Parsa"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-26",
+        "introduction_image": "https://arxiv.org/html/2611.31781v1/fig4_fpga.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.31781",
+        "primary_category": "cs.CR",
+        "published": "2026-11-24",
+        "title": "HDMark: Holographic Multi-Bit Model Watermarking for Intellectual Property Protection in Hyperdimensional Computing",
+        "updated": "2026-11-24"
       }
     },
     "Text and LLM Watermarking": {
