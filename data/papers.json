@@ -1,7 +1,7 @@
 {
   "meta": {
     "failed_topics": [],
-    "last_updated": "2026-11-25T16:53:58.596730+00:00",
+    "last_updated": "2026-11-26T16:30:40.667432+00:00",
     "schema_version": 1
   },
   "topics": {
@@ -9715,6 +9715,29 @@
         "published": "2026-11-12",
         "title": "Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity",
         "updated": "2026-11-12"
+      },
+      "2611.34190": {
+        "abs_url": "https://arxiv.org/abs/2611.34190",
+        "abstract": "Providers watermark the outputs of large language models, while applications sample many responses per prompt for self-consistency, best-of-n selection, and uncertainty estimation. We show that deployed configurations of distortion-free watermarks, which deduplicate keyed contexts only within a response, couple the responses of a request: answer templates make all responses query the watermark with the same context before the answer, so collisions across responses, usually assumed rare, become the norm. Key pools reduce or avoid the coupling at the cost of multiple testing, and the exact remedy of a context history shared across the request leaves many positions unwatermarked. We propose SOLO, which keeps a request-scoped context history but anchors its keyed contexts on content selected by min-hash, so that siblings rarely compete for a context and random edits stay local. Its responses are jointly distributed as independent unwatermarked responses, each detectable with a single key. On five language models from three families and three benchmarks, SOLO preserves self-consistency and uncertainty estimation and, at a 1% false positive rate, detects more responses than four-token key pools on most tasks, also after randomly editing 10% of the tokens, and more than the context history on most clean tasks. Code is available at https://github.com/ZhongliangGuo/solo-watermark.",
+        "arxiv_id": "2611.34190",
+        "authors": [
+          "Zhongliang Guo",
+          "Yan Lin",
+          "Yifei Qian",
+          "Shuai Zhao",
+          "Luwei Xiao",
+          "Daizong Liu",
+          "Chun Pong Lau"
+        ],
+        "comment": null,
+        "first_seen": "2026-11-27",
+        "introduction_image": "https://arxiv.org/html/2611.34190v1/figures/overview.png",
+        "journal_reference": null,
+        "pdf_url": "https://arxiv.org/pdf/2611.34190",
+        "primary_category": "cs.AI",
+        "published": "2026-11-25",
+        "title": "SOLO: Towards Sample-Faithful and Detectable LLM Watermarking under Repeated Sampling via Content-Anchored Single-Owner Contexts",
+        "updated": "2026-11-25"
       }
     }
   }

@@ -4,16 +4,16 @@ Automatically updated arXiv papers about digital watermarking, generative AI pro
 
 > Updated automatically from arXiv. **Introduction** shows the first figure found in each paper's arXiv HTML page.
 
-**Last updated:** 2026-11-26 00:53 CST &nbsp; · &nbsp; **Indexed:** 418 unique papers
+**Last updated:** 2026-11-27 00:30 CST &nbsp; · &nbsp; **Indexed:** 419 unique papers
 
 ## Categories
 
 - [Image and Video Watermarking](#image-and-video-watermarking) · 140 papers
 - [Generative AI Watermarking](#generative-ai-watermarking) · 46 papers
-- [Text and LLM Watermarking](#text-and-llm-watermarking) · 146 papers
+- [Text and LLM Watermarking](#text-and-llm-watermarking) · 147 papers
 - [Model Ownership and Fingerprinting](#model-ownership-and-fingerprinting) · 128 papers
 
-## Today's additions · 2026-11-26
+## Today's additions · 2026-11-27
 
 Papers first indexed during today's update, grouped by category.
 
@@ -32,16 +32,16 @@ Papers first indexed during today's update, grouped by category.
 </details>
 
 <details>
-<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 0 new papers</summary>
+<summary><b><a href="#text-and-llm-watermarking">Text and LLM Watermarking</a></b> · 1 new papers</summary>
 
-- No new papers today.
+- [SOLO: Towards Sample-Faithful and Detectable LLM Watermarking under Repeated Sampling via Content-Anchored Single-Owner Contexts](https://arxiv.org/abs/2611.34190) — 2026-11-25
 
 </details>
 
 <details>
-<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 1 new papers</summary>
+<summary><b><a href="#model-ownership-and-fingerprinting">Model Ownership and Fingerprinting</a></b> · 0 new papers</summary>
 
-- [HDMark: Holographic Multi-Bit Model Watermarking for Intellectual Property Protection in Hyperdimensional Computing](https://arxiv.org/abs/2611.31781) — 2026-11-24
+- No new papers today.
 
 </details>
 
@@ -257,10 +257,11 @@ Papers first indexed during today's update, grouped by category.
 
 ## Text and LLM Watermarking
 
-**146 papers · newest first**
+**147 papers · newest first**
 
 | **Title & Authors** | **Venue/Year** | **Introduction** | **Links** |
 |:---|:---:|:---|:---:|
+| **SOLO: Towards Sample-Faithful and Detectable LLM Watermarking under Repeated Sampling via Content-Anchored Single-Owner Contexts**<br><sub>Zhongliang Guo, Yan Lin, Yifei Qian et al.</sub> | arXiv · cs.AI<br>**2026** | <img width="400" alt="SOLO: Towards Sample-Faithful and Detectable LLM Watermarking under Repeated Sampling via Content-Anchored Single-Owner Contexts" src="https://arxiv.org/html/2611.34190v1/figures/overview.png"> | [Paper](https://arxiv.org/abs/2611.34190)<br>[PDF](https://arxiv.org/pdf/2611.34190)<br>`2611.34190` |
 | **Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity**<br><sub>Kuancheng Ye</sub> | arXiv · stat.ML<br>**2026** | <img width="400" alt="Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity" src="https://arxiv.org/html/2611.17035v1/figures/fig_sequential.png"> | [Paper](https://arxiv.org/abs/2611.17035)<br>[PDF](https://arxiv.org/pdf/2611.17035)<br>`2611.17035` |
 | **Look It Up: Multi-bit LLM Watermarking via Codebook Search**<br><sub>Jarosław Janas, Paweł Morawiecki, Josef Pieprzyk</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Look It Up: Multi-bit LLM Watermarking via Codebook Search" src="https://arxiv.org/html/2611.16890v1/images/watermark_codebook_scheme.png"> | [Paper](https://arxiv.org/abs/2611.16890)<br>[PDF](https://arxiv.org/pdf/2611.16890)<br>`2611.16890` |
 | **Reconciling Privacy with Provenance for Language Model Watermarks**<br><sub>Elise L. Han, Tatsunori Hashimoto</sub> | arXiv · cs.CR<br>**2026** | <img width="400" alt="Reconciling Privacy with Provenance for Language Model Watermarks" src="https://arxiv.org/html/2611.06100v1/figures/c4-main.png"> | [Paper](https://arxiv.org/abs/2611.06100)<br>[PDF](https://arxiv.org/pdf/2611.06100)<br>`2611.06100` |
